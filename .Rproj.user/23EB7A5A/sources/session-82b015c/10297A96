@@ -1,0 +1,31 @@
+{
+    "id": "10297A96",
+    "path": "~/GitHub/YY-Blog/posts/inequality/index.qmd",
+    "project_path": "posts/inequality/index.qmd",
+    "type": "quarto_markdown",
+    "hash": "3087505124",
+    "contents": "",
+    "dirty": false,
+    "created": 1703864542973.0,
+    "source_on_save": true,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "41,0",
+        "scrollLine": "24",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "102:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1703865291,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1703865291226,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,41 @@
+---
+title: "Inequality"
+author: "-YY-"
+date: "2023-12-29"
+categories: [issues]
+---
+
+# Measures of Economics Inequality
+
+Inequality, in economics, usually refers to either income and/or wealth inequality. That is, economic inequality, broadly speaking, is the unequal distribution of income (earnings) or wealth (net worth or savings) between individuals, groups, populations, social classes, or countries.
+
+For example, on a global level, income inequality is extreme by any measure, with the richest 1 percent of people in the world receiving as much as the bottom 56 percent in the early 21st century. Within the United States, income inequality is much greater than in most other developed countries. In 2014, the richest 1 percent received 22 percent of total income, and the top 10 percent of U.S. households received about 60 percent of total income.
+
+# Four criteria for Inequality Measurement
+
+-   Anonymity principle
+
+-   Population principle
+
+-   Relative income principle
+
+-   The Dalton principle
+
+A quick survey of the literature presents various measures of economic inequality:
+
+1.  **Ratio** measures,compare how much people at one level of the income distribution have compared to people at another. For instance, the 20:20 ratio compares how much richer the top 20% of people are, compared to the bottom 20%.
+
+2.  The **Palma ratio** is the ratio of the income share of the top 10% to that of the bottom 40%.
+
+However, the most popular measure of inequality are:
+
+-   Lorenz Curve
+
+-   Gini Coefficient
+
+Here is a R code.
+
+```{r}
+1 + 1
+```
+

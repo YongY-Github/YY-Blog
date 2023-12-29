@@ -1,0 +1,14 @@
+{
+  "hash": "235b95d0cf9e62523e766fab71268c19",
+  "result": {
+    "markdown": "---\ntitle: \"Inequality\"\nauthor: \"-YY-\"\ndate: \"2023-12-29\"\ncategories: [issues]\n---\n\n\n# Measures of Economics Inequality\n\nInequality, in economics, usually refers to either income and/or wealth inequality. That is, economic inequality, broadly speaking, is the unequal distribution of income (earnings) or wealth (net worth or savings) between individuals, groups, populations, social classes, or countries.\n\nFor example, on a global level, income inequality is extreme by any measure, with the richest 1 percent of people in the world receiving as much as the bottom 56 percent in the early 21st century. Within the United States, income inequality is much greater than in most other developed countries. In 2014, the richest 1 percent received 22 percent of total income, and the top 10 percent of U.S. households received about 60 percent of total income.\n\n# Four criteria for Inequality Measurement\n\n-   Anonymity principle\n\n-   Population principle\n\n-   Relative income principle\n\n-   The Dalton principle\n\nA quick survey of the literature presents various measures of economic inequality:\n\n1.  **Ratio** measures,compare how much people at one level of the income distribution have compared to people at another. For instance, the 20:20 ratio compares how much richer the top 20% of people are, compared to the bottom 20%.\n\n2.  The **Palma ratio** is the ratio of the income share of the top 10% to that of the bottom 40%.\n\nHowever, the most popular measure of inequality are:\n\n-   Lorenz Curve\n\n-   Gini Coefficient\n\nHere is a R code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

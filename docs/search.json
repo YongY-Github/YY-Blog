@@ -7,11 +7,11 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "YY-Blog",
+    "objectID": "posts/inequality/index.html",
+    "href": "posts/inequality/index.html",
+    "title": "Inequality",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Measures of Economics Inequality\nInequality, in economics, usually refers to either income and/or wealth inequality. That is, economic inequality, broadly speaking, is the unequal distribution of income (earnings) or wealth (net worth or savings) between individuals, groups, populations, social classes, or countries.\nFor example, on a global level, income inequality is extreme by any measure, with the richest 1 percent of people in the world receiving as much as the bottom 56 percent in the early 21st century. Within the United States, income inequality is much greater than in most other developed countries. In 2014, the richest 1 percent received 22 percent of total income, and the top 10 percent of U.S. households received about 60 percent of total income.\n\n\nFour criteria for Inequality Measurement\n\nAnonymity principle\nPopulation principle\nRelative income principle\nThe Dalton principle\n\nA quick survey of the literature presents various measures of economic inequality:\n\nRatio measures,compare how much people at one level of the income distribution have compared to people at another. For instance, the 20:20 ratio compares how much richer the top 20% of people are, compared to the bottom 20%.\nThe Palma ratio is the ratio of the income share of the top 10% to that of the bottom 40%.\n\nHowever, the most popular measure of inequality are:\n\nLorenz Curve\nGini Coefficient\n\nHere is a R code.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "about.html",
@@ -19,6 +19,13 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "YY-Blog",
+    "section": "",
+    "text": "Inequality\n\n\n\n\n\n\n\nissues\n\n\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n-YY-\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
