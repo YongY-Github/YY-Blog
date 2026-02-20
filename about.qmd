@@ -4,16 +4,17 @@ image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: Blog
+      text: Blog
+      href: https://yongy-github.github.io/YY-Blog/
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/YongY-Github
 ---
 
-About this blog
+Welcome to my Blog.
+
+I am Associate Professor of Economics currently living in Bangkok, Thailand. My main areas of interest are econometrics and data science. I love talking about football, philosophy, and just about anything.

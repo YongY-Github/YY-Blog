@@ -32,10 +32,3 @@ However, the most popular measure of inequality are:
 -   Lorenz Curve
 
 -   Gini Coefficient
-
-Here is a R code.
-
-```{r}
-1 + 1
-```
-
