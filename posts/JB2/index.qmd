@@ -320,8 +320,6 @@ f(x) =
 
 In **Jupyter Book 2 (MyST)**, admonitions (also known as callouts or notice boxes) are incredibly useful for highlighting specific types of information. Because JB2 uses the modern MyST-JS parser, these are highly standardized and accessible.
 
-You can use either the "short-hand" type (e.g., `:::note`) or the "directive" type (e.g., `::{note}`).
-
 ### Available Admonitions in JB2
 
 | Type | Recommended Use | Visual Style (Default) |
@@ -345,28 +343,30 @@ The most common way to write these in JB2 is using the **colon fence**. You can 
 
 **Note:**
 
-```md
-:::note
-This is a standard note with a default title.
-:::
-```
-
-**tip:**
-
-```md
-:::tip Using LaTeX
-You can even put math $E=mc^2$ inside these boxes!
+```python
+:::{admonition} Key idea
+:class: note
+- **Analytics**: describing and explaining data to support decisions (dashboards, KPIs, A/B testing).
+- **Data Science**: building reproducible data workflows and products (pipelines, prediction services).
+- **AI**: a broad goal — machines performing tasks that normally require “intelligence.”
+- **ML**: methods that learn patterns from data (prediction, classification, clustering).
 :::
 ```
 
 **Nested Content:**
 
-```md
-::::{important}
-You can nest other elements inside if you use four colons for the outer box:
-* Point one
-* Point two
+```python
+::::{admonition} Matrix and vector multiplication
+:class: important
+
+The proper way to multiply a matrix and a vector is:
+
+:::{math}
+:enumerated: false
+1 \begin{bmatrix} 0 \\ 1 \end{bmatrix} + 2 \begin{bmatrix} -1 \\ 0 \end{bmatrix} = \begin{bmatrix} -2 \\ 1 \end{bmatrix}
+:::
 ::::
+
 ```
 
 ### Pro-Tip: Dropdowns
@@ -374,9 +374,10 @@ You can nest other elements inside if you use four colons for the outer box:
 In JB2, you can turn any of these into a "collapsible" box (dropdown) by adding the `:dropdown:` option:
 
 ```md
-:::{note} Click to expand me!
-:dropdown:
-Here is some hidden detail that keeps the page clean.
+:::{dropdown} **Click to expand me!**
+
+$5A - 2B$ &emsp;&emsp; (b)  $2A + 3B$ &emsp;&emsp; (c)  $2C - 3D$  
+
 :::
 ```
 
