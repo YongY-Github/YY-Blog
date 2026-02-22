@@ -1,0 +1,566 @@
+---
+title: "JB2"
+author: "-YY-"
+date: "2026-02-22"
+categories: [JB2]
+---
+
+# Installing JB2 to create a book
+
+For those using **Anaconda + Windows + JB2 (MyST CLI)**, here is the clean setup from scratch.
+
+---
+
+# ✅ Install JB2 (MyST-based Jupyter Book v2) Locally
+
+## 1️⃣ Create a fresh conda environment
+
+Open **Anaconda Prompt**:
+
+```bash
+conda create -n jb2-env python=3.11
+conda activate jb2-env
+```
+
+> You can use 3.10 or 3.11 — both are stable.
+
+---
+
+## 2️⃣ Install MyST (JB2 engine)
+
+```bash
+pip install mystmd
+```
+
+That’s it.
+
+JB2 is no longer the old `jupyter-book` package.
+It runs through the **MyST CLI**.
+
+---
+
+## 3️⃣ Verify installation
+
+```bash
+myst --version
+```
+
+You should see something like:
+
+```bash
+myst 1.x.x
+```
+
+---
+
+## 4️⃣ Create a new book
+
+Navigate to your project folder:
+
+```bash
+cd C:\GitHub\MyNewBook
+myst init
+```
+
+This creates:
+
+```bash
+myst.yml
+```
+
+---
+
+## 5️⃣ Add content
+
+Create markdown files like:
+
+```md
+intro.md
+chapter1.md
+chapter2.md
+```
+
+Then edit `myst.yml`:
+
+```yaml
+version: 1
+
+project:
+  title: My Book
+
+  toc:
+    - file: intro.md
+    - file: chapter1.md
+    - file: chapter2.md
+
+site:
+  template: book-theme
+```
+
+---
+
+## 6️⃣ View locally (HTML)
+
+```bash
+myst start --port 8000
+```
+
+Then open:
+
+```bash
+http://localhost:8000
+```
+
+---
+
+## 7️⃣ Build a PDF
+
+Add to `myst.yml`:
+
+```yaml
+exports:
+  - format: pdf
+```
+
+Then run:
+
+```bash
+myst build
+```
+
+PDF will appear in:
+
+```bash
+_build/exports/
+```
+
+> You should have TeX Live installed.
+
+---
+
+# 🔁 If You Ever Need to Reinstall Everything
+
+Just:
+
+```bash
+conda remove -n jb2-env --all
+conda create -n jb2-env python=3.11
+conda activate jb2-env
+pip install mystmd
+```
+
+That’s the entire JB2 stack.
+
+---
+
+# ⚠️ Important
+
+Do **NOT** install:
+
+```bash
+pip install jupyter-book
+```
+
+That is **Jupyter Book v1 (old Sphinx-based)**.
+
+You are using:
+
+> **JB2 = MyST CLI**
+
+---
+
+# 🧠 One-line memory trick
+
+> conda → pip install mystmd → myst init → myst start
+
+That’s JB2.
+
+---
+
+## 4️⃣ Create a new book(alternative method)
+
+You need not use
+
+```bash
+myst init
+```
+Just create two files `myst.md` and `intro.md`:
+
+---
+
+# 📁 Folder Structure
+
+```bash
+MyBook/
+│
+├── myst.yml
+├── intro.md
+├── chapter1.md    (etc.)
+└── references.bib   (optional)
+```
+
+That’s it. Nothing else needed.
+
+---
+
+# 1️⃣ `myst.yml` (minimal + correct)
+
+
+```yaml
+version: 1
+
+project:
+  title: My Book Title
+  authors:
+    - name: Your Name
+
+  toc:
+    - file: intro.md
+    - file: chapter1.md
+
+site:
+  template: book-theme
+
+exports:
+    - format: pdf
+```
+
+Copy this exactly, or I use for a little more control:
+
+```yaml
+version: 1
+
+project:
+  title: My Book Title
+  authors:
+    - name: Your Name
+
+  toc:
+    - file: intro.md
+    - file: chapter1.md
+
+site:
+  template: book-theme
+  options:
+    logo_text: "Book Name"   # Removes Myst logo
+    outline_maxdepth: 2
+
+exports:
+    - format: pdf
+      output: _build/exports/my-book.pdf
+      articles:
+        - intro.md
+        - chapter1.md
+```
+
+---
+
+# 2️⃣ `intro.md`
+
+```md
+# Introduction
+
+This is the start of my MyST Book. 
+
+- [ ] Add more chapters
+- [ ] Link my Python Jupyter notebooks
+
+$$
+y = \beta_0 + \beta_1 x
+$$ {#eq-simple}
+
+You can number equations only when needed.
+
+:::{math}
+:label: eq-ols
+:enumerated: true
+\hat{\beta} = (X'X)^{-1}X'y
+:::
+
+As seen in [](#eq-simple) and [](#eq-ols) ...
+
+![](figs/TaylorSeries.png){#fig-taylor alt="Taylor Series" width="70%" align="center"}
+
+:::{figure} figs/TaylorSeries.png
+:label: fig-taylor
+:alt: Taylor Series
+:width: 70%
+:align: center
+
+This is a caption for the **Taylor Series** expansion.
+:::
+
+```
+
+---
+
+# 3️⃣ `chapter1.md`
+
+```md
+# Chapter 1
+
+## A Section 
+
+## A Sub-section {.unlisted .unnumbered}
+
+Inline math uses $ ... $.
+
+Display math uses MyST blocks:
+
+:::{math}
+:enumerated: false
+f(x) =
+\begin{cases}
+-1, & x < 0, \\
+1, & x > 0,
+\end{cases}
+:::
+
+```
+
+In **Jupyter Book 2 (MyST)**, admonitions (also known as callouts or notice boxes) are incredibly useful for highlighting specific types of information. Because JB2 uses the modern MyST-JS parser, these are highly standardized and accessible.
+
+You can use either the "short-hand" type (e.g., `:::note`) or the "directive" type (e.g., `::{note}`).
+
+### Available Admonitions in JB2
+
+| Type | Recommended Use | Visual Style (Default) |
+| --- | --- | --- |
+| **`note`** | General supplementary information. | Blue / Info icon |
+| **`tip`** | Helpful advice or "pro-tips" for the reader. | Green / Lightbulb icon |
+| **`info`** | Neutral, informative background details. | Blue / Info icon |
+| **`warning`** | Alerts the user to potential issues or mistakes. | Orange / Warning icon |
+| **`caution`** | Similar to warning, but often for less critical risks. | Yellow / Exclamation |
+| **`error`** | Critical failures or "do not do this" actions. | Red / Stop icon |
+| **`danger`** | Serious risks or destructive potential. | Dark Red / Fire or Bold Alert |
+| **`important`** | Key takeaways that the reader must not miss. | Purple or Blue / Star icon |
+| **`seealso`** | References to other sections or external docs. | Blue / Link icon |
+| **`todo`** | Internal reminders or planned future work. | Grey / Checklist icon |
+
+---
+
+### How to use them
+
+The most common way to write these in JB2 is using the **colon fence**. You can even add a custom title by putting it immediately after the type.
+
+**Note:**
+
+```md
+:::note
+This is a standard note with a default title.
+:::
+```
+
+**tip:**
+
+```md
+:::tip Using LaTeX
+You can even put math $E=mc^2$ inside these boxes!
+:::
+```
+
+**Nested Content:**
+
+```md
+::::{important}
+You can nest other elements inside if you use four colons for the outer box:
+* Point one
+* Point two
+::::
+```
+
+### Pro-Tip: Dropdowns
+
+In JB2, you can turn any of these into a "collapsible" box (dropdown) by adding the `:dropdown:` option:
+
+```md
+:::{note} Click to expand me!
+:dropdown:
+Here is some hidden detail that keeps the page clean.
+:::
+```
+
+---
+
+# 4️⃣ Local Development Workflow
+
+```bash
+conda activate jb2-env
+myst start --port 8000
+```
+
+Open:
+
+```bash
+http://localhost:8000
+```
+
+---
+
+# 5️⃣ Build PDF
+
+```bash
+myst build
+```
+
+Output:
+
+```bash
+_build/exports/my-book-title.pdf
+```
+
+---
+
+# 6️⃣ Recommended Writing Conventions (Keep This!)
+
+✔ Inline math → `$ ... $`
+✔ Display math → `{math}`
+✔ Default → `:enumerated: false`
+✔ Number only referenced equations
+✔ Indent footnotes properly
+
+---
+
+# 7️⃣ Optional (but clean) Enhancements
+
+If you want slightly more polish later:
+
+Add this under `project:` in `myst.yml`:
+
+```yaml
+  github: https://github.com/yourusername/mybook
+```
+
+And optionally:
+
+```yaml
+  keywords: [economics, mathematics]
+```
+
+But keep it minimal unless needed.
+
+---
+
+# 🧠 Your Personal “Never Get Lost Again” Checklist
+
+When starting a new book:
+
+```bash
+conda create -n jb2-env python=3.11
+conda activate jb2-env
+pip install mystmd
+mkdir MyBook
+cd MyBook
+myst init
+```
+
+Then replace `myst.yml` with your template above.
+
+Done.
+
+---
+
+## CORE Econ
+
+In the context of **Jupyter Book 2 (MyST)**, if you are looking to replicate the style of the famous **CORE Econ** (Curriculum Open-access Resources in Economics) textbooks, you are in luck. CORE was one of the primary inspirations for the development of MyST Markdown and the new CLI.
+
+While there isn't a single "button" for a CORE template, you can achieve that specific look by configuring the `book-theme` in your `myst.yml`.
+
+---
+
+### 1. The "CORE" Configuration
+
+The CORE style is defined by a clean sidebar, specific margin usage (sidenotes), and structured theorem/definition boxes. Add these to your `site` section:
+
+```yaml
+site:
+  template: book-theme
+  options:
+    # CORE often uses a "fixed" sidebar and a clean top nav
+    hide_toc_from_sidebar: false
+    # Enable sidenotes for that classic academic margin look
+    sidenotes: true
+    margin_references: true
+
+```
+
+---
+
+### 2. Emulating CORE Features
+
+CORE books rely heavily on specific components. Here is how you replicate them in JB2:
+
+#### A. The "Leibniz" (Calculus/Math blocks)
+
+CORE uses "Leibniz" popups for mathematical derivations. In JB2, you use the `dropdown` or `proof` directives:
+
+```md
+:::{important} Leibniz: The Multiplier Effect
+:dropdown:
+In this section, we derive the multiplier...
+$$
+k = \frac{1}{1 - c_1}
+$$
+:::
+
+```
+
+#### B. Definitions in the Margin
+
+CORE puts key terms in the margin. In JB2, use the `{margin}` directive:
+
+```md
+:::{margin}
+**Marginal Rate of Substitution (MRS)**: The trade-off that a person is willing to make between two goods.
+:::
+While the consumer moves along the indifference curve...
+
+```
+
+---
+
+### 3. CSS for the "CORE" Look
+
+To get the exact fonts and colors (like the specific CORE green/blue), you can add a custom CSS file.
+
+1. Create a file named `custom.css`.
+2. Link it in your `myst.yml`:
+
+```yaml
+site:
+  template: book-theme
+  css: custom.css
+
+```
+
+**Common CORE Colors:**
+
+```css
+:root {
+  --pst-color-primary: #007d8a; /* CORE-style teal */
+  --pst-color-info: #2d5973;
+}
+
+```
+
+---
+
+### 4. Project Structure (The "Units" approach)
+
+CORE books are organized into "Units" rather than chapters. Reflect this in your `toc`:
+
+```yaml
+site:
+  toc:
+    - file: intro.md
+    - title: Unit 1 - The Capitalist Revolution
+      sections:
+        - file: unit_01/01_intro.md
+        - file: unit_01/02_inequality.ipynb
+
+```
+
+### Is there a pre-built theme?
+
+There is an ongoing effort by the **Executuable Books Project** and **Curvenote** (who build MyST) to support these open-curriculum styles natively. Since you are using JB2, keep an eye on the `curvenote` template as an alternative to `book-theme` if you want a more "Journal/Scientific" look.
+

@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "YY-Blog",
     "section": "",
-    "text": "Why Prisoners Learn Faster Than College Students\n\n\n\nlearning\n\n\n\n\n\n\n\n\n\nFeb 19, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nInequality\n\n\n\nissues\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "JB2\n\n\n\nJB2\n\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Prisoners Learn Faster Than College Students\n\n\n\nlearning\n\n\n\n\n\n\n\n\n\nFeb 19, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nInequality\n\n\n\nissues\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -40,5 +40,75 @@
     "title": "Why Prisoners Learn Faster Than College Students",
     "section": "",
     "text": "Why Prisoners Learn Faster Than College Students\nSource: https://www.youtube.com/watch?v=oBHzmFFNkW4\nThe YouTube source describe several key psychological and environmental principles that allow for accelerated learning, often observed in prison environments:\nThe Dopamine Detox Effect In prison, the total absence of internet, smartphones, and “cheap dopamine” sources like TikTok or Netflix forces a cognitive shift. While the average professional is interrupted every three minutes—and a study from the University of California shows it takes 23 minutes to fully refocus after just one interruption—prisoners engage in “deep work,” which is sustained, distraction-free concentration. This environment allows the brain to literally rewire its attention span, eventually making dense, complex texts enjoyable to read because the brain’s focus is restored.\nLife or Death Learning Prisoners often study to survive rather than to earn a grade; for instance, many study law to fight their own cases because they lack effective legal counsel. This creates “desirable difficulty,” a psychological state where the high stakes cause the brain to flag information as critical and encode it permanently. A notable example is Malcolm X, who hand-copied the entire dictionary word-for-word because his inability to write a coherent letter was a source of personal shame, driving him to rebuild his intellect from the ground up.\nThe Scarcity Advantage While unlimited resources often lead to the “Google Effect”—where the brain refuses to store information it knows it can search for later—scarcity forces extreme depth of learning. Prisoners may have a maximum of three books, leading them to read each one ten times, analyze sentence structures, and internalize every detail. Because they cannot rely on external storage or “copy-paste” functionality, the knowledge is forced to live in their heads rather than on a device, making the information stick.\nApplying These Principles to Your Learning System The sources suggest applying these high-intensity methods to your own life:\n- The Dopamine Detox Checklist: Systematically remove digital distractions to restore your brain’s ability to focus on “boring” but important material.\n- The Stakes Planner: Artificial or real consequences should be established so your brain views the material as critical for survival or success, rather than optional.\n- The Three Source Rule: Limit your study materials to just three high-quality sources at a time to force deep mastery and repetition instead of surface-level skimming across infinite resources.\n- Internalization over Externalization: Move away from relying solely on AI or digital note-taking; focus on memorizing and internalizing insights to ensure they are truly learned."
+  },
+  {
+    "objectID": "posts/JB2/index.html",
+    "href": "posts/JB2/index.html",
+    "title": "JB2",
+    "section": "",
+    "text": "For those using Anaconda + Windows + JB2 (MyST CLI), here is the clean setup from scratch."
+  },
+  {
+    "objectID": "posts/JB2/index.html#create-a-fresh-conda-environment",
+    "href": "posts/JB2/index.html#create-a-fresh-conda-environment",
+    "title": "JB2",
+    "section": "1️⃣ Create a fresh conda environment",
+    "text": "1️⃣ Create a fresh conda environment\nOpen Anaconda Prompt:\nconda create -n jb2-env python=3.11\nconda activate jb2-env\n\nYou can use 3.10 or 3.11 — both are stable."
+  },
+  {
+    "objectID": "posts/JB2/index.html#install-myst-jb2-engine",
+    "href": "posts/JB2/index.html#install-myst-jb2-engine",
+    "title": "JB2",
+    "section": "2️⃣ Install MyST (JB2 engine)",
+    "text": "2️⃣ Install MyST (JB2 engine)\npip install mystmd\nThat’s it.\nJB2 is no longer the old jupyter-book package. It runs through the MyST CLI."
+  },
+  {
+    "objectID": "posts/JB2/index.html#verify-installation",
+    "href": "posts/JB2/index.html#verify-installation",
+    "title": "JB2",
+    "section": "3️⃣ Verify installation",
+    "text": "3️⃣ Verify installation\nmyst --version\nYou should see something like:\nmyst 1.x.x"
+  },
+  {
+    "objectID": "posts/JB2/index.html#create-a-new-book",
+    "href": "posts/JB2/index.html#create-a-new-book",
+    "title": "JB2",
+    "section": "4️⃣ Create a new book",
+    "text": "4️⃣ Create a new book\nNavigate to your project folder:\ncd C:\\GitHub\\MyNewBook\nmyst init\nThis creates:\nmyst.yml"
+  },
+  {
+    "objectID": "posts/JB2/index.html#add-content",
+    "href": "posts/JB2/index.html#add-content",
+    "title": "JB2",
+    "section": "5️⃣ Add content",
+    "text": "5️⃣ Add content\nCreate markdown files like:\nintro.md\nchapter1.md\nchapter2.md\nThen edit myst.yml:\nversion: 1\n\nproject:\n  title: My Book\n\n  toc:\n    - file: intro.md\n    - file: chapter1.md\n    - file: chapter2.md\n\nsite:\n  template: book-theme"
+  },
+  {
+    "objectID": "posts/JB2/index.html#view-locally-html",
+    "href": "posts/JB2/index.html#view-locally-html",
+    "title": "JB2",
+    "section": "6️⃣ View locally (HTML)",
+    "text": "6️⃣ View locally (HTML)\nmyst start --port 8000\nThen open:\nhttp://localhost:8000"
+  },
+  {
+    "objectID": "posts/JB2/index.html#build-a-pdf",
+    "href": "posts/JB2/index.html#build-a-pdf",
+    "title": "JB2",
+    "section": "7️⃣ Build a PDF",
+    "text": "7️⃣ Build a PDF\nAdd to myst.yml:\nexports:\n  - format: pdf\nThen run:\nmyst build\nPDF will appear in:\n_build/exports/\n\nYou should have TeX Live installed."
+  },
+  {
+    "objectID": "posts/JB2/index.html#create-a-new-bookalternative-method",
+    "href": "posts/JB2/index.html#create-a-new-bookalternative-method",
+    "title": "JB2",
+    "section": "4️⃣ Create a new book(alternative method)",
+    "text": "4️⃣ Create a new book(alternative method)\nYou need not use\nmyst init\nJust create two files myst.md and intro.md:"
+  },
+  {
+    "objectID": "posts/JB2/index.html#core-econ",
+    "href": "posts/JB2/index.html#core-econ",
+    "title": "JB2",
+    "section": "CORE Econ",
+    "text": "CORE Econ\nIn the context of Jupyter Book 2 (MyST), if you are looking to replicate the style of the famous CORE Econ (Curriculum Open-access Resources in Economics) textbooks, you are in luck. CORE was one of the primary inspirations for the development of MyST Markdown and the new CLI.\nWhile there isn’t a single “button” for a CORE template, you can achieve that specific look by configuring the book-theme in your myst.yml.\n\n\n1. The “CORE” Configuration\nThe CORE style is defined by a clean sidebar, specific margin usage (sidenotes), and structured theorem/definition boxes. Add these to your site section:\nsite:\n  template: book-theme\n  options:\n    # CORE often uses a \"fixed\" sidebar and a clean top nav\n    hide_toc_from_sidebar: false\n    # Enable sidenotes for that classic academic margin look\n    sidenotes: true\n    margin_references: true\n\n\n\n2. Emulating CORE Features\nCORE books rely heavily on specific components. Here is how you replicate them in JB2:\n\nA. The “Leibniz” (Calculus/Math blocks)\nCORE uses “Leibniz” popups for mathematical derivations. In JB2, you use the dropdown or proof directives:\n:::{important} Leibniz: The Multiplier Effect\n:dropdown:\nIn this section, we derive the multiplier...\n$$\nk = \\frac{1}{1 - c_1}\n$$\n:::\n\n\nB. Definitions in the Margin\nCORE puts key terms in the margin. In JB2, use the {margin} directive:\n:::{margin}\n**Marginal Rate of Substitution (MRS)**: The trade-off that a person is willing to make between two goods.\n:::\nWhile the consumer moves along the indifference curve...\n\n\n\n\n3. CSS for the “CORE” Look\nTo get the exact fonts and colors (like the specific CORE green/blue), you can add a custom CSS file.\n\nCreate a file named custom.css.\nLink it in your myst.yml:\n\nsite:\n  template: book-theme\n  css: custom.css\nCommon CORE Colors:\n:root {\n  --pst-color-primary: #007d8a; /* CORE-style teal */\n  --pst-color-info: #2d5973;\n}\n\n\n\n4. Project Structure (The “Units” approach)\nCORE books are organized into “Units” rather than chapters. Reflect this in your toc:\nsite:\n  toc:\n    - file: intro.md\n    - title: Unit 1 - The Capitalist Revolution\n      sections:\n        - file: unit_01/01_intro.md\n        - file: unit_01/02_inequality.ipynb\n\n\nIs there a pre-built theme?\nThere is an ongoing effort by the Executuable Books Project and Curvenote (who build MyST) to support these open-curriculum styles natively. Since you are using JB2, keep an eye on the curvenote template as an alternative to book-theme if you want a more “Journal/Scientific” look."
   }
 ]
