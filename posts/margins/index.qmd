@@ -3,10 +3,12 @@ title: "Margin - stuff"
 author: "-YY-"
 date: "2026-02-21"
 # draft: true
-categories: [learning]
+categories: [Quarto]
 ---
 
-# Can I have Quarto page with margin notes
+# Can I have Quarto page with margin notes?
+
+Yeap!
 
 ::: {.column-margin}
 We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
@@ -22,6 +24,7 @@ $$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
 :::
 
 ```
+
 
 Margins and citation in margins.
 
@@ -32,11 +35,13 @@ citation-location: margin
 ---
 ```
 
+
 Aside
 
 ```bash
 [This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}
 ```
+
 
 Figure in the margin
 
@@ -80,6 +85,7 @@ Labels in the margin
 #| echo: false
 #| cap-location: margin
 #| fig-cap: MPG vs horsepower, colored by transmission.
+#| out-width: "50%"
 
 library(ggplot2)
 mtcars2 <- mtcars
@@ -97,6 +103,7 @@ ggplot(mtcars2, aes(hp, mpg, color = am)) +
 #| label: fig-cap-margin
 #| fig-cap: "MPG vs horsepower, colored by transmission."
 #| cap-location: margin
+#| out-width: "50%"
 
 library(ggplot2)
 mtcars2 <- mtcars
