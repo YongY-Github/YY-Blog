@@ -1,0 +1,111 @@
+---
+title: "Margin - stuff"
+author: "-YY-"
+date: "2026-02-21"
+# draft: true
+categories: [learning]
+---
+
+# Can I have Quarto page with margin notes
+
+::: {.column-margin}
+We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
+
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+:::
+
+```bash
+::: {.column-margin}
+We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
+
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+:::
+
+```
+
+Margins and citation in margins.
+
+```bash
+---
+reference-location: margin
+citation-location: margin
+---
+```
+
+Aside
+
+```bash
+[This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}
+```
+
+Figure in the margin
+
+```{r}
+#| label: fig-mtcars
+#| echo: false
+#| column: margin
+#| fig-cap: MPG vs horsepower, colored by transmission.
+
+library(ggplot2)
+mtcars2 <- mtcars
+mtcars2$am <- factor(
+  mtcars$am, labels = c('automatic', 'manual')
+)
+ggplot(mtcars2, aes(hp, mpg, color = am)) +
+  geom_point() +
+  geom_smooth(formula = y ~ x, method = "loess") +
+  theme(legend.position = 'bottom')
+```
+
+```r
+#| label: fig-mtcars
+#| fig-cap: "MPG vs horsepower, colored by transmission."
+#| column: margin
+
+library(ggplot2)
+mtcars2 <- mtcars
+mtcars2$am <- factor(
+  mtcars$am, labels = c('automatic', 'manual')
+)
+ggplot(mtcars2, aes(hp, mpg, color = am)) +
+  geom_point() +
+  geom_smooth(formula = y ~ x, method = "loess") +
+  theme(legend.position = 'bottom')
+```
+
+Labels in the margin
+
+```{r}
+#| label: fig-cap-margin
+#| echo: false
+#| cap-location: margin
+#| fig-cap: MPG vs horsepower, colored by transmission.
+
+library(ggplot2)
+mtcars2 <- mtcars
+mtcars2$am <- factor(
+  mtcars$am, labels = c('automatic', 'manual')
+)
+ggplot(mtcars2, aes(hp, mpg, color = am)) +
+  geom_point() +
+  geom_smooth(formula = y ~ x, method = "loess") +
+  theme(legend.position = 'bottom')
+```
+
+
+```r
+#| label: fig-cap-margin
+#| fig-cap: "MPG vs horsepower, colored by transmission."
+#| cap-location: margin
+
+library(ggplot2)
+mtcars2 <- mtcars
+mtcars2$am <- factor(
+  mtcars$am, labels = c('automatic', 'manual')
+)
+ggplot(mtcars2, aes(hp, mpg, color = am)) +
+  geom_point() +
+  geom_smooth(formula = y ~ x, method = "loess") +
+  theme(legend.position = 'bottom')
+```
+

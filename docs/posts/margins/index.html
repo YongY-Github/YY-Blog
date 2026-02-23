@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="-YY-">
+<meta name="dcterms.date" content="2026-02-21">
 
-<title>YY-Blog</title>
+<title>Margin - stuff – YY-Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +22,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,35 +105,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -130,7 +136,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -140,9 +146,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">YY-Blog</span>
     </a>
   </div>
@@ -153,7 +159,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -176,227 +182,127 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">YY-Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Margin - stuff</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">learning</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>-YY- </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 21, 2026</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aXNzdWVz">issues <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SkIy">JB2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGVhcm5pbmc=">learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
 
+<section id="can-i-have-quarto-page-with-margin-notes" class="level1 page-columns page-full">
+<h1>Can I have Quarto page with margin notes</h1>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>We know from <em>the first fundamental theorem of calculus</em> that for <span class="math inline">\(x\)</span> in <span class="math inline">\([a, b]\)</span>:</p>
+<p><span class="math display">\[\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).\]</span></p>
+</div></div><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">:::</span> {.column-margin}</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">We</span> know from <span class="pp">*</span>the first fundamental theorem of calculus<span class="pp">*</span> that for <span class="va">$x</span>$ in $[a, b]$:</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="va">$$</span><span class="ex">\frac{d}{dx}\left</span><span class="er">(</span> <span class="ex">\int_{a}^{x}</span> f<span class="er">(</span><span class="ex">u</span><span class="kw">)</span><span class="ex">\,du\right</span><span class="kw">)</span><span class="ex">=f</span><span class="er">(</span><span class="ex">x</span><span class="kw">)</span><span class="ex">.</span><span class="va">$$</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">:::</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Margins and citation in margins.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">reference-location:</span> margin</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">citation-location:</span> margin</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Aside</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[This</span> is a span that has the class aside which places it in the margin without a footnote number.]{.aside}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Figure in the margin</p>
+<div class="cell page-columns page-full">
+
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div id="fig-mtcars" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-mtcars-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-mtcars-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mtcars-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: MPG vs horsepower, colored by transmission.
+</figcaption>
+</figure>
+</div>
+</div></div></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-mtcars</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "MPG vs horsepower, colored by transmission."</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| column: margin</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>mtcars2 <span class="ot">&lt;-</span> mtcars</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>mtcars2<span class="sc">$</span>am <span class="ot">&lt;-</span> <span class="fu">factor</span>(</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  mtcars<span class="sc">$</span>am, <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">'automatic'</span>, <span class="st">'manual'</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(mtcars2, <span class="fu">aes</span>(hp, mpg, <span class="at">color =</span> am)) <span class="sc">+</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">formula =</span> y <span class="sc">~</span> x, <span class="at">method =</span> <span class="st">"loess"</span>) <span class="sc">+</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">'bottom'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Labels in the margin</p>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-cap-margin" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-cap-margin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-cap-margin-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-cap-margin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: MPG vs horsepower, colored by transmission.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-cap-margin</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "MPG vs horsepower, colored by transmission."</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| cap-location: margin</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>mtcars2 <span class="ot">&lt;-</span> mtcars</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>mtcars2<span class="sc">$</span>am <span class="ot">&lt;-</span> <span class="fu">factor</span>(</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  mtcars<span class="sc">$</span>am, <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">'automatic'</span>, <span class="st">'manual'</span>)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(mtcars2, <span class="fu">aes</span>(hp, mpg, <span class="at">color =</span> am)) <span class="sc">+</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">formula =</span> y <span class="sc">~</span> x, <span class="at">method =</span> <span class="st">"loess"</span>) <span class="sc">+</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">'bottom'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="SkIy" data-listing-date-sort="1771693200000" data-listing-file-modified-sort="1771758457641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1350">
-<div class="thumbnail"><a href="./posts/JB2/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/JB2/index.html" class="no-external">JB2</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('SkIy'); return false;">JB2</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/JB2/index.html" class="no-external">
-For those using <strong>Anaconda + Windows + JB2 (MyST CLI)</strong>, here is the clean setup from scratch.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/JB2/index.html" class="no-external">
-<div class="listing-date">
-Feb 22, 2026
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bGVhcm5pbmc=" data-listing-date-sort="1771606800000" data-listing-file-modified-sort="1771853449622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
-<div class="thumbnail"><a href="./posts/margins/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\margins\index_files\figure-html\fig-mtcars-1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/margins/index.html" class="no-external">Margin - stuff</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGVhcm5pbmc='); return false;">learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/margins/index.html" class="no-external">
-We know from <em>the first fundamental theorem of calculus</em> that for <span class="math inline">\(x\)</span> in <span class="math inline">\([a, b]\)</span>:
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/margins/index.html" class="no-external">
-<div class="listing-date">
-Feb 21, 2026
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="bGVhcm5pbmc=" data-listing-date-sort="1771434000000" data-listing-file-modified-sort="1771502843531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="411">
-<div class="thumbnail"><a href="./posts/learn-prison/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/learn-prison/index.html" class="no-external">Why Prisoners Learn Faster Than College Students</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGVhcm5pbmc='); return false;">learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/learn-prison/index.html" class="no-external">
-<strong>Why Prisoners Learn Faster Than College Students</strong><br>
-Source: https://www.youtube.com/watch?v=oBHzmFFNkW4
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/learn-prison/index.html" class="no-external">
-<div class="listing-date">
-Feb 19, 2026
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="aXNzdWVz" data-listing-date-sort="1703782800000" data-listing-file-modified-sort="1771499151279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
-<div class="thumbnail"><a href="./posts/inequality/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/inequality/index.html" class="no-external">Inequality</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('aXNzdWVz'); return false;">issues</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/inequality/index.html" class="no-external">
-Inequality, in economics, usually refers to either income and/or wealth inequality. That is, economic inequality, broadly speaking, is the unequal distribution of income…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/inequality/index.html" class="no-external">
-<div class="listing-date">
-Dec 29, 2023
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1703782800000" data-listing-file-modified-sort="1771498809099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail"><a href="./posts/post-with-code/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/post-with-code/image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">analysis</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/post-with-code/index.html" class="no-external">
-This is a post with executable code.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Dec 29, 2023
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="bmV3cw==" data-listing-date-sort="1703523600000" data-listing-file-modified-sort="1771498809100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/welcome/index.html" class="no-external">
-This is the first post in a Quarto blog. Welcome!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Dec 26, 2023
-</div>
-<div class="listing-author">
-Tristan O’Malley
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

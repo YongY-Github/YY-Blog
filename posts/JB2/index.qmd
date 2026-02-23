@@ -126,6 +126,8 @@ Then run:
 
 ```bash
 myst build
+or
+myst build --pdf
 ```
 
 PDF will appear in:
@@ -225,7 +227,7 @@ exports:
     - format: pdf
 ```
 
-Copy this exactly, or I use for a little more control:
+Copy this exactly, or what I use below for a little more control:
 
 ```yaml
 version: 1
@@ -316,6 +318,10 @@ f(x) =
 \end{cases}
 :::
 
+To make footnotes.[^ch1-1]
+
+[^ch1-1]: Write what you want in the footnote.
+
 ```
 
 In **Jupyter Book 2 (MyST)**, admonitions (also known as callouts or notice boxes) are incredibly useful for highlighting specific types of information. Because JB2 uses the modern MyST-JS parser, these are highly standardized and accessible.
@@ -344,13 +350,13 @@ The most common way to write these in JB2 is using the **colon fence**. You can 
 **Note:**
 
 ```python
-:::{admonition} Key idea
+::::{admonition} Key idea
 :class: note
 - **Analytics**: describing and explaining data to support decisions (dashboards, KPIs, A/B testing).
 - **Data Science**: building reproducible data workflows and products (pipelines, prediction services).
 - **AI**: a broad goal — machines performing tasks that normally require “intelligence.”
 - **ML**: methods that learn patterns from data (prediction, classification, clustering).
-:::
+::::
 ```
 
 **Nested Content:**
@@ -374,11 +380,11 @@ The proper way to multiply a matrix and a vector is:
 In JB2, you can turn any of these into a "collapsible" box (dropdown) by adding the `:dropdown:` option:
 
 ```md
-:::{dropdown} **Click to expand me!**
+::::{dropdown} **Click to expand me!**
 
 $5A - 2B$ &emsp;&emsp; (b)  $2A + 3B$ &emsp;&emsp; (c)  $2C - 3D$  
 
-:::
+::::
 ```
 
 ---
@@ -435,7 +441,7 @@ Add this under `project:` in `myst.yml`:
 And optionally:
 
 ```yaml
-  keywords: [economics, mathematics]
+  keywords: [econometrics, mathematics]
 ```
 
 But keep it minimal unless needed.
@@ -496,13 +502,13 @@ CORE books rely heavily on specific components. Here is how you replicate them i
 CORE uses "Leibniz" popups for mathematical derivations. In JB2, you use the `dropdown` or `proof` directives:
 
 ```md
-:::{important} Leibniz: The Multiplier Effect
+::::{important} Leibniz: The Multiplier Effect
 :dropdown:
 In this section, we derive the multiplier...
 $$
 k = \frac{1}{1 - c_1}
 $$
-:::
+::::
 
 ```
 
