@@ -1,0 +1,338 @@
+---
+title: "Intro to R Markdown"
+author: "YY"
+date: "2024-08-26"
+categories: [R]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction to R Markdown
+
+Among other things, we will look at how to ...
+
+1. Bold
+2. Italics
+3. Underline
+4. Hyperlink
+5. Headers
+6. Images
+7. Line breaks
+8. Bullets
+9. Numbered list
+10. Tables
+11. R Plot
+12. Dynamic documents in R (with citation, footnotes and bibliography)
+
+## Running R code chunks
+
+R Markdown are dynamic documents in which we can embed R code, for example:
+
+**Code Chunk:**
+
+```{r, echo=TRUE}
+x <- c("YY")
+print(x)
+```
+
+**Output:**
+
+```
+[1] "YY"
+```
+
+Note that the `echo = FALSE` parameter can be added to the code chunk to prevent printing of the R code that generated only the output.
+
+```
+{r, echo=FALSE}
+
+```
+
+We can also try `echo = TRUE` parameter (shown above), as well as `eval = FALSE/TRUE` and `include = FALSE/TRUE`.
+
+## Let's look at some formatting
+
+### 1. Bold
+
+**Code:**
+```markdown
+This is a normal text  
+This is a **bold** text  
+This is a __bold__ text
+```
+
+**Output:**
+
+This is a normal text  
+This is a **bold** text  
+This is a __bold__ text  
+
+---
+
+### 2. Italics
+
+**Code:**
+```markdown
+This is a normal text  
+This is a *italics* text  
+This is a _italics_ text
+```
+
+**Output:**
+
+This is a normal text  
+This is a *italics* text  
+This is a _italics_ text  
+
+---
+
+### 3. Underline
+
+**Code:**
+```markdown
+<u>underlined</u> text
+```
+
+**Output:**
+
+<u>underlined</u> text
+
+---
+
+### 4. Hyperlinks
+
+**Code:**
+```markdown
+Here is a [link](https://www.econ.chula.ac.th/) to CU Econ website.
+```
+
+**Output:**
+
+Here is a [link](https://www.econ.chula.ac.th/) to CU Econ website.
+
+---
+
+### 5. Headers
+
+**Code:**
+```markdown
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+```
+
+**Output:**
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+
+---
+
+### 6. Images
+
+**Code:**
+
+```markdown
+![picture](./Picture.jpg){width=50%}
+
+<img src="Picture.jpg" alt="Pic" width="200" height="200"/>
+```
+
+**Note:** Image will appear if Picture.jpg exists in your working directory.
+
+---
+
+### 7. Line breaks
+
+**Code:**
+
+```markdown
+(Double space after each sentence will move the next sentence to the next line)  
+Or jump a line
+
+Like this ^^
+```
+
+---
+
+### 8. Bullets
+
+**Code:**
+
+```markdown
+* This is item 1
+  + This is item 1.1
+  + This is item 1.2
+* This is item 2
+  * This is item 2.1
+  * This is item 2.2
+```
+
+**Output:**
+
+* This is item 1
+  + This is item 1.1
+  + This is item 1.2
+* This is item 2
+  * This is item 2.1
+  * This is item 2.2
+
+---
+
+### 9. Numbered list
+
+**Code:**
+
+```markdown
+1. This is numbered list
+2. This is the second list
+    1. This is a sub-item
+    2. This is another sub-item
+```
+
+**Output:**
+
+1. This is numbered list
+2. This is the second list
+    1. This is a sub-item
+    2. This is another sub-item
+
+---
+
+### 10. Tables
+
+**Code:**
+
+```markdown
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $2x+1$ |
+| col 2 is |    centered   |   12 |
+| col 3 is | right-aligned |    Hello |
+```
+
+**Output:**
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $2x+1$ |
+| col 2 is |    centered   |   12 |
+| col 3 is | right-aligned |    Hello |
+
+---
+
+### 11. R Plot output
+
+**Code Chunk:**
+
+```{r, echo=TRUE, eval=TRUE}
+normal <- rnorm(1000, mean=1, sd=1)
+par(mfrow = c(1, 2))
+hist(normal, main = "HISTOGRAM")
+plot(density(normal), col = 'red', lwd = 2, main = "DENSITY")
+```
+
+**Code Chunk (with ggplot2):**
+
+```{r, echo=TRUE, eval=TRUE}
+# https://ggplot2.tidyverse.org/
+# install.packages("ggplot2")
+
+library(ggplot2)
+
+e <- ggplot(mpg, aes(cty, hwy, colour = class))
+e + geom_point(aes(colour = factor(manufacturer)))
+```
+
+---
+
+## True Dynamic Documents in R
+
+Now for the most important part!
+
+Let's make a truly dynamic document with citation, footnotes^[You can write footnote here] and a bibliography!
+
+This is the dynamic document in R developed by @R-core.^[For minimum requirements for referencing see citations.bib file]
+
+**Code Chunk:**
+
+```{r, echo=TRUE, eval=TRUE}
+# Create a sample data file if it doesn't exist
+if(!file.exists("scorer2014.csv")) {
+  scorer_data <- data.frame(
+    name = c("Rodriguez", "Muller", "Neymer", "Messi"),
+    value = c(10, 15, 8, 12)
+  )
+  write.csv(scorer_data, "scorer2014.csv", row.names = FALSE)
+}
+
+scorer <- read.csv("scorer2014.csv", header = TRUE)
+barplot(scorer$value, names.arg = scorer$name, 
+        main = "Scorer Values", col = "lightblue")
+```
+
+What makes the document dynamic is that the output above will change as input file (data) changes.
+
+To see this, let's generate 5 random numbers and get their sum. And see how this changes as a text!
+
+**Code Chunk:**
+
+```{r, echo=TRUE, eval=TRUE}
+## Pick 5 random numbers/integers from 0 to 10
+set.seed(NULL)  # Ensure true randomness each time
+random.int <- sample(0:10, size = 5, replace = TRUE)
+random.int
+```
+
+Try
+
+```
+The sum of your 5 random numbers is 'r sum(random.int)'.
+```
+
+For example, in this case, we get the following output:
+
+The sum of your 5 random numbers is **`r sum(random.int)`**. 
+
+Run this several times and you will get different sums as you pick different numbers! **AMAZING!**
+
+## Footnotes, Citation, and References
+
+Adding a footnote is easy using hat ^ with contents inside square brackets like this.`^[This is a footnote]`
+
+Referencing and citations are a little tricky.
+
+You need two things:
+
+1. Create s separate file which contains all your references in BibTex form, call it, say `references.bib` and place it in the same folder as your document file.
+
+2. In the **yaml** at the top of your document file include the line `bibliography: references.bib`. This links your document with the references.bib file.
+
+Here is an exampe of a BibTex which you can include in your references.bib
+
+```bibtex
+@article{YoonMudida2020,
+  author    = {Yoon, Yong and Mudida, Robert},
+  title     = {Social and Economic Transformation in Tanzania and South Korea: Ujamaa and Saemaul Undong in the 1970s Compared},
+  journal   = {Seoul Journal of Economics},
+  volume    = {33},
+  number    = {2},
+  pages     = {195--231},
+  year      = {2020},
+  publisher = {Institute of Economic Research, Seoul National University},
+  issn      = {1225-0279},
+  url       = {https://hdl.handle.net/10371/168254}
+}
+
+```
+
+And to cite this, just place `@YoonMudida2020` in the text.
+
+As an added bonus, the full reference will appear at the end of the document! 
+
+

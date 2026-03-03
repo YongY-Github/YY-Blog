@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "YY-Blog",
     "section": "",
-    "text": "JB2\n\n\n\nJB2\n\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nMargin - stuff\n\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nFeb 21, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Prisoners Learn Faster Than College Students\n\n\n\nlearning\n\n\n\n\n\n\n\n\n\nFeb 19, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nInequality\n\n\n\nissues\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "JB2\n\n\n\nJB2\n\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nMargin - stuff\n\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nFeb 21, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Prisoners Learn Faster Than College Students\n\n\n\nlearning\n\n\n\n\n\n\n\n\n\nFeb 19, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to R Markdown\n\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 26, 2024\n\n\nYY\n\n\n\n\n\n\n\n\n\n\n\n\nGetting staRted with R PRogRamming\n\n\n\nR\n\n\n\n\n\n\n\n\n\nJul 18, 2024\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nInequality\n\n\n\nissues\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -117,5 +117,159 @@
     "title": "Margin - stuff",
     "section": "",
     "text": "Can I have Quarto page with margin notes?\nYeap!\n\n\n\\[\n\\overline{X} = \\frac{\\sum X_i}{n}\n\\tag{1}\\]\nWe can reference the Equation 1 inn the margin by @eq-sample-mean\n::: {.column-margin}\n$$\n\\overline{X} = \\frac{\\sum X_i}{n}\n$$ {#eq-sample-mean}\n:::\nAnother way to place equations in the margin is:\n\n\nThe Fundamental Theorem of Calculus\nWe know from the first fundamental theorem of calculus that for \\(x\\) in \\([a, b]\\):\n\\[\n\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\\,du\\right)=f(x).\n\\tag{2}\\]\n::: {.column-margin}\n### The Fundamental Theorem of Calculus\nWe know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:\n\n$$\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\\,du\\right)=f(x).$$ {#eq-calc}\n:::\n::: {.column-margin}\n::: {.callout-note}\n**Rule #1** A paper with only theory is just an idea; a paper with only data is just a list.\n:::\n:::\n\n\n\n\n\n\n\n\nRule #1 A paper with only theory is just an idea; a paper with only data is just a list.\n\n\n\nMargins and citation in margins. Just add into the yaml …\n---\nformat:\n  html:\n    reference-location: margin\n    citation-location: margin\n---\nNow, whenever you use a footnote [^1] or a BibTeX citation [@Keynes1936], Quarto won’t put them at the bottom of the page—it will snap them into that shaded sidebar right next to where you mentioned them.\nAside\n[This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}\nFigure in the margin\n\n\n\n\n\n\n\n\n\nFigure 1: MPG vs horsepower, colored by transmission.\n\n\n\n\n#| label: fig-mtcars\n#| fig-cap: \"MPG vs horsepower, colored by transmission.\"\n#| column: margin\n\nlibrary(ggplot2)\nmtcars2 &lt;- mtcars\nmtcars2$am &lt;- factor(\n  mtcars$am, labels = c('automatic', 'manual')\n)\nggplot(mtcars2, aes(hp, mpg, color = am)) +\n  geom_point() +\n  geom_smooth(formula = y ~ x, method = \"loess\") +\n  theme(legend.position = 'bottom')\nLabels in the margin\n\n\n\n\n\n\n\n\nFigure 2: MPG vs horsepower, colored by transmission.\n\n\n\n\n\n#| label: fig-cap-margin\n#| fig-cap: \"MPG vs horsepower, colored by transmission.\"\n#| cap-location: margin\n#| out-width: \"50%\"\n\nlibrary(ggplot2)\nmtcars2 &lt;- mtcars\nmtcars2$am &lt;- factor(\n  mtcars$am, labels = c('automatic', 'manual')\n)\nggplot(mtcars2, aes(hp, mpg, color = am)) +\n  geom_point() +\n  geom_smooth(formula = y ~ x, method = \"loess\") +\n  theme(legend.position = 'bottom')\n\nA Very Wide Mathematical Proof\nThis text and the equation below will stretch across the entire width of the page, ignoring the sidebar we created. This is perfect for long horizontal derivations: \\[\nY_{i,t} = \\alpha + \\beta_1 X_{i,t} + \\beta_2 Z_{i,t} + \\gamma_i + \\delta_t + \\epsilon_{i,t} + \\dots + \\text{lots of other control variables}\n\\]\n\n::: {.column-page}\n### A Very Wide Mathematical Proof\nThis text and the equation below will stretch across the entire width of the page, ignoring the sidebar we created. This is perfect for long horizontal derivations:\n$$\nY_{i,t} = \\alpha + \\beta_1 X_{i,t} + \\beta_2 Z_{i,t} + \\gamma_i + \\delta_t + \\epsilon_{i,t} + \\dots + \\text{lots of other control variables}\n$$\n:::\nOr\n#| column: page\n#| echo: false\n# This table will now use the full width of the document\nmodelsummary::modelsummary(model_list)\n::: {.column-page .text-center}\nThis is a wide, centered announcement or header.\n:::"
+  },
+  {
+    "objectID": "posts/R-intro/index.html",
+    "href": "posts/R-intro/index.html",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "",
+    "text": "R has become one of the most widely used statistical programming languages, surpassing traditional tools like SAS, SPSS, and Stata.\nMillions of users worldwide, spanning academia, industry, and government. Over 20,000 packages on CRAN, covering nearly every domain of data science and statistical modeling and hHundreds of new packages added each month, reflecting a vibrant and innovative developer community.\nR’s ecosystem has grown from a niche academic tool into a global platform for reproducible research, machine learning, and advanced analytics. Its open-source nature and rapid package development make it a cornerstone of modern data science.\nWhy is R so popular?\n\nFree and open source. Get R from www.r-project.org\nPackages for nearly everything (statistics, graphics, finance, geology …)\nEasy to add/publish packages\nMultiple R interfaces available"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#why-r",
+    "href": "posts/R-intro/index.html#why-r",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "",
+    "text": "R has become one of the most widely used statistical programming languages, surpassing traditional tools like SAS, SPSS, and Stata.\nMillions of users worldwide, spanning academia, industry, and government. Over 20,000 packages on CRAN, covering nearly every domain of data science and statistical modeling and hHundreds of new packages added each month, reflecting a vibrant and innovative developer community.\nR’s ecosystem has grown from a niche academic tool into a global platform for reproducible research, machine learning, and advanced analytics. Its open-source nature and rapid package development make it a cornerstone of modern data science.\nWhy is R so popular?\n\nFree and open source. Get R from www.r-project.org\nPackages for nearly everything (statistics, graphics, finance, geology …)\nEasy to add/publish packages\nMultiple R interfaces available"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#basic-operations-in-r",
+    "href": "posts/R-intro/index.html#basic-operations-in-r",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "Basic Operations in R",
+    "text": "Basic Operations in R\n3+3  # [1] 6\n\nx &lt;- 3\ny = 3\nx &lt;- y &lt;- 3\n\nx^2  # square, [1] 9\n\nx &lt;- c(1,2,3,4) # or x = c(1:4)\nx  # [1] 1 2 3 4\n\nx + 10 # R is vectorized, [1] 11 12  13 14\n\ny &lt;- c(1,2)\nx + y # recycling rule, [1] 2 4 4 6\n\nx[4] # show 4th element, [1] 4\n\nx &gt; 2  # [1] FALSE FALSE TRUE TRUE\nx[x &gt; 2]  # [1] 3 4\n\nx[1:3]  # [1] 1 2 3\n\nis.na(x)  # [1] FALSE FALSE FALSE FALSE\n\ncumsum(x)  # [1] 1 3 6 10\n\nseq(1,5)  # [1] 1 2 3 4 5\n\nrep(1,5)  # [1] 1 1 1 1 1"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#basic-mathematical-and-statistical-functions",
+    "href": "posts/R-intro/index.html#basic-mathematical-and-statistical-functions",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "Basic Mathematical and Statistical Functions",
+    "text": "Basic Mathematical and Statistical Functions\nR has a wide range of useful mathematical and statistical functions available through packages.\nx &lt;- 1:10\nmean(x)     # [1] 5.5\nmedian(x)   # [1] 5.5\nsd(x)       # [1] 3.02765\nsum(x)      # [1] 55\nsqrt(x)     # [1] 1.000000 1.414214 1.732051 2.000000 2.236068 2.449490 ...\nsummary(x)  \n#    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n#    1.00    3.25    5.50    5.50    7.75   10.00"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#r-online-and-local-help",
+    "href": "posts/R-intro/index.html#r-online-and-local-help",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "R online and local help",
+    "text": "R online and local help\nA good place to start learning R is the online documentation. Launch R and type:\nhelp.start()\nThe inline help is accessed by:\n?mean\nA nice (fun) book:\nhttp://www.burns-stat.com/documents/books/the-r-inferno/\nThere are many introductory (many free) sites, for example:\nhttps://www.codecademy.com/learn/learn-r"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#r-packages",
+    "href": "posts/R-intro/index.html#r-packages",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "R Packages",
+    "text": "R Packages\nYou can find many packages through CRAN.\nInstalling packages:\ninstall.packages(\"ggplot2\")\nTo update all your packages:\nupdate.packages(checkBuilt = TRUE, ask = FALSE)\nTo know the libraries already installed in your machine:\nsearch()\nlibrary()"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#data-structure-in-r",
+    "href": "posts/R-intro/index.html#data-structure-in-r",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "Data Structure in R",
+    "text": "Data Structure in R\nThere are four main types of data structures in R:\n\nVectors\nMatrix\nData.frame\nLists\n\n\nVectors\nVectors are the basic unit for data storage in R. Vectors can store one or more values of the same type (numeric or character strings).\n# Vector of strings\nx &lt;- c(\"Germany\", \"Argentina\", \"Netherlands\")\n# Replacing the second element of the vector\nx[2] &lt;- NA\nx  # [1] \"Germany\"    NA           \"Netherlands\"\nx[!is.na(x)]  # [1] \"Germany\"    \"Netherlands\"\n\n\nVector Classes\n# character vectors\nx &lt;- c(\"Germany\", \"Argentina\", \"Netherlands\")\nclass(x)  # [1] \"character\"\n\nx &lt;- c(1.1, 2.5)\nclass(x)  # [1] \"numeric\"\n\nx &lt;- 1:4\nclass(x)  # [1] \"integer\"\n\nx &lt;- x &gt; 2\nclass(x)  # [1] \"logical\"\n\n\nMatrices\nThere are many ways to define a matrix.\nmatrix(1:6, ncol=2)\n#      [,1] [,2]\n# [1,]    1    4\n# [2,]    2    5\n# [3,]    3    6\n\nmatrix(1:6, nrow=2, byrow=TRUE)\n#      [,1] [,2] [,3]\n# [1,]    1    2    3\n# [2,]    4    5    6\n\nr1 = c(1,2)\nr2 = c(3,4)\nA = rbind(r1, r2)\nA\n#    [,1] [,2]\n# r1    1    2\n# r2    3    4\n\nt(A)  # transpose\n#    r1 r2\n# [1,] 1  3\n# [2,] 2  4\n\ndet(A)  # determinant, [1] -2\n\nsolve(A)  # inverse\n#     r1   r2\n# [1,] -2  1.0\n# [2,] 1.5 -0.5\n\n\nData Frames\nThink of data frames as specialized type of lists that can do more than usual matrices.\ndf &lt;- data.frame(\n  patientID = c(\"001\", \"002\", \"003\"),\n  treatment = c(\"drug\", \"placebo\", \"drug\"),\n  age = c(20, 30, 24)\n)\n\ndf\n#   patientID treatment age\n# 1       001      drug  20\n# 2       002   placebo  30\n# 3       003      drug  24\n\nsubset(df, treatment == \"drug\")\n#   patientID treatment age\n# 1       001      drug  20\n# 3       003      drug  24\n\n\nLists\nLists are powerful and versatile data structures. You can store any data structure in lists, even lists.\nmy.list &lt;- list(\n  fruits = c(\"oranges\", \"bananas\", \"apples\"),\n  mat = matrix(1:10, nrow=2)\n)\n\nmy.list\n# $fruits\n# [1] \"oranges\" \"bananas\" \"apples\"\n#\n# $mat\n#      [,1] [,2] [,3] [,4] [,5]\n# [1,]    1    3    5    7    9\n# [2,]    2    4    6    8   10"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#importing-data",
+    "href": "posts/R-intro/index.html#importing-data",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "Importing Data",
+    "text": "Importing Data\nIt is easy to import data into R. Simply invoke import and export R functions, which exist for many formats including:\n\ntext or ASCII files\nproprietary formats (e.g. SAS, Stata, SPSS, Excel, etc)\ndatabases (Oracle, MySQL, couchDB, SQLite, etc)\nR data and S\nXML, HTML tables and many more\n\n\nReading ASCII/Text files\nA quick way to access a csv file is:\nread.csv(file.choose(), header=TRUE)\nThe most common R command to import data from text/csv datafiles is read.table and read.csv, e.g.:\nURL &lt;- \"https:// ... /scorer2014.csv\"\nscorer &lt;- read.table(URL, sep='', header=TRUE)\nscorer$name\n# [1] Rodriguez Muller Neymer Messi\n# Levels: Messi Muller Neymer Rodriguez\nclass(scorer)  # [1] \"data.frame\"\nTo check your current directory type getwd(), which you can change, for example, by setwd(\"C:/Users/YY/Documents/R\").\n\n\nReading Foreign Files\nUse haven for SPSS and Stata – it’s actively maintained, handles modern versions, and integrates well with tidyverse workflows.\ninstall.packages(\"haven\")    # Install if needed\nlibrary(haven)\n\n# Read SPSS file\nmydata &lt;- read_sav(\"myfile.sav\")\n\n# Read Stata data file\nmydata &lt;- read_dta(\"mydata.dta\")\n\nThe readxl package is now the standard way to import Excel files into R, replacing older approaches like gdata::read.xls or xlsx.\n# Read a data frame to Excel\n\ninstall.packages(\"readxl\")    # Install if needed\nlibrary(readxl)\nmydata &lt;- read_excel(\"mydata.xlsx\", sheet = 1)\n\n# Write a data frame to Excel\n\ninstall.packages(\"writexl\")\nlibrary(writexl)\nwrite_xlsx(mydata, \"output.xlsx\")\nThe more modern alternative is openxlsx:\ninstall.packages(\"openxlsx\")   # Install if needed\n\nlibrary(openxlsx)\nmydata &lt;- read.xlsx(\"mydata.xlsx\", sheet = 1)   # Read Excel file\n\n# Write a data frame to Excel\nwrite.xlsx(mydata, file = \"output.xlsx\", sheetName = \"Sheet1\", overwrite = TRUE)\n\n\nExporting Data\nTo save as R data:\nsave(scorer, file=\"scorer2014.Rda\")\nload(\"scorer2014.Rda\")  # to reload your saved data\nIf you want to export your data to a csv file you may use write.csv or to a text file use write.table:\nwrite.csv(mydata, \"scorer2014.csv\")\nwrite.table(mydata, file=\"scorer2014.csv\", sep = ',')\nTo export data into other formats (SPSS, Stata) use haven package:\n# Write to SPSS (.sav)\nwrite_sav(mydata, \"output.sav\") \n\n# Write to Stata (.dta)\nwrite_dta(mydata, \"output.dta\""
+  },
+  {
+    "objectID": "posts/R-intro/index.html#data-management-basics",
+    "href": "posts/R-intro/index.html#data-management-basics",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "Data Management Basics",
+    "text": "Data Management Basics\nls()  # list objects in the working environment\nrm()  # remove objects\n\n# data entry with data editor\nmydata &lt;- data.frame(age=numeric(0), gender=character(0), weight=numeric(0))\nmydata &lt;- edit(mydata)\n\n# list the variables in mydata\nnames(mydata)\n\n# list the structure of mydata\nstr(mydata)\n\n# class of an object (numeric, matrix, data frame, etc)\nclass(age)\nclass(gender)\n\n# print mydata\nmydata\n\n# print first 2 rows of mydata\nhead(mydata, n=2)\n\n# print last 2 rows of mydata\ntail(mydata, n=2)\n\n# Ctrl-L to clear console screen\n# Esc to interrupt currently executing command"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#programming-basics",
+    "href": "posts/R-intro/index.html#programming-basics",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "Programming Basics",
+    "text": "Programming Basics\n\nSimulations\nLooping\nIF … ELSE conditions\nWriting Functions\n\n\nSimulations\nR is really nice for doing simulations and monte carlo experiments:\nset.seed(10101)\n# drawing from normal distribution\na &lt;- rnorm(1000, mean=0, sd=1)\nhist(a)\nYou can also make random draws from other distributions:\n# drawing from poisson\nrpois(10, 2)\nYou can also sample randomly from a specified set of objects:\nsample(1:10, 4)        # [1] 7 6 1 5\nsample(1:10, 4, replace = T)  # [1] 8 8 8 10\nsample(letters, 4)\n\n\nLoops\nLoops are useful (but not always an efficient way) to do repetitive tasks.\nfor (i in 1:5){\n  print(\"Hello\")\n}\n# [1] \"Hello\"\n# [1] \"Hello\"\n# [1] \"Hello\"\n# [1] \"Hello\"\n# [1] \"Hello\"\n\n# Law of Large Numbers\nstore &lt;- matrix(NA, 1000, 1)\nfor (i in 1:1000){\n  a &lt;- rnorm(i)\n  store[i] &lt;- mean(a)\n}\nplot(store, type=\"o\")\n\n\nApply family of functions\nR has a series of functions that can simulate small loops called apply.\nmat &lt;- matrix(1:10, nrow=2, byrow=T)\nmat\n#      [,1] [,2] [,3] [,4] [,5]\n# [1,]    1    2    3    4    5\n# [2,]    6    7    8    9   10\n\n# sum the columns\napply(mat, 2, sum)  # [1] 7 9 11 13 15\n\n# sum the rows\napply(mat, 1, sum)  # [1] 15 40\nrowSums(mat)  # gives same results\n\n\nIF … ELSE Condition\nx &lt;- 1\nif(x == 1){\n  print(\"x is equal 1\")\n} else{\n  print(\"x is NOT equal to 1\")\n}\n# [1] \"x is equal 1\"\n\n# Shortcut\nifelse(x == 1, \"x is equal 1\", \"x is NOT equal to 1\")\n# [1] \"x is equal 1\"\n\n\nExercise: Fibonacci Sequence\nLet’s use the loop and IF … ELSE conditional statement to produce the first 50 Fibonacci numbers.\nfib &lt;- rep(0, 50)\nfor(i in 1:50){\n  if (i &lt;= 2){\n    fib[i] &lt;- 1\n  } else{\n    fib[i] &lt;- fib[i-1] + fib[i-2]\n  }\n}\nfib\n\n\nFunctions\nWe can define functions in R, which uses the following basic syntax:\nfunction.name &lt;- function(INPUTS){\n  ARGUMENTS\n}\nLet’s take a simple example:\nmr.euclide &lt;- function(a, b){\n  dist &lt;- sqrt(sum((b - a)^2))\n  return(dist)\n}\nTo execute the mr.euclide function:\na &lt;- c(1, 1)\nb &lt;- c(2, 2)\nmr.euclide(a, b)  # [1] 1.414214\n\n\nExercise: Simulating a Dice\ndice &lt;- function(n) {\n  k &lt;- sample(1:6, size = n, replace = T)\n  return(k)\n}\n\na &lt;- dice(100)\nhist(a)\n\n\nTime series from Cauchy distribution\ncrazy &lt;- function(num) {\n  x &lt;- rep(NA, num)\n  for (n in 1:num) x[n] &lt;- mean(rcauchy(n))\n  plot(x, type = \"l\", xlab = \"Cauchy\", ylab = \"mean\")\n}\n\ncrazy(100)\n\n\nChallenge: Fibonacci Function\nNow incorporate functions to produce say the first 20 Fibonacci numbers:\nfib &lt;- function(n = 20){\n  if(n &lt; 3){\n    return(c(1, 1))\n  } else{\n    fib &lt;- rep(0, n)\n    for(i in 1:n){\n      if(i &lt;= 2){\n        fib[i] &lt;- 1\n      } else{\n        fib[i] &lt;- fib[i-1] + fib[i-2]\n      }\n    }\n  }\n  return(fib)\n}\n\nfib(20)"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#statistical-functions",
+    "href": "posts/R-intro/index.html#statistical-functions",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "Statistical Functions",
+    "text": "Statistical Functions\nR is a statistical programming language with many useful and powerful graphical libraries.\nLet’s look at some of the functions available with the base package. For example, you can get the values from statistical tables:\npnorm(1.96, 0, 1)  # cumulative distribution, [1] 0.9750021\npnorm(1.96, 0, 1, lower.tail = F)  # [1] 0.0249979\ndnorm(1.96, 0, 1)  # density, [1] 0.05844094\ndchisq(9, 3)  # [1] 0.01329555\n1 - pf(4, 43, 3.6)  # p-value, [1] 0.1080504"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#graphics-in-r",
+    "href": "posts/R-intro/index.html#graphics-in-r",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "Graphics in R",
+    "text": "Graphics in R\n\nHistograms\nnormal &lt;- rnorm(1000, mean=1, sd=1)\npar(mfrow = c(1, 2))\nhist(normal, main = \"HISTOGRAM\")\nplot(density(normal), col = 'red', lwd = 2, main = \"DENSITY\")\n\n\nScatter Plots\nR can generate high quality publication ready graphics.\nhead(cars, 3)\n#   speed dist\n# 1     4    2\n# 2     4   10\n# 3     7    4\n\nplot(cars$speed, cars$dist)\n\n\nScatter plots with linear regression line\nplot(cars$speed, cars$dist)\nfit &lt;- lm(cars$dist ~ cars$speed)\nabline(fit, col = 'red')\nsummary(fit)\n\n# Call:\n# lm(formula = cars$dist ~ cars$speed)\n# \n# Residuals:\n#     Min      1Q  Median      3Q     Max \n# -29.069  -9.525  -2.272   9.215  43.201 \n# \n# Coefficients:\n#             Estimate Std. Error t value Pr(&gt;|t|)    \n# (Intercept) -17.5791     6.7584  -2.601   0.0123 *  \n# cars$speed    3.9324     0.4155   9.464 1.49e-12 ***\n# ---\n# Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\nExercise: Simulate a Linear Model\nSimulate a linear model:\n\\[y = \\alpha +\\beta x + \\epsilon\\]\nwhere \\(\\epsilon \\sim N(0, 2^2)\\), \\(x \\sim N(0, 1^2)\\), \\(\\alpha = \\frac{1}{2}\\) and \\(\\beta = 2\\)\nset.seed(10101)\nx &lt;- rnorm(100)\ne &lt;- rnorm(100, 0, 2)\ny &lt;- 0.5 + 2 * x + e\nsummary(y)\n#    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n# -9.3680 -1.1200  0.5318  0.6110  2.7240  7.9840 \n\nplot(x, y)\nTry also fitting a line and find parameters by OLS.\n\n\nBoxplots\nboxplot(len ~ dose * supp, data = ToothGrowth)\n\n\nSaving Pictures\nTo save your figures use pdf() or savePlot():\npdf(file = 'scatter.pdf', height = 5, width = 5)\nplot(cars$speed, cars$dist)\ndev.off()"
+  },
+  {
+    "objectID": "posts/R-intro/index.html#further-resources",
+    "href": "posts/R-intro/index.html#further-resources",
+    "title": "Getting staRted with R PRogRamming",
+    "section": "Further Resources",
+    "text": "Further Resources\nThere is of course much more to discover in R. Some YouTubes and sites worth visiting are:\n\nhttp://www.youtube.com/watch?v=ttv4IA8PEzw\nhttps://www.youtube.com/watch?v=jWjqLW-u3hc\nhttps://www.r-project.org/doc/bib/R-books.html\n\nAnd there are many, many books as well. Good luck and remember to have fun with R.\nThe abbove is based on my workshop taught at Strathmore University on July 18, 2014. You can view or download the slides here."
+  },
+  {
+    "objectID": "posts/R-dyndoc/index.html",
+    "href": "posts/R-dyndoc/index.html",
+    "title": "Intro to R Markdown",
+    "section": "",
+    "text": "Among other things, we will look at how to …\n\nBold\nItalics\nUnderline\nHyperlink\nHeaders\nImages\nLine breaks\nBullets\nNumbered list\nTables\nR Plot\nDynamic documents in R (with citation, footnotes and bibliography)"
+  },
+  {
+    "objectID": "posts/R-dyndoc/index.html#introduction-to-r-markdown",
+    "href": "posts/R-dyndoc/index.html#introduction-to-r-markdown",
+    "title": "Intro to R Markdown",
+    "section": "",
+    "text": "Among other things, we will look at how to …\n\nBold\nItalics\nUnderline\nHyperlink\nHeaders\nImages\nLine breaks\nBullets\nNumbered list\nTables\nR Plot\nDynamic documents in R (with citation, footnotes and bibliography)"
+  },
+  {
+    "objectID": "posts/R-dyndoc/index.html#running-r-code-chunks",
+    "href": "posts/R-dyndoc/index.html#running-r-code-chunks",
+    "title": "Intro to R Markdown",
+    "section": "Running R code chunks",
+    "text": "Running R code chunks\nR Markdown are dynamic documents in which we can embed R code, for example:\nCode Chunk:\n\nx &lt;- c(\"YY\")\nprint(x)\n\n[1] \"YY\"\n\n\nOutput:\n[1] \"YY\"\nNote that the echo = FALSE parameter can be added to the code chunk to prevent printing of the R code that generated only the output.\n{r, echo=FALSE}\n\nWe can also try echo = TRUE parameter (shown above), as well as eval = FALSE/TRUE and include = FALSE/TRUE."
+  },
+  {
+    "objectID": "posts/R-dyndoc/index.html#lets-look-at-some-formatting",
+    "href": "posts/R-dyndoc/index.html#lets-look-at-some-formatting",
+    "title": "Intro to R Markdown",
+    "section": "Let’s look at some formatting",
+    "text": "Let’s look at some formatting\n\n1. Bold\nCode:\nThis is a normal text  \nThis is a **bold** text  \nThis is a __bold__ text\nOutput:\nThis is a normal text\nThis is a bold text\nThis is a bold text\n\n\n\n2. Italics\nCode:\nThis is a normal text  \nThis is a *italics* text  \nThis is a _italics_ text\nOutput:\nThis is a normal text\nThis is a italics text\nThis is a italics text\n\n\n\n3. Underline\nCode:\n&lt;u&gt;underlined&lt;/u&gt; text\nOutput:\nunderlined text\n\n\n\n4. Hyperlinks\nCode:\nHere is a [link](https://www.econ.chula.ac.th/) to CU Econ website.\nOutput:\nHere is a link to CU Econ website.\n\n\n\n5. Headers\nCode:\n# Header 1\n## Header 2\n### Header 3\n#### Header 4\nOutput:"
+  },
+  {
+    "objectID": "posts/R-dyndoc/index.html#header-2",
+    "href": "posts/R-dyndoc/index.html#header-2",
+    "title": "Intro to R Markdown",
+    "section": "Header 2",
+    "text": "Header 2\n\nHeader 3\n\nHeader 4\n\n\n\n\n6. Images\nCode:\n![picture](./Picture.jpg){width=50%}\n\n&lt;img src=\"Picture.jpg\" alt=\"Pic\" width=\"200\" height=\"200\"/&gt;\nNote: Image will appear if Picture.jpg exists in your working directory.\n\n\n\n7. Line breaks\nCode:\n(Double space after each sentence will move the next sentence to the next line)  \nOr jump a line\n\nLike this ^^\n\n\n\n8. Bullets\nCode:\n* This is item 1\n  + This is item 1.1\n  + This is item 1.2\n* This is item 2\n  * This is item 2.1\n  * This is item 2.2\nOutput:\n\nThis is item 1\n\nThis is item 1.1\nThis is item 1.2\n\nThis is item 2\n\nThis is item 2.1\nThis is item 2.2\n\n\n\n\n\n9. Numbered list\nCode:\n1. This is numbered list\n2. This is the second list\n    1. This is a sub-item\n    2. This is another sub-item\nOutput:\n\nThis is numbered list\nThis is the second list\n\nThis is a sub-item\nThis is another sub-item\n\n\n\n\n\n10. Tables\nCode:\n| Tables   |      Are      |  Cool |\n|----------|:-------------:|------:|\n| col 1 is |  left-aligned | $2x+1$ |\n| col 2 is |    centered   |   12 |\n| col 3 is | right-aligned |    Hello |\nOutput:\n\n\n\nTables\nAre\nCool\n\n\n\n\ncol 1 is\nleft-aligned\n\\(2x+1\\)\n\n\ncol 2 is\ncentered\n12\n\n\ncol 3 is\nright-aligned\nHello\n\n\n\n\n\n\n11. R Plot output\nCode Chunk:\n\nnormal &lt;- rnorm(1000, mean=1, sd=1)\npar(mfrow = c(1, 2))\nhist(normal, main = \"HISTOGRAM\")\nplot(density(normal), col = 'red', lwd = 2, main = \"DENSITY\")\n\n\n\n\n\n\n\n\nCode Chunk (with ggplot2):\n\n# https://ggplot2.tidyverse.org/\n# install.packages(\"ggplot2\")\n\nlibrary(ggplot2)\n\ne &lt;- ggplot(mpg, aes(cty, hwy, colour = class))\ne + geom_point(aes(colour = factor(manufacturer)))"
+  },
+  {
+    "objectID": "posts/R-dyndoc/index.html#true-dynamic-documents-in-r",
+    "href": "posts/R-dyndoc/index.html#true-dynamic-documents-in-r",
+    "title": "Intro to R Markdown",
+    "section": "True Dynamic Documents in R",
+    "text": "True Dynamic Documents in R\nNow for the most important part!\nLet’s make a truly dynamic document with citation, footnotes1 and a bibliography!\nThis is the dynamic document in R developed by @R-core.2\nCode Chunk:\n\n# Create a sample data file if it doesn't exist\nif(!file.exists(\"scorer2014.csv\")) {\n  scorer_data &lt;- data.frame(\n    name = c(\"Rodriguez\", \"Muller\", \"Neymer\", \"Messi\"),\n    value = c(10, 15, 8, 12)\n  )\n  write.csv(scorer_data, \"scorer2014.csv\", row.names = FALSE)\n}\n\nscorer &lt;- read.csv(\"scorer2014.csv\", header = TRUE)\nbarplot(scorer$value, names.arg = scorer$name, \n        main = \"Scorer Values\", col = \"lightblue\")\n\n\n\n\n\n\n\n\nWhat makes the document dynamic is that the output above will change as input file (data) changes.\nTo see this, let’s generate 5 random numbers and get their sum. And see how this changes as a text!\nCode Chunk:\n\n## Pick 5 random numbers/integers from 0 to 10\nset.seed(NULL)  # Ensure true randomness each time\nrandom.int &lt;- sample(0:10, size = 5, replace = TRUE)\nrandom.int\n\n[1]  9  1 10  2 10\n\n\nTry\nThe sum of your 5 random numbers is 'r sum(random.int)'.\nFor example, in this case, we get the following output:\nThe sum of your 5 random numbers is 32.\nRun this several times and you will get different sums as you pick different numbers! AMAZING!"
+  },
+  {
+    "objectID": "posts/R-dyndoc/index.html#references",
+    "href": "posts/R-dyndoc/index.html#references",
+    "title": "Intro to R Markdown",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "posts/R-dyndoc/index.html#footnotes",
+    "href": "posts/R-dyndoc/index.html#footnotes",
+    "title": "Intro to R Markdown",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nYou can write footnote here↩︎\nFor minimum requirements for referencing see citations.bib file↩︎"
+  },
+  {
+    "objectID": "posts/R-dyndoc/index.html#footnotes-citation-and-references",
+    "href": "posts/R-dyndoc/index.html#footnotes-citation-and-references",
+    "title": "Intro to R Markdown",
+    "section": "Footnotes, Citation, and References",
+    "text": "Footnotes, Citation, and References\nAdding a footnote is easy using hat ^ with contents inside square brackets like this.^[This is a footnote]\nReferencing and citations are a little tricky.\nYou need two things:\n\nCreate s separate file which contains all your references in BibTex form, call it, say references.bib and place it in the same folder as your document file.\nIn the yaml at the top of your document file include the line bibliography: references.bib. This links your document with the references.bib file.\n\nHere is an exampe of a BibTex which you can include in your references.bib\n@article{YoonMudida2020,\n  author    = {Yoon, Yong and Mudida, Robert},\n  title     = {Social and Economic Transformation in Tanzania and South Korea: Ujamaa and Saemaul Undong in the 1970s Compared},\n  journal   = {Seoul Journal of Economics},\n  volume    = {33},\n  number    = {2},\n  pages     = {195--231},\n  year      = {2020},\n  publisher = {Institute of Economic Research, Seoul National University},\n  issn      = {1225-0279},\n  url       = {https://hdl.handle.net/10371/168254}\n}\nAnd to cite this, just place @YoonMudida2020 in the text.\nAs an added bonus, the full reference will appear at the end of the document!"
   }
 ]

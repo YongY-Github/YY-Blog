@@ -22,5 +22,11 @@
   },
   "posts/margins/index.qmd": {
     "index.html": "cae52e83"
+  },
+  "posts/R-intro/index.qmd": {
+    "index.html": "ecacb6e4"
+  },
+  "posts/R-dyndoc/index.qmd": {
+    "index.html": "a1d2562b"
   }
 }
