@@ -7,6 +7,10 @@ bibliography: references.bib
 nocite: '@*'
 ---
 
+### How do we avoid the predictions of Wall-E?
+
+![](wall-e.jpg)
+
 # A Practical Guide to the Six Skills AI Cannot Replace
 
 ## From Knowledge Economy to Allocation Economy
@@ -65,12 +69,11 @@ Useful prompts include:
 
 ### The Five Whys Technique
 
-
 The **Five Whys technique** is a simple problem-solving method used to identify the **root cause of a problem** rather than just addressing its symptoms. The method works by repeatedly asking the question **“Why?”**—typically five times—until the underlying cause becomes clear.
 
 The technique was developed within the **Toyota Production System** in the mid-20th century and became a core element of **lean management and continuous improvement practices**.
 
-#### Basic Idea
+### Basic Idea
 
 Many problems appear to have obvious causes, but those causes are often only **surface-level symptoms**. By asking “why” repeatedly, you gradually move deeper into the chain of causes until you uncover the **systemic issue** that needs to be fixed.
 
@@ -122,7 +125,7 @@ The number five is not rigid. Sometimes fewer or more iterations are required. T
 
 ---
 
-#### Key Purpose
+### Key Purpose
 
 The Five Whys technique helps organizations:
 
@@ -137,7 +140,7 @@ In environments where AI can generate many answers quickly, the Five Whys become
 
 Humans must therefore ask deeper questions to ensure that they are solving the **right problem**, not merely reacting to its visible effects.
 
-#### Key Insight
+### Key Insight
 
 The real lesson of the Five Whys is that **most problems are not technical problems—they are process or alignment problems**. By repeatedly asking “why,” decision-makers can move beyond quick fixes and uncover the deeper structures that shape outcomes.
 
