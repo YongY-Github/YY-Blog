@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "YY-Blog",
     "section": "",
-    "text": "JB2\n\n\n\nJB2\n\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nMargin - stuff\n\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nFeb 21, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Prisoners Learn Faster Than College Students\n\n\n\nlearning\n\n\n\n\n\n\n\n\n\nFeb 19, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to R Markdown\n\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 26, 2024\n\n\nYY\n\n\n\n\n\n\n\n\n\n\n\n\nGetting staRted with R PRogRamming\n\n\n\nR\n\n\n\n\n\n\n\n\n\nJul 18, 2024\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nInequality\n\n\n\nissues\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Human Advantage in the Era of AI\n\n\n\nAI\n\n\n\n\n\n\n\n\n\nMar 16, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nJB2\n\n\n\nJB2\n\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nMargin - stuff\n\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nFeb 21, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Prisoners Learn Faster Than College Students\n\n\n\nlearning\n\n\n\n\n\n\n\n\n\nFeb 19, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to R Markdown\n\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 26, 2024\n\n\nYY\n\n\n\n\n\n\n\n\n\n\n\n\nGetting staRted with R PRogRamming\n\n\n\nR\n\n\n\n\n\n\n\n\n\nJul 18, 2024\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nLate-Stage Capitalism\n\n\n\nissues\n\n\n\n\n\n\n\n\n\nDec 13, 2023\n\n\n-YY-\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -271,5 +271,201 @@
     "title": "Intro to R Markdown",
     "section": "Footnotes, Citation, and References",
     "text": "Footnotes, Citation, and References\nAdding a footnote is easy using hat ^ with contents inside square brackets like this.^[This is a footnote]\nReferencing and citations are a little tricky.\nYou need two things:\n\nCreate s separate file which contains all your references in BibTex form, call it, say references.bib and place it in the same folder as your document file.\nIn the yaml at the top of your document file include the line bibliography: references.bib. This links your document with the references.bib file.\n\nHere is an exampe of a BibTex which you can include in your references.bib\n@article{YoonMudida2020,\n  author    = {Yoon, Yong and Mudida, Robert},\n  title     = {Social and Economic Transformation in Tanzania and South Korea: Ujamaa and Saemaul Undong in the 1970s Compared},\n  journal   = {Seoul Journal of Economics},\n  volume    = {33},\n  number    = {2},\n  pages     = {195--231},\n  year      = {2020},\n  publisher = {Institute of Economic Research, Seoul National University},\n  issn      = {1225-0279},\n  url       = {https://hdl.handle.net/10371/168254}\n}\nAnd to cite this, just place @YoonMudida2020 in the text.\nAs an added bonus, the full reference will appear at the end of the document!"
+  },
+  {
+    "objectID": "posts/human_AI/index.html",
+    "href": "posts/human_AI/index.html",
+    "title": "Human Advantage in the Era of AI",
+    "section": "",
+    "text": "Strategic Insight: The professional landscape has shifted from search engines to answer engines. In a world where Large Language Models (LLMs) generate dazzling responses on command, information is no longer a competitive advantage—it is a commodity.\nFor decades, the dominant economic narrative was the knowledge economy. Those who possessed expertise or could access information faster than others held a meaningful advantage. Search engines reinforced this system by rewarding individuals who knew where to look and how to interpret the results.\nBut something fundamental has changed.\nArtificial intelligence has transformed search engines into answer engines. Today, anyone can ask a complex question and receive a polished explanation in seconds. Knowledge that once required years of study or professional experience is now widely accessible.\nWhen answers become cheap, something else becomes valuable.\nFor twenty years, since the publication of A Whole New Mind, observers of technological change have tracked the evolution of cognitive labor. The conclusion is increasingly clear: when information becomes abundant, human curiosity and ways of thinking become the ultimate competitive advantage.\nWe have entered what might be called the Allocation Economy.\nIn this new environment, your value is no longer determined primarily by what you know. Instead, it depends on how effectively you orchestrate intelligence—your own, other people’s, and increasingly that of machines.\nTo remain irreplaceable in this world, professionals must cultivate six core human capabilities:\nQuestioning, Taste, Iteration, Composition, Allocation, and Integrity.\nThese skills represent the emerging architecture of human advantage."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#introduction-from-knowledge-economy-to-allocation-economy",
+    "href": "posts/human_AI/index.html#introduction-from-knowledge-economy-to-allocation-economy",
+    "title": "A Practical Guide to the Six Skills AI Cannot Replace",
+    "section": "",
+    "text": "Strategic Insight: The professional landscape has shifted from search engines to answer engines. In a world where Large Language Models (LLMs) generate dazzling responses on command, information is no longer a competitive advantage—it is a commodity.\nFor decades, the dominant economic narrative was the knowledge economy. Those who possessed expertise or could access information faster than others held a meaningful advantage. Search engines reinforced this system by rewarding individuals who knew where to look and how to interpret the results.\nBut something fundamental has changed.\nArtificial intelligence has transformed search engines into answer engines. Today, anyone can ask a complex question and receive a polished explanation in seconds. Knowledge that once required years of study or professional experience is now widely accessible.\nWhen answers become cheap, something else becomes valuable.\nFor twenty years, since the publication of A Whole New Mind, observers of technological change have tracked the evolution of cognitive labor. The conclusion is increasingly clear: when information becomes abundant, human curiosity and ways of thinking become the ultimate competitive advantage.\nWe have entered what might be called the Allocation Economy.\nIn this new environment, your value is no longer determined primarily by what you know. Instead, it depends on how effectively you orchestrate intelligence—your own, other people’s, and increasingly that of machines.\nTo remain irreplaceable in this world, professionals must cultivate six core human capabilities:\nQuestioning, Taste, Iteration, Composition, Allocation, and Integrity.\nThese skills represent the emerging architecture of human advantage."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#human-machine-synergy-the-4721-rule",
+    "href": "posts/human_AI/index.html#human-machine-synergy-the-4721-rule",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Human + Machine Synergy: The 47/2/1 Rule",
+    "text": "Human + Machine Synergy: The 47/2/1 Rule\nConsider an email newsletter workflow.\nAn AI system can generate fifty subject lines instantly.\n\nAI role: generate raw material\nHuman role: filter the noise\n\nTypically:\n\n47 suggestions are weak\n2 are acceptable\n1 is genuinely good\n\nThe advantage lies in recognizing the best idea and refining it."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#practical-exercise-build-your-hall-of-fame",
+    "href": "posts/human_AI/index.html#practical-exercise-build-your-hall-of-fame",
+    "title": "A Practical Guide to the Six Skills AI Cannot Replace",
+    "section": "Practical Exercise: Build Your Hall of Fame",
+    "text": "Practical Exercise: Build Your Hall of Fame\nTaste can be strengthened deliberately.\n\nCapture\nSave examples of writing, design, or innovation that inspire you.\nStudy\nExamine subtle details such as hidden structure or visual cues.\nPattern Recognition\nIdentify recurring principles that make the examples effective.\n\nOver time, this collection becomes a map of your taste."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#the-scale-of-effort",
+    "href": "posts/human_AI/index.html#the-scale-of-effort",
+    "title": "Human Advantage in the Era of AI",
+    "section": "The Scale of Effort",
+    "text": "The Scale of Effort\nTrue iteration often requires far more work than people initially expect.\nMany creative and technical achievements are the result of thousands of small improvements rather than a single breakthrough moment.\n\nJames Dyson built more than 5,000 prototypes before perfecting the cyclone vacuum cleaner that made his company successful. Each prototype revealed a flaw that could only be discovered through experimentation.\nWillem de Kooning, one of the leading painters of abstract expressionism, sometimes worked on a single canvas for two years, repeatedly scraping off paint and starting again until the composition felt right.\nThomas Edison reportedly tested thousands of filament materials before arriving at a workable light bulb design.\n\nThese examples illustrate a common pattern: excellence is rarely instantaneous.\nIteration is not merely repetition. Each cycle incorporates new insight. Every revision moves the work closer to its intended form."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#the-version-0.8-rule",
+    "href": "posts/human_AI/index.html#the-version-0.8-rule",
+    "title": "Human Advantage in the Era of AI",
+    "section": "The Version 0.8 Rule",
+    "text": "The Version 0.8 Rule\nA common obstacle to iteration is perfectionism.\nMany people delay sharing their work because they believe it must be completely finished before others see it. This instinct often slows progress and prevents useful feedback.\nThe Version 0.8 Rule offers an alternative approach:\nShip your work when it is roughly 80 percent complete.\nAt this stage, the core idea is visible, but there is still room for improvement. Releasing work early allows others to react, critique, and suggest improvements.\nThis feedback becomes part of the next iteration cycle.\nThe result is a continuous process of improvement rather than a long period of isolated perfectionism.\nIn many fields—from software development to academic writing—progress depends on rapid cycles of iteration rather than waiting for a perfect first version."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#tactical-habits-for-performance",
+    "href": "posts/human_AI/index.html#tactical-habits-for-performance",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Tactical Habits for Performance",
+    "text": "Tactical Habits for Performance\nIteration is not just a philosophy; it is a set of habits.\nSeveral simple practices make the process more effective.\n\n1. The Shitty First Draft Principle\nThe most important barrier to creative work is often getting started.\nWriter Anne Lamott popularized the idea of the “shitty first draft.” The goal of the first draft is not quality. Its purpose is simply to exist.\nOnce something exists, it can be improved.\nLowering the standard for the first attempt reduces resistance and allows the iteration process to begin.\n\n\n2. The One Week Rule\nDistance improves judgment.\nAfter completing a draft or prototype, leave it alone for several days before revising. When you return with fresh eyes, weaknesses that were previously invisible become obvious.\nThis time gap allows your brain to shift from creator mode to editor mode, making it easier to identify flaws and opportunities for improvement.\n\n\n3. Refine vs Generate\nArtificial intelligence is extremely effective at generating options.\nHumans are far better at refining them.\nA productive workflow often looks like this:\n\nUse AI to generate a wide range of possibilities.\nSelect the most promising option.\nImprove structure, clarity, and nuance through human editing.\nRepeat the process until the work reaches the desired standard.\n\nIn other words:\nAI produces quantity.\nHumans create quality."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#the-rule-of-three",
+    "href": "posts/human_AI/index.html#the-rule-of-three",
+    "title": "Human Advantage in the Era of AI",
+    "section": "The Rule of Three",
+    "text": "The Rule of Three\nOne of the most reliable principles of effective composition is the Rule of Three.\nIdeas organized into three parts tend to be easier to understand and remember than longer lists. Human cognition naturally gravitates toward patterns of three because they create balance and rhythm.\nConsider common examples:\n\nbeginning, middle, end\n\npast, present, future\n\nproblem, analysis, solution\n\nMany memorable speeches and stories follow this structure. The Rule of Three creates a sense of progression that helps audiences follow complex ideas.\nFor example, a presentation about innovation might naturally organize itself into:\n\nThe challenge\n\nThe insight\n\nThe solution\n\nThis structure transforms scattered information into a clear narrative arc."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#visual-composition-drills",
+    "href": "posts/human_AI/index.html#visual-composition-drills",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Visual Composition Drills",
+    "text": "Visual Composition Drills\nComposition is not limited to writing or speaking. It is also a visual skill.\nSimple exercises can help train the mind to recognize how elements interact within a frame.\n\n\n\n\n\n\n\n\nDrill\nInstruction\nTechnical Focus\n\n\n\n\nCamera Grid\nTurn on the 3x3 grid in your phone settings\nRule of Thirds\n\n\nMovie Pause Game\nPause a visually striking film scene\nLeading lines and framing\n\n\n\n\nThe Camera Grid\nMost smartphone cameras allow you to enable a 3×3 grid.\nThis grid illustrates the Rule of Thirds, a classic composition principle in photography and visual design. Instead of placing subjects in the center, strong images often position key elements along the intersecting grid lines.\nThis creates visual tension and balance.\n\n\nThe Movie Pause Game\nAnother exercise is to pause a visually striking film during a quiet scene and analyze how the frame is constructed.\nAsk yourself:\n\nWhere are the characters positioned?\nWhat lines in the environment guide the viewer’s eye?\nHow does lighting emphasize certain elements?\n\nDirectors carefully compose each shot to guide attention and create emotional impact. Studying these techniques trains your ability to see relationships rather than isolated objects.\nOver time, this awareness improves not only visual design but also writing, presentations, and strategic thinking.\nComposition is the skill that turns information into meaning."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#the-two-pile-technique",
+    "href": "posts/human_AI/index.html#the-two-pile-technique",
+    "title": "Human Advantage in the Era of AI",
+    "section": "The Two Pile Technique",
+    "text": "The Two Pile Technique\nOne simple method for practicing allocation is the Two Pile Technique.\nEvery project can be divided into two categories of work.\n\n\n\nTasks for AI\nTasks for Humans\nOrchestration Method\n\n\n\n\nSpeed and quantity\nReal thinking\nAutomation and prompting\n\n\nInitial drafting\nCreativity and taste\nDeep work\n\n\nData processing\nEmotional intelligence\nStakeholder management\n\n\n\nAI can rapidly generate drafts, summarize data, and explore variations. Humans should focus on areas that require creativity, judgment, and interpersonal understanding.\nThe goal is not to replace human work but to redirect it toward higher-value activities."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#the-time-as-talent-audit",
+    "href": "posts/human_AI/index.html#the-time-as-talent-audit",
+    "title": "Human Advantage in the Era of AI",
+    "section": "The Time as Talent Audit",
+    "text": "The Time as Talent Audit\nTo improve allocation skills, conduct a time-as-talent audit.\nReview your calendar from the past two weeks and identify tasks that did not require your unique strengths.\nAsk yourself three questions:\n\nCould a tool have done this?\nCould another person have handled this?\nDid this task truly require my judgment?\n\nCircle any activity that could have been delegated or automated.\nThose hours represent misallocated talent.\nThe next step is to redesign your workflow so that your time is invested in tasks that require human insight—creative thinking, strategy, relationship building, and decision-making.\nAllocation is the ability to direct intelligence where it creates the most value."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#the-washington-post-test",
+    "href": "posts/human_AI/index.html#the-washington-post-test",
+    "title": "Human Advantage in the Era of AI",
+    "section": "The Washington Post Test",
+    "text": "The Washington Post Test\nA simple technique for maintaining ethical clarity is the Washington Post Test.\nBefore taking an action, ask:\nWould I be comfortable if this decision appeared on the front page of a major newspaper?\nIf the answer is no, it is a signal to pause and reconsider.\nThis question forces transparency into decision-making. It removes the protective illusion that questionable choices will remain hidden."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#the-integrity-inversion",
+    "href": "posts/human_AI/index.html#the-integrity-inversion",
+    "title": "Human Advantage in the Era of AI",
+    "section": "The Integrity Inversion",
+    "text": "The Integrity Inversion\nAnother useful technique is the Integrity Inversion.\nReverse the situation and ask:\nIf someone did this to me or someone I care about, would it feel fair?\nThis mental reversal cuts through rationalization and forces you to consider the impact of your decision on others.\nIt transforms ethical reflection from an abstract principle into a practical test."
+  },
+  {
+    "objectID": "posts/late-stage-capitalism/index.html",
+    "href": "posts/late-stage-capitalism/index.html",
+    "title": "Late-Stage Capitalism",
+    "section": "",
+    "text": "Late-stage Capitalism\nThis post is based on a talk I gave at the IDEAs Conference on Bangkok\n\n\n\nWhat is late stage capitalism?\nLate-stage capitalism, a term often used in critical discourse, refers to the contemporary phase of capitalism characterized by specific economic, social, and technological features. In the context of today’s fast-paced, technologically driven situation within late capitalism, several characteristics stand out:\nRapid Technological Advancements: Late capitalism is marked by unprecedented technological innovation and advancements. The rapid development of information technology, artificial intelligence, automation, and digital communication has transformed industries, economies, and daily life.\nGlobalization: The global interconnectedness of markets, economies, and cultures is a defining feature of late capitalism. Companies operate on a global scale, leading to complex networks of production, distribution, and consumption that transcend national borders.\nDigitalization of Economy: The economy (local and global) is becoming increasingly digital, with online platforms, e-commerce, and digital services playing a central role. This has led to new business models, changes in consumer behavior, and the emergence of digital platforms as key economic actors.\nFinancialization: There is an increased dominance of financial markets and financial institutions in shaping economic activities. Speculation, financial instruments, and the prioritization of shareholder value have become central aspects of economic decision-making. Financial instruments and speculation often have a profound impact on various economic sectors.\nFlexible Labor Markets: Late capitalism is characterized by a shift towards flexible labor arrangements, including gig work and temporary employment. Job insecurity, precarious employment, and a focus on short-term profits are prevalent in this economic landscape.\nConsumer Culture: Consumption plays a central role in late capitalism. Advertising and marketing techniques are sophisticated, contributing to a culture of constant consumption and a desire for the latest products and experiences.\nCommodification of Everyday Life: Late capitalism tends to commodify various aspects of life, turning even social interactions, cultural products, and personal experiences into marketable entities.\nSurveillance Capitalism: The widespread collection and analysis of personal data have become integral to many business models. Companies (and in some cases governments) leverage user data for targeted advertising/propaganda, personalization, and other purposes, raising concerns about privacy and surveillance.\nInequality: Late capitalism is associated with growing income and wealth inequality. The benefits of economic growth are often concentrated among a small elite, leading to social and economic disparities.\nAcceleration of Time: The pace of life in late capitalism is often described as accelerated. Rapid communication, instant access to information, and the expectation of quick results contribute to a sense of urgency and constant activity.\nCrisis as Normalcy: Periodic economic crises are considered normal within late capitalism. Financial downturns and recessions are seen as inherent features of the system, leading to a cycle of boom and bust.\nEnvironmental Challenges: The pursuit of profit often comes at the expense of environmental sustainability. Late capitalism is associated with environmental degradation, resource depletion, and climate change, prompting concerns about the long-term viability of current economic practices.\nThese characteristics contribute to a complex and dynamic socio-economic environment, prompting ongoing discussions and critiques about the nature of contemporary capitalism and its impact on society.\n\n\nThe Issue\n\nInternet and social media: We are constantly exposed to the .00001% of top performers (good-looking people, at amazing locations, doing awesome things, 24/7/365 … Twitter - OMG Apocalypse! … Facebook - everyone has amazing lives, families, etc.)\n\n\n“Everyone in their Instagram post wants you to believe that the key to a good life is a nicer job, or a faster car, a prettier girlfriend or a selfie on a beach.”\n\n\nWe seem to be living on a hedonic treadmill: “More, more, more!”\nThe “can-do” society: “You can be whatever you want to be!” leads to “entitlement” (a delusional belief to move you from reality, i.e., life is tough!)\nThe Digital Panopticon: Today, the entire globe is developing into a panopticon. Google and social networks, which present themselves as spaces of freedom, are assuming panoptic forms. Today, surveillance is not occurring as an attack on freedom, as is normally assumed. Instead, people are voluntarily surrendering to the panoptic gaze. They deliberately collaborate in the digital panopticon by denuding and exhibiting themselves. The prisoner of the digital panopticon is a perpetrator and a victim at the same time. Herein lies the dialectic of freedom: freedom turns out to be a form of control.\n\n\n\nFreedom turns out to be a form of control.\n\n\n\n\nPositive vs Negative Power\nThe negative power of prohibition and limitation in disciplinary societies vs the positive power of freedom and achievement in neoliberal societies.\nThe positivity of can is much more effective than the negativity of should. Therefore, the social unconscious switches from should to can.\nPositive power is more effective and insidious, as it turns people into self-exploiting narcissists who are constantly working on themselves as personal projects\n\n\nThe Achievement Society\n\nPsychopolitics is an extension of Foucault’s biopolitics. You don’t need a gun to people’s heads because in the pursuit of endlessly maximizing their abilities, they’ll spend the rest of their lives going crazy about never being good enough, never doing enough, never being efficient enough. If there’s ever a moment where they’re not spending their time being as productive as they possibly could towards making themselves more valuable, they will actually feel bad about it.\n\n\n\nLoss of other / Terror of the Same\n\nConsequences of this positive power include the loss of the other, the terror of the same, the crisis of connection and love, and the rise of depression and anxiety.\nAuthenticity and diversity: Authenticity is an ad campaign of neoliberalism. It’s a self-absorbed nightmare.\nLoss of other: People avoid encountering differences and negativity.\nTerror of the same: Everything becomes the same and meaningless.\nCrisis of connection (and love)\nTechnology and social media isolate people\nInformation vs knowledge, thinking and calculating: The importance of contemplation and depth: Meaning, knowledge, truth, are things that only come when you contemplate how the present moment connects to the past and the future.\n\n\n\nThe psycho-politics of neoliberalism\n\nAuto-exploitation\nCommodification of oneself\nTendency towards narcissim: The narcissistic individual is not the cause of the world being more narcissistic. The ethos of the world (late-capitalism) makes narcissism an extremely common lane for people to fall into.\nRise of depression, anxiety, mental illness\n\n\n\nThreat to Democracy\n\nThe disappearance of public space"
+  },
+  {
+    "objectID": "posts/human_AI/index.html#from-knowledge-economy-to-allocation-economy",
+    "href": "posts/human_AI/index.html#from-knowledge-economy-to-allocation-economy",
+    "title": "Human Advantage in the Era of AI",
+    "section": "",
+    "text": "Strategic Insight: The professional landscape has shifted from search engines to answer engines. In a world where Large Language Models (LLMs) generate dazzling responses on command, information is no longer a competitive advantage—it is a commodity.\nFor decades, the dominant economic narrative was the knowledge economy. Those who possessed expertise or could access information faster than others held a meaningful advantage. Search engines reinforced this system by rewarding individuals who knew where to look and how to interpret the results.\nBut something fundamental has changed.\nArtificial intelligence has transformed search engines into answer engines. Today, anyone can ask a complex question and receive a polished explanation in seconds. Knowledge that once required years of study or professional experience is now widely accessible.\nWhen answers become cheap, something else becomes valuable.\nFor twenty years, since the publication of A Whole New Mind, observers of technological change have tracked the evolution of cognitive labor. The conclusion is increasingly clear: when information becomes abundant, human curiosity and ways of thinking become the ultimate competitive advantage.\nWe have entered what might be called the Allocation Economy.\nIn this new environment, your value is no longer determined primarily by what you know. Instead, it depends on how effectively you orchestrate intelligence—your own, other people’s, and increasingly that of machines.\nTo remain irreplaceable in this world, professionals must cultivate six core human capabilities:\nQuestioning, Taste, Iteration, Composition, Allocation, and Integrity.\nThese skills represent the emerging architecture of human advantage."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#simple-example",
+    "href": "posts/human_AI/index.html#simple-example",
+    "title": "A Practical Guide to the Six Skills AI Cannot Replace",
+    "section": "Simple Example",
+    "text": "Simple Example\nImagine a factory machine has stopped working.\n\nWhy did the machine stop? Because the circuit breaker tripped.\nWhy did the circuit breaker trip? Because the motor was overloaded.\nWhy was the motor overloaded? Because the bearing was not properly lubricated.\nWhy was the bearing not lubricated? Because the lubrication schedule was not followed.\nWhy was the schedule not followed? Because the maintenance procedure was never clearly documented.\n\nAt first glance, the problem appeared to be a mechanical failure. But the Five Whys reveal that the real cause is a management or process problem.\nExample: Using AI to find a contractor for a website redesign.\n\nWhy do the AI recommendations feel wrong?\nNone of them seem like a good fit.\nWhy are they not a fit?\nTheir proposals vary widely.\nWhy are the proposals inconsistent?\nContractors are making different assumptions about the project.\nWhy are they making assumptions?\nThe scope and success criteria were never clearly defined.\nWhy is there no clear criteria?\nThe internal team never agreed on what success looks like.\n\nResult: The real problem is internal misalignment, not the contractor list.\nArtificial intelligence can generate answers.\nHumans must determine whether the question itself is correct."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#building-your-hall-of-fame",
+    "href": "posts/human_AI/index.html#building-your-hall-of-fame",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Building Your “Hall of Fame”",
+    "text": "Building Your “Hall of Fame”\nBuilding your “Hall of Fame” is a practical method for developing taste and discernment. Instead of relying on vague intuition about what “good” work looks like, you deliberately collect and study examples of excellence in your field. Over time, this curated collection becomes a reference system that sharpens your judgment.\nIn essence, a Hall of Fame is a personal archive of the best ideas, designs, writing, arguments, or solutions you encounter—the things that immediately stand out as unusually effective, elegant, or insightful."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#why-build-a-hall-of-fame",
+    "href": "posts/human_AI/index.html#why-build-a-hall-of-fame",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Why Build a Hall of Fame?",
+    "text": "Why Build a Hall of Fame?\nIn the age of AI, machines can generate a huge volume of content quickly. The challenge is no longer producing ideas but recognizing which ones are actually good. This is where human taste becomes valuable.\nA Hall of Fame helps train this ability by exposing you repeatedly to examples of high-quality work. By studying them closely, you begin to recognize patterns of excellence.\nOver time, this process improves your ability to:\n\ndistinguish strong ideas from mediocre ones\n\nrecognize effective structure and design\n\nrefine AI-generated output\n\nraise your personal standards\n\nIn other words, it turns taste into a deliberate practice rather than a vague feeling."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#how-to-build-one",
+    "href": "posts/human_AI/index.html#how-to-build-one",
+    "title": "Human Advantage in the Era of AI",
+    "section": "How to Build One",
+    "text": "How to Build One\nBuilding a Hall of Fame is simple but requires consistency.\n\n1. Capture Exceptional Examples\nWhenever you encounter something that stands out—an insightful paragraph, a clever chart, an elegant explanation, a striking design—save it.\nThis could include:\n\na beautifully written article\n\na clear explanation of a complex idea\n\na powerful presentation slide\n\nan elegant data visualization\n\na memorable product design\n\na clever piece of code\n\nThe key question is:\n“Does this make my brain light up?”\nIf yes, it belongs in your Hall of Fame.\n\n\n\n2. Store It in One Place\nYour collection should live somewhere you can easily revisit. Possible options include:\n\nNotion\n\nObsidian\n\na simple notes folder\n\na Dropbox archive\n\na physical notebook\n\nOrganization can be simple. Categories might include:\n\nWriting\n\nDesign\n\nExplanations\n\nData visualization\n\nStrategy\n\nTeaching\n\n\n\n\n3. Study the Patterns\nThe most important step is not just collecting examples but analyzing them.\nAsk questions such as:\n\nWhy does this work so well?\nWhat structure makes the argument clear?\nWhat makes the visual design effective?\nWhat is omitted as much as what is included?\n\nSometimes the brilliance lies in negative space—what the creator chose not to include.\n\nFor example, the famous FedEx logo contains a hidden arrow between the “E” and “x.” Once you see it, you cannot unsee it. That subtle design choice communicates motion and direction without using additional graphics.\nThis type of observation trains your eye for quality."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#how-it-improves-your-work",
+    "href": "posts/human_AI/index.html#how-it-improves-your-work",
+    "title": "Human Advantage in the Era of AI",
+    "section": "How It Improves Your Work",
+    "text": "How It Improves Your Work\nOver time, your Hall of Fame becomes a mental reference library. When you write, design, or build something, you unconsciously draw upon these stored examples.\nInstead of asking:\n\n“What should I do?”\n\nyour mind asks:\n\n“What do the best examples look like?”\n\nThis dramatically improves the quality of your decisions."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#why-it-matters-in-the-ai-era-1",
+    "href": "posts/human_AI/index.html#why-it-matters-in-the-ai-era-1",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Why It Matters in the AI Era",
+    "text": "Why It Matters in the AI Era\nAI systems can generate enormous quantities of content. But they cannot reliably judge quality in the same way humans can.\nA strong Hall of Fame allows you to:\n\nquickly evaluate AI-generated output\n\nidentify promising ideas among many weak ones\n\nrefine raw material into something meaningful\n\nIn other words, the machine produces quantity, while your Hall of Fame helps you recognize quality."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#simple-summary",
+    "href": "posts/human_AI/index.html#simple-summary",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Simple Summary",
+    "text": "Simple Summary\nBuilding a Hall of Fame means:\n\nCollecting examples of excellence\n\nStudying why they work\n\nUsing them as a reference for your own standards\n\nOver time, it becomes a powerful tool for sharpening taste, judgment, and creativity—skills that remain deeply human even as artificial intelligence grows more capable."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#why-iteration-matters-in-the-ai-era",
+    "href": "posts/human_AI/index.html#why-iteration-matters-in-the-ai-era",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Why Iteration Matters in the AI Era",
+    "text": "Why Iteration Matters in the AI Era\nArtificial intelligence dramatically accelerates the generation stage of creative work.\nTasks that once took hours—drafting text, producing visual variations, or brainstorming ideas—can now be completed in seconds. But this abundance creates a new challenge: the real skill is no longer producing ideas, but improving them.\nThe risk is that people stop too early.\nWhen an AI system produces a polished-looking output, it can create the illusion that the work is finished. In reality, that output is often only a starting point.\nIteration ensures that raw material becomes something truly valuable.\nAI can produce version 0.1 instantly.\nHuman effort turns it into version 1.0."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#iteration-as-a-competitive-advantage",
+    "href": "posts/human_AI/index.html#iteration-as-a-competitive-advantage",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Iteration as a Competitive Advantage",
+    "text": "Iteration as a Competitive Advantage\nThe willingness to iterate is one of the most reliable predictors of high-quality work.\nMany people abandon projects too early, satisfied with the first workable version. Others continue refining long after the initial idea appears complete.\nOver time, this difference in persistence compounds.\nIn an environment where AI can produce ideas instantly, the real advantage belongs to those who continue improving them.\nIteration transforms raw ideas into polished outcomes.\nMachines generate possibilities quickly.\nHumans transform those possibilities into excellence."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#why-composition-matters-in-the-ai-era",
+    "href": "posts/human_AI/index.html#why-composition-matters-in-the-ai-era",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Why Composition Matters in the AI Era",
+    "text": "Why Composition Matters in the AI Era\nArtificial intelligence produces enormous quantities of information.\nIt can generate:\n\noutlines\nparagraphs\nimages\ndata summaries\nslide decks\nstrategy frameworks\n\nBut these elements often lack structure. They resemble piles of ingredients rather than finished dishes.\nHuman composition performs three critical functions:\n\nSelection — deciding which pieces are worth keeping\n\nArrangement — organizing ideas into a clear structure\n\nEmphasis — highlighting what matters most\n\nWithout composition, information remains fragmented. With composition, it becomes communication.\nThis is why the ability to synthesize ideas—once associated mainly with writers and artists—is increasingly required in business, research, and leadership."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#why-allocation-matters-in-the-ai-era",
+    "href": "posts/human_AI/index.html#why-allocation-matters-in-the-ai-era",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Why Allocation Matters in the AI Era",
+    "text": "Why Allocation Matters in the AI Era\nAs AI tools become more powerful, individuals who try to perform every task themselves will fall behind.\nThe most effective professionals are those who ask:\n\nWhich tasks should be automated?\nWhich tasks require human creativity?\nWhere should my attention be focused?\n\nAllocation transforms productivity by ensuring that each type of intelligence is used where it performs best.\nMachines excel at speed and scale.\nHumans excel at judgment and interpretation.\nThe skill lies in combining the two."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#why-integrity-matters-in-the-ai-era",
+    "href": "posts/human_AI/index.html#why-integrity-matters-in-the-ai-era",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Why Integrity Matters in the AI Era",
+    "text": "Why Integrity Matters in the AI Era\nAI systems have no conscience.\nThey do not understand truth, fairness, or responsibility. They generate responses based on patterns in data rather than moral judgment.\nThis means that the ethical burden of using these tools falls entirely on humans.\nProfessionals must decide:\n\nwhether information is reliable\n\nwhether outputs are appropriate\n\nwhether technology is being used responsibly\n\nIntegrity provides the framework for these decisions.\nWithout it, powerful technologies can amplify mistakes and misinformation."
+  },
+  {
+    "objectID": "posts/human_AI/index.html#integrity-as-wisdom",
+    "href": "posts/human_AI/index.html#integrity-as-wisdom",
+    "title": "Human Advantage in the Era of AI",
+    "section": "Integrity as Wisdom",
+    "text": "Integrity as Wisdom\nIn a world where intelligence is increasingly automated, wisdom becomes the rarest resource.\nWisdom is the ability to combine knowledge with ethical judgment. It is the capacity to act responsibly even when shortcuts appear tempting.\nIntegrity therefore becomes the final safeguard of human advantage.\nMachines may generate answers.\nBut only humans can ensure those answers are used with judgment, responsibility, and care."
   }
 ]

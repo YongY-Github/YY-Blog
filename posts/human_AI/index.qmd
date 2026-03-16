@@ -1,0 +1,742 @@
+---
+title: "Human Advantage in the Era of AI"
+author: "-YY-"
+date: "2026-03-16"
+categories: [AI]
+bibliography: references.bib
+nocite: '@*'
+---
+
+# A Practical Guide to the Six Skills AI Cannot Replace
+
+## From Knowledge Economy to Allocation Economy
+
+**Strategic Insight:** The professional landscape has shifted from *search engines* to *answer engines*. In a world where Large Language Models (LLMs) generate dazzling responses on command, information is no longer a competitive advantage—it is a commodity.
+
+For decades, the dominant economic narrative was the **knowledge economy**. Those who possessed expertise or could access information faster than others held a meaningful advantage. Search engines reinforced this system by rewarding individuals who knew where to look and how to interpret the results.
+
+But something fundamental has changed.
+
+Artificial intelligence has transformed search engines into **answer engines**. Today, anyone can ask a complex question and receive a polished explanation in seconds. Knowledge that once required years of study or professional experience is now widely accessible.
+
+When answers become cheap, something else becomes valuable.
+
+For twenty years, since the publication of *A Whole New Mind*, observers of technological change have tracked the evolution of cognitive labor. The conclusion is increasingly clear: when information becomes abundant, **human curiosity and ways of thinking become the ultimate competitive advantage**.
+
+We have entered what might be called the **Allocation Economy**.
+
+In this new environment, your value is no longer determined primarily by what you know. Instead, it depends on **how effectively you orchestrate intelligence**—your own, other people's, and increasingly that of machines.
+
+To remain irreplaceable in this world, professionals must cultivate six core human capabilities:
+
+**Questioning, Taste, Iteration, Composition, Allocation, and Integrity.**
+
+These skills represent the emerging architecture of human advantage.
+
+---
+
+# Skill 1: Questioning (The New Scarcity)
+
+In an era of abundant AI answers, the right question is the only scarce resource.
+
+Artificial intelligence can generate solutions with remarkable speed. But it cannot reliably determine whether the problem being solved is the right one. Machines respond to prompts; they do not originate meaningful curiosity.
+
+Throughout history, many breakthroughs have begun with unusual questions that initially sounded strange or unlikely.
+
+- Why does light behave like a particle?  
+- What if diseases are caused by invisible organisms?  
+- Why not design computers that anyone can use?
+
+Each of these questions challenged prevailing assumptions.
+
+In a world flooded with automated answers, the ability to frame a **good question** becomes a strategic skill.
+
+### The Strategist’s Toolkit: Actionable Phrases
+
+Mastering the questioning muscle is the difference between treating symptoms and solving systems.
+
+Useful prompts include:
+
+- **Why does...?**
+- **What if...?** (e.g., What if light behaves like a particle?)
+- **Why not...?**
+- **How about...?**
+- **Power Close:** *What are we actually trying to solve here?*
+
+### The Five Whys Technique
+
+
+The **Five Whys technique** is a simple problem-solving method used to identify the **root cause of a problem** rather than just addressing its symptoms. The method works by repeatedly asking the question **“Why?”**—typically five times—until the underlying cause becomes clear.
+
+The technique was developed within the **Toyota Production System** in the mid-20th century and became a core element of **lean management and continuous improvement practices**.
+
+#### Basic Idea
+
+Many problems appear to have obvious causes, but those causes are often only **surface-level symptoms**. By asking “why” repeatedly, you gradually move deeper into the chain of causes until you uncover the **systemic issue** that needs to be fixed.
+
+The number five is not rigid. Sometimes fewer or more iterations are required. The key principle is **iterative questioning** until the root cause is identified.
+
+---
+
+#### Simple Example
+
+> Imagine a factory machine has stopped working.
+
+1. **Why did the machine stop?**
+   Because the circuit breaker tripped.
+
+2. **Why did the circuit breaker trip?**
+   Because the motor was overloaded.
+
+3. **Why was the motor overloaded?**
+   Because the bearing was not properly lubricated.
+
+4. **Why was the bearing not lubricated?**
+   Because the lubrication schedule was not followed.
+
+5. **Why was the schedule not followed?**
+   Because the maintenance procedure was never clearly documented.
+
+> At first glance, the problem appeared to be a mechanical failure. But the Five Whys reveal that the **real cause is a management or process problem**.
+
+**Example:** AI Hallucinating Citations in Academic Writing
+
+> A researcher uses an AI system to help draft a literature review. The text looks polished, but several references turn out to be fabricated or incorrect.
+
+1. Why did the AI produce fake citations?
+   Because the model generated plausible-looking references rather than retrieving verified sources.
+
+2. Why did the model generate rather than retrieve references?
+   Because the user asked for citations in general terms without specifying a database or requiring verifiable sources.
+
+3. Why was the prompt vague about the source of references?
+   Because the researcher assumed the AI would automatically draw from reliable academic databases.
+
+4. Why did the researcher assume that?
+   Because they misunderstood how large language models work—predicting text patterns rather than accessing a curated scholarly database.
+
+5. Why did this misunderstanding occur?
+   Because the research team has not established clear guidelines for verifying AI-generated content.
+
+> **Result:** The real problem is not that the AI “hallucinated.” The deeper issue is that the human research process lacked a verification step for AI-generated material.
+
+---
+
+#### Key Purpose
+
+The Five Whys technique helps organizations:
+
+* identify **root causes rather than symptoms**
+* reveal **systemic issues**
+* improve **processes and decision-making**
+* prevent problems from recurring
+
+#### Why It Matters in the AI Era
+
+In environments where AI can generate many answers quickly, the Five Whys becomes even more valuable. Artificial intelligence may provide solutions based on the information it receives, but it cannot reliably determine whether the **underlying problem has been framed correctly**.
+
+Humans must therefore ask deeper questions to ensure that they are solving the **right problem**, not merely reacting to its visible effects.
+
+#### Key Insight
+
+The real lesson of the Five Whys is that **most problems are not technical problems—they are process or alignment problems**. By repeatedly asking “why,” decision-makers can move beyond quick fixes and uncover the deeper structures that shape outcomes.
+
+---
+
+# Skill 2: Taste (The Human Filter)
+
+If questioning identifies the problem, **taste determines what counts as a good solution**.
+
+Artificial intelligence excels at generating volume. It can produce dozens of ideas, designs, or texts in seconds. Yet most outputs are merely adequate.
+
+Human taste is the ability to distinguish what is meaningful from what is merely functional.
+
+Taste draws upon experience, intuition, cultural awareness, and values.
+
+## Human + Machine Synergy: The 47/2/1 Rule
+
+Consider an email newsletter workflow.
+
+An AI system can generate fifty subject lines instantly.
+
+- **AI role:** generate raw material
+- **Human role:** filter the noise
+
+Typically:
+
+- 47 suggestions are weak
+- 2 are acceptable
+- 1 is genuinely good
+
+The advantage lies in recognizing the best idea and refining it.
+
+## Building Your “Hall of Fame”
+
+**Building your “Hall of Fame”** is a practical method for developing **taste and discernment**. Instead of relying on vague intuition about what “good” work looks like, you deliberately collect and study examples of excellence in your field. Over time, this curated collection becomes a reference system that sharpens your judgment.
+
+In essence, a Hall of Fame is **a personal archive of the best ideas, designs, writing, arguments, or solutions you encounter**—the things that immediately stand out as unusually effective, elegant, or insightful.
+
+---
+
+## Why Build a Hall of Fame?
+
+In the age of AI, machines can generate a huge volume of content quickly. The challenge is no longer producing ideas but **recognizing which ones are actually good**. This is where human taste becomes valuable.
+
+A Hall of Fame helps train this ability by exposing you repeatedly to examples of high-quality work. By studying them closely, you begin to recognize patterns of excellence.
+
+Over time, this process improves your ability to:
+
+- distinguish strong ideas from mediocre ones  
+- recognize effective structure and design  
+- refine AI-generated output  
+- raise your personal standards  
+
+In other words, it turns taste into a **deliberate practice rather than a vague feeling**.
+
+---
+
+## How to Build One
+
+Building a Hall of Fame is simple but requires consistency.
+
+### 1. Capture Exceptional Examples
+
+Whenever you encounter something that stands out—an insightful paragraph, a clever chart, an elegant explanation, a striking design—save it.
+
+This could include:
+
+- a beautifully written article  
+- a clear explanation of a complex idea  
+- a powerful presentation slide  
+- an elegant data visualization  
+- a memorable product design  
+- a clever piece of code  
+
+The key question is:
+
+**“Does this make my brain light up?”**
+
+If yes, it belongs in your Hall of Fame.
+
+---
+
+### 2. Store It in One Place
+
+Your collection should live somewhere you can easily revisit. Possible options include:
+
+- Notion  
+- Obsidian  
+- a simple notes folder  
+- a Dropbox archive  
+- a physical notebook  
+
+Organization can be simple. Categories might include:
+
+- Writing  
+- Design  
+- Explanations  
+- Data visualization  
+- Strategy  
+- Teaching  
+
+---
+
+### 3. Study the Patterns
+
+The most important step is not just collecting examples but **analyzing them**.
+
+Ask questions such as:
+
+- Why does this work so well?
+- What structure makes the argument clear?
+- What makes the visual design effective?
+- What is omitted as much as what is included?
+
+Sometimes the brilliance lies in **negative space**—what the creator chose *not* to include.
+
+![](fedex.png)
+
+For example, the famous **FedEx logo** contains a hidden arrow between the “E” and “x.” Once you see it, you cannot unsee it. That subtle design choice communicates motion and direction without using additional graphics.
+
+This type of observation trains your eye for quality.
+
+---
+
+## How It Improves Your Work
+
+Over time, your Hall of Fame becomes a **mental reference library**. When you write, design, or build something, you unconsciously draw upon these stored examples.
+
+Instead of asking:
+
+> “What should I do?”
+
+your mind asks:
+
+> “What do the best examples look like?”
+
+This dramatically improves the quality of your decisions.
+
+---
+
+## Why It Matters in the AI Era
+
+AI systems can generate enormous quantities of content. But **they cannot reliably judge quality** in the same way humans can.
+
+A strong Hall of Fame allows you to:
+
+- quickly evaluate AI-generated output  
+- identify promising ideas among many weak ones  
+- refine raw material into something meaningful  
+
+In other words, the machine produces **quantity**, while your Hall of Fame helps you recognize **quality**.
+
+---
+
+## Simple Summary
+
+Building a Hall of Fame means:
+
+1. **Collecting examples of excellence**  
+2. **Studying why they work**  
+3. **Using them as a reference for your own standards**
+
+Over time, it becomes a powerful tool for sharpening **taste, judgment, and creativity**—skills that remain deeply human even as artificial intelligence grows more capable.
+
+---
+
+# Skill 3: Iteration (Closing the Gap)
+
+Most breakthroughs are not born from a single flash of insight. They emerge through **persistent refinement**.
+
+If questioning defines the problem and taste sets the standard, **iteration closes the gap between the two**.
+
+Iteration is the process through which ideas evolve from rough concepts into high-quality outcomes. It is where thinking meets discipline. The first idea is rarely the best one. The first draft is rarely the strongest version. The first prototype is rarely the final design.
+
+Great work is usually the result of **multiple cycles of improvement**.
+
+Each cycle reveals weaknesses, sharpens structure, and clarifies purpose. The gap between initial inspiration and final excellence is bridged not by brilliance alone, but by the willingness to revise, rethink, and try again.
+
+In the age of AI, this human capacity becomes even more important. Artificial intelligence can produce many options instantly, but it does not possess the persistence required to **push ideas toward excellence**. That responsibility remains human.
+
+---
+
+## The Scale of Effort
+
+True iteration often requires far more work than people initially expect.
+
+Many creative and technical achievements are the result of thousands of small improvements rather than a single breakthrough moment.
+
+- **James Dyson** built more than **5,000 prototypes** before perfecting the cyclone vacuum cleaner that made his company successful. Each prototype revealed a flaw that could only be discovered through experimentation.
+  
+- **Willem de Kooning**, one of the leading painters of abstract expressionism, sometimes worked on a single canvas for **two years**, repeatedly scraping off paint and starting again until the composition felt right.
+
+- **Thomas Edison** reportedly tested **thousands of filament materials** before arriving at a workable light bulb design.
+
+These examples illustrate a common pattern: excellence is rarely instantaneous.
+
+Iteration is not merely repetition. Each cycle incorporates new insight. Every revision moves the work closer to its intended form.
+
+---
+
+## Why Iteration Matters in the AI Era
+
+Artificial intelligence dramatically accelerates the **generation stage** of creative work.
+
+Tasks that once took hours—drafting text, producing visual variations, or brainstorming ideas—can now be completed in seconds. But this abundance creates a new challenge: the real skill is no longer producing ideas, but **improving them**.
+
+The risk is that people stop too early.
+
+When an AI system produces a polished-looking output, it can create the illusion that the work is finished. In reality, that output is often only a starting point.
+
+Iteration ensures that raw material becomes something truly valuable.
+
+AI can produce **version 0.1 instantly**.  
+Human effort turns it into **version 1.0**.
+
+---
+
+## The Version 0.8 Rule
+
+A common obstacle to iteration is perfectionism.
+
+Many people delay sharing their work because they believe it must be completely finished before others see it. This instinct often slows progress and prevents useful feedback.
+
+The **Version 0.8 Rule** offers an alternative approach:
+
+Ship your work when it is roughly **80 percent complete**.
+
+At this stage, the core idea is visible, but there is still room for improvement. Releasing work early allows others to react, critique, and suggest improvements.
+
+This feedback becomes part of the next iteration cycle.
+
+The result is a continuous process of improvement rather than a long period of isolated perfectionism.
+
+In many fields—from software development to academic writing—progress depends on **rapid cycles of iteration** rather than waiting for a perfect first version.
+
+---
+
+## Tactical Habits for Performance
+
+Iteration is not just a philosophy; it is a set of habits.
+
+Several simple practices make the process more effective.
+
+### 1. The Shitty First Draft Principle
+
+The most important barrier to creative work is often **getting started**.
+
+Writer Anne Lamott popularized the idea of the **“shitty first draft.”** The goal of the first draft is not quality. Its purpose is simply to exist.
+
+Once something exists, it can be improved.
+
+Lowering the standard for the first attempt reduces resistance and allows the iteration process to begin.
+
+### 2. The One Week Rule
+
+Distance improves judgment.
+
+After completing a draft or prototype, leave it alone for several days before revising. When you return with fresh eyes, weaknesses that were previously invisible become obvious.
+
+This time gap allows your brain to shift from **creator mode** to **editor mode**, making it easier to identify flaws and opportunities for improvement.
+
+### 3. Refine vs Generate
+
+Artificial intelligence is extremely effective at **generating options**.
+
+Humans are far better at **refining them**.
+
+A productive workflow often looks like this:
+
+1. Use AI to generate a wide range of possibilities.
+2. Select the most promising option.
+3. Improve structure, clarity, and nuance through human editing.
+4. Repeat the process until the work reaches the desired standard.
+
+In other words:
+
+AI produces **quantity**.  
+Humans create **quality**.
+
+---
+
+## Iteration as a Competitive Advantage
+
+The willingness to iterate is one of the most reliable predictors of high-quality work.
+
+Many people abandon projects too early, satisfied with the first workable version. Others continue refining long after the initial idea appears complete.
+
+Over time, this difference in persistence compounds.
+
+In an environment where AI can produce ideas instantly, the real advantage belongs to those who **continue improving them**.
+
+Iteration transforms raw ideas into polished outcomes.
+
+Machines generate possibilities quickly.  
+Humans transform those possibilities into excellence.
+
+---
+
+---
+
+# Skill 4: Composition (The Art of Assembly)
+
+Artificial intelligence is excellent at delivering **ingredients**.  
+Humans are better at **serving meals**.
+
+Composition is the ability to assemble pieces—ideas, visuals, arguments, and data—into a coherent and emotionally resonant whole.
+
+It is the skill of **seeing relationships**.
+
+While AI can produce fragments of content very quickly, those fragments rarely form a meaningful structure on their own. Someone must decide what belongs together, what should be removed, and how the pieces should flow from one idea to the next.
+
+Composition is therefore the craft of turning **raw material into meaning**.
+
+A good composer of ideas understands structure, rhythm, emphasis, and clarity. They know where to begin, how to build momentum, and how to end with impact. In writing, design, teaching, and leadership, composition is what transforms scattered information into a compelling narrative.
+
+In an era where AI generates content effortlessly, composition becomes the skill that **creates coherence out of abundance**.
+
+---
+
+## Why Composition Matters in the AI Era
+
+Artificial intelligence produces enormous quantities of information.
+
+It can generate:
+
+- outlines
+- paragraphs
+- images
+- data summaries
+- slide decks
+- strategy frameworks
+
+But these elements often lack structure. They resemble **piles of ingredients rather than finished dishes**.
+
+Human composition performs three critical functions:
+
+1. **Selection** — deciding which pieces are worth keeping  
+2. **Arrangement** — organizing ideas into a clear structure  
+3. **Emphasis** — highlighting what matters most  
+
+Without composition, information remains fragmented. With composition, it becomes **communication**.
+
+This is why the ability to synthesize ideas—once associated mainly with writers and artists—is increasingly required in business, research, and leadership.
+
+---
+
+## The Rule of Three
+
+One of the most reliable principles of effective composition is the **Rule of Three**.
+
+Ideas organized into three parts tend to be easier to understand and remember than longer lists. Human cognition naturally gravitates toward patterns of three because they create balance and rhythm.
+
+Consider common examples:
+
+- beginning, middle, end  
+- past, present, future  
+- problem, analysis, solution  
+
+Many memorable speeches and stories follow this structure. The Rule of Three creates a sense of progression that helps audiences follow complex ideas.
+
+For example, a presentation about innovation might naturally organize itself into:
+
+1. **The challenge**  
+2. **The insight**  
+3. **The solution**
+
+This structure transforms scattered information into a clear narrative arc.
+
+---
+
+## Visual Composition Drills
+
+Composition is not limited to writing or speaking. It is also a visual skill.
+
+Simple exercises can help train the mind to recognize how elements interact within a frame.
+
+| Drill | Instruction | Technical Focus |
+|------|-------------|----------------|
+| Camera Grid | Turn on the 3x3 grid in your phone settings | Rule of Thirds |
+| Movie Pause Game | Pause a visually striking film scene | Leading lines and framing |
+
+### The Camera Grid
+
+Most smartphone cameras allow you to enable a **3×3 grid**.
+
+This grid illustrates the **Rule of Thirds**, a classic composition principle in photography and visual design. Instead of placing subjects in the center, strong images often position key elements along the intersecting grid lines.
+
+This creates visual tension and balance.
+
+### The Movie Pause Game
+
+Another exercise is to pause a visually striking film during a quiet scene and analyze how the frame is constructed.
+
+Ask yourself:
+
+- Where are the characters positioned?
+- What lines in the environment guide the viewer’s eye?
+- How does lighting emphasize certain elements?
+
+Directors carefully compose each shot to guide attention and create emotional impact. Studying these techniques trains your ability to see **relationships rather than isolated objects**.
+
+Over time, this awareness improves not only visual design but also writing, presentations, and strategic thinking.
+
+Composition is the skill that turns **information into meaning**.
+
+---
+
+# Skill 5: Allocation (The New Superpower)
+
+We are entering the **Allocation Economy**.
+
+Professionals are no longer compensated primarily for what they know. They are rewarded for **how well they allocate intelligence**.
+
+Artificial intelligence can perform many tasks that previously required human effort. But the challenge is no longer simply performing tasks. The challenge is deciding **who—or what—should perform them**.
+
+Allocation is the skill of orchestrating work across humans, machines, and systems.
+
+This hybrid collaboration between humans and machines is sometimes called **Centaur Thinking**—a model in which human judgment and machine capability combine to produce outcomes that neither could achieve alone.
+
+In this environment, professionals become **conductors of intelligence**, coordinating different forms of capability toward a common goal.
+
+---
+
+## Why Allocation Matters in the AI Era
+
+As AI tools become more powerful, individuals who try to perform every task themselves will fall behind.
+
+The most effective professionals are those who ask:
+
+- Which tasks should be automated?
+- Which tasks require human creativity?
+- Where should my attention be focused?
+
+Allocation transforms productivity by ensuring that **each type of intelligence is used where it performs best**.
+
+Machines excel at speed and scale.  
+Humans excel at judgment and interpretation.
+
+The skill lies in combining the two.
+
+---
+
+## The Two Pile Technique
+
+One simple method for practicing allocation is the **Two Pile Technique**.
+
+Every project can be divided into two categories of work.
+
+| Tasks for AI | Tasks for Humans | Orchestration Method |
+|--------------|------------------|----------------------|
+| Speed and quantity | Real thinking | Automation and prompting |
+| Initial drafting | Creativity and taste | Deep work |
+| Data processing | Emotional intelligence | Stakeholder management |
+
+AI can rapidly generate drafts, summarize data, and explore variations. Humans should focus on areas that require creativity, judgment, and interpersonal understanding.
+
+The goal is not to replace human work but to **redirect it toward higher-value activities**.
+
+---
+
+## The Time as Talent Audit
+
+To improve allocation skills, conduct a **time-as-talent audit**.
+
+Review your calendar from the past two weeks and identify tasks that did not require your unique strengths.
+
+Ask yourself three questions:
+
+- Could a tool have done this?
+- Could another person have handled this?
+- Did this task truly require my judgment?
+
+Circle any activity that could have been delegated or automated.
+
+Those hours represent **misallocated talent**.
+
+The next step is to redesign your workflow so that your time is invested in tasks that require human insight—creative thinking, strategy, relationship building, and decision-making.
+
+Allocation is the ability to **direct intelligence where it creates the most value**.
+
+---
+
+# Skill 6: Integrity (The Moral Compass)
+
+Technology scales power instantly.
+
+But it does **not** scale character.
+
+Artificial intelligence can generate convincing text, fabricate references, and produce misleading outputs with great confidence. Without careful oversight, these systems can spread errors rapidly.
+
+In such an environment, integrity becomes more than a virtue. It becomes a **leadership skill**.
+
+Integrity ensures that technological power is used responsibly.
+
+It determines whether intelligence is applied with wisdom or without restraint.
+
+---
+
+## Why Integrity Matters in the AI Era
+
+AI systems have no conscience.
+
+They do not understand truth, fairness, or responsibility. They generate responses based on patterns in data rather than moral judgment.
+
+This means that the ethical burden of using these tools falls entirely on humans.
+
+Professionals must decide:
+
+- whether information is reliable  
+- whether outputs are appropriate  
+- whether technology is being used responsibly  
+
+Integrity provides the framework for these decisions.
+
+Without it, powerful technologies can amplify mistakes and misinformation.
+
+---
+
+## The Washington Post Test
+
+A simple technique for maintaining ethical clarity is the **Washington Post Test**.
+
+Before taking an action, ask:
+
+*Would I be comfortable if this decision appeared on the front page of a major newspaper?*
+
+If the answer is no, it is a signal to pause and reconsider.
+
+This question forces transparency into decision-making. It removes the protective illusion that questionable choices will remain hidden.
+
+---
+
+## The Integrity Inversion
+
+Another useful technique is the **Integrity Inversion**.
+
+Reverse the situation and ask:
+
+*If someone did this to me or someone I care about, would it feel fair?*
+
+This mental reversal cuts through rationalization and forces you to consider the impact of your decision on others.
+
+It transforms ethical reflection from an abstract principle into a practical test.
+
+---
+
+## Integrity as Wisdom
+
+In a world where intelligence is increasingly automated, wisdom becomes the rarest resource.
+
+Wisdom is the ability to combine knowledge with ethical judgment. It is the capacity to act responsibly even when shortcuts appear tempting.
+
+Integrity therefore becomes the final safeguard of human advantage.
+
+Machines may generate answers.
+
+But only humans can ensure those answers are used **with judgment, responsibility, and care**.
+
+---
+
+# Conclusion: Becoming More Human
+
+Artificial intelligence will continue to improve.
+
+Machines will write faster, analyze data more deeply, and generate ideas more quickly than any individual human could. Each new generation of tools will make information more abundant and automation more powerful.
+
+But this transformation does not eliminate human value.  
+It clarifies it.
+
+When answers are cheap and generation is effortless, the true advantage shifts away from information and toward **judgment**. The professionals who thrive in this new environment will not be those with the largest stores of knowledge, but those who cultivate the distinctly human skills that machines cannot easily replicate.
+
+They will be the people who:
+
+- **ask better questions**, identifying the problems that truly matter  
+- **exercise better taste**, separating meaningful work from mediocrity  
+- **iterate relentlessly**, refining ideas until they reach excellence  
+- **compose ideas effectively**, turning fragments into coherent narratives  
+- **allocate intelligence wisely**, combining human and machine strengths  
+- **act with integrity**, ensuring that powerful tools are used responsibly  
+
+In the Allocation Economy, the role of the professional changes. We are no longer merely producers of answers. We become **orchestrators of intelligence**—directing tools, ideas, and people toward meaningful outcomes.
+
+The more artificial the world becomes, the more we must lean into our humanity.
+
+The ultimate advantage will not belong to the smartest machines.
+
+It will belong to the people who know **how to ask, refine, assemble, allocate, and act with wisdom**.
+
+---
+
+# Readings
+
+::: {#refs}
+:::
+
+---
+
+# Call to Action
+
+Identify **one human skill missing from your current workflow**.
+
+How will you integrate it this week?

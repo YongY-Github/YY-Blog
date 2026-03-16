@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="-YY-">
+<meta name="dcterms.date" content="2023-12-13">
 
-<title>YY-Blog</title>
+<title>Late-Stage Capitalism – YY-Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +70,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">YY-Blog</span>
     </a>
   </div>
@@ -153,7 +95,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -176,317 +118,130 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">YY-Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Late-Stage Capitalism</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">issues</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>-YY- </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 13, 2023</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aXNzdWVz">issues <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SkIy">JB2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGVhcm5pbmc=">learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="late-stage-capitalism" class="level1">
+<h1>Late-stage Capitalism</h1>
+<p>This post is based on a talk I gave at the IDEAs Conference on Bangkok</p>
+<p><img src="https://scontent.fbkk5-5.fna.fbcdn.net/v/t39.30808-6/406178818_1011841850006974_1773266038269948606_n.jpg?_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=3635dc&amp;_nc_ohc=ns25rNUGhR8AX9tw7ut&amp;_nc_ht=scontent.fbkk5-5.fna&amp;oh=00_AfBafoJ__XPk_nx59OzFRVd7q3JiQRN-VvgZ4OGwjase1Q&amp;oe=6595E392" class="img-fluid" style="width:50.0%"></p>
+</section>
+<section id="what-is-late-stage-capitalism" class="level1">
+<h1>What is late stage capitalism?</h1>
+<p>Late-stage capitalism, a term often used in critical discourse, refers to the contemporary phase of capitalism characterized by specific economic, social, and technological features. In the context of today’s fast-paced, technologically driven situation within late capitalism, several characteristics stand out:</p>
+<p><strong>Rapid Technological Advancements:</strong> Late capitalism is marked by unprecedented technological innovation and advancements. The rapid development of information technology, artificial intelligence, automation, and digital communication has transformed industries, economies, and daily life.</p>
+<p><strong>Globalization:</strong> The global interconnectedness of markets, economies, and cultures is a defining feature of late capitalism. Companies operate on a global scale, leading to complex networks of production, distribution, and consumption that transcend national borders.</p>
+<p><strong>Digitalization of Economy:</strong> The economy (local and global) is becoming increasingly digital, with online platforms, e-commerce, and digital services playing a central role. This has led to new business models, changes in consumer behavior, and the emergence of digital platforms as key economic actors.</p>
+<p><strong>Financialization:</strong> There is an increased dominance of financial markets and financial institutions in shaping economic activities. Speculation, financial instruments, and the prioritization of shareholder value have become central aspects of economic decision-making. Financial instruments and speculation often have a profound impact on various economic sectors.</p>
+<p><strong>Flexible Labor Markets:</strong> Late capitalism is characterized by a shift towards flexible labor arrangements, including gig work and temporary employment. Job insecurity, precarious employment, and a focus on short-term profits are prevalent in this economic landscape.</p>
+<p><strong>Consumer Culture:</strong> Consumption plays a central role in late capitalism. Advertising and marketing techniques are sophisticated, contributing to a culture of constant consumption and a desire for the latest products and experiences.</p>
+<p><strong>Commodification of Everyday Life:</strong> Late capitalism tends to commodify various aspects of life, turning even social interactions, cultural products, and personal experiences into marketable entities.</p>
+<p><strong>Surveillance Capitalism:</strong> The widespread collection and analysis of personal data have become integral to many business models. Companies (and in some cases governments) leverage user data for targeted advertising/propaganda, personalization, and other purposes, raising concerns about privacy and surveillance.</p>
+<p><strong>Inequality:</strong> Late capitalism is associated with growing income and wealth inequality. The benefits of economic growth are often concentrated among a small elite, leading to social and economic disparities.</p>
+<p><strong>Acceleration of Time:</strong> The pace of life in late capitalism is often described as accelerated. Rapid communication, instant access to information, and the expectation of quick results contribute to a sense of urgency and constant activity.</p>
+<p><strong>Crisis as Normalcy:</strong> Periodic economic crises are considered normal within late capitalism. Financial downturns and recessions are seen as inherent features of the system, leading to a cycle of boom and bust.</p>
+<p><strong>Environmental Challenges:</strong> The pursuit of profit often comes at the expense of environmental sustainability. Late capitalism is associated with environmental degradation, resource depletion, and climate change, prompting concerns about the long-term viability of current economic practices.</p>
+<p>These characteristics contribute to a complex and dynamic socio-economic environment, prompting ongoing discussions and critiques about the nature of contemporary capitalism and its impact on society.</p>
+</section>
+<section id="the-issue" class="level1">
+<h1>The Issue</h1>
+<ul>
+<li>Internet and social media: We are constantly exposed to the .00001% of top performers (good-looking people, at amazing locations, doing awesome things, 24/7/365 … Twitter - OMG Apocalypse! … Facebook - everyone has amazing lives, families, etc.)</li>
+</ul>
+<blockquote class="blockquote">
+<p>“Everyone in their Instagram post wants you to believe that the key to a good life is a nicer job, or a faster car, a prettier girlfriend or a selfie on a beach.”</p>
+</blockquote>
+<ul>
+<li><p>We seem to be living on a hedonic treadmill: “More, more, more!”</p></li>
+<li><p>The “can-do” society: “You can be whatever you want to be!” leads to “entitlement” (a delusional belief to move you from reality, i.e., life is tough!)</p></li>
+<li><p>The Digital Panopticon: Today, the entire globe is developing into a panopticon. Google and social networks, which present themselves as spaces of freedom, are assuming panoptic forms. Today, surveillance is not occurring as an attack on freedom, as is normally assumed. Instead, people are voluntarily surrendering to the panoptic gaze. They deliberately collaborate in the digital panopticon by denuding and exhibiting themselves. The prisoner of the digital panopticon is a perpetrator and a victim at the same time. Herein lies the dialectic of freedom: freedom turns out to be a form of control.</p></li>
+</ul>
+<blockquote class="blockquote">
+<blockquote class="blockquote">
+<p>Freedom turns out to be a form of control.</p>
+</blockquote>
+</blockquote>
+</section>
+<section id="positive-vs-negative-power" class="level1">
+<h1>Positive vs Negative Power</h1>
+<p>The negative power of prohibition and limitation in disciplinary societies vs the positive power of freedom and achievement in neoliberal societies.</p>
+<p>The positivity of can is much more effective than the negativity of should. Therefore, the social unconscious switches from should to can.</p>
+<p>Positive power is more effective and insidious, as it turns people into self-exploiting narcissists who are constantly working on themselves as personal projects</p>
+</section>
+<section id="the-achievement-society" class="level1">
+<h1>The Achievement Society</h1>
+<ul>
+<li>Psychopolitics is an extension of Foucault’s biopolitics. You don’t need a gun to people’s heads because in the pursuit of endlessly maximizing their abilities, they’ll spend the rest of their lives going crazy about never being good enough, never doing enough, never being efficient enough. If there’s ever a moment where they’re not spending their time being as productive as they possibly could towards making themselves more valuable, they will actually feel bad about it.</li>
+</ul>
+</section>
+<section id="loss-of-other-terror-of-the-same" class="level1">
+<h1>Loss of other / Terror of the Same</h1>
+<ul>
+<li><p>Consequences of this positive power include the loss of the other, the terror of the same, the crisis of connection and love, and the rise of depression and anxiety.</p></li>
+<li><p>Authenticity and diversity: Authenticity is an ad campaign of neoliberalism. It’s a self-absorbed nightmare.</p></li>
+<li><p>Loss of other: People avoid encountering differences and negativity.</p></li>
+<li><p>Terror of the same: Everything becomes the same and meaningless.</p></li>
+<li><p>Crisis of connection (and love)</p></li>
+<li><p>Technology and social media isolate people</p></li>
+<li><p>Information vs knowledge, thinking and calculating: The importance of contemplation and depth: Meaning, knowledge, truth, are things that only come when you contemplate how the present moment connects to the past and the future.</p></li>
+</ul>
+</section>
+<section id="the-psycho-politics-of-neoliberalism" class="level1">
+<h1>The psycho-politics of neoliberalism</h1>
+<ul>
+<li><p>Auto-exploitation</p></li>
+<li><p>Commodification of oneself</p></li>
+<li><p>Tendency towards narcissim: The narcissistic individual is not the cause of the world being more narcissistic. The ethos of the world (late-capitalism) makes narcissism an extremely common lane for people to fall into.</p></li>
+<li><p>Rise of depression, anxiety, mental illness</p></li>
+</ul>
+</section>
+<section id="threat-to-democracy" class="level1">
+<h1>Threat to Democracy</h1>
+<ul>
+<li>The disappearance of public space</li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QUk=" data-listing-date-sort="1773594000000" data-listing-file-modified-sort="1773639013508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4030">
-<div class="thumbnail"><a href="./posts/human_AI/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\human_AI\fedex.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/human_AI/index.html" class="no-external">Human Advantage in the Era of AI</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/human_AI/index.html" class="no-external">
-<strong>Strategic Insight:</strong> The professional landscape has shifted from <em>search engines</em> to <em>answer engines</em>. In a world where Large Language Models (LLMs) generate dazzling responses on…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/human_AI/index.html" class="no-external">
-<div class="listing-date">
-Mar 16, 2026
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="SkIy" data-listing-date-sort="1771693200000" data-listing-file-modified-sort="1771758457641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1350">
-<div class="thumbnail"><a href="./posts/JB2/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/JB2/index.html" class="no-external">JB2</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('SkIy'); return false;">JB2</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/JB2/index.html" class="no-external">
-For those using <strong>Anaconda + Windows + JB2 (MyST CLI)</strong>, here is the clean setup from scratch.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/JB2/index.html" class="no-external">
-<div class="listing-date">
-Feb 22, 2026
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="UXVhcnRv" data-listing-date-sort="1771606800000" data-listing-file-modified-sort="1772141375287" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="517">
-<div class="thumbnail"><a href="./posts/margins/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\margins\index_files\figure-html\fig-mtcars-1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/margins/index.html" class="no-external">Margin - stuff</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/margins/index.html" class="no-external">
-Yeap!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/margins/index.html" class="no-external">
-<div class="listing-date">
-Feb 21, 2026
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="bGVhcm5pbmc=" data-listing-date-sort="1771434000000" data-listing-file-modified-sort="1771502843531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="411">
-<div class="thumbnail"><a href="./posts/learn-prison/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/learn-prison/index.html" class="no-external">Why Prisoners Learn Faster Than College Students</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGVhcm5pbmc='); return false;">learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/learn-prison/index.html" class="no-external">
-<strong>Why Prisoners Learn Faster Than College Students</strong><br>
-Source: https://www.youtube.com/watch?v=oBHzmFFNkW4
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/learn-prison/index.html" class="no-external">
-<div class="listing-date">
-Feb 19, 2026
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Ug==" data-listing-date-sort="1724605200000" data-listing-file-modified-sort="1772544591947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="963">
-<div class="thumbnail"><a href="./posts/R-dyndoc/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\R-dyndoc\index_files\figure-html\unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/R-dyndoc/index.html" class="no-external">Intro to R Markdown</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/R-dyndoc/index.html" class="no-external">
-Among other things, we will look at how to …
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/R-dyndoc/index.html" class="no-external">
-<div class="listing-date">
-Aug 26, 2024
-</div>
-<div class="listing-author">
-YY
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Ug==" data-listing-date-sort="1721235600000" data-listing-file-modified-sort="1772650890625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2259">
-<div class="thumbnail"><a href="./posts/R-intro/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/R-intro/index.html" class="no-external">Getting staRted with R PRogRamming</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/R-intro/index.html" class="no-external">
-R has become one of the most widely used statistical programming languages, surpassing traditional tools like SAS, SPSS, and Stata.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/R-intro/index.html" class="no-external">
-<div class="listing-date">
-Jul 18, 2024
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1703782800000" data-listing-file-modified-sort="1771498809099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail"><a href="./posts/post-with-code/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/post-with-code/image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">analysis</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/post-with-code/index.html" class="no-external">
-This is a post with executable code.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Dec 29, 2023
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="bmV3cw==" data-listing-date-sort="1703523600000" data-listing-file-modified-sort="1771498809100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/welcome/index.html" class="no-external">
-This is the first post in a Quarto blog. Welcome!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Dec 26, 2023
-</div>
-<div class="listing-author">
-Tristan O’Malley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="aXNzdWVz" data-listing-date-sort="1702400400000" data-listing-file-modified-sort="1704179070000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1055">
-<div class="thumbnail"><a href="./posts/late-stage-capitalism/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/late-stage-capitalism/image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/late-stage-capitalism/index.html" class="no-external">Late-Stage Capitalism</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('aXNzdWVz'); return false;">issues</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/late-stage-capitalism/index.html" class="no-external">
-This post is based on a talk I gave at the IDEAs Conference on Bangkok
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/late-stage-capitalism/index.html" class="no-external">
-<div class="listing-date">
-Dec 13, 2023
-</div>
-<div class="listing-author">
--YY-
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
