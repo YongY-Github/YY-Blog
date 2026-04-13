@@ -1,0 +1,187 @@
+---
+title: "Quick Python Basics: From Calculations to Simulations"
+author: "-YY-"
+date: "April 13, 2026"
+categories: [Python, Programming, Tutorial]
+format:
+  html:
+    code-fold: false
+    toc: true
+---
+
+**Python Basics: The Complete Beginner's Guide**
+
+This guide provides a comprehensive introduction to Python's fundamental building blocks, from simple math to data structures, control flow, and professional typesetting.
+
+## 1. Getting Started
+Python serves as both a flexible language and a simple calculator.
+
+```python
+'hello'   # this is a string
+2 + 3     # basic calculation
+"hello " + "my " + "friends"    # string concatenation
+"hi " * 3 # string repetition
+0.5 * 3   # float operations
+```
+
+## 2. Variables
+Variables store data for later use. Python allows for dynamic updates and checking data types.
+
+```python
+x = 2   # points to the value 2
+y = 3
+print(f"Initial sum: {x + y}")
+
+x = x + 1 # updating x
+print(f"Updated x: {x}")
+print(f"Type of x: {type(x)}")
+
+# Shorthand notation
+a = 1
+a += 2  # a = a + 2
+a *= 2  # a = a * 2
+print(f"Final a: {a}")
+```
+
+## 3. Built-in Functions & Formatting
+Modern Python (3.6+) uses **f-strings** for readable output, replacing older formatting methods like `%s` or `%d`.
+
+```python
+str1 = "friends"
+print(f"Hello {str1}")
+
+# Precision formatting
+print(f"Precision example: {3.123456789:.5f}")
+
+# Handling user input
+age = int(input("Enter your age: ")) # input is a string by default
+print(f"Your age is {age}")
+```
+
+## 4. Arithmetic Operators
+| Symbol | Task |
+|---|---|
+| `+` | Addition |
+| `/` | Division |
+| `//` | Floor Division (nearest integer) |
+| `%` | Modulo (remainder) |
+| `**` | Power (exponentiation) |
+
+## 5. Data Structures: Lists and Tuples
+Lists are flexible sequences, while Tuples are similar but immutable.
+
+### Indexing and Slicing
+Python uses **zero-based indexing**. Slicing follows the `[start:stop]` format, where the start is included and the stop is excluded.
+
+```python
+fruitlist = ['apple', 'orange', 'banana']
+print(f"First item: {fruitlist[0]}")
+print(f"Last item: {fruitlist[-1]}")
+
+# Slicing
+numbers = [0, 1, 4, 9, 16, 25]
+print(f"Slicing [0:4]: {numbers[0:4]}")
+```
+
+## 6. If, Else, and Elif
+Conditional statements allow your code to make decisions.
+
+```python
+x = 12
+if x > 10:
+    print(f"{x} is larger than 10")
+elif x < 10:
+    print(f"{x} is less than 10")
+else:
+    print(f"{x} is exactly 10")
+```
+
+## 7. Loops
+Loops repeat tasks efficiently. Python supports both `for` and `while` loops.
+
+```python
+# For loop through a list
+for fruit in ['apple', 'banana', 'cherry']:
+    print(fruit)
+
+# While loop with condition
+i = 1
+while i <= 3:
+    print(f"Square of {i}: {i**2}")
+    i += 1
+```
+
+## 8. Functions
+Define custom functions to reuse code logic.
+
+```python
+def greet(username):
+    print(f"Hi there, {username}!")
+
+greet("Student")
+
+def multiply(x, y):
+    return x * y
+
+print(f"2 * 6 = {multiply(2, 6)}")
+```
+
+## 9. Simulations
+Python's standard library and packages like NumPy enable random sampling and statistical simulations.
+
+```python
+import random
+import numpy as np
+
+# Simple random choice
+print(f"Random choice: {random.choice(['A', 'B', 'C'])}")
+
+# Normal distribution sample
+mu, sigma = 0, 1
+rv = np.random.normal(mu, sigma, size=10)
+print(f"Simulated data: {rv}")
+```
+
+## 10. Miscellany
+This section covers essential tools for data handling, plotting, and system management.
+
+### Data Handling and Graphics
+Libraries like **Pandas** and **Matplotlib** are standard for any Python environment.
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Loading a dataset
+url = "[https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv](https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv)"
+df = pd.read_csv(url, nrows=5)
+print(df)
+
+# Visualizing data
+plt.plot([0, 1, 4, 9, 16])
+plt.ylabel('Growth')
+plt.show()
+```
+
+### System and Versioning
+Useful commands for checking your environment.
+
+```python
+import sys
+import datetime
+
+# Current Date
+print(f"Today is: {datetime.datetime.today().strftime('%d %b, %Y')}")
+
+# Python Version
+print(f"Python Version: {sys.version}")
+```
+
+## 11. Equations with LaTeX
+Professional mathematical expressions can be typeset directly:
+
+$$
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+$$
+
+Try it on Google Colab [Notebook](https://colab.research.google.com/drive/1to014IaNi_tbboJfEUwiyPjGaE6tjMyk?usp=sharing){target="_blank"}

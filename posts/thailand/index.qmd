@@ -1,0 +1,144 @@
+---
+title: "Thailand’s Economic Slowdown: A Case of Structural Drift"
+author: "-YY-"
+date: "2026-03-22"
+categories: [Thailand]
+# bibliography: references.bib
+# nocite: '@*'
+---
+
+Thailand’s recent macroeconomic indicators point to a troubling pattern of **persistent low growth combined with rising household vulnerability**.
+
+Average household debt has surpassed **700,000 baht**, while total household debt remains close to **90% of GDP**, among the highest in Asia (Bank of Thailand).
+
+At the same time, GDP growth is projected at only **1.6–2% for 2026**, well below regional peers (IMF; World Bank).
+
+> This raises a central question:  
+> **Why has Thailand failed to regain its growth momentum in a rapidly expanding region?**
+
+---
+
+## 1. Growth in Regional Perspective
+
+<iframe src="https://data.worldbank.org/share/widget?end=2024&indicators=NY.GDP.MKTP.KD.ZG&locations=TH-MY-ID-SG-PH-VN&start=2000&view=chart" width="750" height="450" frameborder="0" scrolling="no"></iframe>
+
+Thailand’s growth has remained around **2%**, while regional peers have consistently achieved **5–7% growth**.
+
+<iframe src="https://data.worldbank.org/share/widget?end=2024&indicators=BX.KLT.DINV.WD.GD.ZS&locations=TH-MY-ID-PH-VN&name_desc=false&start=2000" width='750' height='450' frameBorder='0' scrolling="no" ></iframe>
+
+FDI also remains weaker to her neighours especialy Viet Nam.
+
+This divergence reflects a **structural slowdown**, not a temporary shock.
+
+---
+
+## 2. Weakening Growth Engines
+
+### 2.1 Tourism
+
+Before COVID-19, Thailand received nearly **40 million visitors annually**, contributing about **20% of GDP** (UNWTO).
+
+Although visitor numbers have partially recovered, **spending patterns and stability have weakened**.
+
+---
+
+### 2.2 Manufacturing
+
+Thailand’s industrial base remains concentrated in:
+
+* Automobiles
+* Electronics assembly
+* Food processing
+
+However, global supply chains are shifting toward:
+
+* High-tech manufacturing (Vietnam)
+* Semiconductors (Malaysia)
+* Resource-based industry (Indonesia)
+
+Thailand is increasingly **caught in the middle-income trap**.
+
+---
+
+## 3. Household Debt and Domestic Demand
+
+
+Household debt has risen steadily to nearly **90% of GDP** (Bank of Thailand).
+
+This creates a structural constraint:
+
+* Lower consumption
+* Reduced entrepreneurship
+* Higher financial vulnerability
+
+---
+
+## 4. Inequality and Structural Imbalance
+
+Thailand exhibits high levels of inequality.
+
+The top 10% controls a large share of wealth (Credit Suisse Global Wealth Report).
+
+This leads to:
+
+* Weak domestic demand
+* Uneven regional development
+* Limited upward mobility
+
+---
+
+## 5. Political Economy Constraints
+
+Thailand’s growth has also been shaped by **institutional instability**.
+
+Over the past two decades:
+
+* Frequent government turnover
+* Constitutional revisions
+* Policy discontinuity
+
+(IMF Article IV Reports)
+
+This undermines:
+
+* Long-term investment
+* Industrial policy execution
+* Infrastructure continuity
+
+---
+
+## 6. Demographic Pressures
+
+
+
+Thailand is aging rapidly:
+
+* Working-age population is declining
+* Dependency ratios are increasing
+
+(NESDC)
+
+Unlike advanced economies, Thailand is aging **before reaching high-income status**.
+
+---
+
+## 7. Conclusion: From Momentum to Drift
+
+Thailand’s economic challenge is not one of collapse, but of **structural drift**.
+
+The country retains strong fundamentals:
+
+* Strategic location
+* Deep industrial base
+* Tourism competitiveness
+
+However, without:
+
+* Political stability
+* Stronger competition
+* Industrial upgrading
+* Human capital investment
+
+Thailand risks remaining in a prolonged period of low growth.
+
+> In a fast-growing region, stagnation is equivalent to falling behind.

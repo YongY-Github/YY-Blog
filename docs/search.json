@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "YY-Blog",
     "section": "",
-    "text": "Human Advantage in the Era of AI\n\n\n\nAI\n\n\n\n\n\n\n\n\n\nMar 16, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nJB2\n\n\n\nJB2\n\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nMargin - stuff\n\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nFeb 21, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Prisoners Learn Faster Than College Students\n\n\n\nlearning\n\n\n\n\n\n\n\n\n\nFeb 19, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to R Markdown\n\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 26, 2024\n\n\nYY\n\n\n\n\n\n\n\n\n\n\n\n\nGetting staRted with R PRogRamming\n\n\n\nR\n\n\n\n\n\n\n\n\n\nJul 18, 2024\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nLate-Stage Capitalism\n\n\n\nissues\n\n\n\n\n\n\n\n\n\nDec 13, 2023\n\n\n-YY-\n\n\n\n\n\nNo matching items"
+    "text": "Quick Python Basics: From Calculations to Simulations\n\n\n\nPython\n\nProgramming\n\nTutorial\n\n\n\n\n\n\n\n\n\nApr 13, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nThailand’s Economic Slowdown: A Case of Structural Drift\n\n\n\nThailand\n\n\n\n\n\n\n\n\n\nMar 22, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nHuman Advantage in the Era of AI\n\n\n\nAI\n\n\n\n\n\n\n\n\n\nMar 16, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nJB2\n\n\n\nJB2\n\n\n\n\n\n\n\n\n\nFeb 22, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nMargin - stuff\n\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nFeb 21, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Prisoners Learn Faster Than College Students\n\n\n\nlearning\n\n\n\n\n\n\n\n\n\nFeb 19, 2026\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to R Markdown\n\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 26, 2024\n\n\nYY\n\n\n\n\n\n\n\n\n\n\n\n\nGetting staRted with R PRogRamming\n\n\n\nR\n\n\n\n\n\n\n\n\n\nJul 18, 2024\n\n\n-YY-\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nLate-Stage Capitalism\n\n\n\nissues\n\n\n\n\n\n\n\n\n\nDec 13, 2023\n\n\n-YY-\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -467,5 +467,145 @@
     "title": "Human Advantage in the Era of AI",
     "section": "Integrity as Wisdom",
     "text": "Integrity as Wisdom\nIn a world where intelligence is increasingly automated, wisdom becomes the rarest resource.\nWisdom is the ability to combine knowledge with ethical judgment. It is the capacity to act responsibly even when shortcuts appear tempting.\nIntegrity therefore becomes the final safeguard of human advantage.\nMachines may generate answers.\nBut only humans can ensure those answers are used with judgment, responsibility, and care."
+  },
+  {
+    "objectID": "posts/thailand/index.html",
+    "href": "posts/thailand/index.html",
+    "title": "Thailand’s Economic Slowdown: A Case of Structural Drift",
+    "section": "",
+    "text": "Thailand’s recent macroeconomic indicators point to a troubling pattern of persistent low growth combined with rising household vulnerability.\nAverage household debt has surpassed 700,000 baht, while total household debt remains close to 90% of GDP, among the highest in Asia (Bank of Thailand).\nAt the same time, GDP growth is projected at only 1.6–2% for 2026, well below regional peers (IMF; World Bank)."
+  },
+  {
+    "objectID": "posts/thailand/index.html#growth-in-regional-perspective",
+    "href": "posts/thailand/index.html#growth-in-regional-perspective",
+    "title": "Thailand’s Economic Slowdown: A Case of Structural Drift",
+    "section": "1. Growth in Regional Perspective",
+    "text": "1. Growth in Regional Perspective\n\n\nThailand’s growth has remained around 2%, while regional peers have consistently achieved 5–7% growth.\n\n\nFDI also remains weaker to her neighours especialy Viet Nam.\nThis divergence reflects a structural slowdown, not a temporary shock."
+  },
+  {
+    "objectID": "posts/thailand/index.html#weakening-growth-engines",
+    "href": "posts/thailand/index.html#weakening-growth-engines",
+    "title": "Thailand’s Economic Slowdown: A Case of Structural Drift",
+    "section": "2. Weakening Growth Engines",
+    "text": "2. Weakening Growth Engines\n\n2.1 Tourism\nBefore COVID-19, Thailand received nearly 40 million visitors annually, contributing about 20% of GDP (UNWTO).\nAlthough visitor numbers have partially recovered, spending patterns and stability have weakened.\n\n\n\n2.2 Manufacturing\nThailand’s industrial base remains concentrated in:\n\nAutomobiles\nElectronics assembly\nFood processing\n\nHowever, global supply chains are shifting toward:\n\nHigh-tech manufacturing (Vietnam)\nSemiconductors (Malaysia)\nResource-based industry (Indonesia)\n\nThailand is increasingly caught in the middle-income trap."
+  },
+  {
+    "objectID": "posts/thailand/index.html#household-debt-and-domestic-demand",
+    "href": "posts/thailand/index.html#household-debt-and-domestic-demand",
+    "title": "Thailand’s Economic Slowdown: A Case of Structural Drift",
+    "section": "3. Household Debt and Domestic Demand",
+    "text": "3. Household Debt and Domestic Demand\nHousehold debt has risen steadily to nearly 90% of GDP (Bank of Thailand).\nThis creates a structural constraint:\n\nLower consumption\nReduced entrepreneurship\nHigher financial vulnerability"
+  },
+  {
+    "objectID": "posts/thailand/index.html#inequality-and-structural-imbalance",
+    "href": "posts/thailand/index.html#inequality-and-structural-imbalance",
+    "title": "Thailand’s Economic Slowdown: A Case of Structural Drift",
+    "section": "4. Inequality and Structural Imbalance",
+    "text": "4. Inequality and Structural Imbalance\nThailand exhibits high levels of inequality.\nThe top 10% controls a large share of wealth (Credit Suisse Global Wealth Report).\nThis leads to:\n\nWeak domestic demand\nUneven regional development\nLimited upward mobility"
+  },
+  {
+    "objectID": "posts/thailand/index.html#political-economy-constraints",
+    "href": "posts/thailand/index.html#political-economy-constraints",
+    "title": "Thailand’s Economic Slowdown: A Case of Structural Drift",
+    "section": "5. Political Economy Constraints",
+    "text": "5. Political Economy Constraints\nThailand’s growth has also been shaped by institutional instability.\nOver the past two decades:\n\nFrequent government turnover\nConstitutional revisions\nPolicy discontinuity\n\n(IMF Article IV Reports)\nThis undermines:\n\nLong-term investment\nIndustrial policy execution\nInfrastructure continuity"
+  },
+  {
+    "objectID": "posts/thailand/index.html#demographic-pressures",
+    "href": "posts/thailand/index.html#demographic-pressures",
+    "title": "Thailand’s Economic Slowdown: A Case of Structural Drift",
+    "section": "6. Demographic Pressures",
+    "text": "6. Demographic Pressures\nThailand is aging rapidly:\n\nWorking-age population is declining\nDependency ratios are increasing\n\n(NESDC)\nUnlike advanced economies, Thailand is aging before reaching high-income status."
+  },
+  {
+    "objectID": "posts/thailand/index.html#conclusion-from-momentum-to-drift",
+    "href": "posts/thailand/index.html#conclusion-from-momentum-to-drift",
+    "title": "Thailand’s Economic Slowdown: A Case of Structural Drift",
+    "section": "7. Conclusion: From Momentum to Drift",
+    "text": "7. Conclusion: From Momentum to Drift\nThailand’s economic challenge is not one of collapse, but of structural drift.\nThe country retains strong fundamentals:\n\nStrategic location\nDeep industrial base\nTourism competitiveness\n\nHowever, without:\n\nPolitical stability\nStronger competition\nIndustrial upgrading\nHuman capital investment\n\nThailand risks remaining in a prolonged period of low growth.\n\nIn a fast-growing region, stagnation is equivalent to falling behind."
+  },
+  {
+    "objectID": "posts/python-intro/index.html",
+    "href": "posts/python-intro/index.html",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "",
+    "text": "Python Basics: The Complete Beginner’s Guide\nThis guide provides a comprehensive introduction to Python’s fundamental building blocks, from simple math to data structures, control flow, and professional typesetting."
+  },
+  {
+    "objectID": "posts/python-intro/index.html#getting-started",
+    "href": "posts/python-intro/index.html#getting-started",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "1. Getting Started",
+    "text": "1. Getting Started\nPython serves as both a flexible language and a simple calculator.\n'hello'   # this is a string\n2 + 3     # basic calculation\n\"hello \" + \"my \" + \"friends\"    # string concatenation\n\"hi \" * 3 # string repetition\n0.5 * 3   # float operations"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#variables",
+    "href": "posts/python-intro/index.html#variables",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "2. Variables",
+    "text": "2. Variables\nVariables store data for later use. Python allows for dynamic updates and checking data types.\nx = 2   # points to the value 2\ny = 3\nprint(f\"Initial sum: {x + y}\")\n\nx = x + 1 # updating x\nprint(f\"Updated x: {x}\")\nprint(f\"Type of x: {type(x)}\")\n\n# Shorthand notation\na = 1\na += 2  # a = a + 2\na *= 2  # a = a * 2\nprint(f\"Final a: {a}\")"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#built-in-functions-formatting",
+    "href": "posts/python-intro/index.html#built-in-functions-formatting",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "3. Built-in Functions & Formatting",
+    "text": "3. Built-in Functions & Formatting\nModern Python (3.6+) uses f-strings for readable output, replacing older formatting methods like %s or %d.\nstr1 = \"friends\"\nprint(f\"Hello {str1}\")\n\n# Precision formatting\nprint(f\"Precision example: {3.123456789:.5f}\")\n\n# Handling user input\nage = int(input(\"Enter your age: \")) # input is a string by default\nprint(f\"Your age is {age}\")"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#arithmetic-operators",
+    "href": "posts/python-intro/index.html#arithmetic-operators",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "4. Arithmetic Operators",
+    "text": "4. Arithmetic Operators\n\n\n\nSymbol\nTask\n\n\n\n\n+\nAddition\n\n\n/\nDivision\n\n\n//\nFloor Division (nearest integer)\n\n\n%\nModulo (remainder)\n\n\n**\nPower (exponentiation)"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#data-structures-lists-and-tuples",
+    "href": "posts/python-intro/index.html#data-structures-lists-and-tuples",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "5. Data Structures: Lists and Tuples",
+    "text": "5. Data Structures: Lists and Tuples\nLists are flexible sequences, while Tuples are similar but immutable.\n\nIndexing and Slicing\nPython uses zero-based indexing. Slicing follows the [start:stop] format, where the start is included and the stop is excluded.\nfruitlist = ['apple', 'orange', 'banana']\nprint(f\"First item: {fruitlist[0]}\")\nprint(f\"Last item: {fruitlist[-1]}\")\n\n# Slicing\nnumbers = [0, 1, 4, 9, 16, 25]\nprint(f\"Slicing [0:4]: {numbers[0:4]}\")"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#if-else-and-elif",
+    "href": "posts/python-intro/index.html#if-else-and-elif",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "6. If, Else, and Elif",
+    "text": "6. If, Else, and Elif\nConditional statements allow your code to make decisions.\nx = 12\nif x &gt; 10:\n    print(f\"{x} is larger than 10\")\nelif x &lt; 10:\n    print(f\"{x} is less than 10\")\nelse:\n    print(f\"{x} is exactly 10\")"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#loops",
+    "href": "posts/python-intro/index.html#loops",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "7. Loops",
+    "text": "7. Loops\nLoops repeat tasks efficiently. Python supports both for and while loops.\n# For loop through a list\nfor fruit in ['apple', 'banana', 'cherry']:\n    print(fruit)\n\n# While loop with condition\ni = 1\nwhile i &lt;= 3:\n    print(f\"Square of {i}: {i**2}\")\n    i += 1"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#functions",
+    "href": "posts/python-intro/index.html#functions",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "8. Functions",
+    "text": "8. Functions\nDefine custom functions to reuse code logic.\ndef greet(username):\n    print(f\"Hi there, {username}!\")\n\ngreet(\"Student\")\n\ndef multiply(x, y):\n    return x * y\n\nprint(f\"2 * 6 = {multiply(2, 6)}\")"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#simulations",
+    "href": "posts/python-intro/index.html#simulations",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "9. Simulations",
+    "text": "9. Simulations\nPython’s standard library and packages like NumPy enable random sampling and statistical simulations.\nimport random\nimport numpy as np\n\n# Simple random choice\nprint(f\"Random choice: {random.choice(['A', 'B', 'C'])}\")\n\n# Normal distribution sample\nmu, sigma = 0, 1\nrv = np.random.normal(mu, sigma, size=10)\nprint(f\"Simulated data: {rv}\")"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#miscellany",
+    "href": "posts/python-intro/index.html#miscellany",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "10. Miscellany",
+    "text": "10. Miscellany\nThis section covers essential tools for data handling, plotting, and system management.\n\nData Handling and Graphics\nLibraries like Pandas and Matplotlib are standard for any Python environment.\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Loading a dataset\nurl = \"[https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv](https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv)\"\ndf = pd.read_csv(url, nrows=5)\nprint(df)\n\n# Visualizing data\nplt.plot([0, 1, 4, 9, 16])\nplt.ylabel('Growth')\nplt.show()\n\n\nSystem and Versioning\nUseful commands for checking your environment.\nimport sys\nimport datetime\n\n# Current Date\nprint(f\"Today is: {datetime.datetime.today().strftime('%d %b, %Y')}\")\n\n# Python Version\nprint(f\"Python Version: {sys.version}\")"
+  },
+  {
+    "objectID": "posts/python-intro/index.html#equations-with-latex",
+    "href": "posts/python-intro/index.html#equations-with-latex",
+    "title": "Quick Python Basics: From Calculations to Simulations",
+    "section": "11. Equations with LaTeX",
+    "text": "11. Equations with LaTeX\nProfessional mathematical expressions can be typeset directly:\n\\[\nx = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\n\\]\nTry it on Google Colab Notebook"
   }
 ]
