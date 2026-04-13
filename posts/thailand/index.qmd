@@ -20,11 +20,11 @@ At the same time, GDP growth is projected at only **1.6–2% for 2026**, well be
 
 ## 1. Growth in Regional Perspective
 
-<iframe src="https://data.worldbank.org/share/widget?end=2024&indicators=NY.GDP.MKTP.KD.ZG&locations=TH-MY-ID-SG-PH-VN&start=2000&view=chart" width="750" height="450" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://data.worldbank.org/share/widget?end=2024&indicators=NY.GDP.MKTP.KD.ZG&locations=TH-MY-ID-SG-PH-VN&start=2000&view=chart" width="750" height="500" frameborder="0" scrolling="no"></iframe>
 
 Thailand’s growth has remained around **2%**, while regional peers have consistently achieved **5–7% growth**.
 
-<iframe src="https://data.worldbank.org/share/widget?end=2024&indicators=BX.KLT.DINV.WD.GD.ZS&locations=TH-MY-ID-PH-VN&name_desc=false&start=2000" width='750' height='450' frameBorder='0' scrolling="no" ></iframe>
+<iframe src="https://data.worldbank.org/share/widget?end=2024&indicators=BX.KLT.DINV.WD.GD.ZS&locations=TH-MY-ID-PH-VN&name_desc=false&start=2000" width='750' height='500' frameBorder='0' scrolling="no" ></iframe>
 
 FDI also remains weaker to her neighours especialy Viet Nam.
 
