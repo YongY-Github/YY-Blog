@@ -1,0 +1,636 @@
+---
+title: "Confounders, Mediators, Moderators, and IV"
+author: "-YY-"
+date: "2026-05-09"
+categories: [econometrics, confounding, IV, mediation, moderation]
+# image: "image.jpg"
+---
+
+# Confounders, Mediators, Moderators, and Instrumental Variables
+
+Many empirical problems involve a “third variable.”
+
+For example:
+
+- omitted variables,
+- mediators,
+- moderators,
+- instrumental variables,
+
+all introduce additional variables into an analysis. Yet these variables play fundamentally different causal roles.
+
+One source of confusion is that regression coefficients may change whenever additional variables are introduced into a model. However, coefficient changes alone do not tell us *why* they changed.
+
+This note clarifies the distinction between:
+
+- regression algebra,
+- causal interpretation,
+- and causal structure.
+
+The key insight is:
+
+> regression algebra explains how coefficients mechanically change, while causal inference explains what those changes actually mean.
+
+---
+
+# 1. Omitted Variable Bias as Regression Algebra
+
+Suppose the true model is:
+
+$$
+Y = \beta X + \gamma Z + u
+$$
+
+where:
+
+- $X$: education
+- $Y$: wage
+- $Z$: ability or ambition
+
+Suppose we omit $Z$ and estimate:
+
+$$
+Y = \alpha + \tilde{\beta}X + e
+$$
+
+Then:
+
+$$
+\tilde{\beta}
+=
+\beta
++
+\gamma
+\frac{\text{Cov}(X,Z)}
+{\text{Var}(X)}
+$$
+
+This is the classic omitted variable bias formula.
+
+---
+
+## What the Formula Says
+
+Bias occurs whenever BOTH conditions hold:
+
+1. $Z$ affects $Y$:
+
+$$
+\gamma \neq 0
+$$
+
+2. $Z$ is correlated with $X$:
+
+$$
+\text{Cov}(X,Z) \neq 0
+$$
+
+If either condition fails, omitted variable bias disappears.
+
+---
+
+## A Crucial Observation
+
+Notice something important:
+
+> the formula itself says nothing about causal direction.
+
+The formula only depends on:
+
+- covariance,
+- and regression relationships.
+
+At this purely statistical level, regression algebra only “sees” correlation.
+
+It does not know whether:
+
+$$
+Z \to X
+$$
+
+or:
+
+$$
+X \to Z
+$$
+
+or whether a meaningful causal interpretation exists at all.
+
+---
+
+::: {.callout-note}
+## Technical Insight
+
+The omitted variable bias formula is fundamentally a regression algebra result.
+
+It explains when coefficients mechanically change after omitting a correlated variable.
+
+By itself, however, the formula does not determine whether the omitted variable represents:
+
+- confounding,
+- mediation,
+- selection,
+- or some other causal structure.
+:::
+
+---
+
+# 2. Why Causal Direction Matters
+
+The same statistical correlation pattern can arise from very different causal systems.
+
+This is why causal direction matters.
+
+Suppose we observe:
+
+$$
+\text{Cov}(X,Z) \neq 0
+$$
+
+and
+
+$$
+\text{Cov}(Y,Z) \neq 0
+$$
+
+This alone does *not* tell us whether $Z$ is a confounder, mediator, or something else.
+
+The causal role depends on the underlying structure.
+
+---
+
+# 3. Confounders
+
+The standard confounding structure is:
+
+$$
+\begin{array}{c}
+Z \\
+\swarrow \quad \searrow \\
+X \rightarrow Y
+\end{array}
+$$
+
+Here $Z$ is a **common cause** of both $X$ and $Y$.
+
+Example:
+
+- $X$: education
+- $Y$: wage
+- $Z$: ability
+
+Ability affects:
+
+- educational attainment,
+- and wages independently.
+
+If ability is omitted, part of its effect is incorrectly attributed to education.
+
+This is true confounding.
+
+---
+
+## Intuition
+
+A confounder acts like a contaminant.
+
+It creates spurious association between $X$ and $Y$.
+
+The goal is therefore:
+
+> to block the confounding pathway and recover the causal effect.
+
+---
+
+# Direction of Bias
+
+The sign of omitted variable bias depends on:
+
+$$
+\text{Bias}
+=
+\gamma
+\frac{\text{Cov}(X,Z)}
+{\text{Var}(X)}
+$$
+
+For example:
+
+| Cov($X,Z$) | $\gamma$ | Bias |
+|---|---|---|
+| positive | positive | upward bias |
+| positive | negative | downward bias |
+| negative | positive | downward bias |
+| negative | negative | upward bias |
+
+Thus omitted variables may:
+
+- exaggerate effects,
+- attenuate effects,
+- or even reverse coefficient signs.
+
+---
+
+# 4. Mediators (Intermediate Variables)
+
+Now consider a different structure:
+
+$$
+X \rightarrow M \rightarrow Y
+$$
+
+where $M$ is a mediator.
+
+Example:
+
+$$
+Education \rightarrow Occupation \rightarrow Wage
+$$
+
+Occupation is correlated with both education and wages.
+
+However, occupation is not a contaminating variable.
+
+Instead, it is part of the causal mechanism itself.
+
+Education affects wages partly by changing occupational opportunities.
+
+---
+
+# Mediation Is About Mechanisms
+
+The key question changes from:
+
+> “What biases the coefficient?”
+
+to:
+
+> “Through what channel does the effect operate?”
+
+Mediation analysis therefore decomposes effects into:
+
+$$
+\text{Total Effect}
+=
+\text{Direct Effect}
++
+\text{Indirect Effect}
+$$
+
+where:
+
+- direct effect:
+
+$$
+X \rightarrow Y
+$$
+
+- indirect effect:
+
+$$
+X \rightarrow M \rightarrow Y
+$$
+
+---
+
+# Why Mediators Should Not Be Treated Like Ordinary Controls
+
+Suppose we estimate:
+
+$$
+Wage = \alpha + \beta Education + u
+$$
+
+Then $\beta$ captures the **total effect** of education on wages.
+
+Now suppose we include occupation:
+
+$$
+Wage = \alpha + \beta Education + \gamma Occupation + u
+$$
+
+Now the pathway:
+
+$$
+Education \rightarrow Occupation \rightarrow Wage
+$$
+
+is partially blocked.
+
+As a result:
+
+- $\beta$ no longer measures the total effect,
+- it now measures only the direct effect.
+
+Thus:
+
+> controlling for a mediator changes the meaning of the coefficient.
+
+This is fundamentally different from controlling for a confounder.
+
+---
+
+## A Simple Mediation Decomposition
+
+Suppose:
+
+$$
+M = aX + v
+$$
+
+and:
+
+$$
+Y = c'X + bM + e
+$$
+
+Substituting the first equation into the second:
+
+$$
+Y
+=
+c'X + b(aX + v) + e
+$$
+
+which gives:
+
+$$
+Y
+=
+(c' + ab)X + (bv + e)
+$$
+
+Thus:
+
+$$
+\text{Total Effect}
+=
+c'
++
+ab
+$$
+
+where:
+
+- $c'$: direct effect
+- $ab$: indirect effect through the mediator
+
+---
+
+::: {.callout-note}
+## Technical Insight
+
+In mediation analysis, coefficient changes are not necessarily interpreted as “bias.”
+
+Instead, they may reflect decomposition of the causal effect into:
+
+- direct pathways,
+- and indirect pathways.
+:::
+
+---
+
+# The Sobel Test
+
+The classical Sobel test examines whether:
+
+$$
+ab \neq 0
+$$
+
+That is:
+
+> Is the indirect effect statistically significant?
+
+Modern mediation analysis often prefers:
+
+- bootstrap confidence intervals,
+- structural equation modeling (SEM),
+- or causal mediation frameworks,
+
+because products of coefficients are often non-normal.
+
+---
+
+# 5. Moderators and Interaction Terms
+
+Moderators are different from mediators.
+
+A moderator changes the *strength* of an effect.
+
+Suppose:
+
+$$
+Y
+=
+\beta_0
++
+\beta_1 X
++
+\beta_2 Z
++
+\beta_3(XZ)
++
+u
+$$
+
+The interaction term:
+
+$$
+X \times Z
+$$
+
+asks:
+
+> Does the effect of $X$ depend on $Z$?
+
+Example:
+
+- $X$: education
+- $Y$: wage
+- $Z$: urban location
+
+Then:
+
+$$
+Education \times Urban
+$$
+
+asks whether returns to education differ between cities and rural areas.
+
+---
+
+# Marginal Effect Interpretation
+
+Taking the derivative with respect to $X$:
+
+$$
+\frac{\partial Y}{\partial X}
+=
+\beta_1 + \beta_3 Z
+$$
+
+This means:
+
+> the effect of $X$ changes depending on the value of $Z$.
+
+---
+
+## Intuition
+
+A moderator acts like a “volume knob.”
+
+It amplifies or weakens the effect.
+
+---
+
+::: {.callout-note}
+## Technical Insight
+
+Interaction terms do NOT measure indirect effects.
+
+They measure changing slopes or heterogeneous effects.
+
+Mediation asks:
+
+> Through what mechanism?
+
+Moderation asks:
+
+> Under what conditions?
+:::
+
+---
+
+# 6. Instrumental Variables (IV)
+
+Suppose ordinary regression is biased because:
+
+$$
+\text{Cov}(X,u) \neq 0
+$$
+
+This may occur because of:
+
+- omitted variables,
+- reverse causality,
+- measurement error,
+- or selection bias.
+
+Instrumental variables attempt to isolate exogenous variation in $X$.
+
+Suppose:
+
+- $W$: distance to college
+
+Causal structure:
+
+$$
+W \rightarrow X \rightarrow Y
+$$
+
+with the key assumption:
+
+$$
+W \not\rightarrow Y
+$$
+
+except through $X$.
+
+---
+
+# The Logic of IV
+
+A valid instrument must satisfy two conditions.
+
+## Relevance
+
+The instrument must affect the endogenous variable:
+
+$$
+\text{Cov}(W,X) \neq 0
+$$
+
+## Exogeneity
+
+The instrument must be unrelated to the error term:
+
+$$
+\text{Cov}(W,u) = 0
+$$
+
+---
+
+## Why IV Works
+
+Suppose:
+
+$$
+Y = \beta X + u
+$$
+
+The IV estimator can be written as:
+
+$$
+\beta_{IV}
+=
+\frac{\text{Cov}(W,Y)}
+{\text{Cov}(W,X)}
+$$
+
+Using the structural equation:
+
+$$
+\text{Cov}(W,Y)
+=
+\beta \text{Cov}(W,X)
++
+\text{Cov}(W,u)
+$$
+
+If the instrument is exogenous:
+
+$$
+\text{Cov}(W,u)=0
+$$
+
+then:
+
+$$
+\beta_{IV}
+=
+\beta
+$$
+
+---
+
+::: {.callout-note}
+## Technical Insight
+
+IV estimation isolates the component of variation in $X$ that is unrelated to the regression error term.
+
+Conceptually, the instrument acts like a quasi-natural experiment.
+:::
+
+---
+
+# Final Intuition
+
+A useful way to remember the distinctions is:
+
+| Concept | Intuition |
+|---|---|
+| Confounder | contaminant |
+| Mediator | transmission belt |
+| Moderator | volume knob |
+| Instrument | natural experiment |
+
+The same variable may even play different roles depending on the causal structure and research question.
+
+Thus causal inference is not merely about “adding controls.”
+
+It is about understanding:
+
+- the data-generating process,
+- the causal structure,
+- and the meaning of statistical relationships.

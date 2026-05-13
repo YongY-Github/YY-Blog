@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/machine-reasoning/index.html",
+      "/posts/me/index.html",
+      "/posts/econo_1/index.html",
       "/posts/python-intro/index.html",
       "/posts/thailand/index.html",
       "/posts/human_AI/index.html",

@@ -40,5 +40,14 @@
   },
   "posts/python-intro/index.qmd": {
     "index.html": "609af119"
+  },
+  "posts/econo_1/index.qmd": {
+    "index.html": "b12f19bb"
+  },
+  "posts/me/index.qmd": {
+    "index.html": "77ffef4b"
+  },
+  "posts/machine-reasoning/index.qmd": {
+    "index.html": "60ddf143"
   }
 }

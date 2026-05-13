@@ -1,0 +1,9 @@
+---
+title: "Machine Reasoning"
+author: "-YY-"
+date: "2026-05-14"
+# draft: true
+categories: [ML Reasoning, AI]
+---
+
+# The Evolution of Machine Reasoning from Games to Dreams
