@@ -4,7 +4,7 @@ author: "-YY-"
 date: "2026-05-15"
 # draft: true
 categories: [Game Theory]
-image: "6336732_Cover_Go.webp"
+image: "8cab4028-85f2-4197-a415-69f9f9092b65.jpg"
 ---
 
 # The Evolution of Strategic Thought
