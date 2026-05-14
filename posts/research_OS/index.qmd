@@ -1,0 +1,445 @@
+---
+title: "Whi is this?"
+author: "-YY-"
+date: "2026-05-14"
+categories: [psychology, AI, research workflow]
+---
+
+# Research OS: Externalizing Academic Thinking in the Age of AI
+
+For many years, I worked in what I now realize was a highly fragmented academic workflow.
+
+Like many academics, I had:
+
+* papers in multiple folders,
+* half-finished drafts,
+* disconnected notes,
+* ideas scattered across notebooks and chats,
+* and many projects simultaneously competing for attention.
+
+The problem was not lack of ideas.
+
+If anything, the opposite was true.
+
+The real problem was that intellectual life had become too cognitively fragmented to manage purely “in the head.”
+
+Recently, however, I began experimenting with a lightweight system that I now think of as a:
+
+> **Research OS (Research Operating System)**
+
+What surprised me is that the effect was immediate and psychologically noticeable.
+
+Projects that previously felt:
+
+* overwhelming,
+* diffuse,
+* or difficult to restart
+
+suddenly began to feel:
+
+* resumable,
+* operational,
+* and cognitively manageable.
+
+This blog post is an attempt to clarify what this system is, how it relates to existing ideas like PKM and “Second Brain” systems, and why I suspect it may become increasingly important in the age of AI.
+
+---
+
+# The Core Problem: Cognitive Reload Cost
+
+One of the hidden costs of intellectual work is what I call:
+
+> **cognitive reload cost**
+
+Suppose you stop working on a paper or book chapter for several days.
+
+Restarting the project often requires:
+
+* remembering where files are,
+* reconstructing previous decisions,
+* recalling unresolved issues,
+* rediscovering bottlenecks,
+* and mentally re-entering the project.
+
+This process is surprisingly exhausting.
+
+In fact, many projects stall not because the work itself is impossible, but because:
+
+* the activation energy becomes too high,
+* and the intellectual state evaporates between work sessions.
+
+This becomes especially severe when working across:
+
+* multiple papers,
+* teaching,
+* administration,
+* coding,
+* AI tools,
+* and long-horizon book projects.
+
+The traditional academic workflow was never really designed for this level of fragmentation.
+
+---
+
+# What Is a Research OS?
+
+A Research OS is not simply:
+
+* note-taking,
+* task management,
+* or file organization.
+
+Rather, it is a lightweight system for:
+
+* preserving intellectual continuity,
+* reducing restart friction,
+* externalizing working memory,
+* and maintaining operational awareness across projects.
+
+My current system is intentionally simple.
+
+For each major project, I maintain a small collection of markdown files:
+
+```text
+brain.md
+daily_log.md
+ideas.md
+todo.md
+format.md
+```
+
+The exact filenames do not matter.
+
+What matters is the function.
+
+---
+
+# The Key Components
+
+## 1. `brain.md`
+
+This is the strategic control room.
+
+It contains:
+
+* project philosophy,
+* current focus,
+* bottlenecks,
+* operational rules,
+* weekly targets,
+* and next actions.
+
+The key idea is:
+
+> the file reflects current operational reality.
+
+Not aspirations.
+Not archival history.
+
+Example:
+
+```markdown
+# Current Focus
+
+1. Finish GT manuscript
+2. Applied Econometrics book
+3. Volatility paper
+
+# Bottlenecks
+
+- Volatility paper: re-estimation
+- Applied Econometrics: momentum
+
+# Next Actions
+
+- Create Chapter 3 markdown file
+- Rerun GCC-GARCH estimation
+```
+
+This dramatically reduces ambiguity.
+
+---
+
+## 2. `daily_log.md`
+
+This is not journaling.
+
+It is a continuity log.
+
+Example:
+
+```markdown
+## 2026-05-12
+
+- Completed first GT review pass
+- Paused GT polish until weekend
+- Shifted focus to grading and Japan paperwork
+```
+
+Over time, this becomes:
+
+* a memory extension,
+* a progress archive,
+* and a restart mechanism.
+
+---
+
+## 3. `ideas.md`
+
+This is extremely important for creative thinkers.
+
+The purpose is:
+
+> capture ideas without allowing them to derail active work.
+
+Examples:
+
+* possible examples,
+* future papers,
+* blog ideas,
+* diagrams,
+* pedagogical thoughts,
+* philosophical reflections.
+
+Without this file, the brain keeps rehearsing:
+
+> “Don’t forget this idea.”
+
+With it, the idea is safely parked.
+
+---
+
+## 4. `format.md`
+
+This file preserves stylistic and pedagogical consistency.
+
+For example:
+
+* chapter structure,
+* notation conventions,
+* box types,
+* coding style,
+* exercise format,
+* tone.
+
+This becomes increasingly valuable in long writing projects.
+
+---
+
+# This Is Not Exactly a “Second Brain”
+
+The system overlaps with several existing traditions, but is not identical to any of them.
+
+---
+
+# Personal Knowledge Management (PKM)
+
+PKM systems aim to externalize information and knowledge.
+
+These systems became increasingly popular with digital note-taking tools such as:
+
+* Notion,
+* Obsidian,
+* Roam,
+* Logseq,
+* and Evernote.
+
+However, many PKM systems gradually become:
+
+* passive storage systems,
+* collections of links,
+* or elaborate organizational structures rarely revisited.
+
+I experienced exactly this with Notion:
+I ended up storing many links that I never returned to.
+
+The problem is that storage alone does not solve intellectual workflow problems.
+
+---
+
+# “Second Brain” Systems
+
+The idea of a “Second Brain” (popularized by Tiago Forte) emphasizes:
+
+* externalized memory,
+* searchable information,
+* and reusable knowledge assets.
+
+This overlaps substantially with a Research OS.
+
+However, many implementations focus heavily on:
+
+* information capture,
+* categorization,
+* and archiving.
+
+My own system increasingly emphasizes something different:
+
+> operational continuity.
+
+The key question is not:
+
+> “Can I store this?”
+
+but:
+
+> “Can I quickly re-enter and continue meaningful intellectual work?”
+
+---
+
+# Zettelkasten
+
+The Zettelkasten system, associated with sociologist Niklas Luhmann, is based on:
+
+* atomic notes,
+* dense linking,
+* and emergent knowledge structures.
+
+It is intellectually fascinating and historically influential.
+
+However, my current system is less:
+
+* idea-network oriented,
+* and more:
+* project-oriented and operational.
+
+I am less concerned with building a giant web of notes and more concerned with:
+
+* maintaining momentum,
+* reducing restart friction,
+* and finishing large intellectual projects.
+
+---
+
+# Digital Gardens
+
+Digital gardens are more exploratory and public-facing.
+
+They emphasize:
+
+* evolving thought,
+* unfinished ideas,
+* and nonlinear exploration.
+
+My blog may partially evolve into this.
+
+But again, the Research OS is more operational than expressive.
+
+---
+
+# Why AI Changes Everything
+
+Before AI, notes were mostly passive.
+
+Now they are machine-readable context.
+
+This is a profound shift.
+
+Markdown files can now function as:
+
+* continuity layers,
+* contextual memory,
+* project state,
+* and collaborative context for AI systems.
+
+For example:
+
+* `brain.md` helps restore project philosophy,
+* `daily_log.md` restores continuity,
+* `format.md` preserves stylistic consistency.
+
+AI can then:
+
+* summarize,
+* continue,
+* critique,
+* reorganize,
+* or help resume work.
+
+In other words:
+
+> notes are no longer merely archival.
+> They are now interactive cognitive infrastructure.
+
+This is historically new.
+
+---
+
+# The Most Important Concept: Externalized Working Memory
+
+I increasingly think this is the core idea behind the entire system.
+
+Human working memory is limited.
+
+Complex intellectual work fails not because:
+
+* we lack intelligence,
+* or ideas,
+* but because:
+* cognitive state dissipates over time.
+
+A Research OS externalizes part of this cognitive state.
+
+This reduces:
+
+* activation energy,
+* fragmentation,
+* and context-switching costs.
+
+The result is psychologically significant.
+
+Projects begin to feel:
+
+> resumable rather than overwhelming.
+
+---
+
+# Why This Matters for Students
+
+I suspect this may become increasingly important for students as well.
+
+Modern students face:
+
+* information overload,
+* fragmented workflows,
+* AI tool chaos,
+* and shallow organizational habits.
+
+Teaching students isolated AI tools may quickly become obsolete.
+
+Teaching students how to build:
+
+* continuity,
+* workflow systems,
+* externalized cognitive structures,
+* and AI-integrated research habits
+
+may ultimately be far more valuable.
+
+This is one reason why I have started experimenting with the idea of a:
+
+> “Research OS”
+> in my Research with AI course.
+
+---
+
+# Final Thoughts
+
+What is interesting is that I did not arrive at this system through productivity culture or optimization trends.
+
+Rather, it emerged because:
+
+* my intellectual interests expanded,
+* projects multiplied,
+* and the traditional “keep it all in your head” model stopped scaling.
+
+The system is still evolving.
+
+But already, the effects are noticeable:
+
+* reduced mental clutter,
+* lower restart friction,
+* improved continuity,
+* and clearer operational focus.
+
+Most importantly, it makes long intellectual projects feel alive again.

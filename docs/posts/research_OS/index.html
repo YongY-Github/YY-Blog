@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="-YY-">
-<meta name="dcterms.date" content="2026-05-12">
+<meta name="dcterms.date" content="2026-05-14">
 
-<title>Wh0 is this? – YY-Blog</title>
+<title>Whi is this? – YY-Blog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -119,9 +154,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Wh0 is this?</h1>
+      <h1 class="title">Whi is this?</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">psychology</div>
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">research workflow</div>
               </div>
                   </div>
   </div>
@@ -139,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 12, 2026</p>
+        <p class="date">May 14, 2026</p>
       </div>
     </div>
     
@@ -158,20 +195,389 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Seven private habits associated with an extremely rare form of intelligence—estimated to be present in less than 2% of the population—that often goes unnoticed because it happens when a person is completely alone</p>
-<ol type="1">
-<li><strong>Epistemic Patience:</strong> This involves the ability to sit with uncomfortable questions without forcing a premature or “cheap” answer. While the average mind panics in the face of uncertainty, a high-functioning mind can hold contradiction and wait for a deeper understanding.</li>
-<li><strong>Active Self-Opposition:</strong> Rare intelligence is marked by mentally arguing against your own beliefs for fun. By stress-testing their own opinions to see if they survive, individuals demonstrate intellectual courage rather than a need to be right.</li>
-<li><strong>Metacognition of Emotions:</strong> Instead of simply reacting to feelings, these individuals study their emotions like data. They use a “detective” approach to trace emotions back to their origins, allowing them to decode signals rather than being controlled by emotional storms.</li>
-<li><strong>Cognitive Flexibility:</strong> This habit involves rewriting the meaning of the past. Rather than visiting memories for nostalgia, the mind actively reorganizes and upgrades the understanding of old events as it gains more life experience.</li>
-<li><strong>Intrinsic Intellectual Drive:</strong> This is defined by an obsession with “useless” curiosity that offers no immediate practical or financial benefit. These deep rabbit holes are considered the “fingerprint of genuine intelligence” because they show a brain that is hungry for knowledge for its own sake.</li>
-<li><strong>Intellectual Agility:</strong> This is the ability to edit your own thinking mid-thought. It requires a lack of ego, where a person is willing to pivot the moment they realise they are wrong, choosing to be correct rather than consistent.</li>
-<li><strong>Autonomous Cognitive Engagement:</strong> The final habit is the genuine enjoyment of one’s own mind as company. This is linked to higher abstract reasoning and creativity, as the individual no longer requires external stimulation or “noise” to feel okay.</li>
-</ol>
-<p>Ultimately, these habits do not just make a person smarter; they make their own inner life legible to them, signifying a mind that is constantly doing “serious work” behind the scenes</p>
-<p>Source: <a href="https://www.youtube.com/watch?v=HZBv_zP9Nb0" target="_blank">LINK</a></p>
+<section id="research-os-externalizing-academic-thinking-in-the-age-of-ai" class="level1">
+<h1>Research OS: Externalizing Academic Thinking in the Age of AI</h1>
+<p>For many years, I worked in what I now realize was a highly fragmented academic workflow.</p>
+<p>Like many academics, I had:</p>
+<ul>
+<li>papers in multiple folders,</li>
+<li>half-finished drafts,</li>
+<li>disconnected notes,</li>
+<li>ideas scattered across notebooks and chats,</li>
+<li>and many projects simultaneously competing for attention.</li>
+</ul>
+<p>The problem was not lack of ideas.</p>
+<p>If anything, the opposite was true.</p>
+<p>The real problem was that intellectual life had become too cognitively fragmented to manage purely “in the head.”</p>
+<p>Recently, however, I began experimenting with a lightweight system that I now think of as a:</p>
+<blockquote class="blockquote">
+<p><strong>Research OS (Research Operating System)</strong></p>
+</blockquote>
+<p>What surprised me is that the effect was immediate and psychologically noticeable.</p>
+<p>Projects that previously felt:</p>
+<ul>
+<li>overwhelming,</li>
+<li>diffuse,</li>
+<li>or difficult to restart</li>
+</ul>
+<p>suddenly began to feel:</p>
+<ul>
+<li>resumable,</li>
+<li>operational,</li>
+<li>and cognitively manageable.</li>
+</ul>
+<p>This blog post is an attempt to clarify what this system is, how it relates to existing ideas like PKM and “Second Brain” systems, and why I suspect it may become increasingly important in the age of AI.</p>
+<hr>
+</section>
+<section id="the-core-problem-cognitive-reload-cost" class="level1">
+<h1>The Core Problem: Cognitive Reload Cost</h1>
+<p>One of the hidden costs of intellectual work is what I call:</p>
+<blockquote class="blockquote">
+<p><strong>cognitive reload cost</strong></p>
+</blockquote>
+<p>Suppose you stop working on a paper or book chapter for several days.</p>
+<p>Restarting the project often requires:</p>
+<ul>
+<li>remembering where files are,</li>
+<li>reconstructing previous decisions,</li>
+<li>recalling unresolved issues,</li>
+<li>rediscovering bottlenecks,</li>
+<li>and mentally re-entering the project.</li>
+</ul>
+<p>This process is surprisingly exhausting.</p>
+<p>In fact, many projects stall not because the work itself is impossible, but because:</p>
+<ul>
+<li>the activation energy becomes too high,</li>
+<li>and the intellectual state evaporates between work sessions.</li>
+</ul>
+<p>This becomes especially severe when working across:</p>
+<ul>
+<li>multiple papers,</li>
+<li>teaching,</li>
+<li>administration,</li>
+<li>coding,</li>
+<li>AI tools,</li>
+<li>and long-horizon book projects.</li>
+</ul>
+<p>The traditional academic workflow was never really designed for this level of fragmentation.</p>
+<hr>
+</section>
+<section id="what-is-a-research-os" class="level1">
+<h1>What Is a Research OS?</h1>
+<p>A Research OS is not simply:</p>
+<ul>
+<li>note-taking,</li>
+<li>task management,</li>
+<li>or file organization.</li>
+</ul>
+<p>Rather, it is a lightweight system for:</p>
+<ul>
+<li>preserving intellectual continuity,</li>
+<li>reducing restart friction,</li>
+<li>externalizing working memory,</li>
+<li>and maintaining operational awareness across projects.</li>
+</ul>
+<p>My current system is intentionally simple.</p>
+<p>For each major project, I maintain a small collection of markdown files:</p>
+<pre class="text"><code>brain.md
+daily_log.md
+ideas.md
+todo.md
+format.md</code></pre>
+<p>The exact filenames do not matter.</p>
+<p>What matters is the function.</p>
+<hr>
+</section>
+<section id="the-key-components" class="level1">
+<h1>The Key Components</h1>
+<section id="brain.md" class="level2">
+<h2 class="anchored" data-anchor-id="brain.md">1. <code>brain.md</code></h2>
+<p>This is the strategic control room.</p>
+<p>It contains:</p>
+<ul>
+<li>project philosophy,</li>
+<li>current focus,</li>
+<li>bottlenecks,</li>
+<li>operational rules,</li>
+<li>weekly targets,</li>
+<li>and next actions.</li>
+</ul>
+<p>The key idea is:</p>
+<blockquote class="blockquote">
+<p>the file reflects current operational reality.</p>
+</blockquote>
+<p>Not aspirations. Not archival history.</p>
+<p>Example:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Current Focus</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Finish GT manuscript</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Applied Econometrics book</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Volatility paper</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu"># Bottlenecks</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Volatility paper: re-estimation</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Applied Econometrics: momentum</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="fu"># Next Actions</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Create Chapter 3 markdown file</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Rerun GCC-GARCH estimation</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This dramatically reduces ambiguity.</p>
+<hr>
+</section>
+<section id="daily_log.md" class="level2">
+<h2 class="anchored" data-anchor-id="daily_log.md">2. <code>daily_log.md</code></h2>
+<p>This is not journaling.</p>
+<p>It is a continuity log.</p>
+<p>Example:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## 2026-05-12</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Completed first GT review pass</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Paused GT polish until weekend</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Shifted focus to grading and Japan paperwork</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Over time, this becomes:</p>
+<ul>
+<li>a memory extension,</li>
+<li>a progress archive,</li>
+<li>and a restart mechanism.</li>
+</ul>
+<hr>
+</section>
+<section id="ideas.md" class="level2">
+<h2 class="anchored" data-anchor-id="ideas.md">3. <code>ideas.md</code></h2>
+<p>This is extremely important for creative thinkers.</p>
+<p>The purpose is:</p>
+<blockquote class="blockquote">
+<p>capture ideas without allowing them to derail active work.</p>
+</blockquote>
+<p>Examples:</p>
+<ul>
+<li>possible examples,</li>
+<li>future papers,</li>
+<li>blog ideas,</li>
+<li>diagrams,</li>
+<li>pedagogical thoughts,</li>
+<li>philosophical reflections.</li>
+</ul>
+<p>Without this file, the brain keeps rehearsing:</p>
+<blockquote class="blockquote">
+<p>“Don’t forget this idea.”</p>
+</blockquote>
+<p>With it, the idea is safely parked.</p>
+<hr>
+</section>
+<section id="format.md" class="level2">
+<h2 class="anchored" data-anchor-id="format.md">4. <code>format.md</code></h2>
+<p>This file preserves stylistic and pedagogical consistency.</p>
+<p>For example:</p>
+<ul>
+<li>chapter structure,</li>
+<li>notation conventions,</li>
+<li>box types,</li>
+<li>coding style,</li>
+<li>exercise format,</li>
+<li>tone.</li>
+</ul>
+<p>This becomes increasingly valuable in long writing projects.</p>
+<hr>
+</section>
+</section>
+<section id="this-is-not-exactly-a-second-brain" class="level1">
+<h1>This Is Not Exactly a “Second Brain”</h1>
+<p>The system overlaps with several existing traditions, but is not identical to any of them.</p>
+<hr>
+</section>
+<section id="personal-knowledge-management-pkm" class="level1">
+<h1>Personal Knowledge Management (PKM)</h1>
+<p>PKM systems aim to externalize information and knowledge.</p>
+<p>These systems became increasingly popular with digital note-taking tools such as:</p>
+<ul>
+<li>Notion,</li>
+<li>Obsidian,</li>
+<li>Roam,</li>
+<li>Logseq,</li>
+<li>and Evernote.</li>
+</ul>
+<p>However, many PKM systems gradually become:</p>
+<ul>
+<li>passive storage systems,</li>
+<li>collections of links,</li>
+<li>or elaborate organizational structures rarely revisited.</li>
+</ul>
+<p>I experienced exactly this with Notion: I ended up storing many links that I never returned to.</p>
+<p>The problem is that storage alone does not solve intellectual workflow problems.</p>
+<hr>
+</section>
+<section id="second-brain-systems" class="level1">
+<h1>“Second Brain” Systems</h1>
+<p>The idea of a “Second Brain” (popularized by Tiago Forte) emphasizes:</p>
+<ul>
+<li>externalized memory,</li>
+<li>searchable information,</li>
+<li>and reusable knowledge assets.</li>
+</ul>
+<p>This overlaps substantially with a Research OS.</p>
+<p>However, many implementations focus heavily on:</p>
+<ul>
+<li>information capture,</li>
+<li>categorization,</li>
+<li>and archiving.</li>
+</ul>
+<p>My own system increasingly emphasizes something different:</p>
+<blockquote class="blockquote">
+<p>operational continuity.</p>
+</blockquote>
+<p>The key question is not:</p>
+<blockquote class="blockquote">
+<p>“Can I store this?”</p>
+</blockquote>
+<p>but:</p>
+<blockquote class="blockquote">
+<p>“Can I quickly re-enter and continue meaningful intellectual work?”</p>
+</blockquote>
+<hr>
+</section>
+<section id="zettelkasten" class="level1">
+<h1>Zettelkasten</h1>
+<p>The Zettelkasten system, associated with sociologist Niklas Luhmann, is based on:</p>
+<ul>
+<li>atomic notes,</li>
+<li>dense linking,</li>
+<li>and emergent knowledge structures.</li>
+</ul>
+<p>It is intellectually fascinating and historically influential.</p>
+<p>However, my current system is less:</p>
+<ul>
+<li>idea-network oriented,</li>
+<li>and more:</li>
+<li>project-oriented and operational.</li>
+</ul>
+<p>I am less concerned with building a giant web of notes and more concerned with:</p>
+<ul>
+<li>maintaining momentum,</li>
+<li>reducing restart friction,</li>
+<li>and finishing large intellectual projects.</li>
+</ul>
+<hr>
+</section>
+<section id="digital-gardens" class="level1">
+<h1>Digital Gardens</h1>
+<p>Digital gardens are more exploratory and public-facing.</p>
+<p>They emphasize:</p>
+<ul>
+<li>evolving thought,</li>
+<li>unfinished ideas,</li>
+<li>and nonlinear exploration.</li>
+</ul>
+<p>My blog may partially evolve into this.</p>
+<p>But again, the Research OS is more operational than expressive.</p>
+<hr>
+</section>
+<section id="why-ai-changes-everything" class="level1">
+<h1>Why AI Changes Everything</h1>
+<p>Before AI, notes were mostly passive.</p>
+<p>Now they are machine-readable context.</p>
+<p>This is a profound shift.</p>
+<p>Markdown files can now function as:</p>
+<ul>
+<li>continuity layers,</li>
+<li>contextual memory,</li>
+<li>project state,</li>
+<li>and collaborative context for AI systems.</li>
+</ul>
+<p>For example:</p>
+<ul>
+<li><code>brain.md</code> helps restore project philosophy,</li>
+<li><code>daily_log.md</code> restores continuity,</li>
+<li><code>format.md</code> preserves stylistic consistency.</li>
+</ul>
+<p>AI can then:</p>
+<ul>
+<li>summarize,</li>
+<li>continue,</li>
+<li>critique,</li>
+<li>reorganize,</li>
+<li>or help resume work.</li>
+</ul>
+<p>In other words:</p>
+<blockquote class="blockquote">
+<p>notes are no longer merely archival. They are now interactive cognitive infrastructure.</p>
+</blockquote>
+<p>This is historically new.</p>
+<hr>
+</section>
+<section id="the-most-important-concept-externalized-working-memory" class="level1">
+<h1>The Most Important Concept: Externalized Working Memory</h1>
+<p>I increasingly think this is the core idea behind the entire system.</p>
+<p>Human working memory is limited.</p>
+<p>Complex intellectual work fails not because:</p>
+<ul>
+<li>we lack intelligence,</li>
+<li>or ideas,</li>
+<li>but because:</li>
+<li>cognitive state dissipates over time.</li>
+</ul>
+<p>A Research OS externalizes part of this cognitive state.</p>
+<p>This reduces:</p>
+<ul>
+<li>activation energy,</li>
+<li>fragmentation,</li>
+<li>and context-switching costs.</li>
+</ul>
+<p>The result is psychologically significant.</p>
+<p>Projects begin to feel:</p>
+<blockquote class="blockquote">
+<p>resumable rather than overwhelming.</p>
+</blockquote>
+<hr>
+</section>
+<section id="why-this-matters-for-students" class="level1">
+<h1>Why This Matters for Students</h1>
+<p>I suspect this may become increasingly important for students as well.</p>
+<p>Modern students face:</p>
+<ul>
+<li>information overload,</li>
+<li>fragmented workflows,</li>
+<li>AI tool chaos,</li>
+<li>and shallow organizational habits.</li>
+</ul>
+<p>Teaching students isolated AI tools may quickly become obsolete.</p>
+<p>Teaching students how to build:</p>
+<ul>
+<li>continuity,</li>
+<li>workflow systems,</li>
+<li>externalized cognitive structures,</li>
+<li>and AI-integrated research habits</li>
+</ul>
+<p>may ultimately be far more valuable.</p>
+<p>This is one reason why I have started experimenting with the idea of a:</p>
+<blockquote class="blockquote">
+<p>“Research OS” in my Research with AI course.</p>
+</blockquote>
+<hr>
+</section>
+<section id="final-thoughts" class="level1">
+<h1>Final Thoughts</h1>
+<p>What is interesting is that I did not arrive at this system through productivity culture or optimization trends.</p>
+<p>Rather, it emerged because:</p>
+<ul>
+<li>my intellectual interests expanded,</li>
+<li>projects multiplied,</li>
+<li>and the traditional “keep it all in your head” model stopped scaling.</li>
+</ul>
+<p>The system is still evolving.</p>
+<p>But already, the effects are noticeable:</p>
+<ul>
+<li>reduced mental clutter,</li>
+<li>lower restart friction,</li>
+<li>improved continuity,</li>
+<li>and clearer operational focus.</li>
+</ul>
+<p>Most importantly, it makes long intellectual projects feel alive again.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
