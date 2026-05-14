@@ -1,5 +1,5 @@
 ---
-title: "Whi is this?"
+title: "Reseach OS"
 author: "-YY-"
 date: "2026-05-14"
 categories: [psychology, AI, research workflow]

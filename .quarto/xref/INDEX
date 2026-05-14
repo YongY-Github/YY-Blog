@@ -49,5 +49,14 @@
   },
   "posts/machine-reasoning/index.qmd": {
     "index.html": "60ddf143"
+  },
+  "posts/ai-reasoning/index.qmd": {
+    "index.html": "51c27cc0"
+  },
+  "posts/GT-history/index.qmd": {
+    "index.html": "e1cd6add"
+  },
+  "posts/research_OS/index.qmd": {
+    "index.html": "ec8f0da6"
   }
 }

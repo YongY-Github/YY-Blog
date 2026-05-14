@@ -9,7 +9,7 @@
 <meta name="author" content="-YY-">
 <meta name="dcterms.date" content="2026-05-14">
 
-<title>Reseach OS – YY-Blog</title>
+<title>Machine Reasoning – YY-Blog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,41 +24,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -154,11 +119,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Reseach OS</h1>
+      <h1 class="title">Machine Reasoning</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">psychology</div>
+                <div class="quarto-category">ML Reasoning</div>
                 <div class="quarto-category">AI</div>
-                <div class="quarto-category">research workflow</div>
               </div>
                   </div>
   </div>
@@ -195,388 +159,317 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="research-os-externalizing-academic-thinking-in-the-age-of-ai" class="level1">
-<h1>Research OS: Externalizing Academic Thinking in the Age of AI</h1>
-<p>For many years, I worked in what I now realize was a highly fragmented academic workflow.</p>
-<p>Like many academics, I had:</p>
-<ul>
-<li>papers in multiple folders,</li>
-<li>half-finished drafts,</li>
-<li>disconnected notes,</li>
-<li>ideas scattered across notebooks and chats,</li>
-<li>and many projects simultaneously competing for attention.</li>
-</ul>
-<p>The problem was not lack of ideas.</p>
-<p>If anything, the opposite was true.</p>
-<p>The real problem was that intellectual life had become too cognitively fragmented to manage purely “in the head.”</p>
-<p>Recently, however, I began experimenting with a lightweight system that I now think of as a:</p>
+<section id="ai-reasoning-evolution-from-strategic-games-to-llms" class="level1">
+<h1>AI Reasoning Evolution: From Strategic Games to LLMs</h1>
+<section id="the-foundations-of-mechanised-thought" class="level2">
+<h2 class="anchored" data-anchor-id="the-foundations-of-mechanised-thought">1. The Foundations of Mechanised Thought</h2>
+<p>In computer science, <em>reasoning</em> is typically defined as the capacity for discrete thoughts to build upon one another in order to generate new conclusions — specifically conclusions structured so that an external observer can follow the logic and reproduce the same result.</p>
+<p>Historically, one of the benchmark environments for testing this capability was the <strong>“blocks world” problem</strong>, where an artificial agent had to manipulate objects into a desired configuration.</p>
+<p>These early experiments revealed an important threshold:</p>
 <blockquote class="blockquote">
-<p><strong>Research OS (Research Operating System)</strong></p>
+<p>Once solutions exceeded roughly eight reasoning steps, many early AI systems deteriorated into what researchers described as “reasonable-looking gibberish.”</p>
 </blockquote>
-<p>What surprised me is that the effect was immediate and psychologically noticeable.</p>
-<p>Projects that previously felt:</p>
-<ul>
-<li>overwhelming,</li>
-<li>diffuse,</li>
-<li>or difficult to restart</li>
-</ul>
-<p>suddenly began to feel:</p>
-<ul>
-<li>resumable,</li>
-<li>operational,</li>
-<li>and cognitively manageable.</li>
-</ul>
-<p>This blog post is an attempt to clarify what this system is, how it relates to existing ideas like PKM and “Second Brain” systems, and why I suspect it may become increasingly important in the age of AI.</p>
-<hr>
-</section>
-<section id="the-core-problem-cognitive-reload-cost" class="level1">
-<h1>The Core Problem: Cognitive Reload Cost</h1>
-<p>One of the hidden costs of intellectual work is what I call:</p>
+<p>The systems could imitate logical structure for short chains of thought, but lacked the flexible reasoning required for longer planning horizons.</p>
+<p>A modern example of this rigidity appears when Large Language Models (LLMs) are instructed to play tic-tac-toe <em>while intentionally trying to lose</em>. Despite the simplicity of the game, many models fail because they remain trapped in strongly learned patterns (playing to win). This highlights an important insight:</p>
 <blockquote class="blockquote">
-<p><strong>cognitive reload cost</strong></p>
+<p>True reasoning requires more than sophisticated pattern mimicry.</p>
 </blockquote>
-<p>Suppose you stop working on a paper or book chapter for several days.</p>
-<p>Restarting the project often requires:</p>
-<ul>
-<li>remembering where files are,</li>
-<li>reconstructing previous decisions,</li>
-<li>recalling unresolved issues,</li>
-<li>rediscovering bottlenecks,</li>
-<li>and mentally re-entering the project.</li>
-</ul>
-<p>This process is surprisingly exhausting.</p>
-<p>In fact, many projects stall not because the work itself is impossible, but because:</p>
-<ul>
-<li>the activation energy becomes too high,</li>
-<li>and the intellectual state evaporates between work sessions.</li>
-</ul>
-<p>This becomes especially severe when working across:</p>
-<ul>
-<li>multiple papers,</li>
-<li>teaching,</li>
-<li>administration,</li>
-<li>coding,</li>
-<li>AI tools,</li>
-<li>and long-horizon book projects.</li>
-</ul>
-<p>The traditional academic workflow was never really designed for this level of fragmentation.</p>
 <hr>
 </section>
-<section id="what-is-a-research-os" class="level1">
-<h1>What Is a Research OS?</h1>
-<p>A Research OS is not simply:</p>
-<ul>
-<li>note-taking,</li>
-<li>task management,</li>
-<li>or file organization.</li>
-</ul>
-<p>Rather, it is a lightweight system for:</p>
-<ul>
-<li>preserving intellectual continuity,</li>
-<li>reducing restart friction,</li>
-<li>externalizing working memory,</li>
-<li>and maintaining operational awareness across projects.</li>
-</ul>
-<p>My current system is intentionally simple.</p>
-<p>For each major project, I maintain a small collection of markdown files:</p>
-<pre class="text"><code>brain.md
-daily_log.md
-ideas.md
-todo.md
-format.md</code></pre>
-<p>The exact filenames do not matter.</p>
-<p>What matters is the function.</p>
+<section id="the-two-pillars-of-reasoning" class="level2">
+<h2 class="anchored" data-anchor-id="the-two-pillars-of-reasoning">The Two Pillars of Reasoning</h2>
+<p>Functional reasoning systems generally require two architectural components.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pillar</th>
+<th>Definition</th>
+<th>Chess Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>World Model</strong></td>
+<td>An internal simulator or representation that predicts environmental changes resulting from specific actions.</td>
+<td>The rules of chess and the current spatial arrangement of pieces.</td>
+</tr>
+<tr class="even">
+<td><strong>Algorithm</strong></td>
+<td>A decision-making procedure that evaluates and selects among possible actions using the world model.</td>
+<td>The logic used to determine whether a move improves or worsens the board position.</td>
+</tr>
+</tbody>
+</table>
+<p>Historically, AI systems approached this through two major search paradigms.</p>
+<section id="the-greedy-approach" class="level3">
+<h3 class="anchored" data-anchor-id="the-greedy-approach">The Greedy Approach</h3>
+<p>The system evaluates only the immediate next move and selects the option with the highest short-run value.</p>
+<p>For example: - capturing a piece, - gaining material, - or maximizing immediate reward.</p>
+<p>This is computationally efficient, but strategically shallow.</p>
 <hr>
 </section>
-<section id="the-key-components" class="level1">
-<h1>The Key Components</h1>
-<section id="brain.md" class="level2">
-<h2 class="anchored" data-anchor-id="brain.md">1. <code>brain.md</code></h2>
-<p>This is the strategic control room.</p>
-<p>It contains:</p>
-<ul>
-<li>project philosophy,</li>
-<li>current focus,</li>
-<li>bottlenecks,</li>
-<li>operational rules,</li>
-<li>weekly targets,</li>
-<li>and next actions.</li>
-</ul>
-<p>The key idea is:</p>
+<section id="exhaustive-search" class="level3">
+<h3 class="anchored" data-anchor-id="exhaustive-search">Exhaustive Search</h3>
+<p>At the opposite extreme, the system attempts to evaluate <em>every possible future path</em>.</p>
+<p>This quickly becomes computationally impossible.</p>
+<p>The chess game tree contains more possible board configurations than there are atoms in the observable universe.</p>
+<hr>
+</section>
+</section>
+<section id="the-rise-of-machine-intuition" class="level2">
+<h2 class="anchored" data-anchor-id="the-rise-of-machine-intuition">2. The Rise of Machine Intuition</h2>
+<p>A major transition in AI occurred when researchers shifted away from manually coded heuristics toward <strong>neural networks capable of learning environmental intuition through experience</strong>.</p>
+<p>One landmark example was <strong>TD-Gammon</strong> in 1989.</p>
+<p>TD-Gammon: - used a neural network to evaluate Backgammon positions, - trained through millions of games of self-play, - and improved using reinforcement signals derived from wins and losses.</p>
+<p>Remarkably, it achieved near world-class performance using only a shallow one-step look-ahead.</p>
+<hr>
+</section>
+<section id="position-intuition-vs.-move-intuition" class="level2">
+<h2 class="anchored" data-anchor-id="position-intuition-vs.-move-intuition">Position Intuition vs.&nbsp;Move Intuition</h2>
+<p>Over time, researchers distinguished between two forms of “intuition.”</p>
+<section id="position-intuition" class="level3">
+<h3 class="anchored" data-anchor-id="position-intuition">Position Intuition</h3>
+<p>The ability to evaluate the quality of a static state.</p>
+<p>For example: - estimating the probability of winning from a given chess position.</p>
+<hr>
+</section>
+<section id="move-intuition-policy-functions" class="level3">
+<h3 class="anchored" data-anchor-id="move-intuition-policy-functions">Move Intuition (Policy Functions)</h3>
+<p>The ability to predict which moves are promising <em>before</em> explicitly calculating their consequences.</p>
+<p>This resembles human instinct: - “This move feels strong.”</p>
+<hr>
+</section>
+</section>
+<section id="human-like-move-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="human-like-move-prediction">Human-Like Move Prediction</h2>
+<p>In 2014, Clark and Stokeley trained networks directly on human move patterns.</p>
+<p>Their architecture: - produced probability distributions over legal moves, - ranked candidate actions according to human tendencies, - and learned stylistic preferences from expert play.</p>
+<p>However, these systems plateaued at roughly amateur strength because they lacked a deeper search procedure to validate their intuitive guesses.</p>
+<hr>
+</section>
+<section id="the-alphago-breakthrough" class="level2">
+<h2 class="anchored" data-anchor-id="the-alphago-breakthrough">The AlphaGo Breakthrough</h2>
+<p>The decisive breakthrough came from integrating neural networks with <strong>Monte Carlo Tree Search (MCTS)</strong>.</p>
+<p>AlphaGo combined: - policy networks (move intuition), - value networks (position evaluation), - and guided search.</p>
+<p>Instead of exhaustively searching the full game tree, the system performed selective simulations (“rollouts”) focused on the most promising continuations.</p>
+<p>This allowed computational resources to be concentrated where uncertainty was greatest.</p>
+<hr>
+</section>
+<section id="move-37" class="level2">
+<h2 class="anchored" data-anchor-id="move-37">Move 37</h2>
+<p>The defining symbolic moment came during Game 2 against Lee Sedol.</p>
+<p>AlphaGo played the now-famous <strong>Move 37</strong> — a move so statistically improbable by human standards that commentators initially assumed it was a mistake.</p>
+<p>Instead, it proved brilliant.</p>
+<p>The moment became historically significant because it suggested something deeper:</p>
 <blockquote class="blockquote">
-<p>the file reflects current operational reality.</p>
+<p>Machines were no longer merely imitating human strategies.<br>
+They were discovering new ones.</p>
 </blockquote>
-<p>Not aspirations. Not archival history.</p>
-<p>Example:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Current Focus</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Finish GT manuscript</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Applied Econometrics book</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Volatility paper</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu"># Bottlenecks</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Volatility paper: re-estimation</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Applied Econometrics: momentum</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="fu"># Next Actions</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Create Chapter 3 markdown file</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Rerun GCC-GARCH estimation</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>This dramatically reduces ambiguity.</p>
 <hr>
 </section>
-<section id="daily_log.md" class="level2">
-<h2 class="anchored" data-anchor-id="daily_log.md">2. <code>daily_log.md</code></h2>
-<p>This is not journaling.</p>
-<p>It is a continuity log.</p>
-<p>Example:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## 2026-05-12</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Completed first GT review pass</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Paused GT polish until weekend</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Shifted focus to grading and Japan paperwork</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Over time, this becomes:</p>
-<ul>
-<li>a memory extension,</li>
-<li>a progress archive,</li>
-<li>and a restart mechanism.</li>
-</ul>
-<hr>
-</section>
-<section id="ideas.md" class="level2">
-<h2 class="anchored" data-anchor-id="ideas.md">3. <code>ideas.md</code></h2>
-<p>This is extremely important for creative thinkers.</p>
-<p>The purpose is:</p>
+<section id="alphago-zero-and-the-rejection-of-human-priors" class="level2">
+<h2 class="anchored" data-anchor-id="alphago-zero-and-the-rejection-of-human-priors">AlphaGo Zero and the Rejection of Human Priors</h2>
+<p>Later systems such as <strong>AlphaGo Zero</strong> removed human training data entirely.</p>
+<p>The AI learned solely through self-play.</p>
+<p>An important conclusion emerged:</p>
 <blockquote class="blockquote">
-<p>capture ideas without allowing them to derail active work.</p>
+<p>Human examples acted as a “crutch” that constrained exploration.</p>
 </blockquote>
-<p>Examples:</p>
-<ul>
-<li>possible examples,</li>
-<li>future papers,</li>
-<li>blog ideas,</li>
-<li>diagrams,</li>
-<li>pedagogical thoughts,</li>
-<li>philosophical reflections.</li>
-</ul>
-<p>Without this file, the brain keeps rehearsing:</p>
-<blockquote class="blockquote">
-<p>“Don’t forget this idea.”</p>
-</blockquote>
-<p>With it, the idea is safely parked.</p>
+<p>Pure self-play allowed the system to discover strategic patterns beyond accumulated human tradition.</p>
 <hr>
 </section>
-<section id="format.md" class="level2">
-<h2 class="anchored" data-anchor-id="format.md">4. <code>format.md</code></h2>
-<p>This file preserves stylistic and pedagogical consistency.</p>
+<section id="generalised-learning-and-the-dreaming-concept" class="level2">
+<h2 class="anchored" data-anchor-id="generalised-learning-and-the-dreaming-concept">3. Generalised Learning and the “Dreaming” Concept</h2>
+<p>In 2018, Ha and Schmidhuber introduced the influential paper <strong>World Models</strong>.</p>
+<p>The central idea was radical:</p>
+<blockquote class="blockquote">
+<p>An AI could learn an internal simulator of reality and train inside imagined environments.</p>
+</blockquote>
+<p>The system: - observed the world, - compressed experience into a latent representation, - and then generated simulated futures (“dreams”).</p>
+<p>Training no longer required constant interaction with the real environment.</p>
+<p>This dramatically reduced the cost of learning.</p>
+<hr>
+</section>
+<section id="muzero-learning-without-rules" class="level2">
+<h2 class="anchored" data-anchor-id="muzero-learning-without-rules">MuZero: Learning Without Rules</h2>
+<p>DeepMind later extended this idea with <strong>MuZero</strong>.</p>
+<p>Unlike earlier systems, MuZero was not given: - the rules of chess, - the rules of Go, - or the rules of Atari games.</p>
+<p>Instead, it inferred useful environmental structure directly from reward signals.</p>
+<p>MuZero mastered: - Chess, - Go, - Shogi, - and 57 Atari games, without explicit knowledge of the governing rules.</p>
+<hr>
+</section>
+<section id="the-transfer-learning-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-transfer-learning-problem">The Transfer Learning Problem</h2>
+<p>Despite these achievements, a major limitation remained.</p>
+<p>Learning one environment did not generalize to another.</p>
+<p>A system trained for: - chess, could not automatically transfer its knowledge to: - driving, - robotics, - or language.</p>
+<p>Each domain still required retraining from scratch.</p>
+<p>This created isolated “skill silos.”</p>
+<hr>
+</section>
+<section id="the-transformer-paradigm-shift" class="level2">
+<h2 class="anchored" data-anchor-id="the-transformer-paradigm-shift">4. The Transformer Paradigm Shift</h2>
+<p>A profound change occurred in 2017 with the paper:</p>
+<blockquote class="blockquote">
+<p><em>Attention Is All You Need</em></p>
+</blockquote>
+<p>Originally developed for language translation, the Transformer architecture replaced sequential word processing with a mechanism called <strong>attention</strong>.</p>
+<p>Rather than translating word-by-word, the system learned relationships between words through high-dimensional mathematical associations.</p>
+<p>This enabled: - context sensitivity, - long-range dependency tracking, - and scalable representation learning.</p>
+<hr>
+</section>
+<section id="mechanics-of-large-language-models" class="level2">
+<h2 class="anchored" data-anchor-id="mechanics-of-large-language-models">Mechanics of Large Language Models</h2>
+<section id="tokens" class="level3">
+<h3 class="anchored" data-anchor-id="tokens">Tokens</h3>
+<p>Words are broken into numerical units called <em>tokens</em>.</p>
+<p>These may represent: - entire words, - partial words, - or punctuation fragments.</p>
+<hr>
+</section>
+<section id="vectors" class="level3">
+<h3 class="anchored" data-anchor-id="vectors">Vectors</h3>
+<p>Each token is represented as a high-dimensional vector encoding: - semantic meaning, - associations, - grammar, - and contextual relationships.</p>
+<p>GPT-2 used vector dimensions around 768.</p>
+<p>Modern systems such as GPT-4 operate at vastly larger scales, though exact specifications are proprietary.</p>
+<hr>
+</section>
+<section id="pre-training" class="level3">
+<h3 class="anchored" data-anchor-id="pre-training">Pre-training</h3>
+<p>LLMs learn through exposure to enormous text corpora.</p>
+<p>During training, the model continuously predicts the next token.</p>
+<p>For example:</p>
+<blockquote class="blockquote">
+<p>“The dog was barking…”</p>
+</blockquote>
+<p>causes the system to increase associations between: - dog, - barking, - pets, - noise, - and related concepts.</p>
+<p>Over billions of examples, the model develops a statistical representation of language.</p>
+<hr>
+</section>
+</section>
+<section id="simulated-creativity-and-prediction-at-scale" class="level2">
+<h2 class="anchored" data-anchor-id="simulated-creativity-and-prediction-at-scale">5. Simulated Creativity and Prediction at Scale</h2>
+<p>Modern generative AI is fundamentally:</p>
+<blockquote class="blockquote">
+<p>Prediction at scale.</p>
+</blockquote>
+<p>When prompted with:</p>
+<blockquote class="blockquote">
+<p>“The sky is…”</p>
+</blockquote>
+<p>the model estimates probability distributions over possible continuations.</p>
 <p>For example:</p>
 <ul>
-<li>chapter structure,</li>
-<li>notation conventions,</li>
-<li>box types,</li>
-<li>coding style,</li>
-<li>exercise format,</li>
-<li>tone.</li>
+<li>Blue → 47%</li>
+<li>Clear → 18%</li>
+<li>Falling → 12%</li>
 </ul>
-<p>This becomes increasingly valuable in long writing projects.</p>
+<p>The system selects from these distributions.</p>
 <hr>
 </section>
-</section>
-<section id="this-is-not-exactly-a-second-brain" class="level1">
-<h1>This Is Not Exactly a “Second Brain”</h1>
-<p>The system overlaps with several existing traditions, but is not identical to any of them.</p>
+<section id="simulated-creativity" class="level2">
+<h2 class="anchored" data-anchor-id="simulated-creativity">Simulated Creativity</h2>
+<p>Creativity emerges when the system intentionally avoids the most probable continuation.</p>
+<p>Instead of selecting: - the top prediction,</p>
+<p>it samples: - the second, - third, - or lower-ranked possibilities.</p>
+<p>This creates outputs that appear: - varied, - surprising, - and human-like.</p>
 <hr>
 </section>
-<section id="personal-knowledge-management-pkm" class="level1">
-<h1>Personal Knowledge Management (PKM)</h1>
-<p>PKM systems aim to externalize information and knowledge.</p>
-<p>These systems became increasingly popular with digital note-taking tools such as:</p>
-<ul>
-<li>Notion,</li>
-<li>Obsidian,</li>
-<li>Roam,</li>
-<li>Logseq,</li>
-<li>and Evernote.</li>
-</ul>
-<p>However, many PKM systems gradually become:</p>
-<ul>
-<li>passive storage systems,</li>
-<li>collections of links,</li>
-<li>or elaborate organizational structures rarely revisited.</li>
-</ul>
-<p>I experienced exactly this with Notion: I ended up storing many links that I never returned to.</p>
-<p>The problem is that storage alone does not solve intellectual workflow problems.</p>
+<section id="beyond-text" class="level2">
+<h2 class="anchored" data-anchor-id="beyond-text">Beyond Text</h2>
+<p>Importantly, the same mathematical principle extends beyond language.</p>
+<p>Generative AI can predict: - the next pixel in an image, - the next frame in a video, - or the next segment of audio.</p>
+<p>The underlying mechanism remains statistical continuation prediction.</p>
 <hr>
 </section>
-<section id="second-brain-systems" class="level1">
-<h1>“Second Brain” Systems</h1>
-<p>The idea of a “Second Brain” (popularized by Tiago Forte) emphasizes:</p>
-<ul>
-<li>externalized memory,</li>
-<li>searchable information,</li>
-<li>and reusable knowledge assets.</li>
-</ul>
-<p>This overlaps substantially with a Research OS.</p>
-<p>However, many implementations focus heavily on:</p>
-<ul>
-<li>information capture,</li>
-<li>categorization,</li>
-<li>and archiving.</li>
-</ul>
-<p>My own system increasingly emphasizes something different:</p>
+<section id="hardware-acceleration" class="level2">
+<h2 class="anchored" data-anchor-id="hardware-acceleration">Hardware Acceleration</h2>
+<p>This capability became practical largely because of Nvidia GPUs.</p>
+<p>Originally designed for: - graphics rendering, - and later cryptocurrency mining,</p>
+<p>GPUs proved exceptionally efficient at large-scale matrix multiplication.</p>
+<p>This allowed modern data centers to compute billions of token relationships in real time.</p>
+<hr>
+</section>
+<section id="advanced-reasoning-architectures" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-reasoning-architectures">6. Advanced Reasoning Architectures</h2>
+<p>Recent AI research increasingly resembles the search procedures of earlier game-playing systems.</p>
+<hr>
+</section>
+<section id="chain-of-thought-cot" class="level2">
+<h2 class="anchored" data-anchor-id="chain-of-thought-cot">Chain of Thought (CoT)</h2>
+<p>Prompts such as:</p>
 <blockquote class="blockquote">
-<p>operational continuity.</p>
+<p>“Let’s think step by step.”</p>
 </blockquote>
-<p>The key question is not:</p>
+<p>encourage the model to generate explicit intermediate reasoning stages.</p>
+<p>This: - decomposes complex tasks, - reduces logical jumps, - and improves performance on reasoning benchmarks.</p>
+<hr>
+</section>
+<section id="tree-of-thought-tot" class="level2">
+<h2 class="anchored" data-anchor-id="tree-of-thought-tot">Tree of Thought (ToT)</h2>
+<p>Tree of Thought extends this further.</p>
+<p>Instead of pursuing a single reasoning chain, the system: - explores multiple candidate reasoning branches simultaneously, - evaluates their plausibility, - and prunes unpromising paths.</p>
+<p>Conceptually, this resembles Monte Carlo Tree Search applied to language.</p>
+<hr>
+</section>
+<section id="step-by-step-verification" class="level2">
+<h2 class="anchored" data-anchor-id="step-by-step-verification">Step-by-Step Verification</h2>
+<p>OpenAI’s paper:</p>
 <blockquote class="blockquote">
-<p>“Can I store this?”</p>
+<p><em>Let’s Verify Step by Step</em></p>
 </blockquote>
-<p>but:</p>
+<p>introduced reinforcement learning methods that reward valid intermediate reasoning steps.</p>
+<p>Rather than evaluating only final answers, the system receives feedback throughout the reasoning process.</p>
+<p>This resembles human social learning: - nods of understanding, - expressions of confusion, - approval, - or correction.</p>
+<p>Over time, the model learns to: - suppress faulty logic, - and reinforce coherent reasoning patterns.</p>
+<hr>
+</section>
+<section id="the-intelligence-debate-and-the-future-of-reasoning" class="level2">
+<h2 class="anchored" data-anchor-id="the-intelligence-debate-and-the-future-of-reasoning">7. The Intelligence Debate and the Future of Reasoning</h2>
+<p>One major finding of recent research is the relationship between:</p>
 <blockquote class="blockquote">
-<p>“Can I quickly re-enter and continue meaningful intellectual work?”</p>
+<p>thinking time and reasoning quality.</p>
 </blockquote>
+<p>Allowing models to generate more intermediate reasoning tokens often improves accuracy more effectively than simply increasing parameter counts.</p>
 <hr>
 </section>
-<section id="zettelkasten" class="level1">
-<h1>Zettelkasten</h1>
-<p>The Zettelkasten system, associated with sociologist Niklas Luhmann, is based on:</p>
-<ul>
-<li>atomic notes,</li>
-<li>dense linking,</li>
-<li>and emergent knowledge structures.</li>
-</ul>
-<p>It is intellectually fascinating and historically influential.</p>
-<p>However, my current system is less:</p>
-<ul>
-<li>idea-network oriented,</li>
-<li>and more:</li>
-<li>project-oriented and operational.</li>
-</ul>
-<p>I am less concerned with building a giant web of notes and more concerned with:</p>
-<ul>
-<li>maintaining momentum,</li>
-<li>reducing restart friction,</li>
-<li>and finishing large intellectual projects.</li>
-</ul>
+<section id="the-arc-test" class="level2">
+<h2 class="anchored" data-anchor-id="the-arc-test">The ARC Test</h2>
+<p>To move beyond memorization, researchers increasingly use the <strong>ARC Test (Abstraction and Reasoning Corpus)</strong>.</p>
+<p>ARC problems require systems to infer: - novel visual patterns, - abstract transformations, - and first-principles rules,</p>
+<p>without relying on previously seen internet data.</p>
+<p>The benchmark is designed specifically to test genuine generalization.</p>
 <hr>
 </section>
-<section id="digital-gardens" class="level1">
-<h1>Digital Gardens</h1>
-<p>Digital gardens are more exploratory and public-facing.</p>
-<p>They emphasize:</p>
-<ul>
-<li>evolving thought,</li>
-<li>unfinished ideas,</li>
-<li>and nonlinear exploration.</li>
-</ul>
-<p>My blog may partially evolve into this.</p>
-<p>But again, the Research OS is more operational than expressive.</p>
+<section id="the-ongoing-philosophical-debate" class="level2">
+<h2 class="anchored" data-anchor-id="the-ongoing-philosophical-debate">The Ongoing Philosophical Debate</h2>
+<p>The field remains divided between two broad perspectives.</p>
+<hr>
+<section id="the-platos-cave-argument" class="level3">
+<h3 class="anchored" data-anchor-id="the-platos-cave-argument">The Plato’s Cave Argument</h3>
+<p>This view holds that modern AI systems are fundamentally: - advanced pattern matchers, - sophisticated mimics, - and statistical illusion machines.</p>
+<p>According to this perspective: - reasoning chains are not “understanding,” - but only the appearance of understanding.</p>
 <hr>
 </section>
-<section id="why-ai-changes-everything" class="level1">
-<h1>Why AI Changes Everything</h1>
-<p>Before AI, notes were mostly passive.</p>
-<p>Now they are machine-readable context.</p>
-<p>This is a profound shift.</p>
-<p>Markdown files can now function as:</p>
-<ul>
-<li>continuity layers,</li>
-<li>contextual memory,</li>
-<li>project state,</li>
-<li>and collaborative context for AI systems.</li>
-</ul>
-<p>For example:</p>
-<ul>
-<li><code>brain.md</code> helps restore project philosophy,</li>
-<li><code>daily_log.md</code> restores continuity,</li>
-<li><code>format.md</code> preserves stylistic consistency.</li>
-</ul>
-<p>AI can then:</p>
-<ul>
-<li>summarize,</li>
-<li>continue,</li>
-<li>critique,</li>
-<li>reorganize,</li>
-<li>or help resume work.</li>
-</ul>
-<p>In other words:</p>
+<section id="the-functionalist-argument" class="level3">
+<h3 class="anchored" data-anchor-id="the-functionalist-argument">The Functionalist Argument</h3>
+<p>The opposing position argues:</p>
 <blockquote class="blockquote">
-<p>notes are no longer merely archival. They are now interactive cognitive infrastructure.</p>
+<p>If a system consistently produces valid reasoning and correct conclusions, the internal mechanism may not matter.</p>
 </blockquote>
-<p>This is historically new.</p>
-<hr>
-</section>
-<section id="the-most-important-concept-externalized-working-memory" class="level1">
-<h1>The Most Important Concept: Externalized Working Memory</h1>
-<p>I increasingly think this is the core idea behind the entire system.</p>
-<p>Human working memory is limited.</p>
-<p>Complex intellectual work fails not because:</p>
-<ul>
-<li>we lack intelligence,</li>
-<li>or ideas,</li>
-<li>but because:</li>
-<li>cognitive state dissipates over time.</li>
-</ul>
-<p>A Research OS externalizes part of this cognitive state.</p>
-<p>This reduces:</p>
-<ul>
-<li>activation energy,</li>
-<li>fragmentation,</li>
-<li>and context-switching costs.</li>
-</ul>
-<p>The result is psychologically significant.</p>
-<p>Projects begin to feel:</p>
+<p>From this perspective: - sufficiently advanced mimicry becomes functionally indistinguishable from understanding.</p>
+<p>And if it is indistinguishable in practice:</p>
 <blockquote class="blockquote">
-<p>resumable rather than overwhelming.</p>
+<p>perhaps it <em>is</em> understanding.</p>
 </blockquote>
-<hr>
-</section>
-<section id="why-this-matters-for-students" class="level1">
-<h1>Why This Matters for Students</h1>
-<p>I suspect this may become increasingly important for students as well.</p>
-<p>Modern students face:</p>
-<ul>
-<li>information overload,</li>
-<li>fragmented workflows,</li>
-<li>AI tool chaos,</li>
-<li>and shallow organizational habits.</li>
-</ul>
-<p>Teaching students isolated AI tools may quickly become obsolete.</p>
-<p>Teaching students how to build:</p>
-<ul>
-<li>continuity,</li>
-<li>workflow systems,</li>
-<li>externalized cognitive structures,</li>
-<li>and AI-integrated research habits</li>
-</ul>
-<p>may ultimately be far more valuable.</p>
-<p>This is one reason why I have started experimenting with the idea of a:</p>
-<blockquote class="blockquote">
-<p>“Research OS” in my Research with AI course.</p>
-</blockquote>
-<hr>
-</section>
-<section id="final-thoughts" class="level1">
-<h1>Final Thoughts</h1>
-<p>What is interesting is that I did not arrive at this system through productivity culture or optimization trends.</p>
-<p>Rather, it emerged because:</p>
-<ul>
-<li>my intellectual interests expanded,</li>
-<li>projects multiplied,</li>
-<li>and the traditional “keep it all in your head” model stopped scaling.</li>
-</ul>
-<p>The system is still evolving.</p>
-<p>But already, the effects are noticeable:</p>
-<ul>
-<li>reduced mental clutter,</li>
-<li>lower restart friction,</li>
-<li>improved continuity,</li>
-<li>and clearer operational focus.</li>
-</ul>
-<p>Most importantly, it makes long intellectual projects feel alive again.</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

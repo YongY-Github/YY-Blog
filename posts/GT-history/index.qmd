@@ -1,0 +1,496 @@
+---
+title: "Time-Line of Game Theory"
+author: "-YY-"
+date: "2026-05-15"
+# draft: true
+categories: [Game Theory]
+image: "6336732_Cover_Go.webp"
+---
+
+# The Evolution of Strategic Thought
+
+## A Brief History of Game Theory
+
+Game theory is the study of strategic interaction — situations in which outcomes depend not only on one’s own choices, but also on the choices of others.
+
+Today, it is used across:\
+- economics,\
+- politics,\
+- military strategy,\
+- biology,\
+- computer science,\
+- artificial intelligence,\
+- and even cryptocurrency design.
+
+But the road toward modern game theory was surprisingly long.
+
+Its development stretched from:\
+- ancient legal reasoning,\
+- to probability theory,\
+- to Cold War strategy,\
+- to modern algorithmic systems.
+
+And along the way, it produced some of the most fascinating intellectual stories in modern science.
+
+---
+
+# 1. Ancient Intuitions and Early Foundations
+
+Long before game theory became formal mathematics, people were already thinking strategically.
+
+## The Talmud and the Marriage Contract Problem
+
+One of the earliest proto-game-theoretic discussions appears in the **Talmud** (roughly 400–500 CE).
+
+The problem concerned:\
+- how to divide assets among claimants,\
+- particularly in marriage contracts under bankruptcy-like conditions.
+
+Modern scholars later realized that these discussions resembled concepts from:\
+- cooperative game theory,\
+- bargaining,\
+- and fair division.
+
+In a sense:
+
+> Rabbis were thinking about strategic allocation problems over a millennium before formal game theory existed.
+
+---
+
+# 2. The First Mixed Strategy: Waldegrave (1713)
+
+The first known formal solution to a strategic game appears in a 1713 letter by **James Waldegrave** concerning a card game called *Le Her*. :contentReference[oaicite:0]{index=0}
+
+The game involved:\
+- bluffing,\
+- uncertainty,\
+- and probabilistic decisions.
+
+Waldegrave proposed what we now call a:
+
+> **mixed strategy**
+
+Instead of always choosing the same action, players should randomize.
+
+This was revolutionary.
+
+---
+
+## Fun Fact
+
+Waldegrave’s solution appeared not in a journal article, but in a private letter sent to Pierre-Remond de Montmort.
+
+Game theory was literally born through correspondence between gamblers and mathematicians.
+
+---
+
+# 3. Bernoulli and Utility (1738)
+
+In 1738, **Daniel Bernoulli** introduced one of the foundational concepts of economics:
+
+> utility.
+
+Using the famous **St. Petersburg Paradox**, Bernoulli argued that:\
+- the value of money is subjective,\
+- and depends on existing wealth.
+
+This became the foundation of:\
+- expected utility theory,\
+- risk analysis,\
+- and modern decision theory.
+
+---
+
+# 4. Cournot and Strategic Competition (1838)
+
+The French economist **Antoine Augustin Cournot** performed what is widely regarded as the first true game-theoretic economic analysis.
+
+He studied a **duopoly**:\
+- two firms choosing output quantities while considering each other’s actions.
+
+This produced the idea that:
+
+> Each firm’s optimal decision depends on expectations about the rival’s behavior.
+
+Cournot had essentially discovered an early form of equilibrium analysis more than a century before Nash.
+
+---
+
+# 5. Darwin and Strategic Evolution
+
+Surprisingly, evolutionary biology also contains implicit game theory.
+
+In *The Descent of Man* (1871), **Charles Darwin** argued that natural selection would stabilize sex ratios.
+
+Why?
+
+Because if one gender became rare:\
+- that gender would gain reproductive advantage,\
+- pushing the population back toward balance.
+
+This was strategic reasoning without formal mathematics.
+
+---
+
+# 6. Zermelo and Chess (1913)
+
+In 1913, the German mathematician **Ernst Zermelo** proved one of the first formal theorems in game theory.
+
+For games like chess:
+
+- either White has a winning strategy,\
+- or Black has a winning strategy,\
+- or both can force at least a draw.
+
+This was profound because it suggested:
+
+> Strategic games possess underlying mathematical structure.
+
+---
+
+# 7. Émile Borel and Mixed Strategie
+
+Between 1921 and 1927, the French mathematician **Émile Borel** developed the first formal treatment of mixed strategies. 
+
+Borel:\
+- formally defined probabilistic play,\
+- explored minimax reasoning,\
+- and investigated equilibrium existence.
+
+Interestingly:
+
+> Borel initially believed minimax solutions might fail for sufficiently complex games.
+
+He later admitted he could not prove this.
+
+---
+
+# 8. John von Neumann and the Birth of Modern Game Theory
+
+That open question was answered in 1928 by **John von Neumann**.
+
+He proved the famous:
+
+> **Minimax Theorem**
+
+For every finite two-player zero-sum game:\
+- optimal mixed strategies exist.
+
+This result effectively launched modern game theory.
+
+---
+
+## Fun Fact: Von Neumann’s Mind
+
+Wikipedia’s description of von Neumann almost sounds fictional.
+
+He made major contributions to:\
+- quantum mechanics,\
+- set theory,\
+- economics,\
+- computer science,\
+- hydrodynamics,\
+- statistics,\
+- numerical analysis,\
+- and nuclear weapons research.
+
+He was one of the last true universal mathematicians.
+
+---
+
+# 9. Theory of Games and Economic Behavior (1944)
+
+In 1944, von Neumann and **Oskar Morgenstern** published:
+
+> *Theory of Games and Economic Behavior*
+
+This book formally established game theory as a scientific field.
+
+Major contributions included:\
+- expected utility theory,\
+- normal-form games,\
+- extensive-form games,\
+- cooperative games,\
+- and rigorous strategic analysis.
+
+It was one of the most influential economics books ever written.
+
+---
+
+# 10. John Nash and Strategic Equilibrium
+
+In the early 1950s, **John Nash** transformed the field forever.
+
+He introduced the:
+
+> **Nash Equilibrium**
+
+A situation where:\
+- no player can improve by changing strategy alone.
+
+Unlike earlier minimax theory, Nash’s framework applied to:\
+- many players,\
+- non-zero-sum games,\
+- and general strategic interaction.
+
+This became the central solution concept in modern game theory.
+
+---
+
+## Fun Fact: Nash Was Only 21
+
+John Nash wrote his equilibrium paper as a PhD student in his early twenties.
+
+The paper itself was astonishingly short.
+
+One of the most influential ideas in economics emerged from only a few pages.
+
+---
+
+## Another Fun Fact: “That’s Not Nash”
+
+Many people recognize Nash from *A Beautiful Mind*.
+
+But as the lecture slides humorously note:
+
+> “That’s not Nash. That’s Russell Crowe.” :contentReference[oaicite:5]{index=5}
+
+---
+
+# 11. The Prisoner’s Dilemma
+
+Around the same time, researchers at RAND Corporation:\
+- Merrill Flood,\
+- and Melvin Dresher,
+
+developed the strategic structure later known as the:
+
+> Prisoner’s Dilemma.
+
+Albert Tucker later popularized the framework using prison sentences.
+
+The game revealed one of the deepest insights in social science:
+
+> Individually rational behavior can produce collectively irrational outcomes.
+
+---
+
+# 12. Kuhn and Extensive Form Games
+
+In 1950 and 1953, **Harold Kuhn** formalized the modern structure of extensive-form games.
+
+These models captured:\
+- timing,\
+- sequential decisions,\
+- information sets,\
+- and dynamic strategy.
+
+Today, nearly all modern strategic models descend from Kuhn’s framework.
+
+---
+
+# 13. Lloyd Shapley and Cooperative Games
+
+In 1953, **Lloyd Shapley** introduced the:
+
+> **Shapley Value**
+
+A method for fairly allocating gains among participants in a coalition.
+
+The idea became central in:\
+- bargaining theory,\
+- political coalitions,\
+- machine learning explainability,\
+- and market design.
+
+---
+
+## Fun Fact: Shapley Value Is Used in AI Today
+
+Modern explainable AI methods use “SHAP values,” directly inspired by Shapley’s cooperative game theory.
+
+Game theory quietly became part of machine learning.
+
+---
+
+# 14. Schelling and Coordination
+
+In 1960, **Thomas Schelling** introduced the idea of:
+
+> **focal points**
+
+When communication is impossible, people often converge on psychologically “obvious” solutions.
+
+For example:\
+- “Meet me in New York tomorrow.”
+
+Where?
+
+Most people intuitively think:\
+- Grand Central Station,\
+- noon.
+
+This is not logic alone.
+
+It is shared expectation.
+
+---
+
+# 15. Selten and Credibility
+
+**Reinhard Selten** refined Nash equilibrium by introducing:
+
+- subgame perfect equilibrium,\
+- trembling-hand perfection.
+
+His work distinguished:\
+- credible threats,\
+- from empty threats.
+
+This became foundational in:\
+- bargaining,\
+- political strategy,\
+- and industrial organization.
+
+---
+
+# 16. Harsanyi and Incomplete Information
+
+**John Harsanyi** developed Bayesian games.
+
+Players could now:\
+- possess private information,\
+- hold beliefs,\
+- and reason under uncertainty.
+
+This transformed game theory into a framework for:\
+- auctions,\
+- signaling,\
+- political economy,\
+- and modern information economics.
+
+---
+
+# 17. Evolutionary Game Theory
+
+In the 1970s and 1980s, **John Maynard Smith** applied game theory to biology.
+
+He introduced the:
+
+> **Evolutionarily Stable Strategy (ESS)**
+
+A strategy that cannot easily be invaded by mutants.
+
+Game theory moved from:\
+- rational humans,\
+to:\
+- evolving populations.
+
+---
+
+# 18. Aumann and Repeated Games
+
+**Robert Aumann** revolutionized repeated games and common knowledge.
+
+He also introduced:\
+- correlated equilibrium,\
+- formal common knowledge,\
+- and deep analysis of long-run cooperation.
+
+---
+
+## Fun Fact: “Agreeing to Disagree”
+
+Aumann proved a famous theorem:
+
+> Rational people with common prior beliefs cannot “agree to disagree.”
+
+If both are perfectly rational and fully informed about each other’s beliefs:\
+- persistent disagreement should disappear.
+
+Whether this describes real humans is another matter.
+
+---
+
+# 19. Axelrod and Tit-for-Tat
+
+In 1984, **Robert Axelrod** organized computer tournaments for repeated Prisoner’s Dilemma.
+
+The surprising winner was:
+
+> Tit-for-Tat
+
+The strategy:\
+- cooperates initially,\
+- then mirrors the opponent’s previous action.
+
+Simple.\
+Forgiving.\
+Retaliatory.\
+Transparent.
+
+It became one of the most famous strategic insights ever discovered.
+
+---
+
+# 20. Algorithmic Game Theory
+
+In the 2000s, researchers such as **Tim Roughgarden** connected game theory with computer science.
+
+This led to:\
+- algorithmic game theory,\
+- network congestion models,\
+- internet routing analysis,\
+- and the concept of the:
+
+> **Price of Anarchy**
+
+How much efficiency is lost because individuals pursue self-interest?
+
+---
+
+# 21. Bitcoin and Strategic Incentives
+
+In 2008, **Satoshi Nakamoto** published the Bitcoin whitepaper.
+
+At its core, Bitcoin is deeply game-theoretic.
+
+The system works because:\
+- miners are rewarded for honest participation,\
+- cheating becomes costly,\
+- and incentives align decentralized behavior.
+
+In many ways:
+
+> Blockchain systems are large-scale economic games encoded in software.
+
+---
+
+# Conclusion
+
+The history of game theory is ultimately the history of strategic reasoning itself.
+
+What began as:\
+- gambling mathematics,\
+- philosophical puzzles,\
+- and military strategy,
+
+became a universal framework for understanding:\
+- competition,\
+- cooperation,\
+- conflict,\
+- bargaining,\
+- evolution,\
+- and intelligence.
+
+Today, game theory influences:\
+- economics,\
+- politics,\
+- AI systems,\
+- online platforms,\
+- social networks,\
+- and cryptocurrency protocols.
+
+And perhaps most importantly:
+
+> It changed how we think about thinking itself.

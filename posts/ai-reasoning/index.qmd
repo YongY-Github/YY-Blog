@@ -1,0 +1,460 @@
+---
+title: "Machine Reasoning"
+author: "-YY-"
+date: "2026-05-14"
+# draft: true
+categories: [ML Reasoning, AI]
+image: "changing_1-1024x683.webp"
+---
+
+# AI Reasoning Evolution: From Strategic Games to LLMs
+
+## 1. The Foundations of Mechanised Thought
+
+In computer science, *reasoning* is typically defined as the capacity for discrete thoughts to build upon one another in order to generate new conclusions — specifically conclusions structured so that an external observer can follow the logic and reproduce the same result.
+
+Historically, one of the benchmark environments for testing this capability was the **“blocks world” problem**, where an artificial agent had to manipulate objects into a desired configuration.
+
+These early experiments revealed an important threshold:
+
+> Once solutions exceeded roughly eight reasoning steps, many early AI systems deteriorated into what researchers described as “reasonable-looking gibberish.”
+
+The systems could imitate logical structure for short chains of thought, but lacked the flexible reasoning required for longer planning horizons.
+
+A modern example of this rigidity appears when Large Language Models (LLMs) are instructed to play tic-tac-toe *while intentionally trying to lose*. Despite the simplicity of the game, many models fail because they remain trapped in strongly learned patterns (playing to win). This highlights an important insight:
+
+> True reasoning requires more than sophisticated pattern mimicry.
+
+---
+
+## The Two Pillars of Reasoning
+
+Functional reasoning systems generally require two architectural components.
+
+| Pillar | Definition | Chess Example |
+|---|---|---|
+| **World Model** | An internal simulator or representation that predicts environmental changes resulting from specific actions. | The rules of chess and the current spatial arrangement of pieces. |
+| **Algorithm** | A decision-making procedure that evaluates and selects among possible actions using the world model. | The logic used to determine whether a move improves or worsens the board position. |
+
+Historically, AI systems approached this through two major search paradigms.
+
+### The Greedy Approach
+
+The system evaluates only the immediate next move and selects the option with the highest short-run value.
+
+For example:
+- capturing a piece,
+- gaining material,
+- or maximizing immediate reward.
+
+This is computationally efficient, but strategically shallow.
+
+---
+
+### Exhaustive Search
+
+At the opposite extreme, the system attempts to evaluate *every possible future path*.
+
+This quickly becomes computationally impossible.
+
+The chess game tree contains more possible board configurations than there are atoms in the observable universe.
+
+---
+
+## 2. The Rise of Machine Intuition
+
+A major transition in AI occurred when researchers shifted away from manually coded heuristics toward **neural networks capable of learning environmental intuition through experience**.
+
+One landmark example was **TD-Gammon** in 1989.
+
+TD-Gammon:
+- used a neural network to evaluate Backgammon positions,
+- trained through millions of games of self-play,
+- and improved using reinforcement signals derived from wins and losses.
+
+Remarkably, it achieved near world-class performance using only a shallow one-step look-ahead.
+
+---
+
+## Position Intuition vs. Move Intuition
+
+Over time, researchers distinguished between two forms of “intuition.”
+
+### Position Intuition
+
+The ability to evaluate the quality of a static state.
+
+For example:
+- estimating the probability of winning from a given chess position.
+
+---
+
+### Move Intuition (Policy Functions)
+
+The ability to predict which moves are promising *before* explicitly calculating their consequences.
+
+This resembles human instinct:
+- “This move feels strong.”
+
+---
+
+## Human-Like Move Prediction
+
+In 2014, Clark and Stokeley trained networks directly on human move patterns.
+
+Their architecture:
+- produced probability distributions over legal moves,
+- ranked candidate actions according to human tendencies,
+- and learned stylistic preferences from expert play.
+
+However, these systems plateaued at roughly amateur strength because they lacked a deeper search procedure to validate their intuitive guesses.
+
+---
+
+## The AlphaGo Breakthrough
+
+The decisive breakthrough came from integrating neural networks with **Monte Carlo Tree Search (MCTS)**.
+
+AlphaGo combined:
+- policy networks (move intuition),
+- value networks (position evaluation),
+- and guided search.
+
+Instead of exhaustively searching the full game tree, the system performed selective simulations (“rollouts”) focused on the most promising continuations.
+
+This allowed computational resources to be concentrated where uncertainty was greatest.
+
+---
+
+## Move 37
+
+The defining symbolic moment came during Game 2 against Lee Sedol.
+
+AlphaGo played the now-famous **Move 37** — a move so statistically improbable by human standards that commentators initially assumed it was a mistake.
+
+Instead, it proved brilliant.
+
+The moment became historically significant because it suggested something deeper:
+
+> Machines were no longer merely imitating human strategies.  
+> They were discovering new ones.
+
+---
+
+## AlphaGo Zero and the Rejection of Human Priors
+
+Later systems such as **AlphaGo Zero** removed human training data entirely.
+
+The AI learned solely through self-play.
+
+An important conclusion emerged:
+
+> Human examples acted as a “crutch” that constrained exploration.
+
+Pure self-play allowed the system to discover strategic patterns beyond accumulated human tradition.
+
+---
+
+## 3. Generalised Learning and the “Dreaming” Concept
+
+In 2018, Ha and Schmidhuber introduced the influential paper **World Models**.
+
+The central idea was radical:
+
+> An AI could learn an internal simulator of reality and train inside imagined environments.
+
+The system:
+- observed the world,
+- compressed experience into a latent representation,
+- and then generated simulated futures (“dreams”).
+
+Training no longer required constant interaction with the real environment.
+
+This dramatically reduced the cost of learning.
+
+---
+
+## MuZero: Learning Without Rules
+
+DeepMind later extended this idea with **MuZero**.
+
+Unlike earlier systems, MuZero was not given:
+- the rules of chess,
+- the rules of Go,
+- or the rules of Atari games.
+
+Instead, it inferred useful environmental structure directly from reward signals.
+
+MuZero mastered:
+- Chess,
+- Go,
+- Shogi,
+- and 57 Atari games,
+without explicit knowledge of the governing rules.
+
+---
+
+## The Transfer Learning Problem
+
+Despite these achievements, a major limitation remained.
+
+Learning one environment did not generalize to another.
+
+A system trained for:
+- chess,
+could not automatically transfer its knowledge to:
+- driving,
+- robotics,
+- or language.
+
+Each domain still required retraining from scratch.
+
+This created isolated “skill silos.”
+
+---
+
+## 4. The Transformer Paradigm Shift
+
+A profound change occurred in 2017 with the paper:
+
+> *Attention Is All You Need*
+
+Originally developed for language translation, the Transformer architecture replaced sequential word processing with a mechanism called **attention**.
+
+Rather than translating word-by-word, the system learned relationships between words through high-dimensional mathematical associations.
+
+This enabled:
+- context sensitivity,
+- long-range dependency tracking,
+- and scalable representation learning.
+
+---
+
+## Mechanics of Large Language Models
+
+### Tokens
+
+Words are broken into numerical units called *tokens*.
+
+These may represent:
+- entire words,
+- partial words,
+- or punctuation fragments.
+
+---
+
+### Vectors
+
+Each token is represented as a high-dimensional vector encoding:
+- semantic meaning,
+- associations,
+- grammar,
+- and contextual relationships.
+
+GPT-2 used vector dimensions around 768.
+
+Modern systems such as GPT-4 operate at vastly larger scales, though exact specifications are proprietary.
+
+---
+
+### Pre-training
+
+LLMs learn through exposure to enormous text corpora.
+
+During training, the model continuously predicts the next token.
+
+For example:
+
+> “The dog was barking…”
+
+causes the system to increase associations between:
+- dog,
+- barking,
+- pets,
+- noise,
+- and related concepts.
+
+Over billions of examples, the model develops a statistical representation of language.
+
+---
+
+## 5. Simulated Creativity and Prediction at Scale
+
+Modern generative AI is fundamentally:
+
+> Prediction at scale.
+
+When prompted with:
+
+> “The sky is…”
+
+the model estimates probability distributions over possible continuations.
+
+For example:
+
+- Blue → 47%
+- Clear → 18%
+- Falling → 12%
+
+The system selects from these distributions.
+
+---
+
+## Simulated Creativity
+
+Creativity emerges when the system intentionally avoids the most probable continuation.
+
+Instead of selecting:
+- the top prediction,
+
+it samples:
+- the second,
+- third,
+- or lower-ranked possibilities.
+
+This creates outputs that appear:
+- varied,
+- surprising,
+- and human-like.
+
+---
+
+## Beyond Text
+
+Importantly, the same mathematical principle extends beyond language.
+
+Generative AI can predict:
+- the next pixel in an image,
+- the next frame in a video,
+- or the next segment of audio.
+
+The underlying mechanism remains statistical continuation prediction.
+
+---
+
+## Hardware Acceleration
+
+This capability became practical largely because of Nvidia GPUs.
+
+Originally designed for:
+- graphics rendering,
+- and later cryptocurrency mining,
+
+GPUs proved exceptionally efficient at large-scale matrix multiplication.
+
+This allowed modern data centers to compute billions of token relationships in real time.
+
+---
+
+## 6. Advanced Reasoning Architectures
+
+Recent AI research increasingly resembles the search procedures of earlier game-playing systems.
+
+---
+
+## Chain of Thought (CoT)
+
+Prompts such as:
+
+> “Let’s think step by step.”
+
+encourage the model to generate explicit intermediate reasoning stages.
+
+This:
+- decomposes complex tasks,
+- reduces logical jumps,
+- and improves performance on reasoning benchmarks.
+
+---
+
+## Tree of Thought (ToT)
+
+Tree of Thought extends this further.
+
+Instead of pursuing a single reasoning chain, the system:
+- explores multiple candidate reasoning branches simultaneously,
+- evaluates their plausibility,
+- and prunes unpromising paths.
+
+Conceptually, this resembles Monte Carlo Tree Search applied to language.
+
+---
+
+## Step-by-Step Verification
+
+OpenAI’s paper:
+
+> *Let’s Verify Step by Step*
+
+introduced reinforcement learning methods that reward valid intermediate reasoning steps.
+
+Rather than evaluating only final answers, the system receives feedback throughout the reasoning process.
+
+This resembles human social learning:
+- nods of understanding,
+- expressions of confusion,
+- approval,
+- or correction.
+
+Over time, the model learns to:
+- suppress faulty logic,
+- and reinforce coherent reasoning patterns.
+
+---
+
+## 7. The Intelligence Debate and the Future of Reasoning
+
+One major finding of recent research is the relationship between:
+
+> thinking time and reasoning quality.
+
+Allowing models to generate more intermediate reasoning tokens often improves accuracy more effectively than simply increasing parameter counts.
+
+---
+
+## The ARC Test
+
+To move beyond memorization, researchers increasingly use the **ARC Test (Abstraction and Reasoning Corpus)**.
+
+ARC problems require systems to infer:
+- novel visual patterns,
+- abstract transformations,
+- and first-principles rules,
+
+without relying on previously seen internet data.
+
+The benchmark is designed specifically to test genuine generalization.
+
+---
+
+## The Ongoing Philosophical Debate
+
+The field remains divided between two broad perspectives.
+
+---
+
+### The Plato’s Cave Argument
+
+This view holds that modern AI systems are fundamentally:
+- advanced pattern matchers,
+- sophisticated mimics,
+- and statistical illusion machines.
+
+According to this perspective:
+- reasoning chains are not “understanding,”
+- but only the appearance of understanding.
+
+---
+
+### The Functionalist Argument
+
+The opposing position argues:
+
+> If a system consistently produces valid reasoning and correct conclusions, the internal mechanism may not matter.
+
+From this perspective:
+- sufficiently advanced mimicry becomes functionally indistinguishable from understanding.
+
+And if it is indistinguishable in practice:
+
+> perhaps it *is* understanding.
