@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/eliza/index.html",
       "/posts/GT-history/index.html",
       "/posts/ai-reasoning/index.html",
       "/posts/research_OS/index.html",
