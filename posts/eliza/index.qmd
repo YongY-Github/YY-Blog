@@ -7,9 +7,9 @@ categories: [psychology, AI]
 
 # The Machine That Listens: ELIZA, AI Companions, and the Uncanny Mirror of the Self
 
-I have a problem.
+We have a problem.
 
-For the past few years, I have been using AI almost every day. At first, it was harmlessly practical: emails, project tracking, budgeting, bug fixes, meal planning, drafts, outlines, reminders. The usual productivity things.
+For the past couple of years, many of us have been using AI almost every day. At first, it was harmlessly practical: emails, project tracking, budgeting, bug fixes, meal planning, drafts, outlines, reminders. The usual productivity things.
 
 But somewhere along the way, without consciously deciding to, many of us began using AI for something more intimate.
 
