@@ -1,0 +1,312 @@
+---
+title: "The Philippines and the Long Shadow of History"
+author: "-YY-"
+date: "2026-07-30"
+categories: [history, political economy]
+---
+
+# Colonialism, Institutions, and the Long Shadow of History: Can a Nation Escape Its Past?
+
+Every country has a story it tells about itself.
+
+Some nations see themselves as conquerors.
+Others see themselves as survivors.
+
+The Philippines occupies a unique place in world history. It experienced more than three centuries of Spanish colonial rule, followed by nearly fifty years of American administration, Japanese occupation during World War II, and decades of political upheaval after independence.
+
+This history has led to one of the most controversial questions in development economics:
+
+> Can centuries of colonial rule permanently shape a nation's institutions, political culture, and economic trajectory?
+
+Few writers have argued this more forcefully than journalist **James Fallows**, whose famous essay described the Philippines as possessing a **"damaged culture."**
+
+The phrase generated enormous controversy.
+
+Yet beneath the provocative language lies an important question that economists, historians, and political scientists continue to debate today.
+
+---
+
+# Is Culture the Cause—or the Consequence?
+
+At first glance, blaming "culture" seems unsatisfactory.
+
+Countries are not poor simply because of attitudes or traditions.
+
+Modern development economics has increasingly emphasized something else:
+
+**institutions.**
+
+As economists such as **Douglass North**, **Daron Acemoglu**, **James Robinson**, and **Simon Johnson** have argued, institutions determine incentives, property rights, political accountability, and ultimately long-run economic performance.
+
+The more interesting question therefore becomes:
+
+> Did colonial rule shape institutions that, over generations, influenced culture?
+
+In this interpretation, culture is not the starting point.
+
+It is the outcome.
+
+---
+
+# Three Centuries Under Spain
+
+Spanish rule lasted from 1565 until 1898.
+
+Three hundred years is difficult to comprehend.
+
+The United States has existed as an independent nation for less time than the Philippines spent under Spanish rule.
+
+During those centuries Spain introduced:
+
+* Catholicism,
+* centralized colonial administration,
+* tribute and taxation,
+* large landed estates,
+* and a rigid social hierarchy.
+
+Perhaps even more importantly, colonial rule reshaped identity itself.
+
+Many indigenous traditions disappeared.
+
+Local writing systems such as **Baybayin** largely vanished from everyday use.
+
+In 1849 Governor-General **Narciso Clavería** required Filipino families to adopt Spanish surnames using the *Catálogo Alfabético de Apellidos*.
+
+Millions of Filipinos still carry these surnames today despite having no Spanish ancestry.
+
+Names became another legacy of empire.
+
+---
+
+# Creating an Elite
+
+One of the lasting institutional changes was the creation of a local elite.
+
+Spain could never govern thousands of islands using Spanish officials alone.
+
+Instead, it relied on local intermediaries.
+
+The **principalia**—indigenous nobles and influential families—were given privileged positions in return for helping administer colonial rule.
+
+This arrangement solved Spain's administrative problem.
+
+But it also created a political pattern that proved remarkably persistent.
+
+Power became concentrated in relatively few families.
+
+Access to government became intertwined with family networks.
+
+Political influence became hereditary.
+
+Many historians see the origins of modern political dynasties in these colonial institutions.
+
+---
+
+# When Revolution Was Interrupted
+
+By the late nineteenth century Filipino revolutionaries were fighting for independence.
+
+Then history took an unexpected turn.
+
+Instead of becoming independent after defeating Spain, the Philippines became part of another empire.
+
+The **Treaty of Paris (1898)** transferred sovereignty from Spain to the United States for $20 million.
+
+From the perspective of Filipino revolutionaries, independence had been postponed rather than achieved.
+
+This interruption remains one of the most debated moments in Philippine history.
+
+Would national identity have evolved differently had independence arrived in 1898?
+
+No one can know.
+
+But the question remains fascinating.
+
+---
+
+# The American Period: Modernization and Dependency
+
+American rule differed significantly from Spanish rule.
+
+The United States expanded:
+
+* public education,
+* English-language instruction,
+* democratic institutions,
+* public health,
+* transportation,
+* and administrative capacity.
+
+These changes produced undeniable benefits.
+
+Yet critics argue they also created new forms of dependence.
+
+Political institutions were introduced from above rather than emerging gradually through domestic political evolution.
+
+Elite families often remained in positions of influence.
+
+Instead of dismantling the old hierarchy, many argue that American rule incorporated it into a new democratic framework.
+
+The faces changed.
+
+The underlying distribution of power changed much less.
+
+---
+
+# Institutions Outlive Empires
+
+One of the most striking ideas in institutional economics is that institutions often survive long after the people who created them disappear.
+
+Colonial governments leave.
+
+Their administrative structures remain.
+
+Political incentives remain.
+
+Elite networks remain.
+
+Legal traditions remain.
+
+Norms surrounding power and authority often remain.
+
+This helps explain why countries with similar cultures can experience very different development trajectories depending on the institutions inherited from history.
+
+---
+
+# Forbes Park and Smokey Mountain
+
+James Fallows contrasted two very different worlds in Manila.
+
+One was **Forbes Park**, an exclusive neighborhood of wealth, private security, and political influence.
+
+The other was **Smokey Mountain**, a vast garbage dump where thousands of families survived by scavenging recyclable materials.
+
+The contrast was intended as more than a story about inequality.
+
+It illustrated a deeper concern.
+
+When elites can purchase private alternatives to public goods—private schools, private security, private healthcare, private infrastructure—they become less invested in improving public institutions.
+
+The costs of institutional failure fall disproportionately on everyone else.
+
+This problem is hardly unique to the Philippines.
+
+Many developing—and developed—countries face similar dynamics.
+
+---
+
+# Political Dynasties
+
+One of the Philippines' most distinctive political features is the persistence of political families.
+
+Many provinces have been governed by the same families for generations.
+
+Political dynasties exist elsewhere—including the United States, Japan, and India—but they occupy an unusually central role in Philippine politics.
+
+Critics argue that this reduces competition, weakens accountability, and concentrates economic opportunity.
+
+Supporters counter that many political families continue winning elections because voters repeatedly choose them.
+
+The debate continues.
+
+---
+
+# Can History Explain Everything?
+
+History matters enormously.
+
+But history cannot explain everything.
+
+Countries with colonial pasts have experienced very different outcomes.
+
+Singapore, Malaysia, Indonesia, Vietnam, and India were all shaped by colonial rule.
+
+Yet their post-independence development paths diverged substantially.
+
+Likewise, many countries that suffered devastating wars later achieved remarkable economic success.
+
+History creates constraints.
+
+It does not eliminate choice.
+
+Colonialism may explain where a nation begins.
+
+It cannot fully determine where it ends.
+
+---
+
+# Institutions Can Change
+
+One encouraging lesson from economic history is that institutions are not permanent.
+
+Japan transformed itself during the Meiji Restoration.
+
+South Korea evolved from military dictatorship into a modern democracy.
+
+Botswana built unusually effective institutions despite difficult initial conditions.
+
+Even within countries, institutional reforms have dramatically altered development trajectories.
+
+History is powerful.
+
+But it is not destiny.
+
+---
+
+# A Broader Lesson
+
+Perhaps the most valuable insight from the Philippine experience is not about the Philippines alone.
+
+It is about how nations inherit history.
+
+Every society inherits institutions it did not choose.
+
+Every generation receives political systems shaped by previous generations.
+
+Some institutions encourage cooperation.
+
+Others reward patronage.
+
+Some create trust.
+
+Others encourage narrow loyalty.
+
+The challenge facing every nation is deciding which parts of that inheritance to preserve—and which to reform.
+
+---
+
+# Final Thoughts
+
+James Fallows' "damaged culture" thesis remains controversial because it asks uncomfortable questions.
+
+But perhaps the discussion becomes more productive if we replace one word.
+
+Instead of asking whether the Philippines has a **damaged culture**, we might ask:
+
+> **What kinds of institutions encourage civic responsibility, trust, and long-run development?**
+
+Culture matters.
+
+History matters.
+
+Institutions matter.
+
+But none of them operate in isolation.
+
+Nations are not prisoners of their past.
+
+They are shaped by it.
+
+Understanding history helps explain how we arrived here.
+
+Changing institutions determines where we go next.
+
+---
+
+## Further Reading
+
+* James Fallows, *A Damaged Culture* (1987)
+* Douglass North, *Institutions, Institutional Change and Economic Performance*
+* Daron Acemoglu & James Robinson, *Why Nations Fail*
+* Engerman & Sokoloff, *Factor Endowments, Institutions, and Differential Paths of Growth Among New World Economies*
+

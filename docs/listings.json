@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/napoleon/index.html",
+      "/posts/philippines/index.html",
       "/posts/eliza/index.html",
       "/posts/GT-history/index.html",
       "/posts/ai-reasoning/index.html",

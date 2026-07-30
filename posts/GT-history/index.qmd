@@ -3,7 +3,7 @@ title: "Time-Line of Game Theory"
 author: "-YY-"
 date: "2026-05-15"
 # draft: true
-categories: [Game Theory]
+categories: [game theory]
 image: "8cab4028-85f2-4197-a415-69f9f9092b65.jpg"
 ---
 
@@ -253,7 +253,7 @@ Many people recognize Nash from *A Beautiful Mind*.
 
 But as the lecture slides humorously note:
 
-> “That’s not Nash. That’s Russell Crowe.” :contentReference[oaicite:5]{index=5}
+> “That’s not Nash. That’s Russell Crowe.”
 
 ---
 

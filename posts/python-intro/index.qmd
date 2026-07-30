@@ -2,7 +2,7 @@
 title: "Quick Python Basics: From Calculations to Simulations"
 author: "-YY-"
 date: "April 13, 2026"
-categories: [Python, Programming, Tutorial]
+categories: [python, programming, tutorial]
 format:
   html:
     code-fold: false
