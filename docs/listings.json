@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/feynman/index.html",
+      "/posts/feynman2/index.html",
       "/posts/napoleon/index.html",
       "/posts/philippines/index.html",
       "/posts/eliza/index.html",

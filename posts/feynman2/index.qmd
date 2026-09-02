@@ -1,0 +1,1041 @@
+---
+title: "The Ice Water Test: What Challenger Teaches Us About Organizations, Expertise, and Reality"
+subtitle: "Richard Feynman, the Challenger disaster, and why institutions sometimes become better at managing information than confronting the truth"
+author: "-YY-"
+date: "2026-09-03"
+categories: [strategy and institutions, bureaucracy, Feynman]
+---
+
+# The Ice Water Test
+
+On 28 January 1986, the space shuttle *Challenger* broke apart 73 seconds after launch.
+
+Seven astronauts died.
+
+The images became some of the most haunting in the history of the American space program: the white exhaust trails separating against a clear blue sky, debris falling toward the Atlantic, and millions of people watching in disbelief.
+
+Among the crew was **Christa McAuliffe**, a schoolteacher who had been selected to become the first participant in NASA's Teacher in Space Project.
+
+The disaster immediately produced an enormous question:
+
+> How could one of the most technologically sophisticated organizations in the world have allowed this to happen?
+
+A presidential commission was formed to investigate.
+
+One of its members was physicist **Richard Feynman**.
+
+And Feynman's contribution to the investigation eventually came down to something almost absurdly simple:
+
+**a piece of rubber and a glass of ice water.**
+
+---
+
+## A Physicist Enters a Bureaucracy
+
+Feynman was an unusual choice for a government commission.
+
+He was a Nobel Prize-winning physicist at Caltech, famous for his work in quantum electrodynamics.
+
+He was also famous for disliking pretension.
+
+Committees, formalities, titles, and bureaucratic rituals did not impress him very much.
+
+What interested him was:
+
+> **What actually happened?**
+
+That sounds obvious.
+
+But large organizations rarely encounter reality directly.
+
+Reality passes through layers.
+
+An engineer sees a physical problem.
+
+A manager sees an engineering concern.
+
+A director sees a risk assessment.
+
+A senior executive sees a presentation slide.
+
+A political leader sees a briefing.
+
+At every stage, information is compressed.
+
+Sometimes that compression is necessary.
+
+No executive can personally inspect every bolt, seal, spreadsheet, or line of code.
+
+But every layer creates an opportunity for something dangerous to happen:
+
+> **The facts can become progressively less uncomfortable as they travel upward.**
+
+That was one of the deeper problems Feynman encountered.
+
+---
+
+# Ask the Stupid Question
+
+During the investigation, Feynman repeatedly asked basic questions.
+
+What does this acronym mean?
+
+How does this component work?
+
+Why was this decision made?
+
+What happens physically when the temperature falls?
+
+People sometimes interpret this as evidence that Feynman knew nothing about rockets.
+
+In one sense, that was precisely his advantage.
+
+He did not carry all the assumptions that insiders had accumulated.
+
+Experts develop shortcuts.
+
+They learn which questions are considered settled.
+
+They know what everyone in the organization is supposed to know.
+
+They also learn what questions make meetings uncomfortable.
+
+An outsider has fewer such constraints.
+
+The outsider can ask:
+
+> "Why?"
+
+And then:
+
+> "But why?"
+
+And then:
+
+> "Can you show me?"
+
+These can be surprisingly powerful questions.
+
+---
+
+## Expertise Has a Blind Spot
+
+Expertise is enormously valuable.
+
+But expertise can also create blindness.
+
+Once we have worked inside a system for years, we stop noticing its assumptions.
+
+We begin saying things such as:
+
+* "That's just how we do it."
+* "The model has always worked."
+* "The procedure has already been approved."
+* "That's within acceptable limits."
+* "Management is aware of the issue."
+* "The committee has reviewed it."
+
+Each statement may be technically true.
+
+But none necessarily answers the most important question:
+
+> **Does the thing actually work?**
+
+Feynman's instinct was repeatedly to return from organizational language to physical reality.
+
+Not:
+
+> What does the report say?
+
+But:
+
+> What does the rubber do when it gets cold?
+
+---
+
+# The O-Ring Problem
+
+The solid rocket boosters on the shuttle were assembled from cylindrical segments.
+
+At the joints between those segments were rubber seals known as **O-rings**.
+
+Their task was simple but critical.
+
+When the rocket ignited, extremely hot gases had to remain sealed inside the booster.
+
+If the O-rings failed to seal quickly enough, those gases could escape.
+
+Engineers had already observed evidence of O-ring erosion on previous shuttle flights.
+
+And concerns had been raised about performance at low temperatures.
+
+The morning *Challenger* launched was unusually cold.
+
+That mattered because rubber becomes less resilient when cold.
+
+If compressed rubber does not rebound quickly enough, the seal may not form properly at the moment it is needed.
+
+This sounds technical.
+
+Feynman made it visible.
+
+---
+
+# Ice Water
+
+During a televised hearing of the Rogers Commission, Feynman took a sample of O-ring material.
+
+He compressed it with a clamp.
+
+He placed it in ice water.
+
+He waited.
+
+Then he removed it and released the pressure.
+
+The rubber did not immediately return to its original shape.
+
+That was the demonstration.
+
+No elaborate mathematical model.
+
+No 150-page technical report.
+
+No executive summary.
+
+Just rubber.
+
+Cold water.
+
+And observation.
+
+Feynman explained that at sufficiently low temperature the material had lost resilience.
+
+The lesson was instantly understandable.
+
+> **Cold rubber responds differently from warm rubber.**
+
+Suddenly, an abstract discussion of seals, launch conditions, and engineering tolerances became something anyone could see.
+
+That was what made the demonstration so powerful.
+
+---
+
+# The Difference Between Explanation and Demonstration
+
+Large organizations are full of explanations.
+
+Reports explain.
+
+Slides explain.
+
+Risk matrices explain.
+
+Committees explain.
+
+But explanations can become detached from whatever they are supposed to describe.
+
+Feynman's ice-water demonstration collapsed the distance.
+
+Instead of saying:
+
+> "There may be reduced seal resiliency under low-temperature launch conditions."
+
+he effectively said:
+
+> "Look."
+
+This distinction matters enormously.
+
+A claim can survive within an organization because it is expressed in sufficiently sophisticated language.
+
+A demonstration is harder to negotiate with.
+
+---
+
+# Nature Does Not Attend Meetings
+
+Feynman's deepest advantage during the investigation came from the culture of physics.
+
+In science, nature has the final vote.
+
+A theory may be elegant.
+
+A famous scientist may believe it.
+
+A committee may approve it.
+
+A journal may publish it.
+
+But if observation contradicts the theory, nature wins.
+
+This produces a radically different attitude toward authority.
+
+In ordinary organizations, hierarchy matters.
+
+A junior engineer can be wrong because the vice-president says so.
+
+In physics, the vice-president does not get a vote.
+
+The rubber either rebounds or it does not.
+
+A bridge either carries the load or it collapses.
+
+A drug either produces the claimed effect or it does not.
+
+A regression either supports the conclusion or it does not.
+
+Reality is indifferent to organizational rank.
+
+That sounds obvious.
+
+Yet organizations regularly forget it.
+
+---
+
+# How Truth Gets Diluted
+
+Imagine an engineer writes:
+
+> **Do not launch below this temperature.**
+
+That message travels upward.
+
+A manager summarizes:
+
+> "There are concerns about seal performance at low temperatures."
+
+The next level reports:
+
+> "Temperature represents a manageable technical risk."
+
+Another meeting concludes:
+
+> "No evidence demonstrates that launch is unsafe."
+
+Eventually someone says:
+
+> "The launch remains within acceptable risk parameters."
+
+No single person necessarily lies.
+
+That is what makes the process dangerous.
+
+The truth can disappear without a conspiracy.
+
+Each person merely translates the message into language appropriate for the next level.
+
+But something is lost at every translation.
+
+The original statement was:
+
+> Don't launch.
+
+The final statement becomes:
+
+> There is no conclusive reason not to launch.
+
+Those are not the same proposition.
+
+---
+
+# The Organizational Telephone Game
+
+This happens far beyond NASA.
+
+Consider a company developing software.
+
+The engineer says:
+
+> "The system crashes under heavy load."
+
+The team leader says:
+
+> "We have some scalability issues."
+
+The director reports:
+
+> "Performance optimization remains ongoing."
+
+The executive presentation says:
+
+> "Platform scaling progressing according to roadmap."
+
+Then the product launches.
+
+And crashes.
+
+Or consider a research project.
+
+The research assistant says:
+
+> "The result disappears when we change the specification."
+
+The principal investigator says:
+
+> "The coefficient is somewhat sensitive."
+
+The conference presentation says:
+
+> "Results are broadly robust."
+
+The published abstract says:
+
+> "We provide robust evidence that..."
+
+Nobody needed to fabricate anything.
+
+The language simply became more confident as it moved farther from the data.
+
+---
+
+# The Higher You Rise, the Less Reality You See
+
+This creates a paradox of leadership.
+
+The more senior your position, the greater your authority.
+
+But usually the less direct contact you have with the underlying reality.
+
+A junior worker touches the machinery.
+
+A programmer sees the code.
+
+A nurse sees the patient.
+
+A teacher sees the student.
+
+A field researcher sees the data collection process.
+
+Senior leaders see reports about those things.
+
+Eventually the chief executive sees a dashboard.
+
+Dashboards are useful.
+
+But a dashboard is a representation of reality.
+
+It is not reality itself.
+
+This is why good leaders occasionally need to move downward through the information hierarchy.
+
+Talk to the engineer.
+
+Open the dataset.
+
+Visit the classroom.
+
+Try the product.
+
+Read the complaint.
+
+Observe the process.
+
+Ask someone to demonstrate the thing everyone says is working.
+
+In other words:
+
+> **Bring the ice water.**
+
+---
+
+# Lesson 1: Never Confuse Process With Truth
+
+One of the great institutional mistakes is believing that because the correct procedure was followed, the correct answer must have emerged.
+
+It does not follow.
+
+A process can be:
+
+* documented;
+* audited;
+* reviewed;
+* approved;
+* ISO-certified;
+* signed by twelve committees;
+
+and still produce nonsense.
+
+Procedure is valuable because it can make good outcomes more likely.
+
+But procedure is not evidence that the outcome itself is good.
+
+This distinction matters in universities as much as aerospace engineering.
+
+A course can have:
+
+* learning outcomes;
+* curriculum maps;
+* assessment matrices;
+* rubrics;
+* moderation forms;
+* accreditation approval;
+
+and students may still learn very little.
+
+The documents describe education.
+
+They are not education.
+
+That connects directly to Feynman's earlier critique of **cargo cult science**.
+
+We can reproduce all the rituals associated with success while losing the causal mechanism that made those rituals useful.
+
+---
+
+# Lesson 2: Ask for the Underlying Evidence
+
+Whenever someone presents a conclusion, it is useful to ask:
+
+> What would I have to see to believe this myself?
+
+Suppose someone tells you:
+
+> "Students prefer this teaching method."
+
+Ask:
+
+> What was the survey question?
+
+Suppose they say:
+
+> "The policy increased employment."
+
+Ask:
+
+> Compared with what counterfactual?
+
+Suppose someone says:
+
+> "The model is highly accurate."
+
+Ask:
+
+> Out of sample?
+
+Suppose someone tells management:
+
+> "The project is 90 percent complete."
+
+Ask:
+
+> Show me what currently works.
+
+None of this means distrusting experts.
+
+It means distinguishing between:
+
+> **trusting expertise**
+
+and
+
+> **outsourcing judgment completely.**
+
+A healthy institution needs both expert delegation and mechanisms for verification.
+
+---
+
+# Lesson 3: Encourage People to Say "This Is Not Safe"
+
+Organizations usually claim that they welcome bad news.
+
+Many do not.
+
+The employee who repeatedly raises problems may be described as:
+
+* negative;
+* difficult;
+* uncooperative;
+* not strategic;
+* not a team player.
+
+Over time, employees learn.
+
+They stop bringing bad news.
+
+This creates a dangerous equilibrium.
+
+Senior management believes everything is going well because nobody reports serious problems.
+
+Nobody reports serious problems because senior management has taught everyone not to.
+
+Eventually reality breaks the equilibrium.
+
+And management asks:
+
+> "Why didn't anyone tell us?"
+
+Usually someone did.
+
+---
+
+# Lesson 4: Psychological Safety Is Not About Being Nice
+
+Modern organizations talk extensively about **psychological safety**.
+
+It is sometimes misunderstood as making everyone comfortable.
+
+That is almost the opposite of what matters.
+
+A psychologically safe organization is one in which someone can say:
+
+> "The boss is wrong."
+
+> "The model doesn't work."
+
+> "The project is failing."
+
+> "The data don't support our conclusion."
+
+> "This launch is unsafe."
+
+without destroying their career.
+
+The purpose is not comfort.
+
+The purpose is ensuring that uncomfortable information reaches decision-makers before reality delivers it more violently.
+
+---
+
+# Lesson 5: Beware the Normalization of Deviance
+
+There is another important concept associated with the Challenger disaster: **normalization of deviance**.
+
+Suppose something occurs that violates expectations.
+
+Nothing bad happens.
+
+So the organization accepts it.
+
+It happens again.
+
+Still nothing bad happens.
+
+Gradually, what was originally classified as abnormal becomes normal.
+
+Imagine that a component shows slight damage after a mission.
+
+Engineers worry.
+
+But the mission succeeded.
+
+Next time, similar damage appears.
+
+Again, the mission succeeds.
+
+After enough successful missions, the evidence of damage becomes psychologically reclassified:
+
+> Apparently this is normal.
+
+But repeated survival does not prove safety.
+
+It may simply mean that the system has repeatedly been lucky.
+
+Twenty successful crossings of a cracked bridge do not demonstrate that the bridge is sound.
+
+This is one of the most dangerous ways organizations learn the wrong lesson from experience.
+
+---
+
+# Twenty-Four Successful Missions Prove What?
+
+Before Challenger, NASA had completed many successful shuttle missions.
+
+That record naturally produced confidence.
+
+But success can be misleading.
+
+Suppose a risky procedure has a 2 percent probability of catastrophe each time it is performed.
+
+Most attempts will succeed.
+
+A run of successful outcomes can therefore occur even when the underlying system is dangerously risky.
+
+This is a basic statistical point.
+
+> **Absence of disaster is not evidence of absence of risk.**
+
+Organizations, however, often update their beliefs differently.
+
+"We did it last time and nothing happened."
+
+Soon becomes:
+
+"We have always done it this way."
+
+Eventually:
+
+"This method is proven safe."
+
+Past success becomes the justification for continuing the behavior that may eventually produce catastrophe.
+
+---
+
+# Lesson 6: Incentives Shape What Organizations Believe
+
+Why do organizations sometimes ignore obvious risks?
+
+Not necessarily because people are stupid.
+
+Incentives matter.
+
+NASA faced pressure to demonstrate that the shuttle could operate frequently and reliably.
+
+Managers had schedules.
+
+Budgets mattered.
+
+Political expectations mattered.
+
+Prestige mattered.
+
+Engineers were thinking:
+
+> Will the seal work?
+
+Managers were also thinking:
+
+> What happens if we delay again?
+
+These are different objective functions.
+
+Neither side needs to be corrupt.
+
+But once institutional incentives reward maintaining the schedule, evidence is interpreted through that objective.
+
+This is an important principle in economics:
+
+> **People respond to incentives—but organizations also interpret information through incentives.**
+
+When evidence threatens an important institutional goal, the standard required to accept that evidence often becomes mysteriously higher.
+
+---
+
+# Lesson 7: Simplicity Can Defeat Bureaucratic Complexity
+
+Feynman's demonstration is memorable because it compressed an enormous technical argument into something observable.
+
+This is a valuable skill.
+
+When faced with a complicated claim, ask:
+
+> Is there a simple test that captures the central mechanism?
+
+Economists do this with natural experiments.
+
+Scientists do it with controlled experiments.
+
+Programmers write minimal reproducible examples.
+
+Doctors order diagnostic tests.
+
+Engineers build prototypes.
+
+Good teachers create simple examples.
+
+The point is not that everything is simple.
+
+Some systems genuinely are enormously complex.
+
+The point is that complexity should not become a hiding place.
+
+A powerful explanation often identifies the small mechanism underneath the large system.
+
+---
+
+# Lesson 8: The Junior Person May Know More Than the Senior Person
+
+Hierarchies allocate decision rights.
+
+They do not necessarily allocate knowledge.
+
+The person with the most information about a problem may be very low in the organization.
+
+The mechanic knows what the machine sounds like.
+
+The nurse notices the change in the patient.
+
+The research assistant knows which observations were problematic.
+
+The programmer knows where the workaround is hidden.
+
+The teacher knows which students are lost.
+
+The senior manager may know none of these things.
+
+This means organizations face a fundamental problem:
+
+> **How do we move local knowledge toward central decision-makers without destroying or filtering it along the way?**
+
+That is not merely a communication problem.
+
+It is an institutional-design problem.
+
+---
+
+# The Feynman Principle
+
+Feynman's contribution to the final Challenger report included a memorable conclusion:
+
+> **"For a successful technology, reality must take precedence over public relations, for nature cannot be fooled."**
+
+This may be one of the best sentences ever written about organizational management.
+
+Replace *nature* with:
+
+* the market;
+* students;
+* patients;
+* voters;
+* customers;
+* data;
+* competitors;
+
+and the principle still works.
+
+You can manage perceptions for a while.
+
+You can revise the presentation.
+
+You can redefine the KPI.
+
+You can explain why the target was technically achieved.
+
+But eventually the underlying reality asserts itself.
+
+The customer leaves.
+
+The bridge collapses.
+
+The student cannot perform the task.
+
+The firm runs out of cash.
+
+The model fails out of sample.
+
+The rocket explodes.
+
+Reality is patient.
+
+But it eventually audits everything.
+
+---
+
+# What This Means for Universities
+
+The Challenger story has uncomfortable parallels in education.
+
+Universities increasingly operate through systems of:
+
+* metrics;
+* rankings;
+* learning outcomes;
+* quality assurance;
+* publication targets;
+* accreditation;
+* student evaluations;
+* research KPIs.
+
+Many of these systems are useful.
+
+But they can create an illusion similar to NASA's risk-management bureaucracy.
+
+If the indicators look good, we begin assuming the underlying system must also be good.
+
+A department can achieve excellent accreditation results while students struggle to think independently.
+
+A researcher can accumulate publications while contributing little knowledge.
+
+A course can satisfy every learning-outcome mapping requirement while producing mostly memorization.
+
+At some point we need the educational equivalent of Feynman's O-ring.
+
+Ask the student:
+
+> Explain this idea to me.
+
+No rubric.
+
+No multiple-choice options.
+
+No ChatGPT-generated paragraph.
+
+Just:
+
+> **What do you think is actually happening?**
+
+That may reveal more than another fifty pages of quality-assurance documentation.
+
+---
+
+# And What About AI?
+
+AI makes this problem even more interesting.
+
+Organizations now receive increasingly polished summaries generated automatically.
+
+Executives may soon encounter:
+
+* AI-generated dashboards;
+* AI-generated risk summaries;
+* AI-generated literature reviews;
+* AI-generated forecasts;
+* AI-generated policy briefs.
+
+This could improve decision-making dramatically.
+
+But it could also add another layer between decision-makers and reality.
+
+Imagine:
+
+$$
+\text{Reality}
+\rightarrow
+\text{worker}
+\rightarrow
+\text{database}
+\rightarrow
+\text{AI summary}
+\rightarrow
+\text{manager}
+\rightarrow
+\text{executive}.
+$$
+
+Every transformation potentially loses information.
+
+And AI has a special danger:
+
+**it is exceptionally good at producing confident, coherent language.**
+
+The resulting explanation may sound cleaner than the underlying reality actually is.
+
+This makes the Feynman principle increasingly valuable:
+
+> Show me the evidence.
+
+> Show me the raw data.
+
+> Show me the failure cases.
+
+> Show me what happens when we actually try it.
+
+Bring the ice water.
+
+---
+
+# The Most Difficult Question
+
+It is easy to admire Feynman from a distance.
+
+We know he was right.
+
+History has already awarded the grades.
+
+The harder question is what happens **before** everyone knows who is right.
+
+Suppose you are in the meeting.
+
+The deadline matters.
+
+Everyone senior to you wants to proceed.
+
+Your colleagues are silent.
+
+The presentation looks reassuring.
+
+You have evidence suggesting something is seriously wrong.
+
+Do you speak?
+
+That is harder.
+
+Because truth-telling has costs.
+
+You may appear naive.
+
+You may annoy important people.
+
+You may lose influence.
+
+You may be excluded from future decisions.
+
+You may even be wrong.
+
+That last possibility matters.
+
+Not every dissenter is Feynman.
+
+Some difficult employees are simply difficult.
+
+Some objections are mistaken.
+
+Some risks genuinely are acceptable.
+
+So the lesson cannot be:
+
+> Always trust the contrarian.
+
+A better principle is:
+
+> **Create institutions in which serious claims can be tested against evidence regardless of who makes them.**
+
+That is much closer to science.
+
+---
+
+# Final Thought
+
+The enduring image of the Challenger investigation is not a formula or an engineering diagram.
+
+It is Richard Feynman sitting at a hearing table with a small piece of rubber and a glass of ice water.
+
+Why has that image lasted?
+
+Because it captures something fundamental.
+
+Organizations speak in abstractions.
+
+Reality speaks in consequences.
+
+Between those two worlds sits a constant temptation to soften uncomfortable information, protect reputations, preserve schedules, maintain harmony, and tell ourselves that everything is probably fine.
+
+Sometimes it is.
+
+Sometimes seven people die.
+
+Feynman's lesson was not that experts are useless or that bureaucracy is evil.
+
+Large organizations require expertise.
+
+They require procedures.
+
+They require hierarchy.
+
+They require abstraction.
+
+The lesson is that none of these things can be allowed to become substitutes for reality.
+
+Every organization therefore needs someone willing to ask:
+
+> **What is actually happening?**
+
+Someone willing to look beneath the dashboard.
+
+Someone willing to ask the embarrassing question.
+
+Someone willing to test the assumption everyone else has stopped noticing.
+
+Someone willing, occasionally, to bring a glass of ice water into the meeting.
+
+Because procedures can be negotiated.
+
+Reports can be rewritten.
+
+Targets can be redefined.
+
+And reputations can be managed.
+
+But, as Feynman put it:
+
+> **Nature cannot be fooled.**

@@ -67,5 +67,11 @@
   },
   "posts/philippines/index.qmd": {
     "index.html": "33c7e01b"
+  },
+  "posts/feynman/index.qmd": {
+    "index.html": "a0468dda"
+  },
+  "posts/feynman2/index.qmd": {
+    "index.html": "6f19a224"
   }
 }
