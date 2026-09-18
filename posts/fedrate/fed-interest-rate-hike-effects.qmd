@@ -1,0 +1,376 @@
+---
+title: "What Happens When the Fed Raises Interest Rates?"
+author: "-YY-"
+date: "2026-09-17"
+categories: [Economics, Monetary Policy]
+# bibliography: references.bib
+# nocite: '@*'
+---
+
+On **September 16, 2026**, the U.S. Federal Reserve raised its target range for the federal funds rate by **0.25 percentage point, to 3.75–4.00%**.
+
+Why does a change in one short-term interest rate matter so much?
+
+Because interest rates affect decisions throughout the economy: whether households borrow or save, whether firms invest, how investors value bonds and other assets, and even how international capital moves between countries.
+
+> The basic idea is simple:  
+> **Higher interest rates increase the price of borrowing and the return to saving, thereby reducing spending and cooling demand.**
+
+But the effects spread much further than this.
+
+---
+
+## 1. Exchange Rates: Why the U.S. Dollar May Appreciate
+
+Suppose U.S. interest rates rise relative to interest rates in other countries.
+
+Dollar-denominated financial assets then become relatively more attractive to international investors.
+
+To purchase U.S. Treasury securities, bank deposits, or other U.S. assets, foreign investors need U.S. dollars.
+
+This increases the demand for dollars:
+
+$$
+i_{US}\uparrow
+\quad\Rightarrow\quad
+\text{Demand for dollar assets}\uparrow
+\quad\Rightarrow\quad
+\text{Demand for US dollars}\uparrow
+$$
+
+which tends to produce:
+
+$$
+\text{US dollar appreciation}.
+$$
+
+There are, however, two important qualifications.
+
+First, what matters is the **interest-rate differential** between the United States and other countries, not simply the U.S. interest rate by itself.
+
+Second, financial markets are forward-looking. If investors already expected the rate increase, some or even most of the exchange-rate adjustment may occur **before** the Federal Reserve actually announces its decision.
+
+---
+
+## 2. Inflation: How Higher Interest Rates Reduce Price Pressures
+
+One purpose of raising interest rates is to reduce inflationary pressure.
+
+The most important mechanism is through **aggregate demand**.
+
+Higher interest rates make borrowing more expensive. As a result:
+
+* Households may postpone buying cars, houses, and other durable goods.
+* Mortgage and consumer-credit costs rise.
+* Firms may postpone investment projects.
+* Credit growth tends to slow.
+
+Thus:
+
+$$
+i\uparrow
+\Rightarrow
+C\downarrow,\ I\downarrow
+\Rightarrow
+AD\downarrow
+$$
+
+A slowing economy reduces pressure on prices and wages:
+
+$$
+AD\downarrow
+\Rightarrow
+\text{Inflationary pressure}\downarrow.
+$$
+
+There may also be an **exchange-rate channel**.
+
+If higher U.S. interest rates strengthen the dollar, imported goods become cheaper in dollar terms:
+
+$$
+\$\uparrow
+\Rightarrow
+\text{Import prices}\downarrow
+\Rightarrow
+\text{Imported inflation}\downarrow.
+$$
+
+Finally, monetary policy also works through **expectations**. If households and firms believe that the Federal Reserve is committed to controlling inflation, this may influence wage bargaining and price-setting behavior.
+
+---
+
+## 3. Bond Prices: Why They Fall When Interest Rates Rise
+
+Bond prices and market interest rates generally move in opposite directions:
+
+$$
+i\uparrow
+\Rightarrow
+P_{\text{bond}}\downarrow.
+$$
+
+Suppose an existing bond pays a fixed coupon of \$40 per year.
+
+If newly issued bonds now offer higher yields, investors will no longer be willing to pay the same price for the old bond.
+
+The price of the existing bond must therefore fall until its yield becomes competitive with current market rates.
+
+The basic bond-pricing relationship is:
+
+$$
+P
+=
+\sum_{t=1}^{T}\frac{C}{(1+y)^t}
++
+\frac{F}{(1+y)^T},
+$$
+
+where:
+
+* \(P\) is the bond price,
+* \(C\) is the coupon payment,
+* \(F\) is the face value,
+* \(y\) is the market yield.
+
+As \(y\) rises, the present value of future payments falls.
+
+One important qualification is that the Federal Reserve directly controls a **very short-term policy rate**. Longer-term Treasury yields also depend on expected future interest rates, expected inflation, and risk or term premiums. Therefore, a 0.25 percentage point increase in the federal funds rate does not necessarily cause every market interest rate to rise by exactly 0.25 percentage point.
+
+---
+
+## 4. Cooling the Economy
+
+Higher interest rates affect economic activity through several channels.
+
+### 4.1 Household Consumption
+
+Higher borrowing costs discourage interest-sensitive consumption.
+
+This is particularly important for:
+
+* Housing
+* Cars
+* Appliances
+* Other durable goods financed with credit
+
+Thus:
+
+$$
+i\uparrow
+\Rightarrow
+\text{Borrowing cost}\uparrow
+\Rightarrow
+C\downarrow.
+$$
+
+---
+
+### 4.2 Business Investment
+
+Higher interest rates also increase the cost of financing investment.
+
+Some projects that were profitable at a low interest rate may no longer be worthwhile when financing becomes more expensive.
+
+Thus:
+
+$$
+i\uparrow
+\Rightarrow
+\text{Cost of capital}\uparrow
+\Rightarrow
+I\downarrow.
+$$
+
+In the **short run**, this is primarily an aggregate-demand effect because investment is part of aggregate demand:
+
+$$
+AD=C+I+G+NX.
+$$
+
+Over the **longer run**, however, persistently lower investment can also slow capital accumulation and therefore reduce the growth of productive capacity.
+
+So it is useful to distinguish:
+
+* **Short run:** lower investment reduces aggregate demand.
+* **Longer run:** lower capital accumulation may reduce potential output growth.
+
+---
+
+## 5. Debt Servicing and Financial Pressure
+
+Higher interest rates can also place pressure on households, firms, and governments that already have debt.
+
+However, an important distinction is needed.
+
+Existing **fixed-rate debt** does not suddenly become more expensive simply because the Federal Reserve raises interest rates.
+
+The immediate burden falls mainly on:
+
+* Floating-rate loans
+* Adjustable-rate mortgages
+* Credit-card balances
+* Firms with variable-rate debt
+* Borrowers refinancing maturing debt
+* New borrowers
+
+For these borrowers:
+
+$$
+i\uparrow
+\Rightarrow
+\text{Debt-service payments}\uparrow
+\Rightarrow
+\text{Disposable cash flow}\downarrow.
+$$
+
+Households may therefore reduce consumption, while firms may reduce hiring or investment.
+
+This is one reason monetary policy often works with a **lag**. Existing low-interest debt gradually matures and is refinanced at higher rates.
+
+---
+
+## 6. Net Exports
+
+The exchange-rate effect feeds back into the real economy.
+
+If the U.S. dollar appreciates:
+
+* U.S. exports become more expensive to foreigners.
+* Imported goods become cheaper for U.S. consumers.
+
+Therefore:
+
+$$
+\$\uparrow
+\Rightarrow
+X\downarrow,\ M\uparrow
+\Rightarrow
+NX\downarrow.
+$$
+
+Since net exports are part of aggregate demand, this provides another channel through which higher interest rates can cool the economy.
+
+---
+
+## 7. Asset Prices and Wealth
+
+Higher interest rates can also reduce the present value of future income from financial and real assets.
+
+This may place downward pressure on:
+
+* Bond prices
+* Equity prices
+* Property prices
+
+Lower asset values can reduce household wealth and may also reduce the value of collateral available for borrowing.
+
+This creates another possible transmission mechanism:
+
+$$
+i\uparrow
+\Rightarrow
+\text{Asset prices}\downarrow
+\Rightarrow
+\text{Wealth and collateral}\downarrow
+\Rightarrow
+C,\ I\downarrow.
+$$
+
+---
+
+## 8. International Spillovers
+
+A U.S. interest-rate increase does not affect only the United States.
+
+Higher U.S. yields may attract international capital toward dollar-denominated assets.
+
+For other countries this can mean:
+
+* Capital outflows
+* Depreciation pressure on their currencies
+* Higher domestic interest rates if central banks respond
+* More expensive servicing of U.S.-dollar-denominated debt
+
+These effects can be especially important for emerging economies with substantial dollar debt.
+
+---
+
+## 9. Putting the Channels Together
+
+The main effects can be summarized as follows:
+
+$$
+\boxed{\text{Fed raises interest rates}}
+$$
+
+$$
+\Downarrow
+$$
+
+$$
+\begin{array}{ccccc}
+\text{Borrowing cost}\uparrow
+&
+\text{Bond prices}\downarrow
+&
+\text{Dollar}\uparrow
+&
+\text{Asset prices}\downarrow
+&
+\text{Debt service}\uparrow
+\end{array}
+$$
+
+which contributes to:
+
+$$
+C\downarrow,\qquad
+I\downarrow,\qquad
+NX\downarrow
+$$
+
+and therefore:
+
+$$
+\boxed{
+AD\downarrow
+\Rightarrow
+\text{Economic activity cools}
+\Rightarrow
+\text{Inflationary pressure falls}
+}
+$$
+
+The key point is that monetary policy does not operate through a single channel.
+
+A change in the Federal Reserve's policy rate affects **borrowing, saving, asset prices, exchange rates, investment, consumption, expectations, and international capital flows**.
+
+These effects also do not occur immediately. Monetary policy typically works through the economy gradually, and different channels operate at different speeds.
+
+> Raising interest rates is therefore best understood as an attempt to **reduce current demand and inflationary pressure by making present spending more expensive relative to future spending**.
+
+---
+
+## 10. A Final Qualification
+
+An interest-rate increase does not necessarily mean that GDP must immediately fall or that the economy must enter recession.
+
+If the economy is growing strongly, tighter monetary policy may simply slow the rate of growth:
+
+$$
+\text{Growth without tightening}
+>
+\text{Growth with tightening}
+>
+0.
+$$
+
+The objective of monetary tightening is often precisely this: to cool an overheating economy sufficiently to reduce inflation without producing an unnecessarily severe contraction.
+
+Whether the Federal Reserve succeeds depends on how strongly households, firms, financial markets, and inflation expectations respond.
+
+---
+
+## Source
+
+Federal Reserve Board, **FOMC Statement, September 16, 2026**. The Federal Open Market Committee raised the target range for the federal funds rate by 0.25 percentage point to 3.75–4.00%.
