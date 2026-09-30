@@ -1,0 +1,816 @@
+---
+title: "Inflation Is More Than Rising Prices: Money, Distribution, and the Politics of Adjustment"
+author: "-YY-"
+date: "2026-09-30"
+categories: [inflation, monetary-policy, political-economy, macroeconomics]
+# image: "image.jpg"
+---
+
+# Inflation Is More Than Rising Prices: Money, History, Distribution, and the Politics of Adjustment
+
+I recently came across an argument about inflation that made me stop and think.
+
+The argument was broadly monetarist. It suggested that discussions of inflation have become too focused on rising prices themselves—food, energy, housing, supply-chain disruptions, geopolitical shocks, corporate pricing—while paying insufficient attention to what is happening to money.
+
+The historical examples are familiar. Roman emperors debased their coinage. Large quantities of silver entered Europe after the discovery of the Americas. Weimar Germany printed money on an extraordinary scale. The Bretton Woods monetary system ultimately collapsed in the early 1970s. More recently, central banks have expanded their balance sheets through quantitative easing.
+
+The common proposition is simple:
+
+$$
+\text{if money grows persistently faster than real output, prices eventually rise.}
+$$
+
+There is an important truth here.
+
+But I am not convinced that it is the whole truth.
+
+More interesting still is what happens when we move beyond the technical question—*What causes inflation?*—and ask a political-economic one:
+
+> **Who ultimately pays for inflation, and who has the power to decide how an economy adjusts?**
+
+That seems to me the deeper question.
+
+## Inflation: Definition or Explanation?
+
+It is useful first to distinguish the phenomenon from its cause.
+
+In contemporary economics, inflation usually means a sustained increase in the general price level. That definition tells us *what inflation is*. It does not tell us *why it happened*.
+
+Those are separate questions.
+
+The quantity equation provides a useful starting point:
+
+$$
+MV = PY,
+$$
+
+where $M$ is the money supply, $V$ its velocity, $P$ the price level, and $Y$ real output.
+
+If money grows persistently while real productive capacity does not, and velocity does not decline sufficiently, nominal expenditure eventually outruns the available supply of goods and services. Sustained inflation becomes difficult to avoid.
+
+This is the enduring insight behind the monetarist view.
+
+But the equation itself also warns against an overly simple story. Money is not the only moving part.
+
+Velocity changes.
+
+Output changes.
+
+Credit conditions change.
+
+Expectations change.
+
+The public's willingness to hold money changes.
+
+And sometimes the quantity of goods available to purchase suddenly falls.
+
+Before turning to those complications, however, it is worth looking at the history that makes the monetary argument so compelling in the first place.
+
+## A Brief History of Money and Inflation
+
+The historical episodes are interesting precisely because they are **not identical**.
+
+In some cases, governments deliberately reduced the metallic content of money.
+
+In others, new sources of precious metal increased the monetary stock.
+
+In hyperinflations, governments increasingly relied on monetary financing because normal fiscal mechanisms had broken down.
+
+In the modern era, central banks can create enormous quantities of reserves without producing proportionate consumer-price inflation.
+
+The history therefore supports the importance of money—but it also teaches us to ask **how money entered the economy, why it was created, and what else was happening at the time**.
+
+### Rome: Debasing the Denarius
+
+One of the oldest examples is Roman coinage.
+
+Under Augustus, the silver denarius was a high-quality coin containing roughly 95–98 percent silver. Over subsequent centuries, emperors progressively reduced its silver content. By the reign of Septimius Severus around the beginning of the third century, the denarius contained only about half as much silver.
+
+The attraction to government is obvious.
+
+Suppose the state possesses enough silver to produce 100 coins.
+
+If each new coin contains only half as much silver, the same quantity of metal can theoretically produce something closer to 200 coins.
+
+The government has increased its nominal spending capacity without collecting an equivalent amount of additional taxation.
+
+The political economy is already visible:
+
+$$
+\text{fiscal pressure}
+\rightarrow
+\text{debasement}
+\rightarrow
+\text{more nominal currency}.
+$$
+
+But even here, the story should not be reduced to a mechanical equation between debasement and prices.
+
+Roman inflation occurred alongside wars, political instability, taxation problems, disruptions to production and trade, and declining confidence in the currency. Debasement was an important part of the story, but it operated within a broader fiscal and institutional deterioration.
+
+This distinction will recur throughout history.
+
+### Sixteenth-Century Europe: The Price Revolution
+
+A second famous episode followed Europe's encounter with the Americas.
+
+During the sixteenth and early seventeenth centuries, European prices rose substantially over a long period. The enormous quantities of silver eventually arriving from Spanish America became an important part of the conventional explanation.
+
+The monetary intuition is straightforward:
+
+$$
+M \uparrow
+\quad\text{faster than}\quad
+Y
+\quad\Rightarrow\quad
+P \uparrow.
+$$
+
+More silver meant more monetary purchasing power competing for European output.
+
+This episode helped inspire some of the earliest formulations of what later became the quantity theory of money.
+
+But the history is again more complicated than the simplified story of “Spanish silver caused European inflation.”
+
+European prices had already begun rising before the largest American silver inflows arrived. Economic historians have pointed to expanding Central European silver production, population recovery, growing commercialization and other monetary changes as additional contributors.
+
+That does not invalidate the monetary interpretation.
+
+It makes it more interesting.
+
+The lesson is not necessarily:
+
+> one increase in money caused one increase in prices.
+
+It is:
+
+> **a prolonged expansion in monetary purchasing power interacted with an expanding but constrained real economy.**
+
+That sounds remarkably modern.
+
+### Weimar Germany: When Fiscal Breakdown Meets the Printing Press
+
+The German hyperinflation of 1923 provides a much more dramatic example.
+
+After the First World War, Germany faced enormous government debt, reparations obligations, political instability and a weak tax base. Increasing fiscal deficits were financed through growing quantities of short-term government paper, much of it ultimately supported by the Reichsbank.
+
+By 1923, the system had become extraordinary. IMF historical work reports that by the autumn of that year, money creation was financing more than 95 percent of federal expenditure.
+
+This was not simply a central bank deciding, for no particular reason, to increase the money supply.
+
+The sequence was closer to:
+
+$$
+\text{fiscal crisis}
+\rightarrow
+\text{monetary financing}
+\rightarrow
+\text{currency depreciation}
+\rightarrow
+\text{loss of confidence}
+\rightarrow
+\text{still faster money creation}.
+$$
+
+Once people no longer wanted to hold marks, another part of the quantity equation became crucial.
+
+Velocity rose.
+
+People tried to spend currency as quickly as possible before it lost even more purchasing power.
+
+Thus hyperinflation involved both:
+
+$$
+M \uparrow\uparrow
+$$
+
+and
+
+$$
+V \uparrow\uparrow.
+$$
+
+This is why Weimar is such a powerful example of the monetary explanation of inflation—but also why it is misleading to describe it merely as “too much money.”
+
+The deeper problem was a collapse in the relationship between **fiscal institutions, monetary credibility and public confidence**.
+
+The printing press was the mechanism through which the crisis became hyperinflationary.
+
+### The 1960s and 1970s: The Great Inflation
+
+The next episode is particularly important because it resembles modern monetary institutions much more closely.
+
+U.S. inflation began moving higher during the second half of the 1960s. Fiscal pressures increased as the United States simultaneously financed the Vietnam War and major domestic spending programs, while monetary policy remained accommodative.
+
+Inflation rose from below 2 percent in early 1965 to around 6 percent by the end of 1969.
+
+Meanwhile, the international monetary system created an additional constraint.
+
+Under Bretton Woods, other major currencies were tied to the dollar, while the dollar itself was convertible into gold for foreign monetary authorities at $35 per ounce.
+
+But dollars held outside the United States were growing much faster than the U.S. stock of monetary gold.
+
+Eventually the promise became increasingly difficult to sustain.
+
+On August 15, 1971, President Richard Nixon suspended the convertibility of dollars into gold.
+
+This is often portrayed as the moment when money suddenly became unconstrained.
+
+That interpretation is too simple.
+
+The gold constraint had already been coming under increasing pressure because of U.S. inflation, balance-of-payments deficits and the growing quantity of dollars held abroad. The closing of the gold window was therefore partly **a consequence of the strains already present in the monetary system**, rather than simply the original cause of later inflation.
+
+The 1970s then brought additional shocks, including dramatic increases in oil prices.
+
+The Great Inflation therefore illustrates something important:
+
+$$
+\text{monetary accommodation}
++
+\text{fiscal pressure}
++
+\text{supply shocks}
++
+\text{expectations}
+\rightarrow
+\text{persistent inflation}.
+$$
+
+No single element provides a complete explanation.
+
+Eventually, under Federal Reserve Chairman Paul Volcker, monetary policy tightened sharply. Inflation was brought under control, but the adjustment involved extremely high interest rates and deep recessions.
+
+This is where inflation becomes unmistakably political.
+
+Inflation imposes costs.
+
+But **reducing inflation imposes costs too**.
+
+The question becomes who bears them.
+
+### After 2008: The Counterexample We Should Not Ignore
+
+The global financial crisis provides an especially useful counterexample to a simplistic monetary story.
+
+Following the crisis, the Federal Reserve and other central banks expanded their balance sheets on an unprecedented scale.
+
+The Federal Reserve created enormous quantities of bank reserves through lending programs and large-scale asset purchases.
+
+If one simply equated central-bank balance-sheet expansion with inflation, a surge in consumer prices should have followed.
+
+It did not.
+
+Federal Reserve reserves eventually rose from roughly $15 billion before the crisis to approximately $2.5 trillion, while inflation remained relatively low and stable for much of the subsequent expansion.
+
+Why?
+
+One important reason was that reserves accumulated inside the banking system rather than automatically becoming equivalent increases in household and business spending.
+
+Ben Bernanke noted at the time that although the monetary base had increased dramatically, banks were holding much of the additional reserves at the Federal Reserve, while broader measures such as M1 and M2 were growing much more slowly.
+
+The Bank of England has made a similar point: reserve creation is neither necessary nor sufficient for rapid growth in the broad money held by households and firms, and large swings in central-bank reserves need not map mechanically into consumer-price inflation.
+
+This episode matters enormously.
+
+It tells us that:
+
+$$
+\Delta \text{central-bank reserves}
+\neq
+\Delta \text{effective purchasing power}
+\neq
+\Delta P
+$$
+
+on a one-for-one basis.
+
+The transmission mechanism matters.
+
+So does the state of the economy.
+
+After 2008, demand was weak, unemployment was high, banks were repairing balance sheets and substantial productive capacity was underused.
+
+Money mattered.
+
+But **where the money went and what people did with it mattered just as much**.
+
+### 2020–2022: Pandemic Inflation
+
+The pandemic gives us almost the opposite experiment.
+
+Governments and central banks responded to an extraordinary economic shutdown with enormous fiscal and monetary support.
+
+At the same time, productive capacity was constrained.
+
+Factories closed.
+
+Shipping networks were disrupted.
+
+Semiconductors became scarce.
+
+Labor-force participation changed.
+
+Consumers shifted spending dramatically from services toward goods.
+
+Then economies reopened rapidly.
+
+The IMF described the resulting inflation as reflecting both strong demand—supported by exceptional fiscal and monetary measures—and severe supply disruptions.
+
+This episode therefore resists the simple question:
+
+> Was inflation caused by money or by supply?
+
+The more useful question is:
+
+> **What happens when very strong nominal purchasing power encounters temporarily constrained real productive capacity?**
+
+In shorthand:
+
+$$
+\text{large nominal demand}
++
+\text{restricted real supply}
+\rightarrow
+\text{inflationary pressure}.
+$$
+
+That formulation incorporates the monetarist insight without pretending that supply does not matter.
+
+## What Does the History Actually Tell Us?
+
+Looking across these episodes, I think two conclusions can simultaneously be true.
+
+The first supports the narrator's argument:
+
+> **Persistent monetary expansion relative to an economy's capacity to produce real goods and services is repeatedly associated with sustained inflation.**
+
+This is particularly clear in episodes of fiscal dominance and hyperinflation.
+
+Governments cannot indefinitely create nominal claims on goods without confronting the constraint imposed by the quantity of real goods available.
+
+But history also teaches a second lesson:
+
+> **The same increase in a monetary aggregate can have very different consequences depending on why it occurs, how it enters the economy, what happens to velocity, the condition of the financial system, productive capacity and expectations.**
+
+Rome is not Weimar.
+
+Spanish silver is not quantitative easing.
+
+Quantitative easing after 2008 is not pandemic stimulus in 2020.
+
+And ending dollar-gold convertibility in 1971 did not by itself create all subsequent inflation.
+
+So perhaps the history supports neither the extreme position
+
+$$
+\text{money does not matter}
+$$
+
+nor
+
+$$
+\text{money explains everything}.
+$$
+
+Rather:
+
+$$
+\boxed{
+\text{Money matters through institutions, incentives, expectations and the real economy.}
+}
+$$
+
+## A Supply Shock Is Not the Same as Persistent Inflation
+
+Suppose the world price of oil suddenly doubles.
+
+Production costs rise. Transportation becomes more expensive. Consumer prices increase.
+
+That is inflation in the conventional statistical sense.
+
+But the initial rise in prices need not continue indefinitely.
+
+If households have to spend more on energy, they may spend less elsewhere. If wages and other prices do not continuously adjust upward, the initial increase in the price level may eventually wash through the inflation rate.
+
+The danger arises when the initial shock begins propagating.
+
+Workers seek compensation through higher wages.
+
+Firms adjust prices again.
+
+Expectations change.
+
+Fiscal or monetary conditions continue supporting nominal demand.
+
+What began as a relative-price shock can become persistent generalized inflation.
+
+So there is an important distinction between:
+
+$$
+\text{the shock that starts inflation}
+$$
+
+and
+
+$$
+\text{the mechanisms that allow inflation to persist}.
+$$
+
+This distinction preserves the insight that monetary conditions are crucial without requiring us to claim that every inflationary episode begins with money creation.
+
+## What About Asset-Price Inflation?
+
+The argument I heard also raised another interesting point: why do official measures of inflation focus on consumer prices while dramatic increases in property, equity and other asset prices often receive much less attention?
+
+This question deserves serious consideration.
+
+Loose monetary conditions can certainly increase asset prices.
+
+Lower interest rates raise the present value of future income streams:
+
+$$
+P_{\text{asset}}
+=
+\sum_{t=1}^{\infty}
+\frac{E(CF_t)}{(1+r)^t}.
+$$
+
+A lower discount rate $r$ can therefore produce substantial increases in asset valuations.
+
+But I would hesitate to call all such movements “inflation” in the same sense as consumer-price inflation.
+
+A share of stock is not a current consumption good. It represents a claim on future income.
+
+A house is partly an asset and partly a source of housing services.
+
+This is why consumer-price indices try to measure the cost of consuming housing rather than simply inserting house purchase prices into the CPI.
+
+Still, the concern behind the argument is valid.
+
+Asset-price increases can dramatically change **wealth distribution, housing affordability and economic opportunity** even when consumer-price inflation remains low.
+
+Perhaps the mistake is not excluding asset prices from CPI.
+
+Perhaps the mistake is expecting **one inflation statistic to describe every economically important change in the value of money, assets and living standards**.
+
+## The Cantillon Question
+
+The argument becomes more interesting when it turns to distribution.
+
+New money does not necessarily enter an economy evenly.
+
+Monetary policy operates through banks, financial markets, borrowers, asset prices, employment and spending.
+
+That means monetary changes have distributional consequences.
+
+This idea is often associated with Richard Cantillon: those who receive newly created purchasing power first may experience different effects from those whose incomes adjust only later.
+
+There is something important here, although reality is more complicated than a simple division between financial insiders who gain and workers who lose.
+
+Consider unexpected inflation.
+
+If I have borrowed one million baht at a fixed nominal interest rate, inflation reduces the real value of what I owe.
+
+I gain as a debtor.
+
+The lender loses.
+
+Thus:
+
+$$
+\text{unexpected inflation}:
+\qquad
+\text{creditors} \rightarrow \text{debtors}.
+$$
+
+Meanwhile, a pensioner living on a fixed nominal income may suffer substantially.
+
+A low-income household may be particularly exposed if food and energy take a large share of expenditure.
+
+An asset owner may benefit from rising property or equity prices.
+
+A worker may initially lose because wages adjust more slowly than prices but later benefit if a tight labor market produces strong wage growth.
+
+Higher interest rates used to fight inflation then generate another set of winners and losers: borrowers face greater financing costs, while some savers receive higher returns.
+
+So the right question is not merely:
+
+> “Does inflation redistribute?”
+
+Clearly it does.
+
+The better questions are:
+
+> **From whom? To whom? Through which channel? And over what period?**
+
+## Is Inflation a Hidden Tax?
+
+The description of inflation as a “hidden tax” also contains an important insight.
+
+Governments can obtain resources by issuing money.
+
+Economists call the revenue generated through money creation **seigniorage**.
+
+People holding nominal cash balances experience a reduction in their real purchasing power when prices rise.
+
+Historically, governments facing severe fiscal pressure have repeatedly used monetary financing.
+
+Rome's coin debasement and Weimar's monetary financing are very different institutional arrangements, but both reveal the underlying temptation:
+
+$$
+\text{spending needs}
+>
+\text{politically or economically feasible taxation and borrowing}
+$$
+
+followed by some form of
+
+$$
+\text{money creation}.
+$$
+
+In that limited sense, the inflation-tax analogy is useful.
+
+Explicit taxation is highly visible.
+
+Legislatures debate taxes. Rates appear on tax forms. Citizens know that resources have been transferred to government.
+
+Inflation is less transparent.
+
+A 100-baht note remains a 100-baht note.
+
+Nothing has visibly been taken from it.
+
+It simply buys less.
+
+Politically, that distinction matters.
+
+But the analogy can also be pushed too far.
+
+Not every inflation is deliberately engineered by governments to extract resources from citizens.
+
+Independent central banks routinely tighten monetary policy—sometimes at considerable economic and political cost—to reduce inflation.
+
+Supply shocks can create inflation without any deliberate decision to impose an inflation tax.
+
+So I would distinguish carefully between two propositions:
+
+$$
+\boxed{\text{Inflationary finance can function like taxation}}
+$$
+
+and
+
+$$
+\boxed{\text{All inflation is therefore a deliberate hidden tax}}.
+$$
+
+The first is economically meaningful.
+
+The second is much harder to defend.
+
+## Why Inflation Is So Politically Powerful
+
+Inflation has another characteristic that may explain why it generates such intense political reactions.
+
+People encounter it continuously.
+
+A higher income-tax rate may appear once on a payslip.
+
+Inflation appears at the supermarket, petrol station, restaurant, electricity bill and rent payment.
+
+There is also an important psychological asymmetry.
+
+Suppose my nominal salary rises by 5 percent while prices rise by 7 percent.
+
+I may attribute the salary increase to my own effort:
+
+> “I earned that raise.”
+
+But I attribute the price increase to forces outside myself:
+
+> “Someone made everything more expensive.”
+
+My real purchasing power has fallen by roughly 2 percent, but psychologically the experience is not neutral.
+
+Inflation therefore generates a particularly difficult political question:
+
+> **Who should be blamed?**
+
+The government?
+
+The central bank?
+
+Energy producers?
+
+International conflict?
+
+Supply chains?
+
+Corporations?
+
+Workers demanding wage increases?
+
+Consumers spending too much?
+
+The uncomfortable answer may often be: several of them, through different mechanisms and at different stages.
+
+This makes inflation unusually fertile ground for political narratives.
+
+A technically complicated account—
+
+> supply constraints interacted with strong nominal demand, fiscal support, monetary accommodation and changing expectations—
+
+may be reasonably accurate.
+
+But it is not politically memorable.
+
+A much simpler story—
+
+> government created money, prices rose, and ordinary people paid the bill—
+
+provides a clear cause, a clear agent, clear winners and clear victims.
+
+That makes it rhetorically powerful.
+
+It does not automatically make it false.
+
+But it should make us examine it particularly carefully.
+
+## Central-Bank Independence as Political Economy
+
+There is another interesting implication.
+
+If governments sometimes have incentives to stimulate the economy before elections, finance expenditure through money creation, or postpone politically painful adjustment, how should monetary institutions be designed?
+
+One response has been to delegate monetary policy to relatively independent central banks with explicit price-stability objectives.
+
+This can be understood as an institutional solution to a problem of incentives.
+
+Rather than assuming that policymakers will always resist short-term political pressures, societies create institutions that deliberately restrict discretion.
+
+But this does not remove politics from monetary policy.
+
+Suppose the central bank responds to inflation by increasing interest rates.
+
+Inflation may eventually fall.
+
+But meanwhile:
+
+- mortgage and borrowing costs rise;
+- investment may fall;
+- asset prices may weaken;
+- unemployment may increase;
+- savers may receive higher interest income.
+
+Tight monetary policy therefore also redistributes income and wealth.
+
+There is no completely distribution-neutral monetary policy.
+
+The choice is not between:
+
+$$
+\text{economic policy}
+\quad\text{and}\quad
+\text{politics}.
+$$
+
+Different economic policies distribute adjustment costs differently.
+
+## Perhaps This Is the Deeper Question
+
+Imagine that an economy suddenly has fewer real resources than people collectively expect to consume.
+
+Perhaps energy becomes scarce.
+
+Perhaps productive capacity falls.
+
+Perhaps demand increases much faster than production.
+
+Something has to adjust.
+
+The adjustment might occur through:
+
+- higher taxation;
+- lower government expenditure;
+- falling real wages;
+- unemployment;
+- higher interest rates;
+- lower asset prices;
+- currency depreciation;
+- inflation.
+
+Each mechanism reduces someone's claim on real resources.
+
+And each mechanism distributes the burden differently.
+
+Seen this way, inflation is not merely a technical monetary phenomenon.
+
+It is one possible way in which society reconciles **nominal claims with limited real resources**.
+
+This may be the most interesting political question of all:
+
+$$
+\boxed{
+\text{When there is not enough real output to satisfy everyone's nominal claims, whose claim gets reduced?}
+}
+$$
+
+The saver?
+
+The worker?
+
+The debtor?
+
+The creditor?
+
+The taxpayer?
+
+The recipient of government expenditure?
+
+The asset owner?
+
+Once the question is framed this way, debates about inflation begin to look different.
+
+They are partly debates about monetary theory.
+
+But they are also debates about **incidence, power and the distribution of economic adjustment**.
+
+## What I Take From the Historical Argument
+
+I therefore would not dismiss the monetary argument that prompted these reflections.
+
+Two thousand years of history do contain recurring examples in which fiscal pressures, monetary expansion and inflation become intertwined.
+
+Roman debasement shows how governments can expand nominal spending capacity by changing the monetary unit.
+
+The European Price Revolution shows what can happen when the monetary stock expands over a long period relative to real production.
+
+Weimar demonstrates the potentially explosive interaction between fiscal collapse, monetary financing, expectations and confidence.
+
+The Great Inflation reminds us that accommodative demand policy and supply shocks can reinforce one another.
+
+The post-2008 experience reminds us that creating central-bank reserves does not automatically create consumer-price inflation.
+
+And the pandemic reminds us that nominal demand cannot be analyzed independently of real productive capacity.
+
+Taken together, the historical record seems richer than either of the simplest stories.
+
+It does not tell us:
+
+$$
+\text{inflation has nothing to do with money}.
+$$
+
+But neither does it tell us:
+
+$$
+\text{inflation is always and everywhere simply money printing}.
+$$
+
+A more useful framework might be:
+
+$$
+\boxed{
+\text{Inflation}
+=
+f(
+\text{money},
+\text{fiscal policy},
+\text{demand},
+\text{supply},
+\text{expectations},
+\text{institutions}
+)
+}
+$$
+
+with the relative importance of each changing across historical episodes.
+
+And perhaps the most important lesson is methodological.
+
+A powerful explanatory lens can become misleading when it convinces us that it is the **only** lens.
+
+Money matters.
+
+Supply matters.
+
+Expectations matter.
+
+Fiscal institutions matter.
+
+Politics matters.
+
+And ultimately, inflation matters because behind the aggregate price index are real people whose incomes, debts, savings and opportunities adjust in very different ways.
+
+That is why I increasingly think that the most interesting question about inflation is not simply:
+
+> **Why did prices rise?**
+
+It is:
+
+> **Who bears the cost when the economy has to adjust—and who gets to decide how that adjustment takes place?**
+
+That is a question of economics.
+
+But it is also, inevitably, a question of political economy.
