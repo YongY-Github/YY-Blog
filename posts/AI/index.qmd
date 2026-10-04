@@ -1,0 +1,1318 @@
+---
+title: "The Long Road to Artificial Intelligence"
+subtitle: "How an Abandoned Idea Survived Two AI Winters—and Why History Should Make Us Both Excited and Cautious"
+author: "-YY-"
+date: "2026-10-04"
+categories: [AI, machine learning, history]
+# bibliography: references.bib
+# nocite: '@*'
+---
+
+# The Long Road to Artificial Intelligence
+
+## How an abandoned idea survived two AI winters—and why history should make us both excited and cautious about the present
+
+Artificial intelligence can feel like a remarkably recent invention.
+
+ChatGPT arrived in public view only a few years ago. Generative images appeared almost overnight. Computers that could hold conversations, write programs, create pictures, translate languages, and analyze documents suddenly became ordinary enough to sit inside a browser.
+
+It is tempting to think that somewhere around 2022, scientists finally discovered the secret of artificial intelligence.
+
+That is not what happened.
+
+The intellectual roots of today's AI stretch back more than eighty years. Some of the central ideas underlying modern neural networks existed before most households owned televisions. Machines that learned from examples were being demonstrated in the 1950s. Multi-layer neural networks were successfully trained in the 1980s.
+
+And then, repeatedly, the field collapsed.
+
+Funding disappeared.
+
+Researchers left.
+
+Entire approaches were declared dead.
+
+What finally transformed artificial intelligence was therefore not one sudden moment of invention. It was the convergence of ideas that had existed for decades with things those ideas had always lacked: **enough data, enough computing power, and architectures capable of putting the pieces together at scale**.
+
+That history is worth understanding, especially now.
+
+Because AI has been through periods of extraordinary optimism before.
+
+Researchers have predicted machines approaching human intelligence before.
+
+Newspapers have announced thinking machines before.
+
+Governments and companies have poured enormous sums of money into AI before.
+
+And twice before, disappointment followed.
+
+Yet there is an equally important lesson on the other side.
+
+The ideas dismissed during those earlier periods were not always wrong.
+
+Sometimes they were simply **early**.
+
+The history of artificial intelligence is therefore neither a reassuring story that today's excitement is merely another bubble nor a triumphalist story in which technological progress inevitably marched toward ChatGPT.
+
+It is stranger than either.
+
+It is a story of brilliant ideas, exaggerated promises, genuine failure, institutional fashion, stubborn persistence, accidental technological convergence, and an uncomfortable question:
+
+> **How do we distinguish an idea that is wrong from an idea whose time has simply not yet arrived?**
+
+---
+
+# Part I: Before Artificial Intelligence Had a Name
+
+## Walter Pitts and the idea that a brain might be a machine
+
+One place to begin is Cambridge, Massachusetts, in May 1969.
+
+Walter Pitts was dying in a boarding house.
+
+He was only 46 years old.
+
+By then, the ideas he had helped create were already being used at MIT and elsewhere, although few people outside a small scientific community knew his name.
+
+His route into science had been extraordinary.
+
+According to the narrative, Pitts had grown up in Detroit and, while still a boy, immersed himself in Bertrand Russell and Alfred North Whitehead's *Principia Mathematica*. He became fascinated by the possibility that reasoning itself might be represented using formal logic.
+
+As a teenager he left home, eventually becoming involved with scholars working on logic, mathematics, neurophysiology, and the nature of thought.
+
+There he met Warren McCulloch.
+
+McCulloch was almost the opposite of Pitts: older, well established, conventionally educated, and already working as a neurophysiologist.
+
+But the two shared an extraordinary question:
+
+> **What would it mean, mechanically, for a brain to think?**
+
+Their answer was radical.
+
+Imagine a neuron as a simple switch.
+
+It receives inputs.
+
+If enough of those inputs reach some threshold, it fires.
+
+Otherwise, it does not.
+
+That sounds almost absurdly primitive.
+
+But McCulloch and Pitts realized that networks of such simple units could perform logical operations. In 1943 they published a paper describing how networks of idealized neurons could implement forms of computation.
+
+The neuron, in this conception, did not need to contain intelligence.
+
+Individual neurons could be extremely simple.
+
+Complexity could arise from the **network**.
+
+That insight sits deep inside modern artificial neural networks.
+
+But something was missing.
+
+A fixed logical network could compute.
+
+It could not necessarily **learn**.
+
+That required another idea.
+
+## Learning from experience
+
+In 1949, psychologist Donald Hebb proposed a principle that would later become famous in simplified form:
+
+> neurons that fire together strengthen their connection.
+
+The idea was that learning could occur through changes in the strengths of connections between neurons.
+
+Now combine the two insights.
+
+McCulloch and Pitts had supplied a way to think of neurons as computational units.
+
+Hebb supplied a mechanism through which connections might change with experience.
+
+The conceptual transition is enormous.
+
+A conventional program follows instructions written by a human.
+
+A learning system changes itself in response to examples.
+
+The distinction can be written simply:
+
+$$
+\text{traditional programming}
+=
+\text{rules} + \text{data}
+\rightarrow
+\text{answers},
+$$
+
+whereas machine learning attempts something closer to:
+
+$$
+\text{data} + \text{answers}
+\rightarrow
+\text{learned rules}.
+$$
+
+Instead of specifying every instruction, we allow the system to adjust itself.
+
+That is the conceptual move behind machine learning.
+
+## Turing asks the dangerous question
+
+Then, in 1950, Alan Turing posed the question that would hang over the entire field:
+
+> **Can machines think?**
+
+Turing immediately recognized the problem.
+
+What exactly do we mean by *thinking*?
+
+Humans themselves have difficulty defining it.
+
+So rather than trying to settle the metaphysics, Turing proposed an operational test.
+
+Suppose a human judge communicates through text with another human and with a machine, without knowing which is which.
+
+If the judge cannot reliably distinguish them, on what basis should we insist that the machine is not displaying intelligence?
+
+The cleverness of Turing's move was to shift the question.
+
+Instead of asking:
+
+> What *is* intelligence?
+
+he asked:
+
+> What observable behavior would persuade us that intelligence is present?
+
+That distinction remains remarkably relevant today.
+
+When a modern language model produces a thoughtful answer, are we observing understanding?
+
+Or are we observing something that behaves sufficiently like understanding that the distinction becomes difficult to make?
+
+The question is older than ChatGPT by more than seventy years.
+
+## Dartmouth: AI gets a name
+
+The field itself acquired a name in the mid-1950s.
+
+A group of researchers proposed a summer workshop at Dartmouth College built around an audacious assumption: that aspects of learning and intelligence could, in principle, be described precisely enough for machines to simulate them.
+
+John McCarthy called the field **artificial intelligence**.
+
+The phrase mattered.
+
+Once a research program has a name, it becomes easier to organize conferences, attract researchers, seek grants, and make promises.
+
+And the promises came quickly.
+
+Early programs could prove mathematical theorems and manipulate symbols according to logical rules. To many researchers, this looked like the beginning of machine thought.
+
+If reasoning consisted fundamentally of manipulating symbols, and computers could manipulate symbols, perhaps human-level intelligence was simply a sufficiently large programming problem.
+
+Some leading researchers made very bold forecasts.
+
+The future seemed close.
+
+Very close.
+
+Perhaps too close.
+
+---
+
+# Part II: The First Great Promise—and the First Collapse
+
+## The perceptron learns from examples
+
+Frank Rosenblatt took a different route from researchers who tried to encode intelligence through explicit symbolic rules.
+
+He wanted a machine that could **learn**.
+
+The perceptron took inputs, assigned weights to them, combined them, produced an output, and adjusted those weights when it made a mistake.
+
+Conceptually:
+
+$$
+z = \sum_j w_jx_j
+$$
+
+followed by a decision such as
+
+$$
+y =
+\begin{cases}
+1 & z > c,\\
+0 & z \leq c.
+\end{cases}
+$$
+
+If the classification was wrong, the weights were adjusted.
+
+The machine therefore learned from examples rather than being explicitly told every rule.
+
+That basic idea sounds extraordinarily modern.
+
+Because it is.
+
+In 1958 Rosenblatt's perceptron became a media sensation.
+
+The machine's actual abilities were modest. It could learn relatively simple classifications.
+
+But public claims surrounding it raced far ahead.
+
+The supplied narrative describes contemporary reporting suggesting that such machines might eventually walk, talk, see, write, reproduce themselves, and perhaps even become conscious.
+
+The contrast is almost comic.
+
+The machine could perform a limited classification task.
+
+The headlines were already imagining artificial consciousness.
+
+The source captures the recurring problem beautifully: the distance between **what a system does today** and **what its advocates imagine it might eventually do** can become enormous.
+
+This will not be the last time.
+
+## A mathematical wall
+
+Then came the criticism.
+
+In 1969 Marvin Minsky and Seymour Papert published *Perceptrons*.
+
+They demonstrated genuine mathematical limitations of single-layer perceptrons.
+
+The most famous example is XOR—exclusive OR.
+
+Suppose we have two binary inputs:
+
+| $x_1$ | $x_2$ | XOR |
+|---:|---:|---:|
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+A single straight line cannot separate the two positive cases from the two negative cases.
+
+The problem is not insufficient training.
+
+It is structural.
+
+A single-layer perceptron simply cannot represent that decision boundary.
+
+That criticism was correct.
+
+But what happened next illustrates something important about science.
+
+A limited result became interpreted much more broadly.
+
+A single-layer network had serious limitations.
+
+But that did not establish that **all neural networks** were useless.
+
+Multi-layer networks could, in principle, represent far more complicated functions.
+
+The practical problem was that researchers did not yet have an effective way to train those deeper networks.
+
+The door existed.
+
+Nobody knew how to open it.
+
+And funding agencies were losing patience.
+
+## The first AI winter
+
+The neural-network disappointment was only part of the problem.
+
+Other areas of artificial intelligence had also overpromised.
+
+Machine translation received substantial government interest during the Cold War. Yet automated translation remained far inferior to human translation.
+
+Symbolic systems worked impressively in carefully constructed environments but struggled once exposed to the messiness of the real world.
+
+Joseph Weizenbaum's ELIZA, created in the 1960s, simulated a psychotherapist largely by turning users' statements back into questions.
+
+Its technical machinery was simple.
+
+Its psychological effect was not.
+
+People began treating it as though it understood them.
+
+The story is fascinating because we still see the same phenomenon today:
+
+> **human beings readily attribute understanding to machines that respond fluently in language.**
+
+Later systems such as SHRDLU could discuss objects, commands, and actions within tiny artificial worlds.
+
+Inside those worlds, performance looked impressive.
+
+Outside them, the intelligence disappeared.
+
+The system had not learned the world.
+
+The carefully constrained world **was part of the program**.
+
+By the early 1970s, governments began asking whether AI was delivering what its advocates had promised.
+
+The answer was increasingly: not yet.
+
+Funding was cut.
+
+Researchers moved elsewhere.
+
+The first **AI winter** began.
+
+One line from the source is worth preserving:
+
+> An AI winter is not necessarily a proof that the work is impossible. It is a collective decision to stop paying for it.
+
+That distinction matters.
+
+Scientific truth and research funding are related, but they are not identical.
+
+A research program may disappear because it is wrong.
+
+But it may also disappear because progress is too slow, expectations were unrealistic, necessary complementary technologies do not yet exist, or researchers cannot demonstrate economically useful results quickly enough.
+
+And when funding disappears, ideas do not merely go dormant.
+
+Careers change.
+
+Graduate students move into other fields.
+
+Research communities dissolve.
+
+Knowledge networks disappear.
+
+An intellectual winter can become partly self-reinforcing.
+
+---
+
+# Part III: AI Returns—and Fails Again
+
+## The age of expert systems
+
+Artificial intelligence returned in the late 1970s and early 1980s wearing different clothes.
+
+Instead of trying to build machines that learned like brains, researchers built **expert systems**.
+
+The logic was straightforward.
+
+If a human expert knows how to diagnose a disease or configure a computer system, perhaps that expertise can be represented as rules:
+
+> IF condition A and condition B hold, THEN take action C.
+
+Collect enough such rules and a computer can reproduce some of an expert's decision-making.
+
+The approach worked surprisingly well in bounded domains.
+
+Expert systems were used in medicine and industry.
+
+Digital Equipment Corporation reportedly saved substantial sums using a system to configure computer orders.
+
+Now AI was not merely a laboratory curiosity.
+
+It could make money.
+
+Optimism returned.
+
+Japan launched its ambitious Fifth Generation Computer Systems project in the early 1980s. Governments elsewhere responded partly because they feared falling behind.
+
+Funding returned.
+
+AI was back.
+
+But the weakness of expert systems was built into their architecture.
+
+Every rule had to come from somewhere.
+
+Usually, that meant a human expert.
+
+The system could be enormously competent within the space covered by its rules and helpless one step outside it.
+
+It also could not easily learn from experience.
+
+A system might process ten thousand cases without becoming intrinsically wiser unless somebody explicitly updated its rules.
+
+Knowledge engineering became expensive.
+
+Systems became brittle.
+
+Special-purpose hardware became less attractive as ordinary computers improved.
+
+And enthusiasm collapsed again.
+
+The second AI winter arrived.
+
+By the early 1990s, according to the narrative, researchers sometimes avoided even using the term **artificial intelligence** in funding applications.
+
+The phrase had become toxic.
+
+Another term sounded safer.
+
+**Machine learning.**
+
+---
+
+# The People Who Refused to Leave
+
+While much of the field moved toward other approaches, a small group continued working on neural networks.
+
+Among the most important was Geoffrey Hinton.
+
+The fundamental problem was clear.
+
+If a network contained multiple layers, the final output might be wrong.
+
+But how should the system determine which internal connections were responsible?
+
+The error appears at the end.
+
+The cause is distributed throughout the network.
+
+The solution was **backpropagation**.
+
+The network produces an output.
+
+The output is compared with the correct answer.
+
+An error is calculated.
+
+That error is then propagated backward through the network, allowing each connection to receive information about how it contributed to the mistake.
+
+The weights are adjusted slightly.
+
+Then the system tries again.
+
+And again.
+
+And again.
+
+In simplified form:
+
+$$
+\text{predict}
+\rightarrow
+\text{measure error}
+\rightarrow
+\text{assign responsibility}
+\rightarrow
+\text{adjust weights}
+\rightarrow
+\text{repeat}.
+$$
+
+In 1986 David Rumelhart, Geoffrey Hinton, and Ronald Williams published an influential account of training multi-layer networks using backpropagation.
+
+The old limitation had, in principle, been overcome.
+
+And almost nothing happened.
+
+At least, nothing resembling today's revolution.
+
+Why?
+
+Because a good algorithm is not enough.
+
+Neural networks needed three things:
+
+$$
+\boxed{\text{algorithm} + \text{data} + \text{computation}}
+$$
+
+and in the 1980s, two of those ingredients were still painfully scarce.
+
+Computers were too slow.
+
+Large labeled datasets barely existed.
+
+The idea worked.
+
+The environment around the idea did not.
+
+This is one of the most interesting lessons in the entire history.
+
+We often imagine technological progress as a sequence of inventions:
+
+$$
+A \rightarrow B \rightarrow C \rightarrow D.
+$$
+
+But sometimes technology behaves more like complementary production inputs:
+
+$$
+Y = f(A,B,C).
+$$
+
+If one essential input is missing, improving the others may achieve surprisingly little.
+
+Backpropagation without sufficient data and computation was exactly such a case.
+
+The algorithm was waiting for the world to catch up.
+
+---
+
+# Three Accidents That Changed Everything
+
+And then the world did.
+
+But not because governments designed a grand plan to revive neural networks.
+
+Much of the necessary infrastructure emerged **for completely unrelated reasons**.
+
+That is perhaps the most enjoyable part of this history.
+
+## Accident One: the internet creates data
+
+Neural networks learn from examples.
+
+In the 1980s, examples were expensive.
+
+If you wanted a machine to learn what a cat looked like, somebody had to gather photographs of cats, digitize them, label them, organize them, and store them.
+
+Scale that across thousands of categories and the problem becomes enormous.
+
+Then the internet happened.
+
+People uploaded photographs.
+
+Companies built websites.
+
+Search engines indexed information.
+
+Commerce moved online.
+
+Digital cameras and later smartphones produced huge quantities of images.
+
+Human behavior unintentionally generated enormous datasets.
+
+The world became machine-readable.
+
+Fei-Fei Li and her collaborators recognized that computer vision required vastly more training data than researchers had been using.
+
+The result was ImageNet: millions of labeled images organized into thousands of categories.
+
+The important innovation was not an exotic new equation.
+
+It was **scale**.
+
+And behind that scale was a remarkable amount of human labor: people labeling images one by one.
+
+Modern AI may look immaterial, but underneath it sits an enormous infrastructure of human-produced data.
+
+## Accident Two: video games create the hardware
+
+The second missing ingredient came from an industry that was not trying to create intelligence at all.
+
+Video games.
+
+Conventional CPUs are excellent at performing complicated operations sequentially.
+
+But rendering computer graphics requires doing vast numbers of relatively simple calculations simultaneously.
+
+Graphics processing units—GPUs—were built for that job.
+
+It turned out that neural-network training needed something very similar.
+
+Training involves enormous numbers of matrix operations performed repeatedly across many examples.
+
+GPUs were astonishingly good at this.
+
+The gaming industry had therefore spent years and billions of dollars perfecting hardware that, almost accidentally, was exceptionally well suited to machine learning.
+
+A teenager buying a better graphics card to increase a game's frame rate was participating—without knowing it—in the construction of AI infrastructure.
+
+This is a beautiful example of technological spillovers.
+
+One industry solves its own problem.
+
+Another industry discovers that the solution happens to solve a completely different problem.
+
+## Accident Three: architectures improve
+
+The third ingredient was architecture.
+
+Researchers such as Yann LeCun developed convolutional neural networks that were particularly suited to image recognition.
+
+Instead of treating every pixel as an isolated piece of information, convolutional networks learned hierarchical patterns.
+
+A rough intuition is:
+
+$$
+\text{pixels}
+\rightarrow
+\text{edges}
+\rightarrow
+\text{shapes}
+\rightarrow
+\text{parts}
+\rightarrow
+\text{objects}.
+$$
+
+Each layer learned increasingly abstract representations.
+
+The pieces were finally coming together.
+
+Backpropagation.
+
+Large datasets.
+
+GPU computation.
+
+Better architectures.
+
+None alone created the breakthrough.
+
+Together, they changed the field.
+
+---
+
+# September 2012: The Moment Everything Moved
+
+The symbolic moment arrived in the ImageNet competition.
+
+Before 2012, leading image-recognition systems were improving gradually.
+
+Then Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton entered a deep convolutional neural network later known as **AlexNet**.
+
+It used GPUs.
+
+It used ImageNet.
+
+It used deep neural networks trained through backpropagation.
+
+And its error rate was dramatically lower than that of competing systems.
+
+The source presents the contrast vividly: the previous leading error rate was around 26 percent; AlexNet achieved roughly 15.3 percent.
+
+This was not another incremental improvement.
+
+It was the sort of result that forces a field to reconsider its assumptions.
+
+Researchers initially suspected something must be wrong.
+
+There wasn't.
+
+Within a short period, computer vision pivoted toward deep learning.
+
+The strange historical circle had closed.
+
+The basic neural-network idea dismissed decades earlier had won.
+
+Not because the mathematics had suddenly appeared in 2012.
+
+Not because Hinton had just invented backpropagation.
+
+But because an old idea had finally acquired the complementary inputs necessary to demonstrate what it could do.
+
+This is one reason I find the story so interesting.
+
+We usually celebrate the breakthrough.
+
+But perhaps the deeper lesson is the **waiting**.
+
+---
+
+# From Images to Language
+
+Once deep learning demonstrated that scale could transform performance, progress accelerated.
+
+In 2016, AlphaGo defeated Lee Sedol at Go.
+
+The result mattered partly because Go had long been regarded as a game whose complexity made traditional brute-force approaches far less promising than in chess.
+
+Then, in 2017, researchers introduced the **transformer** architecture.
+
+This would become especially important for language.
+
+Earlier sequence models often processed information step by step.
+
+Transformers allowed models to attend to relationships among many elements in a sequence more directly.
+
+The technical details are important, but the broader historical pattern matters more for this story.
+
+The field discovered that performance could improve surprisingly predictably as researchers increased:
+
+- model size,
+- training data,
+- computing power.
+
+AI suddenly possessed something earlier waves largely lacked:
+
+> **a scaling lever.**
+
+Build a larger model.
+
+Train it on more data.
+
+Use more computation.
+
+Performance often improves.
+
+That changed both research and economics.
+
+Artificial intelligence ceased to be merely an academic field.
+
+It became a capital-intensive industry.
+
+And eventually, language models reached ordinary users.
+
+---
+
+# The Part of the History We Should Not Forget: Hype
+
+Now we arrive at the uncomfortable part.
+
+AI really is different today.
+
+But the language surrounding it sounds strangely familiar.
+
+In 1958, a system performing a primitive classification task was discussed as though machines capable of remarkable human-like abilities were imminent.
+
+In the 1960s, leading researchers predicted human-level machine capability within surprisingly short horizons.
+
+Expert systems generated another wave of enthusiasm.
+
+Deep Blue's 1997 victory over Garry Kasparov produced headlines suggesting that machines had become intelligent, even though Deep Blue itself learned nothing from the match. It searched enormous numbers of chess positions using extraordinary computational power and human-designed evaluation machinery.
+
+And today, once again, we hear confident predictions.
+
+Artificial general intelligence is near.
+
+Human employment will be transformed.
+
+AI may become smarter than humanity.
+
+AI may solve major scientific problems.
+
+AI may threaten civilization.
+
+Perhaps some of those predictions are correct.
+
+The history does not tell us that they are wrong.
+
+But it does tell us something about **confidence**.
+
+Forecasting the long-run possibilities of a technology is very different from forecasting **when** those possibilities will arrive.
+
+The perceptron advocates were not necessarily wrong that neural networks could eventually perform extraordinary tasks.
+
+They were wrong about the timetable.
+
+That distinction may be the single most useful lesson from the history.
+
+---
+
+# Is Today Different?
+
+It would be too easy to finish this story by saying:
+
+> “We have seen AI hype before, therefore today's AI boom will collapse.”
+
+History does not support that conclusion either.
+
+Today's systems differ from those earlier waves in at least two important ways.
+
+## First, people actually use them
+
+Earlier AI booms were heavily dependent on military, university, or government research funding.
+
+Today's systems have millions of users.
+
+Individuals and businesses willingly pay for AI services.
+
+AI generates revenue.
+
+That matters.
+
+A technology supported entirely by speculative funding can disappear when governments lose patience.
+
+A technology producing useful services has another source of survival.
+
+## Second, scaling actually works
+
+Earlier systems often reached hard limits.
+
+Making an expert system twice as large did not reliably make it twice as useful.
+
+Adding more rules could make the system harder to maintain.
+
+Modern machine learning has shown a more systematic relationship between additional data, computation, model capacity, and performance.
+
+That does not guarantee endless improvement.
+
+But it is genuinely different.
+
+The supplied narrative makes this contrast explicit: today's systems earn money, and performance often improves predictably with additional data and computation—two features earlier AI booms did not possess in the same way.
+
+So today's boom should not simply be dismissed as another 1958.
+
+Something real has changed.
+
+---
+
+# But Something Has Not Changed
+
+There remains an important gap between **capability** and **understanding**.
+
+Large language models can generate fluent, persuasive, technically sophisticated answers.
+
+But fluency does not guarantee truth.
+
+A model can produce an accurate explanation and a plausible falsehood in essentially the same tone of confidence.
+
+This creates a particularly interesting philosophical problem.
+
+Humans tend to associate articulate language with understanding.
+
+We have done so since ELIZA.
+
+Perhaps we cannot help ourselves.
+
+If something replies appropriately, remembers context, reasons through a problem, and explains itself in sentences, we begin attributing a mind behind the words.
+
+But what exactly are we observing?
+
+That question has now returned us directly to Turing.
+
+The circle closes again.
+
+In 1950:
+
+> Can machines think?
+
+In 2026:
+
+> If a machine talks, reasons, writes, codes, and responds as though it thinks, how would we know whether it actually does?
+
+Perhaps the question is no easier now than it was then.
+
+---
+
+# The Story Behind the Story: Science Does Not Progress in a Straight Line
+
+There is another lesson here that extends far beyond artificial intelligence.
+
+Scientific progress is often narrated retrospectively as though the successful path had always been obvious.
+
+It rarely was.
+
+Neural networks were not marching steadily toward victory.
+
+They were abandoned.
+
+Symbolic AI was not obviously destined to fail.
+
+For periods, it produced the most impressive demonstrations available.
+
+Expert systems were not foolish.
+
+They solved real problems.
+
+Backpropagation was not immediately revolutionary.
+
+For decades, it lacked the resources needed to display its potential.
+
+GPUs were not developed for artificial intelligence.
+
+The internet was not created to provide machine-learning training data.
+
+ImageNet's importance was not obvious simply because it was large.
+
+The breakthrough emerged because technologies developed for unrelated purposes became **complements**.
+
+This suggests a more interesting model of innovation.
+
+Instead of:
+
+$$
+\text{scientific discovery}
+\rightarrow
+\text{immediate application},
+$$
+
+we often get:
+
+$$
+\text{idea}
+\rightarrow
+\text{failure}
+\rightarrow
+\text{neglect}
+\rightarrow
+\text{complementary technology}
+\rightarrow
+\text{rediscovery}
+\rightarrow
+\text{breakthrough}.
+$$
+
+Ideas can be economically useless before they become technologically indispensable.
+
+Timing matters.
+
+Infrastructure matters.
+
+Complementarities matter.
+
+And sometimes persistence matters enormously.
+
+---
+
+# A Lesson About Being Wrong
+
+The history also makes me think about a distinction we often overlook.
+
+There are at least two ways to be wrong.
+
+One is:
+
+> **The idea is wrong.**
+
+The other is:
+
+> **The idea is right, but my prediction about when it will work is wrong.**
+
+Those are not the same failure.
+
+Rosenblatt's optimism about neural networks looks naive when viewed from 1960.
+
+Viewed from 2026, it looks rather more complicated.
+
+Minsky and Papert were correct about the limitations they demonstrated.
+
+The broader interpretation that helped bury neural networks looks much less impressive with hindsight.
+
+Hinton spent decades pursuing an approach much of the field considered obsolete.
+
+But even Hinton could not simply force the future to arrive.
+
+He had to wait for data and computation that his own research community could not create.
+
+This should encourage intellectual humility in both directions.
+
+The mainstream can dismiss something too early.
+
+The outsider can also cling to a genuinely bad idea for decades.
+
+Persistence is admirable only when the underlying idea eventually works.
+
+For every Hinton, there are probably many researchers who remained stubbornly committed to ideas that really were wrong.
+
+So the lesson cannot simply be:
+
+> “Ignore the consensus and believe in yourself.”
+
+That would be far too easy.
+
+A better lesson might be:
+
+> **Distinguish carefully between evidence that an idea is false and evidence that current conditions are insufficient to make it work.**
+
+That is much harder.
+
+And much more useful.
+
+---
+
+# The Economics of Research Fashion
+
+The two AI winters also reveal something about how research actually operates.
+
+Researchers do not choose topics in a vacuum.
+
+They respond to:
+
+- grants;
+- publication opportunities;
+- available data;
+- computing resources;
+- academic reputation;
+- hiring prospects;
+- institutional fashion.
+
+When money leaves a field, people leave with it.
+
+This is perfectly rational.
+
+A young researcher has to obtain a job.
+
+A laboratory has to pay salaries.
+
+A graduate student cannot necessarily devote twenty years to an idea everyone believes is dead.
+
+This means scientific progress depends partly on institutional incentives.
+
+Consensus can become self-reinforcing:
+
+$$
+\text{less funding}
+\rightarrow
+\text{fewer researchers}
+\rightarrow
+\text{fewer results}
+\rightarrow
+\text{less interest}
+\rightarrow
+\text{still less funding}.
+$$
+
+The reverse can also happen:
+
+$$
+\text{breakthrough}
+\rightarrow
+\text{funding}
+\rightarrow
+\text{talent}
+\rightarrow
+\text{more breakthroughs}
+\rightarrow
+\text{more funding}.
+$$
+
+After AlexNet, deep learning experienced the second dynamic.
+
+Researchers did not gradually move toward it.
+
+The field pivoted remarkably quickly.
+
+The lesson is slightly uncomfortable.
+
+Scientific communities are mechanisms for discovering truth.
+
+But they are also **human institutions operating under incentives**.
+
+That does not invalidate science.
+
+It simply means we should not confuse the current allocation of attention with a definitive map of which ideas are ultimately correct.
+
+---
+
+# What Should We Think About Today's AI Boom?
+
+History therefore leaves us in an awkward but intellectually healthy position.
+
+Two simplistic conclusions are available.
+
+The first is:
+
+> “AI has been overhyped before. This is another bubble.”
+
+The second is:
+
+> “This time AI obviously changes everything.”
+
+Neither follows from the history.
+
+The evidence supports something less comfortable.
+
+Today's AI genuinely works in ways earlier systems did not.
+
+It creates economically valuable outputs.
+
+It operates across multiple domains.
+
+It improves with scale.
+
+It is attracting extraordinary amounts of investment because companies and individuals can already use it.
+
+Those are real differences.
+
+But the history also shows that researchers repeatedly confuse **future possibility with present capability**.
+
+A system may plausibly become capable of something eventually.
+
+That does not mean it is capable of it now.
+
+Nor does it tell us when it will be.
+
+This distinction is especially important when discussing artificial general intelligence.
+
+Imagine three statements:
+
+1. AI systems may eventually outperform humans across most cognitive tasks.
+2. Current trends make that possibility worth taking seriously.
+3. Human-level general intelligence will arrive within five years.
+
+These are three very different propositions.
+
+One can believe the first two without having much confidence in the third.
+
+History should make us skeptical not necessarily about **possibility**, but about **precision in forecasting transformative technology**.
+
+---
+
+# The Most Useful Lesson From 1958
+
+Perhaps the story can be summarized through Rosenblatt's perceptron.
+
+The machine itself was primitive.
+
+The publicity surrounding it was extravagant.
+
+Its underlying idea was enormously important.
+
+Its immediate promise was exaggerated.
+
+Its critics discovered genuine limitations.
+
+The field overgeneralized those limitations.
+
+Funding disappeared.
+
+Decades later the same basic family of ideas returned and became foundational to modern AI.
+
+Who, then, was right?
+
+Rosenblatt?
+
+Minsky?
+
+The critics?
+
+The believers?
+
+In different ways, several of them were.
+
+That is precisely why the history is valuable.
+
+It resists the satisfying story in which one visionary understands everything and everyone else is foolish.
+
+Reality was messier.
+
+The optimists could see possibilities but underestimated the difficulty and timescale.
+
+The skeptics correctly identified limitations but sometimes underestimated what future architectures and resources could overcome.
+
+The breakthrough required both the **idea** and a world technologically capable of realizing it.
+
+That is a useful way to think about AI today.
+
+---
+
+# From Intelligence to Wisdom
+
+And there is perhaps a final connection to a broader question.
+
+Modern AI has become extraordinarily good at generating answers.
+
+It can retrieve and reorganize knowledge.
+
+It can identify patterns.
+
+It can write arguments.
+
+It can propose strategies.
+
+It can solve increasingly difficult problems.
+
+That makes artificial intelligence an extraordinary amplification of human intellectual capability.
+
+But greater capability creates another question:
+
+> **What should we do with it?**
+
+The history of AI tells us a great deal about how machines learned to recognize patterns.
+
+It tells us less about what society should ask those machines to optimize.
+
+We may eventually create systems capable of providing better answers than humans across an extraordinary range of domains.
+
+That would not remove the need for judgment.
+
+It might increase it.
+
+The machine can answer:
+
+> How can this be done?
+
+We still have to ask:
+
+> Should it be done?
+
+The machine can optimize an objective.
+
+Someone still has to choose the objective.
+
+The machine can generate possibilities.
+
+Someone still has to decide which possibilities are worth pursuing.
+
+In that sense, perhaps the rise of artificial intelligence does not make human judgment obsolete.
+
+Perhaps it makes **wisdom more scarce relative to intelligence**.
+
+---
+
+# The Question History Cannot Answer
+
+So where does this leave us?
+
+Is the current AI boom the beginning of another cycle of extravagant promises followed by disappointment?
+
+Or have we crossed a technological threshold fundamentally different from the earlier periods?
+
+History cannot answer that question.
+
+History does something more useful.
+
+It tells us what kinds of mistakes people repeatedly make when trying to answer it.
+
+They confuse demonstrations with general capability.
+
+They extrapolate rapid early progress too far.
+
+They underestimate complementary technologies.
+
+They abandon ideas whose infrastructure has not yet arrived.
+
+They mistake fluent output for understanding.
+
+They confuse what may eventually be possible with what is already possible.
+
+And perhaps most importantly, they are consistently bad at predicting **timing**.
+
+The source's concluding observation captures the paradox well: the grand promises surrounding the perceptron were wrong in the short run, yet the underlying idea was eventually vindicated decades later.
+
+The prediction was simultaneously foolish and prophetic.
+
+That seems a surprisingly good description of much of technological history.
+
+So when someone tells us today that artificial intelligence will transform everything, we should not automatically laugh.
+
+It might.
+
+When someone tells us exactly what that transformation will look like and exactly when it will happen, we should probably become more cautious.
+
+Because the history of artificial intelligence is not primarily the story of people who could not imagine the future.
+
+Quite the opposite.
+
+It is the story of people who could often imagine the future remarkably well—
+
+but repeatedly misunderstood **how difficult it would be to get there, what pieces would be needed, and how long the journey would take**.
+
+And perhaps that is the most useful way to view the strange technological moment we are living through.
+
+Artificial intelligence did not suddenly arrive.
+
+It spent eighty years arriving.
+
+The question now is not simply whether the machines will continue becoming more capable.
+
+They almost certainly will.
+
+The harder questions are the ones history leaves to us:
+
+> **Which capabilities are genuinely new?**
+
+> **Which promises are old promises wearing new clothes?**
+
+> **Which limitations are fundamental, and which merely await a technology that has not yet arrived?**
+
+And above all:
+
+> **Are we wise enough to tell the difference?**

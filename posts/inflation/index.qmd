@@ -2,7 +2,7 @@
 title: "Inflation Is More Than Rising Prices: Money, Distribution, and the Politics of Adjustment"
 author: "-YY-"
 date: "2026-09-30"
-categories: [inflation, monetary-policy, political-economy, macroeconomics]
+categories: [inflation, monetary policy, political economy, macroeconomics]
 # image: "image.jpg"
 ---
 

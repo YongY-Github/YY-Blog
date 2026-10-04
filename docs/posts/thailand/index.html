@@ -2,22 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="-YY-">
 <meta name="dcterms.date" content="2026-03-22">
 
-<title>Thailand’s Economic Slowdown: A Case of Structural Drift – YY-Blog</title>
+<title>Thailand’s Tourism Miracle—and the Structural Drift Beneath It – YY-Blog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -119,9 +151,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Thailand’s Economic Slowdown: A Case of Structural Drift</h1>
+      <h1 class="title">Thailand’s Tourism Miracle—and the Structural Drift Beneath It</h1>
+            <p class="subtitle lead">How One of Asia’s Great Tourism Success Stories Came to Mask a Deeper Economic Slowdown</p>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Thailand</div>
+                <div class="quarto-category">Southeast Asia</div>
+                <div class="quarto-category">tourism</div>
+                <div class="quarto-category">economic development</div>
+                <div class="quarto-category">structural change</div>
               </div>
                   </div>
   </div>
@@ -158,151 +195,643 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Thailand’s recent macroeconomic indicators point to a troubling pattern of <strong>persistent low growth combined with rising household vulnerability</strong>.</p>
-<p>Average household debt has surpassed <strong>700,000 baht</strong>, while total household debt remains close to <strong>90% of GDP</strong>, among the highest in Asia (Bank of Thailand).</p>
-<p>At the same time, GDP growth is projected at only <strong>1.6–2% for 2026</strong>, well below regional peers (IMF; World Bank).</p>
+<p>Thailand is one of the great tourism success stories of the modern era.</p>
+<p>In 1960, the country received only around 80,000 foreign visitors.</p>
+<p>By 2024, more than 35 million international tourists were arriving each year.</p>
+<p>Bangkok became one of the world’s most visited cities. Thailand became synonymous with beaches, food, hospitality, nightlife, wellness, culture, and value for money.</p>
+<p>This did not happen by accident.</p>
+<p>Thailand built a tourism machine over decades.</p>
+<p>It turned Cold War geopolitics into infrastructure.</p>
+<p>It turned military spending into civilian tourism.</p>
+<p>It turned the Asian Financial Crisis into a global marketing opportunity.</p>
+<p>It turned food, silk, beaches, massage, entertainment, and hospitality into forms of soft power.</p>
+<p>And for a long time, the strategy worked extraordinarily well.</p>
+<p>But that success raises a more difficult question.</p>
 <blockquote class="blockquote">
-<p>This raises a central question:<br>
-<strong>Why has Thailand failed to regain its growth momentum in a rapidly expanding region?</strong></p>
+<p><strong>What if Thailand became so good at tourism that tourism helped conceal how slowly the rest of the economy was changing?</strong></p>
 </blockquote>
-<hr>
-<section id="growth-in-regional-perspective" class="level2">
-<h2 class="anchored" data-anchor-id="growth-in-regional-perspective">1. Growth in Regional Perspective</h2>
-<iframe src="https://data.worldbank.org/share/widget?end=2024&amp;indicators=NY.GDP.MKTP.KD.ZG&amp;locations=TH-MY-ID-SG-PH-VN&amp;start=2000&amp;view=chart" width="750" height="500" frameborder="0" scrolling="no">
-</iframe>
-<p>Thailand’s growth has remained around <strong>2%</strong>, while regional peers have consistently achieved <strong>5–7% growth</strong>.</p>
-<iframe src="https://data.worldbank.org/share/widget?end=2024&amp;indicators=BX.KLT.DINV.WD.GD.ZS&amp;locations=TH-MY-ID-PH-VN&amp;name_desc=false&amp;start=2000" width="750" height="500" frameborder="0" scrolling="no">
-</iframe>
-<p>FDI also remains weaker to her neighours especialy Viet Nam.</p>
-<p>This divergence reflects a <strong>structural slowdown</strong>, not a temporary shock.</p>
-<hr>
+<p>Thailand did not collapse.</p>
+<p>It plateaued.</p>
+<p>The problem is not crisis.</p>
+<p>It is drift.</p>
+<p>And tourism may be one reason that drift was difficult to see.</p>
+<section id="the-accidental-empire-that-wasnt-entirely-accidental" class="level1">
+<h1>The Accidental Empire That Wasn’t Entirely Accidental</h1>
+<p>Thailand’s rise as a tourism power is sometimes presented as the natural result of good weather, beautiful beaches, temples, inexpensive food, and famous hospitality.</p>
+<p>Those advantages certainly matter.</p>
+<p>But geography alone does not explain how a country moves from tens of thousands of visitors to tens of millions.</p>
+<p>Institutions matter.</p>
+<p>Infrastructure matters.</p>
+<p>Marketing matters.</p>
+<p>And history matters.</p>
+<p>One of the key turning points came in the late 1950s.</p>
+<p>Field Marshal Sarit Thanarat, Thailand’s military ruler, returned from medical treatment in the United States impressed by the way tourism could be used as part of a broader development strategy.</p>
+<p>In 1960, Thailand established the Tourism Organization of Thailand, the institutional predecessor of today’s Tourism Authority of Thailand.</p>
+<p>The timing could hardly have been more consequential.</p>
+<p>The Vietnam War was intensifying.</p>
+<p>And Thailand was about to become deeply integrated into the American military presence in Southeast Asia.</p>
 </section>
-<section id="weakening-growth-engines" class="level2">
-<h2 class="anchored" data-anchor-id="weakening-growth-engines">2. Weakening Growth Engines</h2>
-<section id="tourism" class="level3">
-<h3 class="anchored" data-anchor-id="tourism">2.1 Tourism</h3>
-<p>Before COVID-19, Thailand received nearly <strong>40 million visitors annually</strong>, contributing about <strong>20% of GDP</strong> (UNWTO).</p>
-<p>Although visitor numbers have partially recovered, <strong>spending patterns and stability have weakened</strong>.</p>
-<hr>
-</section>
-<section id="manufacturing" class="level3">
-<h3 class="anchored" data-anchor-id="manufacturing">2.2 Manufacturing</h3>
-<p>Thailand’s industrial base remains concentrated in:</p>
-<ul>
-<li>Automobiles</li>
-<li>Electronics assembly</li>
-<li>Food processing</li>
-</ul>
-<p>However, global supply chains are shifting toward:</p>
-<ul>
-<li>High-tech manufacturing (Vietnam)</li>
-<li>Semiconductors (Malaysia)</li>
-<li>Resource-based industry (Indonesia)</li>
-</ul>
-<p>Thailand is increasingly <strong>caught in the middle-income trap</strong>.</p>
-<hr>
-</section>
-</section>
-<section id="household-debt-and-domestic-demand" class="level2">
-<h2 class="anchored" data-anchor-id="household-debt-and-domestic-demand">3. Household Debt and Domestic Demand</h2>
-<p>Household debt has risen steadily to nearly <strong>90% of GDP</strong> (Bank of Thailand).</p>
-<p>This creates a structural constraint:</p>
-<ul>
-<li>Lower consumption</li>
-<li>Reduced entrepreneurship</li>
-<li>Higher financial vulnerability</li>
-</ul>
-<hr>
-</section>
-<section id="inequality-and-structural-imbalance" class="level2">
-<h2 class="anchored" data-anchor-id="inequality-and-structural-imbalance">4. Inequality and Structural Imbalance</h2>
-<p>Thailand exhibits high levels of inequality.</p>
-<p>The top 10% controls a large share of wealth (Credit Suisse Global Wealth Report).</p>
-<p>This leads to:</p>
-<ul>
-<li>Weak domestic demand</li>
-<li>Uneven regional development</li>
-<li>Limited upward mobility</li>
-</ul>
-<hr>
-</section>
-<section id="political-economy-constraints" class="level2">
-<h2 class="anchored" data-anchor-id="political-economy-constraints">5. Political Economy Constraints</h2>
-<p>Thailand’s growth has also been shaped by <strong>institutional instability</strong>.</p>
-<p>Over the past two decades:</p>
-<ul>
-<li>Frequent government turnover</li>
-<li>Constitutional revisions</li>
-<li>Policy discontinuity</li>
-</ul>
-<p>(IMF Article IV Reports)</p>
-<p>This undermines:</p>
-<ul>
-<li>Long-term investment</li>
-<li>Industrial policy execution</li>
-<li>Infrastructure continuity</li>
-</ul>
-<hr>
-</section>
-<section id="demographic-pressures" class="level2">
-<h2 class="anchored" data-anchor-id="demographic-pressures">6. Demographic Pressures</h2>
-<p>Thailand is aging rapidly:</p>
-<ul>
-<li>Working-age population is declining</li>
-<li>Dependency ratios are increasing</li>
-</ul>
-<p>(NESDC)</p>
-<p>Unlike advanced economies, Thailand is aging <strong>before reaching high-income status</strong>.</p>
-<hr>
-</section>
-<section id="summary-from-momentum-to-drift" class="level2">
-<h2 class="anchored" data-anchor-id="summary-from-momentum-to-drift">7. Summary: From Momentum to Drift</h2>
-<p>Thailand’s economic challenge is not one of collapse, but of <strong>structural drift</strong>.</p>
-<p>The country retains strong fundamentals:</p>
-<ul>
-<li>Strategic location</li>
-<li>Deep industrial base</li>
-<li>Tourism competitiveness</li>
-</ul>
-<p>However, without:</p>
-<ul>
-<li>Political stability</li>
-<li>Stronger competition</li>
-<li>Industrial upgrading</li>
-<li>Human capital investment</li>
-</ul>
-<p>Thailand risks remaining in a prolonged period of low growth.</p>
+<section id="war-builds-a-tourism-infrastructure" class="level1">
+<h1>War Builds a Tourism Infrastructure</h1>
+<p>Between the early 1960s and mid-1970s, large numbers of American troops were stationed in Thailand.</p>
+<p>Even more passed through the country on Rest and Recuperation leave.</p>
+<p>Bangkok was close to Vietnam.</p>
+<p>It was relatively inexpensive.</p>
+<p>It had hotels, food, nightlife, entertainment, and an increasingly sophisticated service economy.</p>
+<p>The economic effect was substantial.</p>
+<p>Hotels expanded.</p>
+<p>Airports developed.</p>
+<p>Roads improved.</p>
+<p>Commercial districts emerged around military activity.</p>
+<p>Entertainment areas grew.</p>
+<p>Air bases and other military infrastructure became part of a network that later supported civilian travel.</p>
+<p>This is where Thailand demonstrated a pattern that would recur repeatedly:</p>
 <blockquote class="blockquote">
-<p>In a fast-growing region, stagnation is equivalent to falling behind.</p>
+<p><strong>temporary shocks became permanent economic assets.</strong></p>
 </blockquote>
-<hr>
+<p>The war ended.</p>
+<p>The soldiers left.</p>
+<p>But the airports, hotels, restaurants, entertainment districts, service networks, and international familiarity remained.</p>
+<p>Military tourism became civilian tourism.</p>
+<p>Infrastructure built for one purpose was repurposed for another.</p>
+<p>The result was path dependence.</p>
+<p>Once Thailand had the hotels, transport links, travel agencies, restaurants, nightlife, and international reputation, each new visitor made the tourism ecosystem more valuable.</p>
+<p>The country had developed something close to a tourism cluster:</p>
+<p><span class="math display">\[
+\text{visitors}
+\rightarrow
+\text{infrastructure}
+\rightarrow
+\text{services}
+\rightarrow
+\text{better tourism experience}
+\rightarrow
+\text{more visitors}.
+\]</span></p>
+<p>Success reinforced itself.</p>
 </section>
-<section id="any-positives" class="level2">
-<h2 class="anchored" data-anchor-id="any-positives">8. Any positives?</h2>
-<p>While the significant structural challenges remain, there would be a “second story” for Thailand—a <strong>high-tech reinvention</strong> driven by massive global investment and strategic positioning. This is an opportuity for the Thai economy to re-direct its transition from a traditional manufacturing and tourism hub into a critical node for the future digital and electric world.</p>
-<section id="massive-investment-in-digital-infrastructure" class="level3">
-<h3 class="anchored" data-anchor-id="massive-investment-in-digital-infrastructure">1. Massive Investment in Digital Infrastructure</h3>
-<p>Global technology giants are making multi-billion dollar, long-term bets on Thailand’s potential as a digital hub. * <strong>Cloud and AI Powerhouse:</strong> <strong>Amazon, Google, and Microsoft</strong> have committed billions of dollars to building cloud and AI infrastructure in the country. * <strong>Data Center Hub:</strong> These companies are investing in the “invisible infrastructure” of the modern world—servers, cables, and cooling systems—positioning Thailand on the global map for <strong>artificial intelligence and cloud services</strong>. * <strong>TikTok and Regional Data:</strong> TikTok’s parent company is also moving forward with a major data hosting project, signaling confidence in Thailand’s strategic regional importance.</p>
+<section id="from-cheap-destination-to-global-brand" class="level1">
+<h1>From Cheap Destination to Global Brand</h1>
+<p>The next major turning point came from another crisis.</p>
+<p>In 1997, Thailand became the starting point of the Asian Financial Crisis.</p>
+<p>The baht collapsed.</p>
+<p>Banks and businesses came under severe pressure.</p>
+<p>Investment fell.</p>
+<p>The economy contracted sharply.</p>
+<p>But the currency depreciation also made Thailand extraordinarily inexpensive for foreign visitors.</p>
+<p>The government responded with one of its most successful tourism campaigns:</p>
+<p><strong>Amazing Thailand.</strong></p>
+<p>Initially conceived as part of the response to the crisis, the campaign became far more than a short-term promotion.</p>
+<p>Thailand was no longer marketed simply as a cheap tropical destination.</p>
+<p>The brand expanded.</p>
+<p>Food.</p>
+<p>Culture.</p>
+<p>Shopping.</p>
+<p>Health and wellness.</p>
+<p>History.</p>
+<p>Nature.</p>
+<p>Adventure.</p>
+<p>Arts and crafts.</p>
+<p>The message was that Thailand could offer many different experiences to many different kinds of visitors.</p>
+<p>The cheap baht helped.</p>
+<p>But the deeper achievement was branding.</p>
+<p>Thailand learned how to sell not just a destination, but an identity.</p>
 </section>
-<section id="strategic-china-plus-1-positioning" class="level3">
-<h3 class="anchored" data-anchor-id="strategic-china-plus-1-positioning">2. Strategic “China Plus 1” Positioning</h3>
-<p>Thailand is becoming a primary beneficiary of the <strong>“China Plus 1” strategy</strong>, where global companies diversify their supply chains away from overdependence on China. * <strong>Experienced Industrial Base:</strong> Unlike some neighbors, Thailand already possesses a <strong>sophisticated manufacturing ecosystem</strong>, industrial land, ports, and a history of supply chain integration. * <strong>PCB Manufacturing Boom:</strong> The country is attracting major investment in <strong>Printed Circuit Boards (PCBs)</strong>, the essential components for almost all advanced electronics, from phones to medical devices.</p>
+<section id="soft-power-before-we-called-it-soft-power" class="level1">
+<h1>Soft Power Before We Called It Soft Power</h1>
+<p>Thailand’s tourism strategy also benefited from cultural exports.</p>
+<p>One of the most famous examples is Jim Thompson.</p>
+<p>After the Second World War, the American businessman became fascinated by Thai silk.</p>
+<p>Rather than treating traditional silk weaving as a disappearing craft, Thompson helped connect it to global luxury markets.</p>
+<p>Thai silk became internationally recognizable.</p>
+<p>His own house in Bangkok became a tourist attraction.</p>
+<p>The product sold the country.</p>
+<p>The country sold the product.</p>
+<p>This relationship between tourism and cultural exports has only become more important over time.</p>
+<p>Thai food is now global.</p>
+<p>Thai massage is internationally recognized.</p>
+<p>Thai films, music, fashion, and design increasingly travel abroad.</p>
+<p>The government now explicitly talks about <strong>soft power</strong> as national economic strategy.</p>
+<p>But in many ways Thailand had been practicing it for decades before the phrase became fashionable.</p>
+<p>The underlying mechanism is simple:</p>
+<p><span class="math display">\[
+\text{cultural visibility}
+\rightarrow
+\text{curiosity}
+\rightarrow
+\text{tourism}
+\rightarrow
+\text{greater cultural visibility}.
+\]</span></p>
+<p>Again, the system reinforces itself.</p>
 </section>
-<section id="transition-to-an-electric-vehicle-ev-hub" class="level3">
-<h3 class="anchored" data-anchor-id="transition-to-an-electric-vehicle-ev-hub">3. Transition to an Electric Vehicle (EV) Hub</h3>
-<p>Although the traditional Japanese-led automotive era is under pressure, Thailand is rapidly pivoting to become a <strong>regional leader in EV production</strong>. * <strong>Chinese EV Investment:</strong> Major Chinese manufacturers, including <strong>BYD, Great Wall Motor, and GAC Aion</strong>, are building factories and expanding their presence in Thailand. * <strong>Industrial Preservation:</strong> This shift offers Thailand a chance to preserve its identity as the “Detroit of Asia” by trading old internal combustion engine manufacturing for high-tech electric ecosystems.</p>
+<section id="the-layered-tourism-economy" class="level1">
+<h1>The Layered Tourism Economy</h1>
+<p>Once a tourism economy becomes sufficiently large, however, it stops being a neatly bounded industry.</p>
+<p>Tourism merges into real estate.</p>
+<p>Entertainment.</p>
+<p>Retail.</p>
+<p>Healthcare.</p>
+<p>Hospitality.</p>
+<p>Migration.</p>
+<p>Informal work.</p>
+<p>Property investment.</p>
+<p>Digital nomadism.</p>
+<p>Retirement.</p>
+<p>Education.</p>
+<p>Cross-border capital flows.</p>
+<p>Some of these activities sit squarely inside the formal economy.</p>
+<p>Others sit in legal or regulatory gray zones.</p>
+<p>That does not mean the gray economy is the essence of Thai tourism.</p>
+<p>It does mean that a tourism ecosystem this large generates secondary markets that official visitor receipts cannot fully capture.</p>
+<p>Foreign buyers participate in property markets.</p>
+<p>Long-stay residents spend income earned abroad.</p>
+<p>Retirees purchase services.</p>
+<p>International patients use Thai hospitals.</p>
+<p>Tourism supports bars, restaurants, transport, domestic travel, construction, and personal services.</p>
+<p>The formal and informal economies overlap.</p>
+<p>And that makes the sector economically much larger than the simple line called “tourism receipts.”</p>
 </section>
-<section id="resilience-of-the-bamboo-network" class="level3">
-<h3 class="anchored" data-anchor-id="resilience-of-the-bamboo-network">4. Resilience of the “Bamboo Network”</h3>
-<p>This is controversial, but a unique source of stability in the Thai economy is the <strong>“Bamboo Network”</strong>—powerful ethnic Chinese business networks that control over 80% of the country’s largest companies. * <strong>Stability in Crisis:</strong> These family-run conglomerates (such as CP Group and Central Group) prioritize long-term stability and relationships over short-term gains, allowing them to <strong>survive economic crises, coups, and global shifts</strong> better than many Western-style corporations. * <strong>Modernisation:</strong> A younger generation of Western-educated heirs is now pushing these powerful networks toward <strong>more transparency and international standards</strong>, potentially making the domestic economy more competitive.</p>
+<section id="the-uncomfortable-side-of-the-success" class="level1">
+<h1>The Uncomfortable Side of the Success</h1>
+<p>Thailand’s tourism model also developed alongside large informal entertainment economies.</p>
+<p>Any serious discussion of Thailand’s tourism history has to acknowledge this without reducing the country to it.</p>
+<p>The entertainment and sex industries became intertwined with tourism in parts of Bangkok, Pattaya, Phuket, and other destinations.</p>
+<p>The historical connection to the Vietnam War is difficult to ignore.</p>
+<p>But the economic story is broader than foreign visitors.</p>
+<p>The industry became part of a domestic migration system linking poorer rural regions—especially the Northeast—to higher-paying urban service work.</p>
+<p>Income earned in Bangkok, Pattaya, and tourist centers flowed back to provincial households through remittances.</p>
+<p>For some families, these transfers paid for education, healthcare, housing, agricultural investment, and consumption.</p>
+<p>That creates an uncomfortable political economy.</p>
+<p>An activity may be legally restricted, socially stigmatized, and incompletely measured while still supporting substantial numbers of households.</p>
+<p>The COVID-19 pandemic exposed this dependence dramatically.</p>
+<p>When international tourism disappeared, the shock did not stop at hotels and airports.</p>
+<p>It traveled through informal workers and then back into rural communities that depended on urban remittances.</p>
+<p>The tourism economy was not merely serving tourists.</p>
+<p>It had become part of Thailand’s internal income-transfer system.</p>
 </section>
-<section id="existing-strengths-and-connectivity" class="level3">
-<h3 class="anchored" data-anchor-id="existing-strengths-and-connectivity">5. Existing Strengths and Connectivity</h3>
-<p>Thailand’s geographic and infrastructural advantages continue to provide a solid foundation for this “rewiring” of the economy: * <strong>Strategic Location:</strong> It remains centrally connected to mainland Southeast Asia with <strong>established highways, ports, and logistics networks</strong>. * <strong>Large Domestic Market:</strong> Despite demographic challenges, Thailand still maintains a <strong>large domestic market</strong> compared to many of its regional peers.</p>
-<p>In summary, a positive outlook for Thailand is defined by its potential to become a <strong>strategic digital and high-tech platform</strong> for global giants, leveraging its industrial experience to host the industries of the future.</p>
+<section id="covid-revealed-the-vulnerability" class="level1">
+<h1>COVID Revealed the Vulnerability</h1>
+<p>The pandemic made Thailand’s dependence on tourism impossible to ignore.</p>
+<p>International travel collapsed.</p>
+<p>Hotels emptied.</p>
+<p>Restaurants closed.</p>
+<p>Entertainment districts went quiet.</p>
+<p>Millions of workers were affected.</p>
+<p>Thailand’s GDP contracted sharply in 2020.</p>
+<p>But perhaps more revealing than the aggregate contraction was <em>who</em> bore the shock.</p>
+<p>A large share of tourism-related employment was informal.</p>
+<p>Workers without stable contracts, unemployment insurance, or comprehensive social protection were especially exposed.</p>
+<p>Migrant workers were vulnerable.</p>
+<p>Small businesses struggled.</p>
+<p>Informal workers often fell through the cracks of formal relief mechanisms.</p>
+<p>In other words, the pandemic revealed a structural feature of the Thai model:</p>
+<blockquote class="blockquote">
+<p><strong>tourism generated enormous employment, but much of that employment was economically insecure.</strong></p>
+</blockquote>
+<p>That matters for how we interpret the sector’s success.</p>
+<p>A sector can be large without producing high productivity.</p>
+<p>It can employ millions without generating strong wage growth.</p>
+<p>It can bring in foreign exchange without necessarily transforming the wider economy.</p>
+<p>That distinction becomes crucial when we look at Thailand after the pandemic.</p>
+</section>
+<section id="the-tourism-machine-still-works" class="level1">
+<h1>The Tourism Machine Still Works</h1>
+<p>Thailand remains one of the world’s most attractive destinations.</p>
+<p>That should not be understated.</p>
+<p>Visitors still come for reasons that are difficult for competitors to reproduce quickly:</p>
+<ul>
+<li>outstanding food;</li>
+<li>strong hospitality;</li>
+<li>good infrastructure;</li>
+<li>beaches and natural attractions;</li>
+<li>culture and heritage;</li>
+<li>world-class private healthcare;</li>
+<li>nightlife and entertainment;</li>
+<li>relative safety;</li>
+<li>international connectivity;</li>
+<li>an enormous existing tourism ecosystem.</li>
+</ul>
+<p>This is real comparative advantage.</p>
+<p>Thailand also continues trying to reinvent the model.</p>
+<p>The country wants more:</p>
+<ul>
+<li>business travelers;</li>
+<li>high-income visitors;</li>
+<li>retirees;</li>
+<li>digital nomads;</li>
+<li>entrepreneurs;</li>
+<li>medical tourists;</li>
+<li>long-stay residents;</li>
+<li>investors.</li>
+</ul>
+<p>Visa programs increasingly reflect that objective.</p>
+<p>The strategy is changing from:</p>
+<p><span class="math display">\[
+\text{more visitors}
+\]</span></p>
+<p>toward:</p>
+<p><span class="math display">\[
+\text{higher spending per visitor}
++
+\text{longer stays}
++
+\text{more investment}.
+\]</span></p>
+<p>That makes sense.</p>
+<p>But it does not solve the larger economic problem.</p>
+</section>
+<section id="the-problem-is-that-the-rest-of-asia-moved-too" class="level1">
+<h1>The Problem Is That the Rest of Asia Moved Too</h1>
+<p>Thailand’s tourism success once made it stand out dramatically from its neighbors.</p>
+<p>That advantage has narrowed.</p>
+<p>Vietnam has improved its tourism infrastructure.</p>
+<p>Malaysia remains highly accessible.</p>
+<p>Indonesia offers enormous geographic and cultural diversity.</p>
+<p>Regional airlines have expanded.</p>
+<p>Digital booking has made previously less accessible destinations easier to reach.</p>
+<p>Tourists now have more substitutes.</p>
+<p>Thailand remains attractive, but it competes in a very different regional market from the one it dominated in the 1990s and 2000s.</p>
+<p>And the issue is not only tourism.</p>
+<p>The entire Southeast Asian economic landscape has become more competitive.</p>
+<p>Vietnam has become a major manufacturing destination.</p>
+<p>Indonesia has attracted large-scale industrial investment around commodities and electric-vehicle supply chains.</p>
+<p>Malaysia continues to move into higher-value manufacturing and services.</p>
+<p>Singapore remains far ahead in productivity, finance, technology, and human capital.</p>
+<p>Thailand is still moving.</p>
+<p>But others are moving faster.</p>
+<p>That is where the idea of <strong>structural drift</strong> becomes useful.</p>
+</section>
+<section id="thailand-didnt-collapse.-it-plateaued." class="level1">
+<h1>Thailand Didn’t Collapse. It Plateaued.</h1>
+<p>Thailand is not an economic failure.</p>
+<p>That would be an absurd description.</p>
+<p>It has a substantial manufacturing base.</p>
+<p>It is deeply integrated into regional and global trade.</p>
+<p>It has strong infrastructure.</p>
+<p>It has world-class tourism.</p>
+<p>It has globally competitive firms.</p>
+<p>Its geography is excellent.</p>
+<p>Its brand is powerful.</p>
+<p>Its industrial history is much deeper than that of many emerging economies.</p>
+<p>The problem is not collapse.</p>
+<p>It is the shift:</p>
+<blockquote class="blockquote">
+<p><strong>from expansion to inertia, from momentum to maintenance.</strong></p>
+</blockquote>
+<p>For much of the late twentieth century, Thailand was converging rapidly toward richer economies.</p>
+<p>Industrialization transformed the country.</p>
+<p>Foreign investment created manufacturing clusters.</p>
+<p>Workers moved from agriculture into factories and services.</p>
+<p>Exports expanded.</p>
+<p>Living standards rose.</p>
+<p>But over time the model became less dynamic.</p>
+<p>Growth slowed.</p>
+<p>Productivity gains weakened.</p>
+<p>Reform became more difficult.</p>
+<p>Political instability repeatedly interrupted policy continuity.</p>
+<p>The economy kept functioning.</p>
+<p>But transformation slowed.</p>
+<p>Thailand did not fall off a cliff.</p>
+<p>It plateaued.</p>
+</section>
+<section id="a-two-engine-economy" class="level1">
+<h1>A Two-Engine Economy</h1>
+<p>For years, Thailand relied heavily on two powerful engines:</p>
+<p><span class="math display">\[
+\text{manufacturing}
++
+\text{tourism}.
+\]</span></p>
+<p>Both were exceptionally successful.</p>
+<p>Manufacturing made Thailand an important production base for automobiles, electronics, appliances, petrochemicals, and other industrial goods.</p>
+<p>Tourism generated foreign exchange, employment, investment, and global visibility.</p>
+<p>The problem is that both engines now face structural pressure.</p>
+<p>Tourism faces stronger regional competition, higher costs, changing visitor preferences, and dependence on external demand.</p>
+<p>Manufacturing faces technological change, shifting supply chains, Chinese competition, the electric-vehicle transition, automation, and the movement of some investment toward newer regional production centers.</p>
+<p>Thailand still has the engines.</p>
+<p>The issue is whether they are powerful enough to pull the economy through the next stage of development.</p>
+</section>
+<section id="manufacturing-without-enough-upgrading" class="level1">
+<h1>Manufacturing Without Enough Upgrading</h1>
+<p>Thailand’s manufacturing success was built partly on integration into multinational production networks.</p>
+<p>That was a strength.</p>
+<p>It also created a vulnerability.</p>
+<p>A country can assemble sophisticated products without controlling the highest-value parts of the value chain.</p>
+<p>Those higher-value activities include:</p>
+<ul>
+<li>design;</li>
+<li>research and development;</li>
+<li>advanced engineering;</li>
+<li>intellectual property;</li>
+<li>software;</li>
+<li>branding;</li>
+<li>finance;</li>
+<li>specialized services.</li>
+</ul>
+<p>If production becomes more automated or moves elsewhere, economies dependent on assembly can face pressure.</p>
+<p>This is the familiar middle-income challenge.</p>
+<p>Thailand is no longer a very low-cost production location.</p>
+<p>But it has not fully become a high-productivity innovation economy either.</p>
+<p>It sits between:</p>
+<p><span class="math display">\[
+\text{lower-cost competitors}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\text{higher-tech leaders}.
+\]</span></p>
+<p>That is an uncomfortable place to remain.</p>
+</section>
+<section id="the-automobile-question" class="level1">
+<h1>The Automobile Question</h1>
+<p>Thailand’s automobile industry captures the problem particularly well.</p>
+<p>For decades, Thailand became known as the “Detroit of Asia.”</p>
+<p>Global automakers built extensive production networks.</p>
+<p>Suppliers clustered around them.</p>
+<p>Workers acquired skills.</p>
+<p>Infrastructure developed around the industry.</p>
+<p>But the global automobile industry is changing.</p>
+<p>Electric vehicles require different supply chains.</p>
+<p>Chinese manufacturers have become increasingly important.</p>
+<p>Some components central to internal-combustion vehicles become less important in EVs.</p>
+<p>Thailand can benefit from this transition if new EV investment builds domestic technological capability.</p>
+<p>But it can also lose value if the country simply swaps one assembly model for another.</p>
+<p>The key question is not:</p>
+<blockquote class="blockquote">
+<p>How many EV factories come to Thailand?</p>
+</blockquote>
+<p>It is:</p>
+<blockquote class="blockquote">
+<p><strong>How much knowledge, engineering capacity, domestic supplier development, and productivity growth remains in Thailand?</strong></p>
+</blockquote>
+<p>Again, investment quantity is not the same as development quality.</p>
+</section>
+<section id="political-discontinuity" class="level1">
+<h1>Political Discontinuity</h1>
+<p>Thailand’s economic slowdown also cannot be separated from politics.</p>
+<p>Since the mid-2000s, political conflict has repeatedly disrupted the policy environment.</p>
+<p>Governments changed.</p>
+<p>Coups occurred.</p>
+<p>Constitutions changed.</p>
+<p>Large infrastructure and reform plans were delayed, revised, or replaced.</p>
+<p>This does not mean every period of political instability immediately reduced GDP.</p>
+<p>Economies have momentum.</p>
+<p>Factories continue producing.</p>
+<p>Tourists continue arriving.</p>
+<p>Companies continue operating.</p>
+<p>But structural reform is different.</p>
+<p>Education reform requires continuity.</p>
+<p>Infrastructure planning requires continuity.</p>
+<p>Industrial upgrading requires continuity.</p>
+<p>Competition policy requires continuity.</p>
+<p>Long-term innovation policy requires continuity.</p>
+<p>Political systems that repeatedly reset themselves may still manage the present reasonably well while struggling to construct the future.</p>
+<p>That is another form of drift.</p>
+</section>
+<section id="an-economy-dominated-by-large-players" class="level1">
+<h1>An Economy Dominated by Large Players</h1>
+<p>Thailand also has a highly concentrated corporate structure.</p>
+<p>Large conglomerates dominate important parts of retail, telecommunications, agribusiness, energy, finance, and consumer markets.</p>
+<p>Large firms can be highly efficient.</p>
+<p>They can invest at scale.</p>
+<p>They can compete internationally.</p>
+<p>The problem arises when concentration weakens competition.</p>
+<p>New firms matter because they bring experimentation.</p>
+<p>They challenge existing business models.</p>
+<p>They create new technologies.</p>
+<p>They reallocate workers and capital toward higher-productivity activities.</p>
+<p>If entry is difficult and incumbents are protected by scale, regulation, political connections, or market power, an economy can become less dynamic.</p>
+<p>The question is therefore not whether Thailand has successful large companies.</p>
+<p>It clearly does.</p>
+<p>The question is whether the environment produces enough <strong>new</strong> successful companies.</p>
+</section>
+<section id="household-debt-and-weak-domestic-demand" class="level1">
+<h1>Household Debt and Weak Domestic Demand</h1>
+<p>Thailand’s high household debt adds another constraint.</p>
+<p>For many years, household borrowing helped sustain consumption.</p>
+<p>But debt eventually changes behavior.</p>
+<p>A heavily indebted household is less able to spend.</p>
+<p>Interest payments absorb income.</p>
+<p>Economic shocks become more dangerous.</p>
+<p>Young households delay major purchases.</p>
+<p>Small income gains go toward debt repayment rather than new consumption.</p>
+<p>This creates a demand problem.</p>
+<p>Thailand cannot rely indefinitely on foreign visitors and exports if domestic purchasing power remains weak.</p>
+<p>A stronger development model ultimately requires rising productivity to translate into rising household income.</p>
+<p>Without that, growth becomes dependent on outside demand.</p>
+</section>
+<section id="inequality-is-not-just-a-social-issue" class="level1">
+<h1>Inequality Is Not Just a Social Issue</h1>
+<p>Regional inequality is also central to the story.</p>
+<p>Bangkok and surrounding industrial areas dominate economic activity.</p>
+<p>The Northeast and parts of the North remain much poorer.</p>
+<p>This has been true for decades.</p>
+<p>Tourism and migration partly bridge the gap through remittances.</p>
+<p>But remittances do not substitute for regional development.</p>
+<p>If workers must leave home because productive jobs do not exist locally, migration may reduce poverty without solving the structural imbalance that produced the migration.</p>
+<p>This is where the tourism story connects directly to the broader economy.</p>
+<p>Thailand became extraordinarily successful at bringing foreign purchasing power into Bangkok, Phuket, Pattaya, Chiang Mai, and other destinations.</p>
+<p>But the more difficult task is creating high-productivity economic activity across the country.</p>
+<p>That remains unfinished.</p>
+</section>
+<section id="the-demographic-clock" class="level1">
+<h1>The Demographic Clock</h1>
+<p>Thailand now faces another challenge that makes drift increasingly costly.</p>
+<p>The country is aging rapidly.</p>
+<p>Birth rates are low.</p>
+<p>The working-age population is beginning to shrink.</p>
+<p>This changes the economics of development.</p>
+<p>When the labor force is young and expanding, growth can come partly from adding workers.</p>
+<p>When the labor force shrinks, growth increasingly depends on making each worker more productive.</p>
+<p>That means:</p>
+<p><span class="math display">\[
+\text{future growth}
+\approx
+\text{productivity growth}
++
+\text{human-capital improvement}
++
+\text{better technology}
++
+\text{better institutions}.
+\]</span></p>
+<p>Tourism cannot solve this.</p>
+<p>Neither can simply attracting more factories that depend primarily on relatively inexpensive labor.</p>
+<p>An aging economy has to move upward in productivity.</p>
+<p>There is less time for gradual adjustment.</p>
+</section>
+<section id="was-tourism-too-successful" class="level1">
+<h1>Was Tourism Too Successful?</h1>
+<p>This brings us to the question that interests me most.</p>
+<p>Did Thailand’s tourism success somehow contribute to structural drift?</p>
+<p>I would be careful here.</p>
+<p>Tourism did not <em>cause</em> Thailand’s productivity slowdown.</p>
+<p>It did not cause political instability.</p>
+<p>It did not cause demographic aging.</p>
+<p>It did not prevent industrial upgrading.</p>
+<p>But successful sectors can alter incentives.</p>
+<p>When millions of visitors continue arriving, foreign exchange continues flowing, hotels continue being built, and global attention remains strong, an economy can look more dynamic than it really is.</p>
+<p>Tourism may therefore have functioned partly as a <strong>mask</strong>.</p>
+<p>It softened the symptoms.</p>
+<p>It created jobs.</p>
+<p>It supported consumption.</p>
+<p>It generated tax revenue.</p>
+<p>It sustained property markets.</p>
+<p>It brought foreign money into regions that otherwise had limited opportunities.</p>
+<p>All of that is valuable.</p>
+<p>But it may also have reduced the urgency of confronting harder structural problems.</p>
+<p>The distinction is important:</p>
+<p><span class="math display">\[
+\text{tourism success}
+\neq
+\text{structural transformation}.
+\]</span></p>
+<p>A country can be extraordinarily successful at attracting visitors while still struggling to raise economy-wide productivity.</p>
+</section>
+<section id="the-tourist-sees-a-different-thailand" class="level1">
+<h1>The Tourist Sees a Different Thailand</h1>
+<p>This may also explain why Thailand’s economic slowdown can be difficult for outsiders to perceive.</p>
+<p>A visitor sees:</p>
+<ul>
+<li>modern airports;</li>
+<li>full restaurants;</li>
+<li>luxury malls;</li>
+<li>busy hotels;</li>
+<li>excellent hospitals;</li>
+<li>vibrant nightlife;</li>
+<li>sophisticated services;</li>
+<li>crowded beaches;</li>
+<li>world-class hospitality.</li>
+</ul>
+<p>That looks like prosperity.</p>
+<p>And it is prosperity.</p>
+<p>But it is only one part of the economy.</p>
+<p>The factory worker facing automation sees another Thailand.</p>
+<p>The indebted household sees another.</p>
+<p>The farmer in the Northeast sees another.</p>
+<p>The young graduate unable to find a high-quality job sees another.</p>
+<p>The small business competing against large conglomerates sees another.</p>
+<p>The aging worker with limited retirement savings sees another.</p>
+<p>Multiple economic realities can coexist.</p>
+<p>Tourism displays the most globally visible one.</p>
+</section>
+<section id="reinventing-tourism-is-not-enough" class="level1">
+<h1>Reinventing Tourism Is Not Enough</h1>
+<p>Thailand’s current response is partly to reinvent tourism again.</p>
+<p>Higher-value visitors.</p>
+<p>Medical tourism.</p>
+<p>Digital nomads.</p>
+<p>Business travelers.</p>
+<p>Creative industries.</p>
+<p>Long-stay visas.</p>
+<p>Food, fashion, film, music, and other forms of soft power.</p>
+<p>These are sensible strategies.</p>
+<p>Thailand should exploit sectors in which it has genuine comparative advantage.</p>
+<p>But there is a danger in believing that a more sophisticated tourism strategy can substitute for broader structural reform.</p>
+<p>Attracting wealthier foreigners can increase spending without raising Thai productivity very much.</p>
+<p>Luxury property can expand while housing affordability worsens for locals.</p>
+<p>High-end services can thrive while mass wages stagnate.</p>
+<p>A digital-nomad economy can look modern without creating large numbers of high-productivity jobs for Thai workers.</p>
+<p>A country cannot become high-income simply by becoming increasingly skillful at serving higher-income foreigners.</p>
+<p>The deeper transformation must occur inside the domestic economy.</p>
+</section>
+<section id="from-tourism-powerhouse-to-high-productivity-economy" class="level1">
+<h1>From Tourism Powerhouse to High-Productivity Economy</h1>
+<p>Thailand’s challenge is therefore not to abandon tourism.</p>
+<p>That would make no sense.</p>
+<p>Tourism is one of the country’s great economic assets.</p>
+<p>The challenge is to use the breathing space created by tourism to build the next model.</p>
+<p>That means productivity.</p>
+<p>Education.</p>
+<p>Skills.</p>
+<p>Innovation.</p>
+<p>Competition.</p>
+<p>Infrastructure.</p>
+<p>Technology adoption.</p>
+<p>Regional development.</p>
+<p>A stronger social safety net.</p>
+<p>And institutions capable of sustaining policy across political cycles.</p>
+<p>In other words, the objective should be:</p>
+<p><span class="math display">\[
+\text{tourism income}
+\rightarrow
+\text{investment in productive capacity}
+\rightarrow
+\text{higher productivity}
+\rightarrow
+\text{higher wages}.
+\]</span></p>
+<p>The danger is a weaker loop:</p>
+<p><span class="math display">\[
+\text{tourism income}
+\rightarrow
+\text{property and services}
+\rightarrow
+\text{more tourism dependence}.
+\]</span></p>
+<p>Both can produce growth.</p>
+<p>Only one clearly moves the economy toward a higher-productivity future.</p>
+</section>
+<section id="from-momentum-to-drift" class="level1">
+<h1>From Momentum to Drift</h1>
+<p>Thailand still has enormous strengths.</p>
+<p>Its geographic position is excellent.</p>
+<p>Its infrastructure is comparatively strong.</p>
+<p>Its manufacturing base is deep.</p>
+<p>Its tourism brand is extraordinary.</p>
+<p>Its food and culture have global reach.</p>
+<p>Its private healthcare sector is internationally competitive.</p>
+<p>It remains integrated into regional supply chains.</p>
+<p>The country has not run out of advantages.</p>
+<p>The danger is simply that advantages inherited from earlier decades become substitutes for creating new ones.</p>
+<p>That is structural drift.</p>
+<p>Not collapse.</p>
+<p>Not catastrophe.</p>
+<p>Not even obvious decline.</p>
+<p>Just a gradual movement:</p>
+<blockquote class="blockquote">
+<p>from expansion to inertia,<br>
+from momentum to maintenance.</p>
+</blockquote>
+<p>That type of slowdown is harder to recognize than a crisis because daily life continues.</p>
+<p>The airports remain busy.</p>
+<p>The malls remain open.</p>
+<p>The factories still produce.</p>
+<p>The beaches remain crowded.</p>
+<p>GDP still grows.</p>
+<p>But other countries gradually close the gap.</p>
+<p>Then some begin moving ahead.</p>
+<p>In economics, standing still is one of the fastest ways to fall behind.</p>
+</section>
+<section id="the-crossroads" class="level1">
+<h1>The Crossroads</h1>
+<p>Thailand has reinvented itself before.</p>
+<p>The Vietnam War created infrastructure that Thailand converted into tourism.</p>
+<p>The 1997 crisis produced a weaker currency that Thailand turned into a global marketing opportunity.</p>
+<p>Thai food, wellness, hospitality, and culture became forms of soft power before governments routinely used the term.</p>
+<p>The country has repeatedly shown an ability to take disruption and create economic opportunity from it.</p>
+<p>That history is encouraging.</p>
+<p>But the next reinvention may have to be different.</p>
+<p>The central question is no longer simply:</p>
+<blockquote class="blockquote">
+<p><strong>Can Thailand reinvent tourism again?</strong></p>
+</blockquote>
+<p>I think it can.</p>
+<p>The harder question is:</p>
+<blockquote class="blockquote">
+<p><strong>Can Thailand reinvent the economy beyond tourism?</strong></p>
+</blockquote>
+<p>That is where the next stage of development will be decided.</p>
+<p>Thailand’s tourism miracle deserves to be celebrated.</p>
+<p>It was not accidental.</p>
+<p>It was built through strategy, adaptation, infrastructure, entrepreneurship, and an unusual capacity to turn crises into opportunities.</p>
+<p>But the success of one model can eventually become a reason not to change it.</p>
+<p>And perhaps that is the real danger.</p>
+<p>Thailand’s problem is not that tourism failed.</p>
+<p>It may be that tourism succeeded so well that it made the deeper structural drift beneath it easier to ignore.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

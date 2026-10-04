@@ -2,6 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/AI/index.html",
+      "/posts/chopsticks/index.html",
+      "/posts/indonesia/index.html",
       "/posts/inflation/index.html",
       "/posts/fedrate/fed-interest-rate-hike-effects.html",
       "/posts/feynman/index.html",

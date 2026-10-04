@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="-YY-">
+<meta name="dcterms.date" content="2026-10-04">
+
+<title>The Long Road to Artificial Intelligence – YY-Blog</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">YY-Blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/YongY-Github"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">The Long Road to Artificial Intelligence</h1>
+            <p class="subtitle lead">How an Abandoned Idea Survived Two AI Winters—and Why History Should Make Us Both Excited and Cautious</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">machine learning</div>
+                <div class="quarto-category">history</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>-YY- </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 4, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="the-long-road-to-artificial-intelligence" class="level1">
+<h1>The Long Road to Artificial Intelligence</h1>
+<section id="how-an-abandoned-idea-survived-two-ai-wintersand-why-history-should-make-us-both-excited-and-cautious-about-the-present" class="level2">
+<h2 class="anchored" data-anchor-id="how-an-abandoned-idea-survived-two-ai-wintersand-why-history-should-make-us-both-excited-and-cautious-about-the-present">How an abandoned idea survived two AI winters—and why history should make us both excited and cautious about the present</h2>
+<p>Artificial intelligence can feel like a remarkably recent invention.</p>
+<p>ChatGPT arrived in public view only a few years ago. Generative images appeared almost overnight. Computers that could hold conversations, write programs, create pictures, translate languages, and analyze documents suddenly became ordinary enough to sit inside a browser.</p>
+<p>It is tempting to think that somewhere around 2022, scientists finally discovered the secret of artificial intelligence.</p>
+<p>That is not what happened.</p>
+<p>The intellectual roots of today’s AI stretch back more than eighty years. Some of the central ideas underlying modern neural networks existed before most households owned televisions. Machines that learned from examples were being demonstrated in the 1950s. Multi-layer neural networks were successfully trained in the 1980s.</p>
+<p>And then, repeatedly, the field collapsed.</p>
+<p>Funding disappeared.</p>
+<p>Researchers left.</p>
+<p>Entire approaches were declared dead.</p>
+<p>What finally transformed artificial intelligence was therefore not one sudden moment of invention. It was the convergence of ideas that had existed for decades with things those ideas had always lacked: <strong>enough data, enough computing power, and architectures capable of putting the pieces together at scale</strong>.</p>
+<p>That history is worth understanding, especially now.</p>
+<p>Because AI has been through periods of extraordinary optimism before.</p>
+<p>Researchers have predicted machines approaching human intelligence before.</p>
+<p>Newspapers have announced thinking machines before.</p>
+<p>Governments and companies have poured enormous sums of money into AI before.</p>
+<p>And twice before, disappointment followed.</p>
+<p>Yet there is an equally important lesson on the other side.</p>
+<p>The ideas dismissed during those earlier periods were not always wrong.</p>
+<p>Sometimes they were simply <strong>early</strong>.</p>
+<p>The history of artificial intelligence is therefore neither a reassuring story that today’s excitement is merely another bubble nor a triumphalist story in which technological progress inevitably marched toward ChatGPT.</p>
+<p>It is stranger than either.</p>
+<p>It is a story of brilliant ideas, exaggerated promises, genuine failure, institutional fashion, stubborn persistence, accidental technological convergence, and an uncomfortable question:</p>
+<blockquote class="blockquote">
+<p><strong>How do we distinguish an idea that is wrong from an idea whose time has simply not yet arrived?</strong></p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="part-i-before-artificial-intelligence-had-a-name" class="level1">
+<h1>Part I: Before Artificial Intelligence Had a Name</h1>
+<section id="walter-pitts-and-the-idea-that-a-brain-might-be-a-machine" class="level2">
+<h2 class="anchored" data-anchor-id="walter-pitts-and-the-idea-that-a-brain-might-be-a-machine">Walter Pitts and the idea that a brain might be a machine</h2>
+<p>One place to begin is Cambridge, Massachusetts, in May 1969.</p>
+<p>Walter Pitts was dying in a boarding house.</p>
+<p>He was only 46 years old.</p>
+<p>By then, the ideas he had helped create were already being used at MIT and elsewhere, although few people outside a small scientific community knew his name.</p>
+<p>His route into science had been extraordinary.</p>
+<p>According to the narrative, Pitts had grown up in Detroit and, while still a boy, immersed himself in Bertrand Russell and Alfred North Whitehead’s <em>Principia Mathematica</em>. He became fascinated by the possibility that reasoning itself might be represented using formal logic.</p>
+<p>As a teenager he left home, eventually becoming involved with scholars working on logic, mathematics, neurophysiology, and the nature of thought.</p>
+<p>There he met Warren McCulloch.</p>
+<p>McCulloch was almost the opposite of Pitts: older, well established, conventionally educated, and already working as a neurophysiologist.</p>
+<p>But the two shared an extraordinary question:</p>
+<blockquote class="blockquote">
+<p><strong>What would it mean, mechanically, for a brain to think?</strong></p>
+</blockquote>
+<p>Their answer was radical.</p>
+<p>Imagine a neuron as a simple switch.</p>
+<p>It receives inputs.</p>
+<p>If enough of those inputs reach some threshold, it fires.</p>
+<p>Otherwise, it does not.</p>
+<p>That sounds almost absurdly primitive.</p>
+<p>But McCulloch and Pitts realized that networks of such simple units could perform logical operations. In 1943 they published a paper describing how networks of idealized neurons could implement forms of computation.</p>
+<p>The neuron, in this conception, did not need to contain intelligence.</p>
+<p>Individual neurons could be extremely simple.</p>
+<p>Complexity could arise from the <strong>network</strong>.</p>
+<p>That insight sits deep inside modern artificial neural networks.</p>
+<p>But something was missing.</p>
+<p>A fixed logical network could compute.</p>
+<p>It could not necessarily <strong>learn</strong>.</p>
+<p>That required another idea.</p>
+</section>
+<section id="learning-from-experience" class="level2">
+<h2 class="anchored" data-anchor-id="learning-from-experience">Learning from experience</h2>
+<p>In 1949, psychologist Donald Hebb proposed a principle that would later become famous in simplified form:</p>
+<blockquote class="blockquote">
+<p>neurons that fire together strengthen their connection.</p>
+</blockquote>
+<p>The idea was that learning could occur through changes in the strengths of connections between neurons.</p>
+<p>Now combine the two insights.</p>
+<p>McCulloch and Pitts had supplied a way to think of neurons as computational units.</p>
+<p>Hebb supplied a mechanism through which connections might change with experience.</p>
+<p>The conceptual transition is enormous.</p>
+<p>A conventional program follows instructions written by a human.</p>
+<p>A learning system changes itself in response to examples.</p>
+<p>The distinction can be written simply:</p>
+<p><span class="math display">\[
+\text{traditional programming}
+=
+\text{rules} + \text{data}
+\rightarrow
+\text{answers},
+\]</span></p>
+<p>whereas machine learning attempts something closer to:</p>
+<p><span class="math display">\[
+\text{data} + \text{answers}
+\rightarrow
+\text{learned rules}.
+\]</span></p>
+<p>Instead of specifying every instruction, we allow the system to adjust itself.</p>
+<p>That is the conceptual move behind machine learning.</p>
+</section>
+<section id="turing-asks-the-dangerous-question" class="level2">
+<h2 class="anchored" data-anchor-id="turing-asks-the-dangerous-question">Turing asks the dangerous question</h2>
+<p>Then, in 1950, Alan Turing posed the question that would hang over the entire field:</p>
+<blockquote class="blockquote">
+<p><strong>Can machines think?</strong></p>
+</blockquote>
+<p>Turing immediately recognized the problem.</p>
+<p>What exactly do we mean by <em>thinking</em>?</p>
+<p>Humans themselves have difficulty defining it.</p>
+<p>So rather than trying to settle the metaphysics, Turing proposed an operational test.</p>
+<p>Suppose a human judge communicates through text with another human and with a machine, without knowing which is which.</p>
+<p>If the judge cannot reliably distinguish them, on what basis should we insist that the machine is not displaying intelligence?</p>
+<p>The cleverness of Turing’s move was to shift the question.</p>
+<p>Instead of asking:</p>
+<blockquote class="blockquote">
+<p>What <em>is</em> intelligence?</p>
+</blockquote>
+<p>he asked:</p>
+<blockquote class="blockquote">
+<p>What observable behavior would persuade us that intelligence is present?</p>
+</blockquote>
+<p>That distinction remains remarkably relevant today.</p>
+<p>When a modern language model produces a thoughtful answer, are we observing understanding?</p>
+<p>Or are we observing something that behaves sufficiently like understanding that the distinction becomes difficult to make?</p>
+<p>The question is older than ChatGPT by more than seventy years.</p>
+</section>
+<section id="dartmouth-ai-gets-a-name" class="level2">
+<h2 class="anchored" data-anchor-id="dartmouth-ai-gets-a-name">Dartmouth: AI gets a name</h2>
+<p>The field itself acquired a name in the mid-1950s.</p>
+<p>A group of researchers proposed a summer workshop at Dartmouth College built around an audacious assumption: that aspects of learning and intelligence could, in principle, be described precisely enough for machines to simulate them.</p>
+<p>John McCarthy called the field <strong>artificial intelligence</strong>.</p>
+<p>The phrase mattered.</p>
+<p>Once a research program has a name, it becomes easier to organize conferences, attract researchers, seek grants, and make promises.</p>
+<p>And the promises came quickly.</p>
+<p>Early programs could prove mathematical theorems and manipulate symbols according to logical rules. To many researchers, this looked like the beginning of machine thought.</p>
+<p>If reasoning consisted fundamentally of manipulating symbols, and computers could manipulate symbols, perhaps human-level intelligence was simply a sufficiently large programming problem.</p>
+<p>Some leading researchers made very bold forecasts.</p>
+<p>The future seemed close.</p>
+<p>Very close.</p>
+<p>Perhaps too close.</p>
+<hr>
+</section>
+</section>
+<section id="part-ii-the-first-great-promiseand-the-first-collapse" class="level1">
+<h1>Part II: The First Great Promise—and the First Collapse</h1>
+<section id="the-perceptron-learns-from-examples" class="level2">
+<h2 class="anchored" data-anchor-id="the-perceptron-learns-from-examples">The perceptron learns from examples</h2>
+<p>Frank Rosenblatt took a different route from researchers who tried to encode intelligence through explicit symbolic rules.</p>
+<p>He wanted a machine that could <strong>learn</strong>.</p>
+<p>The perceptron took inputs, assigned weights to them, combined them, produced an output, and adjusted those weights when it made a mistake.</p>
+<p>Conceptually:</p>
+<p><span class="math display">\[
+z = \sum_j w_jx_j
+\]</span></p>
+<p>followed by a decision such as</p>
+<p><span class="math display">\[
+y =
+\begin{cases}
+1 &amp; z &gt; c,\\
+0 &amp; z \leq c.
+\end{cases}
+\]</span></p>
+<p>If the classification was wrong, the weights were adjusted.</p>
+<p>The machine therefore learned from examples rather than being explicitly told every rule.</p>
+<p>That basic idea sounds extraordinarily modern.</p>
+<p>Because it is.</p>
+<p>In 1958 Rosenblatt’s perceptron became a media sensation.</p>
+<p>The machine’s actual abilities were modest. It could learn relatively simple classifications.</p>
+<p>But public claims surrounding it raced far ahead.</p>
+<p>The supplied narrative describes contemporary reporting suggesting that such machines might eventually walk, talk, see, write, reproduce themselves, and perhaps even become conscious.</p>
+<p>The contrast is almost comic.</p>
+<p>The machine could perform a limited classification task.</p>
+<p>The headlines were already imagining artificial consciousness.</p>
+<p>The source captures the recurring problem beautifully: the distance between <strong>what a system does today</strong> and <strong>what its advocates imagine it might eventually do</strong> can become enormous.</p>
+<p>This will not be the last time.</p>
+</section>
+<section id="a-mathematical-wall" class="level2">
+<h2 class="anchored" data-anchor-id="a-mathematical-wall">A mathematical wall</h2>
+<p>Then came the criticism.</p>
+<p>In 1969 Marvin Minsky and Seymour Papert published <em>Perceptrons</em>.</p>
+<p>They demonstrated genuine mathematical limitations of single-layer perceptrons.</p>
+<p>The most famous example is XOR—exclusive OR.</p>
+<p>Suppose we have two binary inputs:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;"><span class="math inline">\(x_1\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(x_2\)</span></th>
+<th style="text-align: right;">XOR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>A single straight line cannot separate the two positive cases from the two negative cases.</p>
+<p>The problem is not insufficient training.</p>
+<p>It is structural.</p>
+<p>A single-layer perceptron simply cannot represent that decision boundary.</p>
+<p>That criticism was correct.</p>
+<p>But what happened next illustrates something important about science.</p>
+<p>A limited result became interpreted much more broadly.</p>
+<p>A single-layer network had serious limitations.</p>
+<p>But that did not establish that <strong>all neural networks</strong> were useless.</p>
+<p>Multi-layer networks could, in principle, represent far more complicated functions.</p>
+<p>The practical problem was that researchers did not yet have an effective way to train those deeper networks.</p>
+<p>The door existed.</p>
+<p>Nobody knew how to open it.</p>
+<p>And funding agencies were losing patience.</p>
+</section>
+<section id="the-first-ai-winter" class="level2">
+<h2 class="anchored" data-anchor-id="the-first-ai-winter">The first AI winter</h2>
+<p>The neural-network disappointment was only part of the problem.</p>
+<p>Other areas of artificial intelligence had also overpromised.</p>
+<p>Machine translation received substantial government interest during the Cold War. Yet automated translation remained far inferior to human translation.</p>
+<p>Symbolic systems worked impressively in carefully constructed environments but struggled once exposed to the messiness of the real world.</p>
+<p>Joseph Weizenbaum’s ELIZA, created in the 1960s, simulated a psychotherapist largely by turning users’ statements back into questions.</p>
+<p>Its technical machinery was simple.</p>
+<p>Its psychological effect was not.</p>
+<p>People began treating it as though it understood them.</p>
+<p>The story is fascinating because we still see the same phenomenon today:</p>
+<blockquote class="blockquote">
+<p><strong>human beings readily attribute understanding to machines that respond fluently in language.</strong></p>
+</blockquote>
+<p>Later systems such as SHRDLU could discuss objects, commands, and actions within tiny artificial worlds.</p>
+<p>Inside those worlds, performance looked impressive.</p>
+<p>Outside them, the intelligence disappeared.</p>
+<p>The system had not learned the world.</p>
+<p>The carefully constrained world <strong>was part of the program</strong>.</p>
+<p>By the early 1970s, governments began asking whether AI was delivering what its advocates had promised.</p>
+<p>The answer was increasingly: not yet.</p>
+<p>Funding was cut.</p>
+<p>Researchers moved elsewhere.</p>
+<p>The first <strong>AI winter</strong> began.</p>
+<p>One line from the source is worth preserving:</p>
+<blockquote class="blockquote">
+<p>An AI winter is not necessarily a proof that the work is impossible. It is a collective decision to stop paying for it.</p>
+</blockquote>
+<p>That distinction matters.</p>
+<p>Scientific truth and research funding are related, but they are not identical.</p>
+<p>A research program may disappear because it is wrong.</p>
+<p>But it may also disappear because progress is too slow, expectations were unrealistic, necessary complementary technologies do not yet exist, or researchers cannot demonstrate economically useful results quickly enough.</p>
+<p>And when funding disappears, ideas do not merely go dormant.</p>
+<p>Careers change.</p>
+<p>Graduate students move into other fields.</p>
+<p>Research communities dissolve.</p>
+<p>Knowledge networks disappear.</p>
+<p>An intellectual winter can become partly self-reinforcing.</p>
+<hr>
+</section>
+</section>
+<section id="part-iii-ai-returnsand-fails-again" class="level1">
+<h1>Part III: AI Returns—and Fails Again</h1>
+<section id="the-age-of-expert-systems" class="level2">
+<h2 class="anchored" data-anchor-id="the-age-of-expert-systems">The age of expert systems</h2>
+<p>Artificial intelligence returned in the late 1970s and early 1980s wearing different clothes.</p>
+<p>Instead of trying to build machines that learned like brains, researchers built <strong>expert systems</strong>.</p>
+<p>The logic was straightforward.</p>
+<p>If a human expert knows how to diagnose a disease or configure a computer system, perhaps that expertise can be represented as rules:</p>
+<blockquote class="blockquote">
+<p>IF condition A and condition B hold, THEN take action C.</p>
+</blockquote>
+<p>Collect enough such rules and a computer can reproduce some of an expert’s decision-making.</p>
+<p>The approach worked surprisingly well in bounded domains.</p>
+<p>Expert systems were used in medicine and industry.</p>
+<p>Digital Equipment Corporation reportedly saved substantial sums using a system to configure computer orders.</p>
+<p>Now AI was not merely a laboratory curiosity.</p>
+<p>It could make money.</p>
+<p>Optimism returned.</p>
+<p>Japan launched its ambitious Fifth Generation Computer Systems project in the early 1980s. Governments elsewhere responded partly because they feared falling behind.</p>
+<p>Funding returned.</p>
+<p>AI was back.</p>
+<p>But the weakness of expert systems was built into their architecture.</p>
+<p>Every rule had to come from somewhere.</p>
+<p>Usually, that meant a human expert.</p>
+<p>The system could be enormously competent within the space covered by its rules and helpless one step outside it.</p>
+<p>It also could not easily learn from experience.</p>
+<p>A system might process ten thousand cases without becoming intrinsically wiser unless somebody explicitly updated its rules.</p>
+<p>Knowledge engineering became expensive.</p>
+<p>Systems became brittle.</p>
+<p>Special-purpose hardware became less attractive as ordinary computers improved.</p>
+<p>And enthusiasm collapsed again.</p>
+<p>The second AI winter arrived.</p>
+<p>By the early 1990s, according to the narrative, researchers sometimes avoided even using the term <strong>artificial intelligence</strong> in funding applications.</p>
+<p>The phrase had become toxic.</p>
+<p>Another term sounded safer.</p>
+<p><strong>Machine learning.</strong></p>
+<hr>
+</section>
+</section>
+<section id="the-people-who-refused-to-leave" class="level1">
+<h1>The People Who Refused to Leave</h1>
+<p>While much of the field moved toward other approaches, a small group continued working on neural networks.</p>
+<p>Among the most important was Geoffrey Hinton.</p>
+<p>The fundamental problem was clear.</p>
+<p>If a network contained multiple layers, the final output might be wrong.</p>
+<p>But how should the system determine which internal connections were responsible?</p>
+<p>The error appears at the end.</p>
+<p>The cause is distributed throughout the network.</p>
+<p>The solution was <strong>backpropagation</strong>.</p>
+<p>The network produces an output.</p>
+<p>The output is compared with the correct answer.</p>
+<p>An error is calculated.</p>
+<p>That error is then propagated backward through the network, allowing each connection to receive information about how it contributed to the mistake.</p>
+<p>The weights are adjusted slightly.</p>
+<p>Then the system tries again.</p>
+<p>And again.</p>
+<p>And again.</p>
+<p>In simplified form:</p>
+<p><span class="math display">\[
+\text{predict}
+\rightarrow
+\text{measure error}
+\rightarrow
+\text{assign responsibility}
+\rightarrow
+\text{adjust weights}
+\rightarrow
+\text{repeat}.
+\]</span></p>
+<p>In 1986 David Rumelhart, Geoffrey Hinton, and Ronald Williams published an influential account of training multi-layer networks using backpropagation.</p>
+<p>The old limitation had, in principle, been overcome.</p>
+<p>And almost nothing happened.</p>
+<p>At least, nothing resembling today’s revolution.</p>
+<p>Why?</p>
+<p>Because a good algorithm is not enough.</p>
+<p>Neural networks needed three things:</p>
+<p><span class="math display">\[
+\boxed{\text{algorithm} + \text{data} + \text{computation}}
+\]</span></p>
+<p>and in the 1980s, two of those ingredients were still painfully scarce.</p>
+<p>Computers were too slow.</p>
+<p>Large labeled datasets barely existed.</p>
+<p>The idea worked.</p>
+<p>The environment around the idea did not.</p>
+<p>This is one of the most interesting lessons in the entire history.</p>
+<p>We often imagine technological progress as a sequence of inventions:</p>
+<p><span class="math display">\[
+A \rightarrow B \rightarrow C \rightarrow D.
+\]</span></p>
+<p>But sometimes technology behaves more like complementary production inputs:</p>
+<p><span class="math display">\[
+Y = f(A,B,C).
+\]</span></p>
+<p>If one essential input is missing, improving the others may achieve surprisingly little.</p>
+<p>Backpropagation without sufficient data and computation was exactly such a case.</p>
+<p>The algorithm was waiting for the world to catch up.</p>
+<hr>
+</section>
+<section id="three-accidents-that-changed-everything" class="level1">
+<h1>Three Accidents That Changed Everything</h1>
+<p>And then the world did.</p>
+<p>But not because governments designed a grand plan to revive neural networks.</p>
+<p>Much of the necessary infrastructure emerged <strong>for completely unrelated reasons</strong>.</p>
+<p>That is perhaps the most enjoyable part of this history.</p>
+<section id="accident-one-the-internet-creates-data" class="level2">
+<h2 class="anchored" data-anchor-id="accident-one-the-internet-creates-data">Accident One: the internet creates data</h2>
+<p>Neural networks learn from examples.</p>
+<p>In the 1980s, examples were expensive.</p>
+<p>If you wanted a machine to learn what a cat looked like, somebody had to gather photographs of cats, digitize them, label them, organize them, and store them.</p>
+<p>Scale that across thousands of categories and the problem becomes enormous.</p>
+<p>Then the internet happened.</p>
+<p>People uploaded photographs.</p>
+<p>Companies built websites.</p>
+<p>Search engines indexed information.</p>
+<p>Commerce moved online.</p>
+<p>Digital cameras and later smartphones produced huge quantities of images.</p>
+<p>Human behavior unintentionally generated enormous datasets.</p>
+<p>The world became machine-readable.</p>
+<p>Fei-Fei Li and her collaborators recognized that computer vision required vastly more training data than researchers had been using.</p>
+<p>The result was ImageNet: millions of labeled images organized into thousands of categories.</p>
+<p>The important innovation was not an exotic new equation.</p>
+<p>It was <strong>scale</strong>.</p>
+<p>And behind that scale was a remarkable amount of human labor: people labeling images one by one.</p>
+<p>Modern AI may look immaterial, but underneath it sits an enormous infrastructure of human-produced data.</p>
+</section>
+<section id="accident-two-video-games-create-the-hardware" class="level2">
+<h2 class="anchored" data-anchor-id="accident-two-video-games-create-the-hardware">Accident Two: video games create the hardware</h2>
+<p>The second missing ingredient came from an industry that was not trying to create intelligence at all.</p>
+<p>Video games.</p>
+<p>Conventional CPUs are excellent at performing complicated operations sequentially.</p>
+<p>But rendering computer graphics requires doing vast numbers of relatively simple calculations simultaneously.</p>
+<p>Graphics processing units—GPUs—were built for that job.</p>
+<p>It turned out that neural-network training needed something very similar.</p>
+<p>Training involves enormous numbers of matrix operations performed repeatedly across many examples.</p>
+<p>GPUs were astonishingly good at this.</p>
+<p>The gaming industry had therefore spent years and billions of dollars perfecting hardware that, almost accidentally, was exceptionally well suited to machine learning.</p>
+<p>A teenager buying a better graphics card to increase a game’s frame rate was participating—without knowing it—in the construction of AI infrastructure.</p>
+<p>This is a beautiful example of technological spillovers.</p>
+<p>One industry solves its own problem.</p>
+<p>Another industry discovers that the solution happens to solve a completely different problem.</p>
+</section>
+<section id="accident-three-architectures-improve" class="level2">
+<h2 class="anchored" data-anchor-id="accident-three-architectures-improve">Accident Three: architectures improve</h2>
+<p>The third ingredient was architecture.</p>
+<p>Researchers such as Yann LeCun developed convolutional neural networks that were particularly suited to image recognition.</p>
+<p>Instead of treating every pixel as an isolated piece of information, convolutional networks learned hierarchical patterns.</p>
+<p>A rough intuition is:</p>
+<p><span class="math display">\[
+\text{pixels}
+\rightarrow
+\text{edges}
+\rightarrow
+\text{shapes}
+\rightarrow
+\text{parts}
+\rightarrow
+\text{objects}.
+\]</span></p>
+<p>Each layer learned increasingly abstract representations.</p>
+<p>The pieces were finally coming together.</p>
+<p>Backpropagation.</p>
+<p>Large datasets.</p>
+<p>GPU computation.</p>
+<p>Better architectures.</p>
+<p>None alone created the breakthrough.</p>
+<p>Together, they changed the field.</p>
+<hr>
+</section>
+</section>
+<section id="september-2012-the-moment-everything-moved" class="level1">
+<h1>September 2012: The Moment Everything Moved</h1>
+<p>The symbolic moment arrived in the ImageNet competition.</p>
+<p>Before 2012, leading image-recognition systems were improving gradually.</p>
+<p>Then Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton entered a deep convolutional neural network later known as <strong>AlexNet</strong>.</p>
+<p>It used GPUs.</p>
+<p>It used ImageNet.</p>
+<p>It used deep neural networks trained through backpropagation.</p>
+<p>And its error rate was dramatically lower than that of competing systems.</p>
+<p>The source presents the contrast vividly: the previous leading error rate was around 26 percent; AlexNet achieved roughly 15.3 percent.</p>
+<p>This was not another incremental improvement.</p>
+<p>It was the sort of result that forces a field to reconsider its assumptions.</p>
+<p>Researchers initially suspected something must be wrong.</p>
+<p>There wasn’t.</p>
+<p>Within a short period, computer vision pivoted toward deep learning.</p>
+<p>The strange historical circle had closed.</p>
+<p>The basic neural-network idea dismissed decades earlier had won.</p>
+<p>Not because the mathematics had suddenly appeared in 2012.</p>
+<p>Not because Hinton had just invented backpropagation.</p>
+<p>But because an old idea had finally acquired the complementary inputs necessary to demonstrate what it could do.</p>
+<p>This is one reason I find the story so interesting.</p>
+<p>We usually celebrate the breakthrough.</p>
+<p>But perhaps the deeper lesson is the <strong>waiting</strong>.</p>
+<hr>
+</section>
+<section id="from-images-to-language" class="level1">
+<h1>From Images to Language</h1>
+<p>Once deep learning demonstrated that scale could transform performance, progress accelerated.</p>
+<p>In 2016, AlphaGo defeated Lee Sedol at Go.</p>
+<p>The result mattered partly because Go had long been regarded as a game whose complexity made traditional brute-force approaches far less promising than in chess.</p>
+<p>Then, in 2017, researchers introduced the <strong>transformer</strong> architecture.</p>
+<p>This would become especially important for language.</p>
+<p>Earlier sequence models often processed information step by step.</p>
+<p>Transformers allowed models to attend to relationships among many elements in a sequence more directly.</p>
+<p>The technical details are important, but the broader historical pattern matters more for this story.</p>
+<p>The field discovered that performance could improve surprisingly predictably as researchers increased:</p>
+<ul>
+<li>model size,</li>
+<li>training data,</li>
+<li>computing power.</li>
+</ul>
+<p>AI suddenly possessed something earlier waves largely lacked:</p>
+<blockquote class="blockquote">
+<p><strong>a scaling lever.</strong></p>
+</blockquote>
+<p>Build a larger model.</p>
+<p>Train it on more data.</p>
+<p>Use more computation.</p>
+<p>Performance often improves.</p>
+<p>That changed both research and economics.</p>
+<p>Artificial intelligence ceased to be merely an academic field.</p>
+<p>It became a capital-intensive industry.</p>
+<p>And eventually, language models reached ordinary users.</p>
+<hr>
+</section>
+<section id="the-part-of-the-history-we-should-not-forget-hype" class="level1">
+<h1>The Part of the History We Should Not Forget: Hype</h1>
+<p>Now we arrive at the uncomfortable part.</p>
+<p>AI really is different today.</p>
+<p>But the language surrounding it sounds strangely familiar.</p>
+<p>In 1958, a system performing a primitive classification task was discussed as though machines capable of remarkable human-like abilities were imminent.</p>
+<p>In the 1960s, leading researchers predicted human-level machine capability within surprisingly short horizons.</p>
+<p>Expert systems generated another wave of enthusiasm.</p>
+<p>Deep Blue’s 1997 victory over Garry Kasparov produced headlines suggesting that machines had become intelligent, even though Deep Blue itself learned nothing from the match. It searched enormous numbers of chess positions using extraordinary computational power and human-designed evaluation machinery.</p>
+<p>And today, once again, we hear confident predictions.</p>
+<p>Artificial general intelligence is near.</p>
+<p>Human employment will be transformed.</p>
+<p>AI may become smarter than humanity.</p>
+<p>AI may solve major scientific problems.</p>
+<p>AI may threaten civilization.</p>
+<p>Perhaps some of those predictions are correct.</p>
+<p>The history does not tell us that they are wrong.</p>
+<p>But it does tell us something about <strong>confidence</strong>.</p>
+<p>Forecasting the long-run possibilities of a technology is very different from forecasting <strong>when</strong> those possibilities will arrive.</p>
+<p>The perceptron advocates were not necessarily wrong that neural networks could eventually perform extraordinary tasks.</p>
+<p>They were wrong about the timetable.</p>
+<p>That distinction may be the single most useful lesson from the history.</p>
+<hr>
+</section>
+<section id="is-today-different" class="level1">
+<h1>Is Today Different?</h1>
+<p>It would be too easy to finish this story by saying:</p>
+<blockquote class="blockquote">
+<p>“We have seen AI hype before, therefore today’s AI boom will collapse.”</p>
+</blockquote>
+<p>History does not support that conclusion either.</p>
+<p>Today’s systems differ from those earlier waves in at least two important ways.</p>
+<section id="first-people-actually-use-them" class="level2">
+<h2 class="anchored" data-anchor-id="first-people-actually-use-them">First, people actually use them</h2>
+<p>Earlier AI booms were heavily dependent on military, university, or government research funding.</p>
+<p>Today’s systems have millions of users.</p>
+<p>Individuals and businesses willingly pay for AI services.</p>
+<p>AI generates revenue.</p>
+<p>That matters.</p>
+<p>A technology supported entirely by speculative funding can disappear when governments lose patience.</p>
+<p>A technology producing useful services has another source of survival.</p>
+</section>
+<section id="second-scaling-actually-works" class="level2">
+<h2 class="anchored" data-anchor-id="second-scaling-actually-works">Second, scaling actually works</h2>
+<p>Earlier systems often reached hard limits.</p>
+<p>Making an expert system twice as large did not reliably make it twice as useful.</p>
+<p>Adding more rules could make the system harder to maintain.</p>
+<p>Modern machine learning has shown a more systematic relationship between additional data, computation, model capacity, and performance.</p>
+<p>That does not guarantee endless improvement.</p>
+<p>But it is genuinely different.</p>
+<p>The supplied narrative makes this contrast explicit: today’s systems earn money, and performance often improves predictably with additional data and computation—two features earlier AI booms did not possess in the same way.</p>
+<p>So today’s boom should not simply be dismissed as another 1958.</p>
+<p>Something real has changed.</p>
+<hr>
+</section>
+</section>
+<section id="but-something-has-not-changed" class="level1">
+<h1>But Something Has Not Changed</h1>
+<p>There remains an important gap between <strong>capability</strong> and <strong>understanding</strong>.</p>
+<p>Large language models can generate fluent, persuasive, technically sophisticated answers.</p>
+<p>But fluency does not guarantee truth.</p>
+<p>A model can produce an accurate explanation and a plausible falsehood in essentially the same tone of confidence.</p>
+<p>This creates a particularly interesting philosophical problem.</p>
+<p>Humans tend to associate articulate language with understanding.</p>
+<p>We have done so since ELIZA.</p>
+<p>Perhaps we cannot help ourselves.</p>
+<p>If something replies appropriately, remembers context, reasons through a problem, and explains itself in sentences, we begin attributing a mind behind the words.</p>
+<p>But what exactly are we observing?</p>
+<p>That question has now returned us directly to Turing.</p>
+<p>The circle closes again.</p>
+<p>In 1950:</p>
+<blockquote class="blockquote">
+<p>Can machines think?</p>
+</blockquote>
+<p>In 2026:</p>
+<blockquote class="blockquote">
+<p>If a machine talks, reasons, writes, codes, and responds as though it thinks, how would we know whether it actually does?</p>
+</blockquote>
+<p>Perhaps the question is no easier now than it was then.</p>
+<hr>
+</section>
+<section id="the-story-behind-the-story-science-does-not-progress-in-a-straight-line" class="level1">
+<h1>The Story Behind the Story: Science Does Not Progress in a Straight Line</h1>
+<p>There is another lesson here that extends far beyond artificial intelligence.</p>
+<p>Scientific progress is often narrated retrospectively as though the successful path had always been obvious.</p>
+<p>It rarely was.</p>
+<p>Neural networks were not marching steadily toward victory.</p>
+<p>They were abandoned.</p>
+<p>Symbolic AI was not obviously destined to fail.</p>
+<p>For periods, it produced the most impressive demonstrations available.</p>
+<p>Expert systems were not foolish.</p>
+<p>They solved real problems.</p>
+<p>Backpropagation was not immediately revolutionary.</p>
+<p>For decades, it lacked the resources needed to display its potential.</p>
+<p>GPUs were not developed for artificial intelligence.</p>
+<p>The internet was not created to provide machine-learning training data.</p>
+<p>ImageNet’s importance was not obvious simply because it was large.</p>
+<p>The breakthrough emerged because technologies developed for unrelated purposes became <strong>complements</strong>.</p>
+<p>This suggests a more interesting model of innovation.</p>
+<p>Instead of:</p>
+<p><span class="math display">\[
+\text{scientific discovery}
+\rightarrow
+\text{immediate application},
+\]</span></p>
+<p>we often get:</p>
+<p><span class="math display">\[
+\text{idea}
+\rightarrow
+\text{failure}
+\rightarrow
+\text{neglect}
+\rightarrow
+\text{complementary technology}
+\rightarrow
+\text{rediscovery}
+\rightarrow
+\text{breakthrough}.
+\]</span></p>
+<p>Ideas can be economically useless before they become technologically indispensable.</p>
+<p>Timing matters.</p>
+<p>Infrastructure matters.</p>
+<p>Complementarities matter.</p>
+<p>And sometimes persistence matters enormously.</p>
+<hr>
+</section>
+<section id="a-lesson-about-being-wrong" class="level1">
+<h1>A Lesson About Being Wrong</h1>
+<p>The history also makes me think about a distinction we often overlook.</p>
+<p>There are at least two ways to be wrong.</p>
+<p>One is:</p>
+<blockquote class="blockquote">
+<p><strong>The idea is wrong.</strong></p>
+</blockquote>
+<p>The other is:</p>
+<blockquote class="blockquote">
+<p><strong>The idea is right, but my prediction about when it will work is wrong.</strong></p>
+</blockquote>
+<p>Those are not the same failure.</p>
+<p>Rosenblatt’s optimism about neural networks looks naive when viewed from 1960.</p>
+<p>Viewed from 2026, it looks rather more complicated.</p>
+<p>Minsky and Papert were correct about the limitations they demonstrated.</p>
+<p>The broader interpretation that helped bury neural networks looks much less impressive with hindsight.</p>
+<p>Hinton spent decades pursuing an approach much of the field considered obsolete.</p>
+<p>But even Hinton could not simply force the future to arrive.</p>
+<p>He had to wait for data and computation that his own research community could not create.</p>
+<p>This should encourage intellectual humility in both directions.</p>
+<p>The mainstream can dismiss something too early.</p>
+<p>The outsider can also cling to a genuinely bad idea for decades.</p>
+<p>Persistence is admirable only when the underlying idea eventually works.</p>
+<p>For every Hinton, there are probably many researchers who remained stubbornly committed to ideas that really were wrong.</p>
+<p>So the lesson cannot simply be:</p>
+<blockquote class="blockquote">
+<p>“Ignore the consensus and believe in yourself.”</p>
+</blockquote>
+<p>That would be far too easy.</p>
+<p>A better lesson might be:</p>
+<blockquote class="blockquote">
+<p><strong>Distinguish carefully between evidence that an idea is false and evidence that current conditions are insufficient to make it work.</strong></p>
+</blockquote>
+<p>That is much harder.</p>
+<p>And much more useful.</p>
+<hr>
+</section>
+<section id="the-economics-of-research-fashion" class="level1">
+<h1>The Economics of Research Fashion</h1>
+<p>The two AI winters also reveal something about how research actually operates.</p>
+<p>Researchers do not choose topics in a vacuum.</p>
+<p>They respond to:</p>
+<ul>
+<li>grants;</li>
+<li>publication opportunities;</li>
+<li>available data;</li>
+<li>computing resources;</li>
+<li>academic reputation;</li>
+<li>hiring prospects;</li>
+<li>institutional fashion.</li>
+</ul>
+<p>When money leaves a field, people leave with it.</p>
+<p>This is perfectly rational.</p>
+<p>A young researcher has to obtain a job.</p>
+<p>A laboratory has to pay salaries.</p>
+<p>A graduate student cannot necessarily devote twenty years to an idea everyone believes is dead.</p>
+<p>This means scientific progress depends partly on institutional incentives.</p>
+<p>Consensus can become self-reinforcing:</p>
+<p><span class="math display">\[
+\text{less funding}
+\rightarrow
+\text{fewer researchers}
+\rightarrow
+\text{fewer results}
+\rightarrow
+\text{less interest}
+\rightarrow
+\text{still less funding}.
+\]</span></p>
+<p>The reverse can also happen:</p>
+<p><span class="math display">\[
+\text{breakthrough}
+\rightarrow
+\text{funding}
+\rightarrow
+\text{talent}
+\rightarrow
+\text{more breakthroughs}
+\rightarrow
+\text{more funding}.
+\]</span></p>
+<p>After AlexNet, deep learning experienced the second dynamic.</p>
+<p>Researchers did not gradually move toward it.</p>
+<p>The field pivoted remarkably quickly.</p>
+<p>The lesson is slightly uncomfortable.</p>
+<p>Scientific communities are mechanisms for discovering truth.</p>
+<p>But they are also <strong>human institutions operating under incentives</strong>.</p>
+<p>That does not invalidate science.</p>
+<p>It simply means we should not confuse the current allocation of attention with a definitive map of which ideas are ultimately correct.</p>
+<hr>
+</section>
+<section id="what-should-we-think-about-todays-ai-boom" class="level1">
+<h1>What Should We Think About Today’s AI Boom?</h1>
+<p>History therefore leaves us in an awkward but intellectually healthy position.</p>
+<p>Two simplistic conclusions are available.</p>
+<p>The first is:</p>
+<blockquote class="blockquote">
+<p>“AI has been overhyped before. This is another bubble.”</p>
+</blockquote>
+<p>The second is:</p>
+<blockquote class="blockquote">
+<p>“This time AI obviously changes everything.”</p>
+</blockquote>
+<p>Neither follows from the history.</p>
+<p>The evidence supports something less comfortable.</p>
+<p>Today’s AI genuinely works in ways earlier systems did not.</p>
+<p>It creates economically valuable outputs.</p>
+<p>It operates across multiple domains.</p>
+<p>It improves with scale.</p>
+<p>It is attracting extraordinary amounts of investment because companies and individuals can already use it.</p>
+<p>Those are real differences.</p>
+<p>But the history also shows that researchers repeatedly confuse <strong>future possibility with present capability</strong>.</p>
+<p>A system may plausibly become capable of something eventually.</p>
+<p>That does not mean it is capable of it now.</p>
+<p>Nor does it tell us when it will be.</p>
+<p>This distinction is especially important when discussing artificial general intelligence.</p>
+<p>Imagine three statements:</p>
+<ol type="1">
+<li>AI systems may eventually outperform humans across most cognitive tasks.</li>
+<li>Current trends make that possibility worth taking seriously.</li>
+<li>Human-level general intelligence will arrive within five years.</li>
+</ol>
+<p>These are three very different propositions.</p>
+<p>One can believe the first two without having much confidence in the third.</p>
+<p>History should make us skeptical not necessarily about <strong>possibility</strong>, but about <strong>precision in forecasting transformative technology</strong>.</p>
+<hr>
+</section>
+<section id="the-most-useful-lesson-from-1958" class="level1">
+<h1>The Most Useful Lesson From 1958</h1>
+<p>Perhaps the story can be summarized through Rosenblatt’s perceptron.</p>
+<p>The machine itself was primitive.</p>
+<p>The publicity surrounding it was extravagant.</p>
+<p>Its underlying idea was enormously important.</p>
+<p>Its immediate promise was exaggerated.</p>
+<p>Its critics discovered genuine limitations.</p>
+<p>The field overgeneralized those limitations.</p>
+<p>Funding disappeared.</p>
+<p>Decades later the same basic family of ideas returned and became foundational to modern AI.</p>
+<p>Who, then, was right?</p>
+<p>Rosenblatt?</p>
+<p>Minsky?</p>
+<p>The critics?</p>
+<p>The believers?</p>
+<p>In different ways, several of them were.</p>
+<p>That is precisely why the history is valuable.</p>
+<p>It resists the satisfying story in which one visionary understands everything and everyone else is foolish.</p>
+<p>Reality was messier.</p>
+<p>The optimists could see possibilities but underestimated the difficulty and timescale.</p>
+<p>The skeptics correctly identified limitations but sometimes underestimated what future architectures and resources could overcome.</p>
+<p>The breakthrough required both the <strong>idea</strong> and a world technologically capable of realizing it.</p>
+<p>That is a useful way to think about AI today.</p>
+<hr>
+</section>
+<section id="from-intelligence-to-wisdom" class="level1">
+<h1>From Intelligence to Wisdom</h1>
+<p>And there is perhaps a final connection to a broader question.</p>
+<p>Modern AI has become extraordinarily good at generating answers.</p>
+<p>It can retrieve and reorganize knowledge.</p>
+<p>It can identify patterns.</p>
+<p>It can write arguments.</p>
+<p>It can propose strategies.</p>
+<p>It can solve increasingly difficult problems.</p>
+<p>That makes artificial intelligence an extraordinary amplification of human intellectual capability.</p>
+<p>But greater capability creates another question:</p>
+<blockquote class="blockquote">
+<p><strong>What should we do with it?</strong></p>
+</blockquote>
+<p>The history of AI tells us a great deal about how machines learned to recognize patterns.</p>
+<p>It tells us less about what society should ask those machines to optimize.</p>
+<p>We may eventually create systems capable of providing better answers than humans across an extraordinary range of domains.</p>
+<p>That would not remove the need for judgment.</p>
+<p>It might increase it.</p>
+<p>The machine can answer:</p>
+<blockquote class="blockquote">
+<p>How can this be done?</p>
+</blockquote>
+<p>We still have to ask:</p>
+<blockquote class="blockquote">
+<p>Should it be done?</p>
+</blockquote>
+<p>The machine can optimize an objective.</p>
+<p>Someone still has to choose the objective.</p>
+<p>The machine can generate possibilities.</p>
+<p>Someone still has to decide which possibilities are worth pursuing.</p>
+<p>In that sense, perhaps the rise of artificial intelligence does not make human judgment obsolete.</p>
+<p>Perhaps it makes <strong>wisdom more scarce relative to intelligence</strong>.</p>
+<hr>
+</section>
+<section id="the-question-history-cannot-answer" class="level1">
+<h1>The Question History Cannot Answer</h1>
+<p>So where does this leave us?</p>
+<p>Is the current AI boom the beginning of another cycle of extravagant promises followed by disappointment?</p>
+<p>Or have we crossed a technological threshold fundamentally different from the earlier periods?</p>
+<p>History cannot answer that question.</p>
+<p>History does something more useful.</p>
+<p>It tells us what kinds of mistakes people repeatedly make when trying to answer it.</p>
+<p>They confuse demonstrations with general capability.</p>
+<p>They extrapolate rapid early progress too far.</p>
+<p>They underestimate complementary technologies.</p>
+<p>They abandon ideas whose infrastructure has not yet arrived.</p>
+<p>They mistake fluent output for understanding.</p>
+<p>They confuse what may eventually be possible with what is already possible.</p>
+<p>And perhaps most importantly, they are consistently bad at predicting <strong>timing</strong>.</p>
+<p>The source’s concluding observation captures the paradox well: the grand promises surrounding the perceptron were wrong in the short run, yet the underlying idea was eventually vindicated decades later.</p>
+<p>The prediction was simultaneously foolish and prophetic.</p>
+<p>That seems a surprisingly good description of much of technological history.</p>
+<p>So when someone tells us today that artificial intelligence will transform everything, we should not automatically laugh.</p>
+<p>It might.</p>
+<p>When someone tells us exactly what that transformation will look like and exactly when it will happen, we should probably become more cautious.</p>
+<p>Because the history of artificial intelligence is not primarily the story of people who could not imagine the future.</p>
+<p>Quite the opposite.</p>
+<p>It is the story of people who could often imagine the future remarkably well—</p>
+<p>but repeatedly misunderstood <strong>how difficult it would be to get there, what pieces would be needed, and how long the journey would take</strong>.</p>
+<p>And perhaps that is the most useful way to view the strange technological moment we are living through.</p>
+<p>Artificial intelligence did not suddenly arrive.</p>
+<p>It spent eighty years arriving.</p>
+<p>The question now is not simply whether the machines will continue becoming more capable.</p>
+<p>They almost certainly will.</p>
+<p>The harder questions are the ones history leaves to us:</p>
+<blockquote class="blockquote">
+<p><strong>Which capabilities are genuinely new?</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Which promises are old promises wearing new clothes?</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Which limitations are fundamental, and which merely await a technology that has not yet arrived?</strong></p>
+</blockquote>
+<p>And above all:</p>
+<blockquote class="blockquote">
+<p><strong>Are we wise enough to tell the difference?</strong></p>
+</blockquote>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

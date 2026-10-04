@@ -1,0 +1,896 @@
+---
+title: "Indonesia Is Still Growing. So Why Are Investors Losing Confidence?"
+subtitle: "Growth, Institutions, and the Politics of Economic Credibility"
+author: "-YY-"
+date: "2026-10-04"
+categories: [Indonesia, Southeast Asia, economic development, political economy]
+# bibliography: references.bib
+# nocite: '@*'
+---
+
+Indonesia presents an interesting puzzle.
+
+On the surface, the economy still looks relatively strong.
+
+Growth has remained close to 5 percent. The country has a population of more than 280 million. It possesses enormous natural resources, a large domestic market, and an increasingly important position in global supply chains, particularly in nickel and electric-vehicle production.
+
+Yet the mood surrounding the economy has become much less reassuring.
+
+Credit-rating agencies have become more cautious. The stock market has fallen sharply. The rupiah has weakened. Foreign investors have become more nervous. Questions have also emerged about the credibility of some official statistics and the transparency of key institutions.
+
+So how can an economy still growing at around 5 percent generate so much anxiety?
+
+That is the paradox.
+
+And I do not think the answer is that Indonesia has suddenly stopped developing.
+
+The deeper issue may be that investors and households are beginning to ask a different question:
+
+> **What kind of growth is Indonesia producing, and how durable are the institutions supporting it?**
+
+That question takes us back almost three decades.
+
+# The Memory of 1997
+
+Indonesia's current economic model cannot really be understood without the Asian Financial Crisis.
+
+In 1997, Indonesia entered one of the most severe economic crises in its modern history.
+
+Only a short time earlier, growth had been rapid.
+
+But beneath the surface, vulnerabilities had accumulated.
+
+Banks and corporations had borrowed heavily in foreign currency. Much of that borrowing was poorly hedged. Financial-sector debt had grown rapidly. When confidence in Asian markets collapsed and capital began leaving the region, Indonesia was hit particularly hard.
+
+The rupiah depreciated dramatically.
+
+Financial institutions came under severe pressure.
+
+The real economy contracted by roughly 13 percent in 1998.
+
+The crisis quickly became political.
+
+Rising prices, unemployment, and social unrest intensified pressure on President Suharto, who resigned in May 1998 after more than three decades in power.
+
+The crisis was therefore not simply a recession.
+
+It was a collapse in both the economy and confidence in the institutions managing it.
+
+And that experience shaped what came next.
+
+# Rebuilding Credibility
+
+After 1998, Indonesia rebuilt much of its macroeconomic framework around the idea that credibility had to be protected.
+
+Bank Indonesia became more independent.
+
+Fiscal policy became more constrained.
+
+A ceiling was introduced limiting the budget deficit to 3 percent of GDP and public debt to 60 percent of GDP.
+
+These rules were not magical.
+
+There is nothing economically sacred about the number 3.
+
+A deficit of 2.9 percent is not automatically responsible while 3.1 percent is reckless.
+
+But the rule served another purpose.
+
+It acted as a commitment.
+
+Indonesia was effectively saying:
+
+> We will not allow fiscal policy to drift indefinitely simply because short-term political pressures make more spending attractive.
+
+The same logic applied to central-bank independence.
+
+The point was not that central bankers would always be right.
+
+It was that monetary policy should not become an easy instrument of day-to-day political pressure.
+
+In shorthand:
+
+$$
+\text{credibility}
+=
+\text{rules}
++
+\text{institutional independence}
++
+\text{predictability}.
+$$
+
+Over the following two decades, this framework delivered something valuable.
+
+Indonesia grew at around 5 percent per year with remarkable consistency.
+
+The pandemic was a major interruption, but the broader story was one of macroeconomic stability.
+
+That stability mattered because Indonesia had learned, painfully, what happened when confidence disappeared.
+
+# The Next Ambition: Move Up the Value Chain
+
+Stability, however, was not enough.
+
+Indonesia did not want to remain simply a large consumer market and exporter of raw materials.
+
+Nickel became the clearest example of a more ambitious development strategy.
+
+Indonesia holds some of the world's largest nickel reserves. Nickel is important in many electric-vehicle batteries and other industrial applications.
+
+For years, Indonesia exported large quantities of raw nickel ore for processing abroad.
+
+The government wanted more of that value to remain at home.
+
+So Indonesia moved toward a policy of downstreaming.
+
+In 2020, exports of unprocessed nickel ore were banned.
+
+The message to foreign companies was straightforward:
+
+> If you want Indonesia's nickel, process more of it in Indonesia.
+
+This policy changed incentives.
+
+Foreign companies invested in smelters and processing facilities.
+
+Indonesia moved from being mainly a supplier of raw ore toward becoming a much more important center of nickel processing.
+
+Billions of dollars flowed into the country.
+
+From one perspective, this was a clear success.
+
+The country used control over a strategic natural resource to force more industrial activity to occur domestically.
+
+That sounds very much like successful industrial policy.
+
+But the story becomes more complicated when we ask who benefited.
+
+# Growth Is Not the Same as Broad-Based Development
+
+Indonesia's GDP continued to grow.
+
+Investment increased.
+
+The nickel industry expanded.
+
+But many households did not seem to experience the same improvement.
+
+One of the clearest warning signs was the middle class.
+
+The source material notes that Indonesia's middle class numbered roughly 57 million people in 2019, but had fallen to around 48 million five years later.
+
+That is a significant reversal.
+
+It matters especially because household consumption accounts for more than half of Indonesia's GDP.
+
+A country of Indonesia's size cannot rely indefinitely on investment and exports while large numbers of households feel economically insecure.
+
+The labor market helps explain the problem.
+
+Almost 60 percent of Indonesian workers remain in the informal sector.
+
+Informal employment often means lower and less stable income, limited social protection, and weaker career progression.
+
+Even more educated workers have not necessarily been insulated.
+
+The source notes that between 2018 and 2025, the share of highly educated workers in formal jobs fell from roughly 74 percent to 68 percent.
+
+So Indonesia may be creating jobs.
+
+But it is not always creating the kinds of jobs that generate a secure and expanding middle class.
+
+That distinction is crucial.
+
+We can write:
+
+$$
+\text{GDP growth}
+\neq
+\text{broad-based improvement in household welfare}.
+$$
+
+The two can move together.
+
+But they do not have to.
+
+# The Nickel Paradox
+
+The tension is especially visible in manufacturing.
+
+Indonesia has attracted large amounts of Chinese investment into nickel processing and related industries.
+
+At the same time, some traditional manufacturing sectors have come under pressure from cheaper Chinese imports.
+
+Textiles, footwear, and electronics have faced factory closures and job losses.
+
+This produces an unusual development paradox.
+
+Chinese capital can simultaneously:
+
+- help build advanced new industrial capacity;
+- deepen Indonesia's role in global commodity and EV supply chains;
+- and intensify competitive pressure on older labor-intensive industries.
+
+The result can look impressive in aggregate statistics while feeling far less impressive to workers in affected industries.
+
+This raises an important question about the structure of growth.
+
+Suppose one new industry attracts billions of dollars in capital but employs relatively few workers.
+
+At the same time, several older industries employing many more workers contract.
+
+GDP may still rise.
+
+Investment may still look strong.
+
+Exports may still increase.
+
+But the employment effects can be much less favorable.
+
+This is the difference between:
+
+$$
+\text{quantity of investment}
+$$
+
+and
+
+$$
+\text{quality and distribution of development}.
+$$
+
+Indonesia's challenge is not simply to attract more capital.
+
+It is to turn that capital into productivity gains, better jobs, stronger domestic supply chains, and rising household incomes.
+
+# The Politics of 5 Percent Growth
+
+This helps explain the political appeal of President Prabowo Subianto's economic agenda.
+
+If the old model delivered stability but large numbers of households felt that the benefits were not reaching them, then a promise to change the model becomes understandable.
+
+Prabowo promised growth of up to 8 percent.
+
+More importantly, he promised that ordinary Indonesians would feel more of the gains.
+
+The response was a larger role for the state.
+
+The government introduced a large free-meal program.
+
+It announced ambitious plans involving housing, infrastructure, industry, and natural resources.
+
+The objectives are not difficult to understand.
+
+Better nutrition, better housing, better infrastructure, and faster industrialization are all defensible goals.
+
+The difficult question is not whether these goals are desirable.
+
+It is:
+
+> **How should they be financed, and what happens to the institutions that previously constrained policy?**
+
+That is where the current uncertainty begins.
+
+# An Ambitious State with a Small Revenue Base
+
+Indonesia's government collects relatively little revenue compared with many countries at a similar level of development.
+
+The source notes that government revenue in 2025 was around 11.6 percent of GDP, with tax revenue at roughly 9.3 percent.
+
+That creates an obvious tension.
+
+The government wants to undertake increasingly ambitious programs.
+
+But the tax base remains relatively narrow.
+
+In very simple terms:
+
+$$
+\text{ambitious spending}
++
+\text{low revenue}
+=
+\text{financing pressure}.
+$$
+
+That pressure can be resolved in several ways.
+
+Taxes can rise.
+
+Other spending can be cut.
+
+The deficit can increase.
+
+State-owned enterprises can be mobilized.
+
+Capital controls or financial regulations can be used to keep more resources inside the domestic system.
+
+Public assets can be consolidated and invested more aggressively.
+
+None of these options is necessarily wrong.
+
+But each changes the relationship between the state and the economy.
+
+And each can affect investor confidence.
+
+# Keeping Export Dollars at Home
+
+One example is the government's decision to require commodity exporters to retain more of their foreign-currency earnings inside Indonesia.
+
+From March 2025, exporters in sectors such as mining, plantations, forestry, and fisheries were required to keep 100 percent of export proceeds in Indonesia's financial system for 12 months.
+
+Previously, the requirement had been much less restrictive.
+
+The logic is straightforward.
+
+Indonesia earns large amounts of foreign currency from nickel, coal, palm oil, and other commodities.
+
+If more of those dollars remain inside the domestic financial system, the supply of foreign currency increases.
+
+That can support the rupiah.
+
+In simplified form:
+
+$$
+\text{more export dollars retained domestically}
+\rightarrow
+\text{greater FX supply}
+\rightarrow
+\text{less pressure on the rupiah}.
+$$
+
+But what stabilizes the currency from one perspective can constrain firms from another.
+
+Exporters may need access to foreign currency for working capital, imports, debt service, and overseas investment.
+
+So the same policy can be interpreted in two very different ways.
+
+One interpretation is:
+
+> Indonesia is sensibly using its commodity strength to stabilize its financial system.
+
+Another is:
+
+> the government is becoming increasingly interventionist in the movement of private capital.
+
+The economic effect depends partly on implementation.
+
+The political effect depends partly on trust.
+
+# Danantara and the Question of State Capitalism
+
+Another important development is Danantara, the state investment fund created in 2025.
+
+It took over management of a very large pool of state-owned enterprise assets.
+
+The ambition is substantial.
+
+The model is often compared with Singapore's Temasek: use state-owned capital professionally to support long-term national development.
+
+In principle, there is nothing inherently problematic about this.
+
+A well-run sovereign investment vehicle can help coordinate investment, improve the management of state assets, and support strategic development.
+
+But the size and political importance of Danantara create another question.
+
+Will investment decisions be made primarily on economic grounds?
+
+Or will short-term political objectives influence them?
+
+That distinction matters because public investment funds depend heavily on governance.
+
+The issue is not whether the state owns assets.
+
+The issue is whether the institutions controlling those assets are:
+
+- transparent;
+- professionally managed;
+- accountable;
+- insulated from arbitrary political intervention.
+
+Once again, the core issue becomes credibility.
+
+# Central-Bank Independence and the Memory of the Crisis
+
+Perhaps the most sensitive issue is Bank Indonesia.
+
+After the Asian Financial Crisis, central-bank independence became one of the symbols of Indonesia's institutional rebuilding.
+
+The logic was clear.
+
+Monetary policy should not be casually subordinated to fiscal or political objectives.
+
+Under the current government, however, Bank Indonesia has been working more closely with the government on financing and policy coordination.
+
+Closer coordination does not automatically mean that central-bank independence has disappeared.
+
+In periods of crisis or large structural transition, coordination between fiscal and monetary authorities can be useful.
+
+But investors pay close attention to these changes because they remember what the institutional separation was designed to prevent.
+
+The appointment of the president's nephew as a deputy governor added to these concerns.
+
+Again, one appointment does not prove institutional capture.
+
+But markets often respond not to a single event but to a pattern.
+
+And patterns matter.
+
+# The 3 Percent Rule
+
+The debate over Indonesia's fiscal rule may be the clearest symbol of the broader shift.
+
+For more than two decades, the 3 percent deficit ceiling represented fiscal restraint.
+
+In September 2026, Parliament began discussing whether the rule should be changed.
+
+The limit remains in place, and the finance minister has pledged to respect it.
+
+But the debate itself is important.
+
+The economic question is not whether 3 percent is the perfect number.
+
+It almost certainly is not.
+
+The institutional question is different:
+
+> **What happens when a rule designed as a long-term commitment begins to look negotiable?**
+
+This is a classic commitment problem.
+
+Suppose a government creates a rule today:
+
+$$
+D_t \leq 0.03Y_t.
+$$
+
+Investors believe the rule constrains future governments.
+
+That expectation lowers perceived fiscal risk.
+
+But if the rule is repeatedly reconsidered whenever it becomes inconvenient, the value of the commitment falls.
+
+The rule can remain formally intact while its credibility weakens.
+
+That is why markets sometimes react strongly even before policy actually changes.
+
+They are not merely pricing today's deficit.
+
+They are pricing the expected future rules of the game.
+
+# Why 5.12 Percent Became Controversial
+
+This brings us back to the puzzle of official growth.
+
+For the second quarter of 2025, Indonesia reported GDP growth of 5.12 percent.
+
+That was stronger than economists had expected.
+
+Normally, an upside surprise should be good news.
+
+But this particular number generated unusual scrutiny because several other indicators appeared much weaker.
+
+Car sales were falling.
+
+Motorcycle sales were soft.
+
+Foreign direct investment was weakening.
+
+Layoffs were rising.
+
+Credit growth was slowing.
+
+Consumer confidence had fallen.
+
+The manufacturing PMI was below 50, normally associated with contraction.
+
+Yet official data showed manufacturing expanding strongly.
+
+The important point is not that the GDP numbers were necessarily false.
+
+The source material itself does not establish that.
+
+There can be perfectly legitimate reasons why GDP estimates diverge from selected high-frequency indicators.
+
+The more interesting issue is what happens when institutional confidence has already started to weaken.
+
+A surprising statistic is then interpreted differently.
+
+Under high trust:
+
+> “Interesting. The economy performed better than expected.”
+
+Under low trust:
+
+> “Why does the official number look so different from everything else?”
+
+This gives us a useful relationship:
+
+$$
+\text{same statistic}
++
+\text{different level of trust}
+\rightarrow
+\text{different interpretation}.
+$$
+
+Credibility is therefore not just about whether a number is technically correct.
+
+It is about whether people believe the process that produced it.
+
+# Markets Look Forward, GDP Looks Back
+
+This helps explain the apparent contradiction between strong GDP growth and falling asset prices.
+
+GDP is primarily a measure of recent production.
+
+Financial markets are forward-looking.
+
+An investor buying Indonesian assets today is not mainly asking:
+
+> What was GDP growth last quarter?
+
+The investor is asking:
+
+> What will Indonesia's returns and risks look like over the next five, ten, or twenty years?
+
+A simple way to think about an asset price is:
+
+$$
+P_t
+=
+E_t(\text{future returns})
+-
+E_t(\text{future risks}).
+$$
+
+This is not a literal pricing equation.
+
+It is an intuition.
+
+If investors become more worried about:
+
+- policy unpredictability;
+- fiscal pressure;
+- central-bank independence;
+- transparency;
+- corruption;
+- capital controls;
+- institutional checks and balances;
+
+then expected risk rises.
+
+Asset prices can fall even while current GDP remains strong.
+
+That is not necessarily a contradiction.
+
+It is a difference in time horizon.
+
+The economy can be growing today while investors become less confident about tomorrow.
+
+# Growth Versus Credibility
+
+This, I think, is the heart of Indonesia's current economic story.
+
+Indonesia is not suddenly poor.
+
+It has not stopped growing.
+
+It still has enormous advantages:
+
+- a very large domestic market;
+- a young population;
+- major commodity resources;
+- strong strategic importance;
+- expanding industrial capacity;
+- and substantial foreign investment.
+
+The problem is subtler.
+
+The old model emphasized macroeconomic discipline, predictable rules, and institutional restraint.
+
+The new model wants faster transformation, broader redistribution, more industrial policy, and a more active state.
+
+That tension can be written as:
+
+$$
+\text{stability and credibility}
+\quad \text{vs.} \quad
+\text{distribution and faster development}.
+$$
+
+But perhaps that framing is still too simple.
+
+The real challenge is to achieve both.
+
+Indonesia needs a state capable of investing, coordinating, and supporting development.
+
+But it also needs institutions strong enough to reassure investors that state power will be used predictably and transparently.
+
+Development requires capacity.
+
+Credibility requires constraint.
+
+The difficult part is combining them.
+
+# The Constraint May Be the Asset
+
+Governments often experience fiscal rules, independent institutions, and procedural constraints as obstacles.
+
+They slow decisions.
+
+They limit discretion.
+
+They prevent governments from immediately doing everything they would like to do.
+
+But that is precisely why they can be valuable.
+
+A government that says:
+
+> “Trust us. We will behave responsibly.”
+
+is making a promise.
+
+A government that creates institutions preventing itself from behaving irresponsibly is making a stronger promise.
+
+This is the logic of tying one's own hands.
+
+In institutional economics, credibility can arise because future behavior is constrained.
+
+So the 3 percent fiscal ceiling, central-bank independence, and transparent investment governance should not be viewed only as restrictions on policy.
+
+They are also assets.
+
+They reduce uncertainty.
+
+And uncertainty has a price.
+
+# The Political Economy Behind the Shift
+
+There is another side to this story that should not be ignored.
+
+If Indonesia's existing economic model had been delivering rapidly rising prosperity to the majority of households, there might have been much less political pressure to change it.
+
+The demand for a more active state did not emerge from nowhere.
+
+It emerged partly because respectable headline growth did not always translate into secure formal employment or upward mobility.
+
+That creates a political problem.
+
+Macroeconomic stability can look very successful from the perspective of:
+
+- bond markets;
+- credit-rating agencies;
+- foreign investors;
+- central banks.
+
+But voters experience the economy differently.
+
+They ask:
+
+> Is my income rising?
+
+> Can my children obtain good jobs?
+
+> Can I afford housing?
+
+> Do I feel more secure than five years ago?
+
+> Is development improving my life?
+
+These are not irrational questions.
+
+So Indonesia faces two constituencies whose concerns are both legitimate.
+
+Markets want:
+
+$$
+\text{predictability}
++
+\text{discipline}
++
+\text{institutional independence}.
+$$
+
+Households want:
+
+$$
+\text{jobs}
++
+\text{income growth}
++
+\text{public services}
++
+\text{opportunity}.
+$$
+
+The best development model must somehow provide both.
+
+# A Crisis of Confidence, Not Yet a Crisis of Growth
+
+Indonesia today is not experiencing another 1997.
+
+That distinction is important.
+
+The banking system is different.
+
+Foreign-currency vulnerabilities are different.
+
+Public debt remains much lower.
+
+The economy is still growing.
+
+The country continues to attract investment.
+
+There is no reason to describe the present situation as a conventional financial crisis.
+
+But confidence can weaken long before a crisis appears.
+
+That is why the recent market signals matter.
+
+Credit-rating outlooks do not tell us that collapse is inevitable.
+
+Falling stock prices do not prove that the economy is fundamentally unsound.
+
+A weaker rupiah does not mean Indonesia is repeating 1997.
+
+But taken together, they tell us something about expectations.
+
+Investors are becoming less certain that the institutional model they trusted for two decades will remain unchanged.
+
+That is a different type of warning.
+
+# Indonesia's 5 Percent Paradox
+
+We can now return to the original puzzle.
+
+How can Indonesia grow at more than 5 percent while investors become more pessimistic?
+
+Because the two observations are answering different questions.
+
+GDP asks:
+
+> **How much did the economy produce?**
+
+Markets ask:
+
+> **How confident are we about future returns, policy, and institutions?**
+
+Households ask:
+
+> **Am I actually becoming more prosperous and secure?**
+
+These three measures do not have to move together.
+
+Indonesia may therefore be experiencing three different realities at once:
+
+$$
+\text{strong headline growth},
+$$
+
+$$
+\text{weakening household confidence},
+$$
+
+and
+
+$$
+\text{rising institutional uncertainty}.
+$$
+
+That combination is unusual, but not contradictory.
+
+# What Happens Next?
+
+Indonesia still has enormous potential.
+
+Few countries combine:
+
+- a population of more than 280 million;
+- major strategic mineral reserves;
+- a large domestic market;
+- a relatively young labor force;
+- and an increasingly important geopolitical position.
+
+The challenge is therefore not simply to restore investor confidence by returning to the old model.
+
+Nor is it simply to ignore markets and pursue state-led development at any cost.
+
+The harder task is to build a model in which greater state ambition does not weaken institutional credibility.
+
+That means asking difficult questions.
+
+Can Indonesia expand social programs without undermining fiscal discipline?
+
+Can Danantara become a powerful development vehicle without becoming politicized?
+
+Can industrial policy generate more good jobs rather than simply more capital-intensive investment?
+
+Can Bank Indonesia coordinate with the government while preserving genuine independence?
+
+Can the middle class begin expanding again?
+
+Can Indonesia move up the value chain without sacrificing labor-intensive industries that still employ millions?
+
+And can the government convince both citizens and investors that faster development does not require weaker rules?
+
+Those questions matter more than whether GDP growth next quarter is 4.9 percent or 5.1 percent.
+
+# The Deeper Lesson
+
+Indonesia's experience illustrates a broader lesson about development.
+
+Economic growth is not only about accumulating capital.
+
+It is also about maintaining institutions that allow people to trust the future.
+
+A country can possess natural resources, factories, infrastructure, and a huge labor force.
+
+But investment decisions depend partly on expectations.
+
+Expectations depend partly on credibility.
+
+And credibility is accumulated slowly.
+
+It can also be lost surprisingly quickly.
+
+That gives us a useful chain:
+
+$$
+\text{institutions}
+\rightarrow
+\text{credibility}
+\rightarrow
+\text{investment}
+\rightarrow
+\text{growth}.
+$$
+
+But the relationship can also run in the other direction.
+
+If growth fails to create broad prosperity, political pressure builds.
+
+That pressure can produce demands for intervention.
+
+Intervention can weaken confidence if institutions are perceived as becoming less predictable.
+
+So perhaps the fuller cycle is:
+
+$$
+\text{growth}
+\rightarrow
+\text{distributional disappointment}
+\rightarrow
+\text{political pressure}
+\rightarrow
+\text{policy change}
+\rightarrow
+\text{institutional uncertainty}
+\rightarrow
+\text{weaker confidence}.
+$$
+
+That is the tension Indonesia now appears to be navigating.
+
+Its problem is not that development has stopped.
+
+Its challenge is to prevent an understandable effort to make development more inclusive from weakening the institutional foundations that made sustained growth possible in the first place.
+
+And that may be why Indonesia's current moment is so interesting.
+
+The country is still growing.
+
+The resources are still there.
+
+The opportunities are still enormous.
+
+But after the trauma of 1997 and two decades spent rebuilding credibility, the most important economic asset Indonesia now has may not be nickel, coal, palm oil, or even its huge domestic market.
+
+It may be something much less visible:
+
+> **the belief that the rules of the game will remain credible.**
+
+If that belief holds, Indonesia has every reason to remain one of Asia's most important growth stories.
+
+If it weakens, 5 percent growth may no longer be enough to reassure anyone.
