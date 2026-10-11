@@ -1,0 +1,1000 @@
+---
+title: "Malaysia Is Almost High Income. So Why Does It Still Feel Stuck?"
+subtitle: "Vision 2020, the Middle-Income Trap, and the Hardest Stage of Economic Development"
+author: "-YY-"
+date: "2026-10-11"
+categories: [Malaysia, Southeast Asia, economic development, middle-income trap]
+# bibliography: references.bib
+# nocite: '@*'
+---
+
+Malaysia is in an unusual position.
+
+On paper, the country is doing many things right.
+
+Growth remains respectable.
+
+Its infrastructure is better than that of many countries at a similar income level.
+
+The ringgit has strengthened.
+
+The electronics industry remains globally important.
+
+Malaysia is deeply integrated into international trade and sits along one of the world's most important shipping routes.
+
+And by conventional measures, the country is now very close to high-income status.
+
+Yet there is still a sense that Malaysia has not quite completed the transformation that once seemed inevitable.
+
+That is the puzzle.
+
+In 1991, Prime Minister Mahathir Mohamad announced **Vision 2020**.
+
+The ambition was bold but clear:
+
+> Malaysia would become a fully developed country by the year 2020.
+
+At the time, the goal did not seem absurd.
+
+Malaysia was growing rapidly.
+
+Factories were expanding.
+
+Foreign investment was pouring in.
+
+New highways, industrial estates, ports, and urban centers were being built.
+
+Between the late 1980s and mid-1990s, economic growth was extraordinarily strong.
+
+Malaysia looked like one of Asia's next great development successes.
+
+Then 2020 arrived.
+
+Malaysia was far richer than it had been in 1991.
+
+Poverty was much lower.
+
+The industrial base was deeper.
+
+The country was far more urbanized.
+
+The middle class was larger.
+
+But the symbolic finish line had not been crossed.
+
+And even now, with Malaysia close to the World Bank's high-income threshold, the more important question remains unresolved:
+
+> **Has Malaysia become the kind of high-productivity economy that Vision 2020 imagined?**
+
+That is a harder question than whether GNI per capita crosses a statistical line.
+
+# Malaysia's Earlier Model Worked Extremely Well
+
+To understand why Malaysia now seems stuck, we first have to acknowledge how successful the earlier model was.
+
+In the 1970s and 1980s, Malaysia was still heavily dependent on commodities such as rubber, tin, palm oil, and petroleum.
+
+The government understood that commodities alone would not generate sustained high-income development.
+
+So Malaysia did something very sensible.
+
+It industrialized through foreign investment.
+
+Free-trade zones were established.
+
+Penang became one of the most important early electronics hubs in Southeast Asia.
+
+Multinational firms such as Intel, AMD, and Hewlett-Packard invested.
+
+Malaysia offered:
+
+- relatively low labor costs;
+- political stability;
+- English-speaking workers;
+- good infrastructure;
+- investment incentives;
+- access to global shipping routes.
+
+The strategy worked.
+
+Workers moved out of low-productivity agriculture into manufacturing.
+
+Productivity rose.
+
+Exports expanded.
+
+Urbanization accelerated.
+
+Income increased quickly.
+
+The development logic was powerful:
+
+$$
+\text{agriculture}
+\rightarrow
+\text{manufacturing}
+\rightarrow
+\text{higher productivity}
+\rightarrow
+\text{higher income}.
+$$
+
+This is one of the classic ways economies move from low income to middle income.
+
+And Malaysia executed that transition very successfully.
+
+# Penang and the Electronics Miracle
+
+Penang became the symbol of this transformation.
+
+It attracted multinational electronics firms and developed a dense manufacturing ecosystem.
+
+Malaysia became deeply embedded in semiconductor supply chains.
+
+Today, the country remains especially strong in assembly, testing, and packaging.
+
+That is not a trivial achievement.
+
+Malaysia handles a significant share of the world's semiconductor back-end activity.
+
+The difficulty is what comes next.
+
+Semiconductor production is not one activity.
+
+It is a value chain.
+
+At one end are lower-margin activities such as assembly and testing.
+
+At the other are higher-margin activities such as:
+
+- chip design;
+- intellectual property;
+- advanced fabrication;
+- specialized equipment;
+- advanced materials;
+- software;
+- research and development.
+
+Malaysia became very good at one part of the chain.
+
+The harder step was moving upward.
+
+That distinction matters because economic development eventually becomes a question not just of **what you produce**, but **where in the value chain you sit**.
+
+# The Hard Part Comes After Industrialization
+
+Moving from agriculture into factories can generate very large productivity gains.
+
+Moving from factories into innovation is much harder.
+
+The first transition often depends on:
+
+- infrastructure;
+- basic education;
+- foreign investment;
+- labor availability;
+- export access.
+
+The second transition depends much more on:
+
+- advanced skills;
+- research;
+- entrepreneurship;
+- technological capability;
+- intellectual property;
+- high-quality institutions;
+- competitive domestic firms.
+
+So the development problem changes.
+
+The early stage looks like:
+
+$$
+\text{low-wage labor}
++
+\text{foreign capital}
+\rightarrow
+\text{rapid catch-up}.
+$$
+
+The later stage looks more like:
+
+$$
+\text{skills}
++
+\text{technology}
++
+\text{innovation}
++
+\text{institutions}
+\rightarrow
+\text{productivity growth}.
+$$
+
+Malaysia mastered much of the first formula.
+
+The second has proved more difficult.
+
+# Too Expensive to Be Cheap, Not Yet Advanced Enough to Be Expensive
+
+This is the classic middle-income problem.
+
+As wages rise, low-cost manufacturing becomes harder to sustain.
+
+Firms begin comparing Malaysia with countries such as Vietnam and Indonesia.
+
+Those countries may offer lower wages and large labor forces.
+
+At the same time, Malaysia is competing upward against economies such as South Korea, Taiwan, Japan, Singapore, and increasingly China.
+
+Those countries compete through technology, productivity, design, capital intensity, and innovation.
+
+Malaysia therefore risks getting squeezed between two groups:
+
+$$
+\text{lower-cost competitors}
+\quad\text{and}\quad
+\text{higher-productivity competitors}.
+$$
+
+That is the uncomfortable middle.
+
+If wages remain low, households feel stuck.
+
+If wages rise without productivity, firms may leave.
+
+The only durable solution is:
+
+$$
+\text{higher wages}
+\rightarrow
+\text{higher productivity}.
+$$
+
+That requires upgrading.
+
+# Why Didn't Malaysia Move Up Faster?
+
+This is where the story becomes more complicated.
+
+There is no single explanation.
+
+It would be tempting to blame one policy, one political era, or one institutional failure.
+
+But Malaysia's slower upgrading appears to reflect several interacting forces:
+
+- weak productivity growth;
+- shortages of high-level technical skills;
+- brain drain;
+- reliance on low-wage migrant labor;
+- limited innovation among domestic firms;
+- uneven competition;
+- political constraints on reform;
+- and a policy system shaped by long-standing distributional compromises.
+
+The challenge is not that Malaysia lacks resources.
+
+It is that the incentives for transformation have often been weaker than the incentives for maintaining a successful existing model.
+
+# The New Economic Policy: Success and Lock-In
+
+One of the most important institutions in modern Malaysia is the **New Economic Policy**, introduced in 1971.
+
+Its origins were serious.
+
+Malaysia had experienced severe racial tensions in 1969.
+
+Economic inequality overlapped with ethnicity.
+
+The ethnic Chinese minority was disproportionately represented in private business and wealth, while many ethnic Malays, or Bumiputera, remained rural and poor.
+
+The government responded with an explicit redistribution strategy.
+
+The goals included:
+
+- poverty reduction;
+- greater Malay participation in education;
+- greater access to professional employment;
+- ownership and business opportunities;
+- and a reduction in the economic identification of ethnicity with occupation.
+
+In important ways, the policy succeeded.
+
+A much larger Malay middle class emerged.
+
+Educational access expanded.
+
+Poverty fell dramatically.
+
+Social stability improved.
+
+This matters.
+
+The NEP should not be understood simply as an economic distortion.
+
+It was also a political settlement.
+
+But policies that solve one historical problem can create new difficulties when they become permanent.
+
+Over time, preferences and quotas became embedded in:
+
+- public employment;
+- university admissions;
+- procurement;
+- licensing;
+- corporate ownership;
+- business opportunities.
+
+That creates an institutional dilemma.
+
+A policy can simultaneously be:
+
+$$
+\text{socially stabilizing}
+$$
+
+and
+
+$$
+\text{economically distortionary}.
+$$
+
+Both can be true.
+
+The important question is whether an institution that was highly valuable at one stage of development remains equally well designed for another.
+
+# From Redistribution to Rent-Seeking
+
+The concern is not simply that preferences exist.
+
+The deeper danger is what happens when distributional policy becomes entangled with political connections.
+
+Government contracts can become less competitive.
+
+Licenses can become rents.
+
+Corporate privileges can become difficult to remove.
+
+Protected firms can become less exposed to market discipline.
+
+Political access can become more valuable than innovation.
+
+This is how redistribution can gradually become entangled with crony capitalism.
+
+The mechanism is familiar:
+
+$$
+\text{protection}
+\rightarrow
+\text{lower competitive pressure}
+\rightarrow
+\text{weaker incentives to innovate}.
+$$
+
+Again, this is not unique to Malaysia.
+
+Many countries develop institutions that were initially useful but become harder to reform precisely because groups learn how to benefit from them.
+
+That is institutional lock-in.
+
+# The Brain Drain Problem
+
+Malaysia also faces a persistent problem with skilled emigration.
+
+Many educated Malaysians work abroad.
+
+Singapore is the obvious destination because it is nearby, culturally familiar, English-speaking, and offers much higher salaries in many professional occupations.
+
+Australia, the United Kingdom, the United States, and other countries also attract Malaysian talent.
+
+Migration itself is not necessarily bad.
+
+People gain experience.
+
+Diaspora networks can create trade, investment, and knowledge links.
+
+The problem appears when leaving becomes systematically more attractive than staying.
+
+Suppose a talented graduate faces two options:
+
+$$
+\text{stay}
+=
+\text{lower salary}
++
+\text{limited advancement}
++
+\text{institutional frustration}
+$$
+
+versus
+
+$$
+\text{leave}
+=
+\text{higher salary}
++
+\text{stronger career path}
++
+\text{more merit-based opportunities}.
+$$
+
+Then emigration becomes rational at the individual level.
+
+But repeated across thousands of people, it becomes a national development problem.
+
+This creates a feedback loop:
+
+$$
+\text{limited high-quality jobs}
+\rightarrow
+\text{skilled emigration}
+\rightarrow
+\text{smaller talent pool}
+\rightarrow
+\text{harder industrial upgrading}.
+$$
+
+A country can therefore invest heavily in education yet fail to capture the full return.
+
+# Cheap Labor as a Substitute for Upgrading
+
+Another important issue is Malaysia's long reliance on low-wage migrant labor.
+
+Workers from Indonesia, Bangladesh, Nepal, and other countries have played major roles in:
+
+- manufacturing;
+- plantations;
+- construction;
+- services.
+
+For firms, this often makes economic sense.
+
+Why spend heavily on automation if labor remains relatively cheap?
+
+Why redesign production if workers can be added instead?
+
+Why raise wages significantly if migrant labor remains available?
+
+This can slow capital deepening.
+
+The mechanism is simple:
+
+$$
+\text{cheap labor}
+\rightarrow
+\text{weaker automation incentives}
+\rightarrow
+\text{slower productivity growth}.
+$$
+
+The result is another trap.
+
+Firms remain competitive because labor stays cheap.
+
+But wages stay low partly because firms do not become much more productive.
+
+The economy then struggles to generate the high-paying technical jobs that educated workers expect.
+
+# The Graduate Wage Problem
+
+This matters because the social meaning of economic development changes over time.
+
+In an earlier generation, moving from agriculture into factory work could represent a large improvement.
+
+For a university graduate today, the benchmark is different.
+
+A graduate may expect:
+
+- professional work;
+- career progression;
+- higher wages;
+- housing affordability;
+- financial security.
+
+If starting salaries remain low relative to the cost of living, frustration grows.
+
+The macroeconomy can look healthy while young professionals feel squeezed.
+
+This creates another important distinction:
+
+$$
+\text{GDP growth}
+\neq
+\text{felt prosperity}.
+$$
+
+Malaysia may continue growing.
+
+But if skilled workers do not see strong wage progression, the economy can still feel stuck.
+
+# Vision 2020 Was Really About More Than Income
+
+This is why the Vision 2020 story is so useful.
+
+Mahathir's original ambition was not simply:
+
+> Raise GNI per capita above a World Bank threshold.
+
+The idea of becoming "developed" was broader.
+
+A developed Malaysia was supposed to be:
+
+- technologically capable;
+- confident;
+- industrially sophisticated;
+- innovative;
+- cohesive;
+- internationally competitive.
+
+So even if Malaysia crosses the statistical high-income line soon, the more interesting question remains:
+
+> **Has the structure of the economy changed enough?**
+
+A country can become high income because:
+
+- the currency strengthens;
+- nominal incomes rise;
+- commodity prices help;
+- productivity improves gradually.
+
+But that is not the same as becoming an innovation-led economy.
+
+This is why the distinction matters:
+
+$$
+\text{high-income classification}
+\neq
+\text{fully transformed economy}.
+$$
+
+# Politics and the Cost of Reform
+
+Malaysia's political system has also made structural reform difficult.
+
+For decades, Barisan Nasional dominated politics.
+
+That produced predictability.
+
+It also produced entrenched networks of patronage.
+
+Then came the 1MDB scandal.
+
+A state investment vehicle intended to support development became associated with one of the largest financial scandals in recent history.
+
+The episode damaged trust.
+
+In 2018, voters removed the ruling coalition from power for the first time.
+
+That was a major democratic shift.
+
+But political competition then became much more fragmented.
+
+Malaysia went through multiple prime ministers and unstable coalitions over a relatively short period.
+
+This matters for economic policy.
+
+Structural reform is politically costly.
+
+Governments may need to:
+
+- reduce subsidies;
+- broaden taxes;
+- reform procurement;
+- change labor policy;
+- redesign ethnic preferences;
+- increase competition;
+- restructure state-owned firms.
+
+These reforms create obvious losers in the short run.
+
+A fragile coalition has less incentive to undertake them.
+
+That creates another form of lock-in:
+
+$$
+\text{political fragility}
+\rightarrow
+\text{reform avoidance}
+\rightarrow
+\text{structural persistence}.
+$$
+
+The economy does not collapse.
+
+It simply changes more slowly than it needs to.
+
+# The 1MDB Lesson
+
+The 1MDB episode is also important for another reason.
+
+Malaysia's development model has historically involved a strong state.
+
+State-linked investment can be very effective.
+
+Governments can coordinate infrastructure.
+
+They can support industrial policy.
+
+They can take risks private investors avoid.
+
+But state capacity works only when paired with governance.
+
+The lesson is not:
+
+> government involvement is bad.
+
+The lesson is:
+
+$$
+\text{state capacity}
+-
+\text{accountability}
+=
+\text{risk of rent extraction}.
+$$
+
+That matters because Malaysia's future development strategy will still require active government.
+
+The semiconductor transition.
+
+Energy policy.
+
+Skills.
+
+Research.
+
+Infrastructure.
+
+All require coordination.
+
+So the challenge is not to withdraw the state.
+
+It is to make the state more capable and more accountable at the same time.
+
+# The Semiconductor Opportunity Is Not Over
+
+Malaysia's story is not finished.
+
+In fact, the global semiconductor reorganization may create one of the country's best opportunities in decades.
+
+Supply chains are diversifying.
+
+Geopolitical tensions are pushing firms to reduce concentration.
+
+Malaysia already possesses:
+
+- semiconductor experience;
+- industrial infrastructure;
+- logistics;
+- engineering talent;
+- multinational relationships;
+- political stability relative to many peers.
+
+That is a strong starting point.
+
+The question is whether Malaysia can use its existing back-end strength to move further into:
+
+- design;
+- advanced packaging;
+- equipment;
+- materials;
+- research;
+- specialized engineering.
+
+This is important because Malaysia does not need to become Taiwan overnight.
+
+Development is not binary.
+
+The question is whether the domestic share of value added rises.
+
+In other words:
+
+$$
+\text{more chips}
+$$
+
+is less important than
+
+$$
+\text{more Malaysian value inside each chip}.
+$$
+
+That is the upgrading challenge.
+
+# Malaysia's Position Is Better Than the Word "Trap" Suggests
+
+The phrase **middle-income trap** can be misleading.
+
+It sounds as though Malaysia is trapped permanently.
+
+It is not.
+
+Malaysia has many advantages:
+
+- strong infrastructure;
+- high literacy;
+- relatively good institutions;
+- global manufacturing integration;
+- English language capability;
+- natural resources;
+- strategic geography;
+- a sophisticated financial system;
+- a large urban middle class.
+
+The country is not stuck because development is impossible.
+
+It is stuck because the next step is much harder than the previous one.
+
+Moving from low productivity to moderate productivity can be achieved partly by reallocating workers.
+
+Moving from moderate productivity to high productivity requires innovation.
+
+That is a qualitatively different challenge.
+
+# Crossing the Line May Hide the Problem
+
+This creates a slightly ironic possibility.
+
+Malaysia may soon cross into high-income status.
+
+When that happens, headlines will celebrate.
+
+And they should.
+
+It would represent enormous progress over several generations.
+
+But the danger is that the classification itself becomes another source of complacency.
+
+If Malaysia crosses the threshold before solving:
+
+- weak wage growth;
+- brain drain;
+- low innovation;
+- dependence on migrant labor;
+- uneven regional development;
+- productivity stagnation;
+
+then the label "high income" may conceal unfinished work.
+
+The country could statistically arrive before structurally arriving.
+
+That would be a very Malaysian version of the middle-income trap:
+
+> **escaping the category without fully escaping the underlying problem.**
+
+# National Income Can Hide Regional Differences
+
+There is another reason to be cautious about national averages.
+
+Malaysia is geographically uneven.
+
+Kuala Lumpur and some richer states have income levels that look very different from poorer regions.
+
+So a national high-income classification does not mean every part of Malaysia suddenly experiences high-income living standards.
+
+This creates another distinction:
+
+$$
+\text{national high income}
+\neq
+\text{uniform high income}.
+$$
+
+Development is always partly spatial.
+
+The question is not only whether average income rises.
+
+It is whether productivity and opportunity spread.
+
+# The Comfortable Road
+
+The podcast makes one provocative argument that is worth keeping, though in a softer form.
+
+Malaysia may have spent too long taking the comfortable road.
+
+Its earlier model remained good enough.
+
+Foreign firms kept investing.
+
+Cheap labor remained available.
+
+Commodities generated revenue.
+
+Infrastructure remained strong.
+
+The economy kept growing.
+
+Nothing forced a dramatic change.
+
+That is precisely why structural stagnation can persist.
+
+Crisis forces reform.
+
+Comfort often delays it.
+
+The mechanism might look like:
+
+$$
+\text{good enough performance}
+\rightarrow
+\text{weak reform pressure}
+\rightarrow
+\text{slow upgrading}.
+$$
+
+This is not failure.
+
+It is inertia.
+
+And inertia is especially dangerous because it feels stable.
+
+# Malaysia Didn't Fail. It Stopped Transforming Fast Enough.
+
+That, to me, is the fairest interpretation.
+
+Malaysia did not fail.
+
+It transformed dramatically.
+
+A commodity-based economy became a manufacturing economy.
+
+A poor country became an upper-middle-income country.
+
+Infrastructure improved.
+
+Education expanded.
+
+Poverty fell.
+
+Cities modernized.
+
+Industrial capability deepened.
+
+That is a remarkable achievement.
+
+The issue is that the pace of transformation slowed before the process was complete.
+
+The country reached the difficult final stage:
+
+$$
+\text{industrial economy}
+\rightarrow
+\text{innovation economy}.
+$$
+
+That transition has taken longer than Vision 2020 imagined.
+
+# What Would the Next Malaysia Look Like?
+
+The answer is not simply:
+
+> more factories.
+
+Malaysia already has factories.
+
+It is not simply:
+
+> more foreign investment.
+
+Malaysia already attracts foreign investment.
+
+The next stage requires something more difficult.
+
+It requires more domestic capability.
+
+More engineering.
+
+More research.
+
+More technology.
+
+More competitive firms.
+
+More entrepreneurship.
+
+Higher productivity.
+
+Higher wages.
+
+And perhaps most importantly, stronger incentives for talented Malaysians to build their careers at home.
+
+The development strategy therefore has to shift from:
+
+$$
+\text{attract foreign production}
+$$
+
+toward:
+
+$$
+\text{build domestic capability}.
+$$
+
+That is a very different objective.
+
+# What Vision 2020 Still Gets Right
+
+Vision 2020 missed its deadline.
+
+But the underlying ambition remains relevant.
+
+The point was never simply to become richer.
+
+It was to become a different kind of economy.
+
+That challenge remains.
+
+Malaysia is close enough to high-income status that the statistical question may soon disappear.
+
+The structural question will not.
+
+Can Malaysia move beyond assembly?
+
+Can it retain more talent?
+
+Can wages rise with productivity?
+
+Can migrant labor become a complement to upgrading rather than a substitute for it?
+
+Can affirmative-action institutions evolve without destabilizing the social settlement they helped create?
+
+Can politics become stable enough to support difficult reform without returning to the old patterns of patronage?
+
+Can Malaysia turn its semiconductor position into deeper technological capability?
+
+These are not questions about whether Malaysia is successful.
+
+It clearly is.
+
+They are questions about what kind of success comes next.
+
+# The Hardest Part of Development
+
+The early stages of development can be dramatic.
+
+Workers leave farms.
+
+Factories open.
+
+Exports surge.
+
+Cities grow.
+
+Highways appear.
+
+Living standards rise visibly.
+
+The later stages are less spectacular.
+
+They depend on:
+
+- institutions;
+- skills;
+- research;
+- competition;
+- incentives;
+- governance;
+- productivity.
+
+These things are slower.
+
+They are politically harder.
+
+They cannot be imported as easily as factories.
+
+That may be the deepest lesson of Malaysia's story.
+
+Malaysia did not run out of advantages.
+
+It ran into the hardest stage of development.
+
+And that is why the country's current position is so interesting.
+
+The finish line is close enough to see.
+
+But perhaps the finish line was never really the World Bank threshold.
+
+Malaysia's challenge may no longer be crossing the high-income line.
+
+It is building the kind of economy that makes crossing that line meaningful.

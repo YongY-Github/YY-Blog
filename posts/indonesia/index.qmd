@@ -12,7 +12,7 @@ Indonesia presents an interesting puzzle.
 
 On the surface, the economy still looks relatively strong.
 
-Growth has remained close to 5 percent. The country has a population of more than 280 million. It possesses enormous natural resources, a large domestic market, and an increasingly important position in global supply chains, particularly in nickel and electric-vehicle production.
+Growth has remained close to 5 percent. The country has more than 280 million people, enormous natural resources, a large domestic market, and an increasingly important position in global supply chains, particularly in nickel and electric-vehicle production.
 
 Yet the mood surrounding the economy has become much less reassuring.
 
@@ -28,7 +28,405 @@ The deeper issue may be that investors and households are beginning to ask a dif
 
 > **What kind of growth is Indonesia producing, and how durable are the institutions supporting it?**
 
-That question takes us back almost three decades.
+But before getting to the current policy debate, there is an even deeper problem.
+
+Indonesia is extraordinarily difficult to govern in the first place.
+
+# Before the 5 Percent Paradox, There Is a Geography Paradox
+
+Indonesia stretches roughly 5,000 kilometers from east to west.
+
+It consists of more than 17,000 islands.
+
+Most of those islands are small and lightly populated. Around 93 percent of Indonesians live on only five large islands: Java, Sumatra, Borneo, Sulawesi, and New Guinea.
+
+But even that understates the imbalance.
+
+More than half of Indonesia's population lives on Java.
+
+Java contains only a small share of the country's land area, yet it is home to well over 150 million people.
+
+At the same time, much of the country's mineral wealth lies elsewhere.
+
+Nickel.
+
+Coal.
+
+Copper.
+
+Gold.
+
+Large land areas.
+
+Much of this is found on islands outside Java.
+
+So Indonesia begins with a fundamental mismatch:
+
+$$
+\text{people and political power}
+\neq
+\text{land and natural resources}.
+$$
+
+This is not merely an interesting fact about geography.
+
+It shapes the entire development problem.
+
+Factories want to be near workers and markets.
+
+Workers want to be near jobs.
+
+Governments want to place infrastructure where large numbers of people can use it.
+
+But natural resources may be thousands of kilometers away.
+
+The result is a country where economic concentration and physical resources are distributed very unevenly.
+
+# The Cost of Being an Archipelago
+
+A normal country can build one integrated electricity grid.
+
+Indonesia often has to build many.
+
+A normal country can connect industrial centers by road or rail.
+
+Indonesia repeatedly reaches the sea.
+
+A normal country can move trucks across provincial borders.
+
+Indonesia often needs ships, ferries, or aircraft.
+
+That raises the cost of almost everything.
+
+Electricity networks have to be duplicated.
+
+Transport systems remain fragmented.
+
+Shipping between Indonesian islands can be surprisingly expensive.
+
+The attached narrative gives a striking example: a container traveling from Jakarta to Singapore could historically cost far less than moving a similar distance between Jakarta and another Indonesian city.
+
+The point is not the exact price today.
+
+The point is structural.
+
+Domestic integration can be more difficult than international trade.
+
+This can be summarized as:
+
+$$
+\text{distance}
++
+\text{fragmentation}
++
+\text{small local markets}
+\rightarrow
+\text{high logistics costs}.
+$$
+
+Those costs matter because development depends on moving goods, workers, energy, information, and capital efficiently.
+
+When internal transport is expensive, firms cluster even more strongly in already-developed regions.
+
+That makes regional inequality harder to reverse.
+
+# Why Subsidizing Ships Is Not Enough
+
+Indonesia has tried to reduce these disadvantages.
+
+One initiative is the subsidized maritime network often described as the "sea toll."
+
+The government supports fixed shipping routes linking more remote islands to the rest of the country.
+
+That helps.
+
+Goods arrive more regularly.
+
+Some prices fall.
+
+But the attached narrative highlights a revealing asymmetry.
+
+Ships may leave Java full of manufactured goods and consumer products.
+
+Many return much emptier.
+
+Why?
+
+Because the eastern islands often do not produce enough marketable output to fill the ships on the return journey.
+
+That creates a development problem that infrastructure alone cannot solve.
+
+A shipping subsidy can reduce the cost of moving goods.
+
+It cannot automatically create factories, firms, skilled workers, suppliers, or consumer demand.
+
+In other words:
+
+$$
+\text{connectivity}
+\neq
+\text{productive capacity}.
+$$
+
+The state can build the bridge.
+
+It cannot instantly create the economy on the other side.
+
+# Why Everyone Lives on Java
+
+At first glance, Java's extraordinary population density looks irrational.
+
+The island has dozens of active volcanoes.
+
+Earthquakes are common.
+
+Millions of people live close to volcanic hazards.
+
+Jakarta itself faces flooding and severe land subsidence.
+
+Why would so many people remain concentrated there?
+
+The answer is that the same geology that makes Java dangerous also helped make it productive.
+
+Volcanic activity repeatedly renews the soil.
+
+For an agricultural society, that matters enormously.
+
+Much tropical soil becomes nutrient-poor over time because heavy rainfall leaches minerals away.
+
+Volcanic ash does the opposite.
+
+It adds fresh minerals.
+
+Java's soils could support intensive agriculture and very high population density.
+
+So the historical logic was not:
+
+> people foolishly settled beside volcanoes.
+
+It was closer to:
+
+$$
+\text{volcanic activity}
+\rightarrow
+\text{fertile soil}
+\rightarrow
+\text{high agricultural productivity}
+\rightarrow
+\text{population concentration}.
+$$
+
+The danger and the advantage came from the same source.
+
+That is one reason Java became the demographic and political core of the archipelago.
+
+# Colonial Geography and Economic Path Dependence
+
+Indonesia did not begin as a single unified state designed around economic balance.
+
+Before colonial rule, the archipelago contained many kingdoms, sultanates, trading centers, and regional societies.
+
+The Dutch East India Company did not set out to build a well-balanced modern nation.
+
+It was a commercial enterprise.
+
+It expanded where trade and resources justified expansion.
+
+It controlled islands because they produced spices, commodities, or strategic advantages.
+
+The Dutch colonial state later inherited and expanded that system.
+
+When Indonesia became independent in 1945, it inherited the borders and much of the spatial structure of that colonial economy.
+
+The political center remained on Java.
+
+The capital remained in Jakarta, formerly Batavia.
+
+Resources remained scattered across distant islands.
+
+The country therefore inherited something close to the geography of a commercial empire.
+
+That does not mean modern Indonesia is simply a colonial creation.
+
+Quite the opposite.
+
+The remarkable story is how much institution-building Indonesians had to do after independence to make such a fragmented territory governable.
+
+# Jakarta: The Cost of Concentration
+
+Jakarta became one of the largest urban areas in the world.
+
+That concentration created enormous economic advantages.
+
+Firms could find workers.
+
+Workers could find employers.
+
+Banks, government agencies, universities, suppliers, consumers, and infrastructure clustered together.
+
+Economists call this agglomeration.
+
+The basic mechanism is self-reinforcing:
+
+$$
+\text{firms}
+\rightarrow
+\text{workers}
+\rightarrow
+\text{suppliers}
+\rightarrow
+\text{markets}
+\rightarrow
+\text{more firms}.
+$$
+
+But agglomeration also creates congestion.
+
+Land becomes expensive.
+
+Traffic worsens.
+
+Infrastructure comes under pressure.
+
+Housing becomes more difficult.
+
+And in Jakarta's case, groundwater extraction contributed to severe land subsidence.
+
+Much of the city was built on soft alluvial soil.
+
+Where piped water did not reach households and businesses, wells became essential.
+
+Groundwater was pumped out.
+
+The soil compacted.
+
+The city sank.
+
+In some northern districts, the land now sits below sea level.
+
+The important point is that Jakarta's problem is not simply "rising seas."
+
+The city itself has been sinking.
+
+That is the physical expression of overconcentration.
+
+# Nusantara: Can a Government Move Economic Gravity?
+
+In 2019, Indonesia announced a radical response.
+
+Build a new capital.
+
+The new city, Nusantara, would be located on Borneo.
+
+The idea is understandable.
+
+Move political power closer to the geographic center of the country.
+
+Reduce the burden on Jakarta.
+
+Signal that Indonesia is more than Java.
+
+Create a new growth pole.
+
+Encourage development outside the traditional core.
+
+But Nusantara also illustrates how difficult it is to alter economic geography.
+
+Governments can relocate ministries.
+
+They can build roads, airports, offices, and housing.
+
+But they cannot instantly reproduce decades of agglomeration.
+
+Jakarta has firms.
+
+Universities.
+
+Financial institutions.
+
+International connections.
+
+Suppliers.
+
+Skilled workers.
+
+Professional networks.
+
+Customers.
+
+Government offices are only one part of that ecosystem.
+
+This gives us an important distinction:
+
+$$
+\text{moving the capital}
+\neq
+\text{moving the economy}.
+$$
+
+Nusantara may succeed as an administrative center.
+
+But even if millions eventually live there, Java will remain overwhelmingly important.
+
+The project is therefore best understood as a symbol of Indonesia's deeper structural problem:
+
+> **how do you rebalance a country when economic gravity has been accumulating in one place for centuries?**
+
+# The Achievement Is That Indonesia Holds Together
+
+The geography is so difficult that it is easy to become deterministic.
+
+One might look at the map and conclude that Indonesia should be unstable.
+
+But that misses one of the most important facts about the country.
+
+Indonesia has held together remarkably well.
+
+That did not happen automatically.
+
+It required institutional choices.
+
+One was language.
+
+Rather than adopting Javanese, the language of the largest ethnic group, the independence movement chose what became Bahasa Indonesia, derived from Malay.
+
+That mattered.
+
+A national language associated with the dominant population might have reinforced perceptions of Javanese control.
+
+A language that belonged to no majority group could function as a more neutral national medium.
+
+Another important choice was constitutional compromise.
+
+Indonesia became the world's largest Muslim-majority country while retaining a formally pluralist national framework.
+
+That mattered for the Christian-majority areas of the east and for the broader challenge of maintaining unity across different religious communities.
+
+Then came decentralization.
+
+After the fall of Suharto, significant authority and resources were pushed down toward local governments.
+
+This was politically risky.
+
+But it also reduced the need for every regional conflict to be solved from Jakarta.
+
+Indonesia became more decentralized without disintegrating.
+
+And perhaps most strikingly, it built one of the world's largest democratic systems across thousands of islands.
+
+Ballot boxes travel by boat, helicopter, road, and on foot.
+
+Hundreds of millions of citizens participate.
+
+The point is not that Indonesian institutions are perfect.
+
+They are not.
+
+The point is that difficult geography did not mechanically determine failure.
+
+Institutions mattered.
+
+That lesson becomes very important when we turn to today's economic debate.
 
 # The Memory of 1997
 
@@ -146,6 +544,45 @@ That sounds very much like successful industrial policy.
 
 But the story becomes more complicated when we ask who benefited.
 
+# Geography Returns Through Industrial Policy
+
+This is where the new geography story strengthens the old economic one.
+
+Many natural resources are outside Java.
+
+Many consumers, workers, financial institutions, and political institutions remain concentrated on Java.
+
+That means industrial policy must do more than attract capital.
+
+It has to build productive ecosystems in places where economic density may be much lower.
+
+A smelter can be constructed relatively quickly.
+
+A complete industrial cluster cannot.
+
+It needs:
+
+- skilled labor;
+- reliable power;
+- logistics;
+- local suppliers;
+- housing;
+- schools;
+- healthcare;
+- finance;
+- transport;
+- institutions.
+
+So downstreaming is partly a spatial-development strategy.
+
+It asks whether resource-rich regions can become more than extraction zones.
+
+Can they become centers of production?
+
+Can economic activity move closer to natural resources rather than simply shipping those resources toward Java or abroad?
+
+That is a much harder question than simply counting investment dollars.
+
 # Growth Is Not the Same as Broad-Based Development
 
 Indonesia's GDP continued to grow.
@@ -158,7 +595,7 @@ But many households did not seem to experience the same improvement.
 
 One of the clearest warning signs was the middle class.
 
-The source material notes that Indonesia's middle class numbered roughly 57 million people in 2019, but had fallen to around 48 million five years later.
+Indonesia's middle class numbered roughly 57 million people in 2019, but had fallen to around 48 million five years later.
 
 That is a significant reversal.
 
@@ -174,7 +611,7 @@ Informal employment often means lower and less stable income, limited social pro
 
 Even more educated workers have not necessarily been insulated.
 
-The source notes that between 2018 and 2025, the share of highly educated workers in formal jobs fell from roughly 74 percent to 68 percent.
+Between 2018 and 2025, the share of highly educated workers in formal jobs fell.
 
 So Indonesia may be creating jobs.
 
@@ -264,21 +701,29 @@ The objectives are not difficult to understand.
 
 Better nutrition, better housing, better infrastructure, and faster industrialization are all defensible goals.
 
-The difficult question is not whether these goals are desirable.
+And in a country with Indonesia's geography, the case for an active state is particularly strong.
 
-It is:
+Markets alone will not necessarily build uneconomic transport links to remote islands.
 
-> **How should they be financed, and what happens to the institutions that previously constrained policy?**
+They may not coordinate new industrial clusters.
+
+They may not equalize access to public services across a vast archipelago.
+
+They may not solve Java's overconcentration.
+
+So the real question is not whether the state should be active.
+
+It already has to be.
+
+The question is:
+
+> **Can Indonesia have a stronger developmental state without weakening the institutional constraints that made macroeconomic stability possible?**
 
 That is where the current uncertainty begins.
 
 # An Ambitious State with a Small Revenue Base
 
 Indonesia's government collects relatively little revenue compared with many countries at a similar level of development.
-
-The source notes that government revenue in 2025 was around 11.6 percent of GDP, with tax revenue at roughly 9.3 percent.
-
-That creates an obvious tension.
 
 The government wants to undertake increasingly ambitious programs.
 
@@ -304,7 +749,7 @@ The deficit can increase.
 
 State-owned enterprises can be mobilized.
 
-Capital controls or financial regulations can be used to keep more resources inside the domestic system.
+Capital regulations can be used to keep more resources inside the domestic system.
 
 Public assets can be consolidated and invested more aggressively.
 
@@ -317,10 +762,6 @@ And each can affect investor confidence.
 # Keeping Export Dollars at Home
 
 One example is the government's decision to require commodity exporters to retain more of their foreign-currency earnings inside Indonesia.
-
-From March 2025, exporters in sectors such as mining, plantations, forestry, and fisheries were required to keep 100 percent of export proceeds in Indonesia's financial system for 12 months.
-
-Previously, the requirement had been much less restrictive.
 
 The logic is straightforward.
 
@@ -372,6 +813,10 @@ In principle, there is nothing inherently problematic about this.
 
 A well-run sovereign investment vehicle can help coordinate investment, improve the management of state assets, and support strategic development.
 
+And again, Indonesia's geography gives coordination unusual importance.
+
+Large infrastructure projects, energy systems, industrial zones, and regional development often require a scale of coordination that fragmented private investment may not provide.
+
 But the size and political importance of Danantara create another question.
 
 Will investment decisions be made primarily on economic grounds?
@@ -401,7 +846,7 @@ The logic was clear.
 
 Monetary policy should not be casually subordinated to fiscal or political objectives.
 
-Under the current government, however, Bank Indonesia has been working more closely with the government on financing and policy coordination.
+Under the current government, Bank Indonesia has been working more closely with the government on financing and policy coordination.
 
 Closer coordination does not automatically mean that central-bank independence has disappeared.
 
@@ -409,9 +854,7 @@ In periods of crisis or large structural transition, coordination between fiscal
 
 But investors pay close attention to these changes because they remember what the institutional separation was designed to prevent.
 
-The appointment of the president's nephew as a deputy governor added to these concerns.
-
-Again, one appointment does not prove institutional capture.
+Again, one appointment or one agreement does not prove institutional capture.
 
 But markets often respond not to a single event but to a pattern.
 
@@ -422,12 +865,6 @@ And patterns matter.
 The debate over Indonesia's fiscal rule may be the clearest symbol of the broader shift.
 
 For more than two decades, the 3 percent deficit ceiling represented fiscal restraint.
-
-In September 2026, Parliament began discussing whether the rule should be changed.
-
-The limit remains in place, and the finance minister has pledged to respect it.
-
-But the debate itself is important.
 
 The economic question is not whether 3 percent is the perfect number.
 
@@ -471,25 +908,21 @@ Normally, an upside surprise should be good news.
 
 But this particular number generated unusual scrutiny because several other indicators appeared much weaker.
 
-Car sales were falling.
-
-Motorcycle sales were soft.
-
-Foreign direct investment was weakening.
+Vehicle sales were soft.
 
 Layoffs were rising.
 
 Credit growth was slowing.
 
-Consumer confidence had fallen.
+Consumer confidence had weakened.
 
-The manufacturing PMI was below 50, normally associated with contraction.
+Manufacturing surveys looked less reassuring.
 
-Yet official data showed manufacturing expanding strongly.
+Yet official data showed strong growth.
 
 The important point is not that the GDP numbers were necessarily false.
 
-The source material itself does not establish that.
+The available material does not establish that.
 
 There can be perfectly legitimate reasons why GDP estimates diverge from selected high-frequency indicators.
 
@@ -499,11 +932,11 @@ A surprising statistic is then interpreted differently.
 
 Under high trust:
 
-> “Interesting. The economy performed better than expected.”
+> "Interesting. The economy performed better than expected."
 
 Under low trust:
 
-> “Why does the official number look so different from everything else?”
+> "Why does the official number look so different from everything else?"
 
 This gives us a useful relationship:
 
@@ -569,6 +1002,64 @@ It is a difference in time horizon.
 
 The economy can be growing today while investors become less confident about tomorrow.
 
+# Geography Makes the State Necessary; Credibility Makes the State Affordable
+
+This is where the geography story and the institutional story come together.
+
+Indonesia's physical structure creates a strong case for state capacity.
+
+Someone has to build roads, ports, electricity networks, schools, hospitals, sea links, and communications infrastructure across thousands of islands.
+
+Someone has to address the enormous imbalance between Java and the outer islands.
+
+Someone has to coordinate industrial development in resource-rich but less densely populated regions.
+
+Someone has to manage disaster risk.
+
+Someone has to maintain national cohesion across a huge and diverse territory.
+
+So Indonesia cannot simply choose between:
+
+$$
+\text{state}
+\quad \text{or} \quad
+\text{market}.
+$$
+
+It needs both.
+
+But an ambitious state also needs financing.
+
+And financing becomes cheaper when institutions are credible.
+
+That creates a deeper relationship:
+
+$$
+\text{state capacity}
+\rightarrow
+\text{development}
+$$
+
+but also:
+
+$$
+\text{institutional credibility}
+\rightarrow
+\text{lower risk}
+\rightarrow
+\text{cheaper capital}
+\rightarrow
+\text{greater state capacity}.
+$$
+
+The two reinforce one another.
+
+A developmental state without credibility can become expensive.
+
+A credible state without developmental ambition can leave structural problems unresolved.
+
+Indonesia needs both.
+
 # Growth Versus Credibility
 
 This, I think, is the heart of Indonesia's current economic story.
@@ -628,7 +1119,7 @@ But that is precisely why they can be valuable.
 
 A government that says:
 
-> “Trust us. We will behave responsibly.”
+> "Trust us. We will behave responsibly."
 
 is making a promise.
 
@@ -705,7 +1196,17 @@ $$
 \text{opportunity}.
 $$
 
-The best development model must somehow provide both.
+And geography adds a third demand:
+
+$$
+\text{regional balance}
++
+\text{connectivity}
++
+\text{national cohesion}.
+$$
+
+The best development model must somehow provide all three.
 
 # A Crisis of Confidence, Not Yet a Crisis of Growth
 
@@ -727,7 +1228,7 @@ There is no reason to describe the present situation as a conventional financial
 
 But confidence can weaken long before a crisis appears.
 
-That is why the recent market signals matter.
+That is why recent market signals matter.
 
 Credit-rating outlooks do not tell us that collapse is inevitable.
 
@@ -761,9 +1262,13 @@ Households ask:
 
 > **Am I actually becoming more prosperous and secure?**
 
-These three measures do not have to move together.
+And Indonesia's geography asks:
 
-Indonesia may therefore be experiencing three different realities at once:
+> **Can development reach the rest of the archipelago rather than remaining concentrated in a few places?**
+
+These questions do not have to produce the same answer.
+
+Indonesia may therefore be experiencing several realities at once:
 
 $$
 \text{strong headline growth},
@@ -773,15 +1278,49 @@ $$
 \text{weakening household confidence},
 $$
 
+$$
+\text{rising institutional uncertainty},
+$$
+
 and
 
 $$
-\text{rising institutional uncertainty}.
+\text{persistent geographic imbalance}.
 $$
 
 That combination is unusual, but not contradictory.
 
-# What Happens Next?
+# What Nusantara Really Represents
+
+Nusantara belongs in this story not simply as an infrastructure project, but as a metaphor.
+
+It represents the belief that Indonesia can deliberately reshape its economic geography.
+
+That ambition is understandable.
+
+But the slow development of the new capital also illustrates the limits of administrative solutions.
+
+Economic concentration is sticky.
+
+People move toward opportunity.
+
+Firms move toward workers and markets.
+
+Suppliers move toward firms.
+
+Universities and professional services follow economic density.
+
+That is why Java remains dominant.
+
+The question is therefore not whether Nusantara "succeeds" or "fails" in a narrow sense.
+
+The more interesting question is whether Indonesia can create multiple centers of economic gravity.
+
+If it can, the country becomes more balanced.
+
+If it cannot, political power may move while the economy remains where it was.
+
+# Indonesia's Most Important Resource May Be Institutional
 
 Indonesia still has enormous potential.
 
@@ -793,29 +1332,27 @@ Few countries combine:
 - a relatively young labor force;
 - and an increasingly important geopolitical position.
 
-The challenge is therefore not simply to restore investor confidence by returning to the old model.
+The country also possesses something less visible.
 
-Nor is it simply to ignore markets and pursue state-led development at any cost.
+It has already demonstrated an ability to solve extraordinarily difficult coordination problems.
 
-The harder task is to build a model in which greater state ambition does not weaken institutional credibility.
+It created a national language.
 
-That means asking difficult questions.
+It built a pluralist political framework across immense religious and ethnic diversity.
 
-Can Indonesia expand social programs without undermining fiscal discipline?
+It decentralized without disintegrating.
 
-Can Danantara become a powerful development vehicle without becoming politicized?
+It constructed democratic elections across thousands of islands.
 
-Can industrial policy generate more good jobs rather than simply more capital-intensive investment?
+It rebuilt macroeconomic credibility after one of the worst crises in its history.
 
-Can Bank Indonesia coordinate with the government while preserving genuine independence?
+Those achievements matter.
 
-Can the middle class begin expanding again?
+They suggest that Indonesia's greatest strength may not be its nickel, coal, palm oil, copper, or gold.
 
-Can Indonesia move up the value chain without sacrificing labor-intensive industries that still employ millions?
+It may be its ability to construct institutions capable of making an extremely difficult geography governable.
 
-And can the government convince both citizens and investors that faster development does not require weaker rules?
-
-Those questions matter more than whether GDP growth next quarter is 4.9 percent or 5.1 percent.
+That is why the current debate matters so much.
 
 # The Deeper Lesson
 
@@ -855,9 +1392,23 @@ That pressure can produce demands for intervention.
 
 Intervention can weaken confidence if institutions are perceived as becoming less predictable.
 
+And Indonesia adds another layer:
+
+$$
+\text{difficult geography}
+\rightarrow
+\text{need for state coordination}
+\rightarrow
+\text{greater demands on institutions}.
+$$
+
 So perhaps the fuller cycle is:
 
 $$
+\text{geography}
+\rightarrow
+\text{state-building}
+\rightarrow
 \text{growth}
 \rightarrow
 \text{distributional disappointment}
@@ -875,7 +1426,7 @@ That is the tension Indonesia now appears to be navigating.
 
 Its problem is not that development has stopped.
 
-Its challenge is to prevent an understandable effort to make development more inclusive from weakening the institutional foundations that made sustained growth possible in the first place.
+Its challenge is to prevent an understandable effort to make development faster, more inclusive, and more geographically balanced from weakening the institutional foundations that made sustained growth possible in the first place.
 
 And that may be why Indonesia's current moment is so interesting.
 
@@ -885,7 +1436,13 @@ The resources are still there.
 
 The opportunities are still enormous.
 
-But after the trauma of 1997 and two decades spent rebuilding credibility, the most important economic asset Indonesia now has may not be nickel, coal, palm oil, or even its huge domestic market.
+The geography is still difficult.
+
+But Indonesia has spent decades proving that geography is not destiny.
+
+The most important question now may be whether the institutions that overcame those geographic constraints can remain credible while the state asks them to do even more.
+
+After the trauma of 1997 and two decades spent rebuilding confidence, Indonesia's most valuable economic asset may not be buried underground or sitting in a new capital.
 
 It may be something much less visible:
 
