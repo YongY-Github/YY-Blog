@@ -1,0 +1,1247 @@
+---
+title: "The Most Important Factory in the World"
+subtitle: "How Taiwan Turned Knowledge Into a Strategic Resource—and Why America and China Are Trying to Make It Less Important"
+author: "-YY-"
+date: "2026-10-13"
+categories: [Taiwan, semiconductors, AI, geopolitics, technology]
+# bibliography: references.bib
+# nocite: '@*'
+---
+
+Taiwan has no great oil field.
+
+It has no enormous reserve of natural gas.
+
+It is not strategically important because of gold, copper, or some rare mineral buried beneath the ground.
+
+And yet a small island of around 23 million people has become one of the most consequential places in the world economy.
+
+The reason is not something Taiwan found.
+
+It is something Taiwan learned how to make.
+
+Semiconductors.
+
+More specifically, the most advanced logic chips used in smartphones, data centers, artificial intelligence, high-performance computing, and military systems.
+
+At the center of this system is one company:
+
+**Taiwan Semiconductor Manufacturing Company, or TSMC.**
+
+TSMC manufactures the overwhelming majority of the world's most advanced logic chips. Nvidia may design the processors that power the AI boom. Apple may design the chips inside its phones. AMD and other firms may create sophisticated architectures.
+
+But many of those designs become physical objects only because TSMC knows how to manufacture them at enormous scale and extraordinary precision.
+
+That has created one of the strangest forms of economic power in modern history.
+
+Taiwan's strategic resource is not a raw material.
+
+It is accumulated knowledge.
+
+And that may be much harder to reproduce.
+
+# What Exactly Is a Chip?
+
+Before thinking about Taiwan, China, or the United States, it helps to understand what a semiconductor chip actually is.
+
+A modern chip is essentially a piece of silicon containing an astonishing number of microscopic switches.
+
+These switches are called **transistors**.
+
+A transistor can represent two states:
+
+$$
+0
+\quad \text{or} \quad
+1.
+$$
+
+From combinations of these two states, computers can represent numbers, text, images, sound, instructions, and mathematical operations.
+
+The principle sounds simple.
+
+The engineering is not.
+
+Early electronic computers used vacuum tubes as switches.
+
+They were enormous.
+
+Modern chips use transistors so small that their critical features are measured in nanometers.
+
+The most advanced processors contain tens of billions of transistors inside an object not much larger than a fingernail.
+
+The extraordinary achievement of the semiconductor industry has therefore been:
+
+$$
+\text{more transistors}
++
+\text{smaller dimensions}
++
+\text{higher reliability}
++
+\text{lower energy per computation}.
+$$
+
+For decades, this broad tendency was summarized by **Moore's Law**: transistor density roughly doubled every couple of years.
+
+It was never a law of nature.
+
+It was closer to an industry roadmap that became self-fulfilling because thousands of engineers, equipment suppliers, chemical companies, chip designers, and manufacturers kept finding ways to make it happen.
+
+And eventually, making it happen became extraordinarily difficult.
+
+# The World's Most Complicated Printing Process
+
+One useful way to understand semiconductor manufacturing is to think of it as an absurdly precise form of photography.
+
+A silicon wafer is coated with a light-sensitive material.
+
+A pattern is projected onto it.
+
+Light changes the chemical properties of selected areas.
+
+The wafer is developed and etched.
+
+Material is deposited.
+
+Other materials are removed.
+
+Ions are implanted.
+
+Surfaces are polished.
+
+Then the process is repeated.
+
+Again.
+
+And again.
+
+And again.
+
+A modern advanced chip can require hundreds of major process steps and many repeated patterning stages.
+
+The basic idea is easy to describe:
+
+$$
+\text{coat}
+\rightarrow
+\text{pattern}
+\rightarrow
+\text{expose}
+\rightarrow
+\text{develop}
+\rightarrow
+\text{etch}
+\rightarrow
+\text{repeat}.
+$$
+
+The difficult part is scale.
+
+The features being patterned are so small that ordinary light cannot resolve them.
+
+This is why leading-edge semiconductor manufacturing depends on **extreme ultraviolet lithography**, or EUV.
+
+And EUV gives us our first hint that the semiconductor industry is not really an industry of individual firms.
+
+It is an ecosystem.
+
+# ASML: The Machine Nobody Else Can Build
+
+The EUV lithography machines used at the technological frontier are made by one company:
+
+**ASML**, in the Netherlands.
+
+These machines are among the most complicated pieces of equipment ever manufactured.
+
+They create EUV light by firing lasers at microscopic droplets of molten tin.
+
+The resulting plasma emits extremely short-wavelength ultraviolet light.
+
+That light has to be captured and directed using mirrors of extraordinary precision.
+
+The system depends on specialist components from multiple countries.
+
+Optics.
+
+Lasers.
+
+Vacuum systems.
+
+Control software.
+
+Metrology.
+
+Precision mechanics.
+
+Materials.
+
+A leading-edge lithography machine is therefore not simply a clever invention produced by one firm.
+
+It is the visible tip of an enormous knowledge network.
+
+This gives us an important principle:
+
+$$
+\text{technology}
+\neq
+\text{blueprint}.
+$$
+
+If someone handed you the design of an EUV machine tomorrow, you would still not automatically know how to manufacture one.
+
+You would need the suppliers.
+
+The engineers.
+
+The production processes.
+
+The accumulated trial-and-error knowledge.
+
+The quality-control systems.
+
+And the thousands of small improvements that were never fully written down because they live inside organizations.
+
+That kind of knowledge is often called **tacit knowledge**.
+
+And it matters enormously in semiconductors.
+
+# Taiwan's Real Job Is Coordination
+
+Even ASML does not make a chip.
+
+It makes one essential machine used inside a chip fabrication plant.
+
+A modern semiconductor fab contains equipment supplied by firms across the world.
+
+The lithography system may come from the Netherlands.
+
+Some of the most important etching and deposition tools come from American firms.
+
+Specialty chemicals and wafers may come from Japan.
+
+Metrology tools come from other highly specialized suppliers.
+
+Design software is dominated by a small number of American companies.
+
+Memory technology has major centers in South Korea and the United States.
+
+Advanced packaging involves another set of specialist capabilities.
+
+No country completely controls the semiconductor supply chain.
+
+This is one of the most globalized industries ever created.
+
+And TSMC's job is, in a sense, to make this entire global system work together.
+
+That is harder than it sounds.
+
+# Why TSMC Exists
+
+For much of semiconductor history, a chip company did everything.
+
+It designed chips.
+
+It manufactured them.
+
+Intel was a classic example.
+
+Then Morris Chang proposed something different.
+
+He had spent decades in the United States semiconductor industry before returning to Taiwan in the 1980s.
+
+His idea was deceptively simple:
+
+> build a semiconductor company that manufactures chips for other companies but never competes with those customers by designing its own chips.
+
+That became TSMC.
+
+The company was founded in 1987 with substantial support from the Taiwanese state.
+
+The idea changed the economics of the industry.
+
+Before the foundry model, an entrepreneur with a brilliant chip design faced an enormous problem.
+
+Designing the chip was only the beginning.
+
+To manufacture it, the company might need to build a factory costing billions of dollars.
+
+That placed a huge barrier between an idea and a product.
+
+TSMC removed that barrier.
+
+A new company could specialize in design and outsource fabrication.
+
+This helped make the modern **fabless semiconductor company** possible.
+
+Nvidia.
+
+Qualcomm.
+
+Many AMD products.
+
+Apple's internally designed chips.
+
+The business model allowed firms to concentrate on architecture and design while TSMC concentrated on manufacturing.
+
+The division of labor looked like:
+
+$$
+\text{design company}
+\rightarrow
+\text{TSMC}
+\rightarrow
+\text{finished chip}.
+$$
+
+But one ingredient made this arrangement especially powerful.
+
+Trust.
+
+TSMC did not design competing processors.
+
+Its customers could hand over their most valuable intellectual property without giving it to a direct rival.
+
+So TSMC did not merely sell manufacturing capacity.
+
+It sold **credible neutrality**.
+
+# Taiwan Did Not Discover TSMC by Accident
+
+It is tempting to reduce the story to Morris Chang.
+
+He was clearly central.
+
+But Taiwan's semiconductor industry did not emerge from one entrepreneur working alone in a garage.
+
+It was part of a long industrial-development strategy.
+
+Taiwan created the Industrial Technology Research Institute, or ITRI, in the 1970s.
+
+It acquired semiconductor technology from RCA.
+
+It trained engineers.
+
+It created research infrastructure.
+
+It spun companies out of public institutions.
+
+UMC emerged from this system.
+
+So did TSMC.
+
+Hsinchu Science Park helped concentrate engineers, suppliers, universities, and firms in one location.
+
+Taiwanese engineers who had studied or worked abroad returned with experience.
+
+Public policy helped build the ecosystem before private firms could have justified doing so on their own.
+
+This is one of the most interesting lessons of Taiwan's development.
+
+The island had no natural semiconductor resource.
+
+It created one.
+
+$$
+\text{education}
++
+\text{research institutions}
++
+\text{industrial policy}
++
+\text{returning talent}
++
+\text{firm learning}
+\rightarrow
+\text{technological capability}.
+$$
+
+Taiwan's strategic resource is therefore human and organizational capital.
+
+That distinction matters.
+
+Oil can be extracted.
+
+Knowledge has to be accumulated.
+
+# The Part That Is Hardest to Copy: Yield
+
+Suppose another country builds a semiconductor factory with machines similar to those used by TSMC.
+
+Does it now have TSMC?
+
+No.
+
+One reason is **yield**.
+
+Imagine that a wafer contains 100 potential chips.
+
+Factory A produces 95 working chips.
+
+Factory B produces 55.
+
+Technically, both factories may be capable of producing the same chip design.
+
+Economically, they are nowhere near equivalent.
+
+We can think of usable output as:
+
+$$
+Q_{\text{usable}}
+=
+Q_{\text{attempted}}
+\times
+\text{yield}.
+$$
+
+A small improvement in yield can transform profitability.
+
+And yield is not something a firm simply purchases from an equipment vendor.
+
+It comes from process knowledge.
+
+Temperature.
+
+Timing.
+
+Contamination control.
+
+Materials.
+
+Machine calibration.
+
+Defect detection.
+
+Thousands of interactions across hundreds of process steps.
+
+Each generation of manufacturing creates more data.
+
+Engineers learn which defects matter.
+
+Suppliers adjust components.
+
+Processes improve.
+
+This creates cumulative advantage:
+
+$$
+\text{experience}
+\rightarrow
+\text{higher yield}
+\rightarrow
+\text{lower cost}
+\rightarrow
+\text{more customers}
+\rightarrow
+\text{more experience}.
+$$
+
+That is a powerful feedback loop.
+
+It helps explain why semiconductor manufacturing is so difficult to reproduce through money alone.
+
+# The Factory Is Really an Ecosystem
+
+This is perhaps the central economic insight.
+
+When policymakers say:
+
+> "We need our own TSMC,"
+
+they often imagine a factory.
+
+But the real object they are trying to reproduce is an ecosystem.
+
+TSMC depends on:
+
+- equipment suppliers;
+- chemical suppliers;
+- wafer suppliers;
+- design firms;
+- packaging specialists;
+- universities;
+- engineering labor;
+- logistics;
+- energy;
+- water;
+- research institutions;
+- customers;
+- decades of accumulated process learning.
+
+So:
+
+$$
+\text{fab}
+\neq
+\text{semiconductor capability}.
+$$
+
+A fab is a building.
+
+Capability is a network.
+
+That is why copying Taiwan is so difficult.
+
+# AI Makes the Bottleneck More Important
+
+The AI boom dramatically increased the strategic significance of this system.
+
+Modern AI models require enormous quantities of computation.
+
+That computation is dominated by specialized accelerators, especially GPUs.
+
+Nvidia designs many of the leading GPUs.
+
+But Nvidia is primarily a design company.
+
+TSMC manufactures the most advanced versions.
+
+AI systems also depend increasingly on high-bandwidth memory and advanced packaging.
+
+So the AI boom has made semiconductor manufacturing more valuable at exactly the moment geopolitical tensions have made concentration in Taiwan more uncomfortable.
+
+This creates a strange situation.
+
+The world wants more TSMC.
+
+And simultaneously, the world wants to depend less on TSMC.
+
+# The Silicon Shield
+
+Taiwan's extraordinary semiconductor position gave rise to an idea often called the **silicon shield**.
+
+The logic is intuitive.
+
+If the global economy depends on Taiwanese chip manufacturing, then disrupting Taiwan would be extraordinarily costly.
+
+The United States depends on Taiwanese fabrication.
+
+China depends on Taiwanese fabrication.
+
+Technology companies around the world depend on Taiwanese fabrication.
+
+Therefore:
+
+$$
+\text{Taiwanese indispensability}
+\rightarrow
+\text{high cost of conflict}
+\rightarrow
+\text{deterrence}.
+$$
+
+The more important Taiwan becomes economically, the stronger the shield appears.
+
+But there is a paradox.
+
+The same dependence that makes Taiwan valuable also makes other countries uncomfortable.
+
+So they try to reduce it.
+
+# The Silicon Shield Paradox
+
+The United States wants more advanced semiconductor production on American soil.
+
+China wants to reduce dependence on foreign technology.
+
+Japan is rebuilding semiconductor capability.
+
+Europe has launched its own semiconductor initiatives.
+
+Everyone wants resilience.
+
+That creates two opposing effects.
+
+First:
+
+$$
+\text{Taiwan indispensability}
+\rightarrow
+\text{greater incentive to protect Taiwan}.
+$$
+
+But also:
+
+$$
+\text{Taiwan indispensability}
+\rightarrow
+\text{greater incentive to diversify away from Taiwan}.
+$$
+
+The silicon shield therefore contains the seeds of its own erosion.
+
+The more strategically important Taiwan becomes, the more effort other countries devote to making it less strategically indispensable.
+
+That is one of the most interesting paradoxes in the entire chip war.
+
+# Insurance Is Supposed to Be Expensive
+
+The United States has responded with major semiconductor subsidies.
+
+TSMC has announced plans for very large investments in Arizona, including advanced fabrication, packaging, and research capacity.
+
+Producing chips in the United States may be more expensive than producing the same chips in Taiwan.
+
+From a narrow cost-efficiency perspective, this seems wasteful.
+
+But that is not necessarily the correct comparison.
+
+For decades, global supply chains were organized roughly around:
+
+$$
+\min(\text{production cost}).
+$$
+
+After the pandemic and rising geopolitical tension, governments increasingly care about something closer to:
+
+$$
+\min(\text{production cost})
++
+\lambda \times \text{geopolitical risk}.
+$$
+
+The parameter $\lambda$ has risen.
+
+A more expensive American fab may therefore function partly as insurance.
+
+Insurance is not purchased because it is cheaper than taking the risk.
+
+It is purchased because the consequences of the risk may be catastrophic.
+
+This helps explain why semiconductor policy has changed so dramatically.
+
+# The Return of Industrial Policy
+
+For decades, the United States often argued that governments should not pick industrial winners.
+
+Markets should determine where production occurs.
+
+Firms should locate where costs are lowest.
+
+Global specialization would maximize efficiency.
+
+Then semiconductors became a national-security issue.
+
+Suddenly, government subsidies returned.
+
+Export controls expanded.
+
+Manufacturing location became strategic.
+
+Supply-chain resilience became part of national policy.
+
+The semiconductor industry therefore illustrates a broader change in economic thinking.
+
+Efficiency is no longer the only objective.
+
+Security matters.
+
+Resilience matters.
+
+Technological sovereignty matters.
+
+That creates a new optimization problem:
+
+$$
+\text{economic efficiency}
++
+\text{national security}
++
+\text{supply-chain resilience}.
+$$
+
+These objectives can conflict.
+
+And governments are now deciding how much efficiency they are willing to sacrifice for security.
+
+# The Chip War Is Also a Chokepoint War
+
+The semiconductor supply chain contains several remarkable chokepoints.
+
+TSMC dominates leading-edge foundry manufacturing.
+
+ASML is uniquely important in EUV lithography.
+
+A small number of American companies dominate key design software and manufacturing equipment.
+
+Japan remains critical in specialized materials and equipment.
+
+South Korean firms dominate important memory segments.
+
+This means geopolitical power does not come only from owning factories.
+
+It comes from controlling bottlenecks.
+
+A country may influence the entire supply chain if it controls one input that is extremely difficult to replace.
+
+That is why export controls have become so powerful.
+
+The United States does not manufacture every important semiconductor tool.
+
+But American technology is embedded in many parts of the ecosystem.
+
+This gives Washington considerable leverage over what can be sold and to whom.
+
+# The US-China Technology Conflict
+
+Beginning in 2022, the United States imposed increasingly extensive controls on advanced computing chips and semiconductor manufacturing technologies destined for China.
+
+The precise rules have changed repeatedly since then, and by 2026 some advanced-chip exports are again being considered under case-by-case licensing rather than through a simple blanket ban.
+
+But the broader strategic direction is clear.
+
+The stated national-security concern is straightforward.
+
+Advanced semiconductors are dual-use technologies.
+
+They power civilian AI.
+
+They can also support:
+
+- military systems;
+- intelligence;
+- surveillance;
+- cryptography;
+- autonomous systems;
+- advanced weapons.
+
+Washington therefore argues that unrestricted access to frontier semiconductor technology could accelerate Chinese military capability.
+
+Beijing sees the policy differently.
+
+From China's perspective, the controls look like an attempt to prevent a technological competitor from catching up.
+
+Both interpretations contain some truth.
+
+The controls have a security rationale.
+
+They also have obvious consequences for economic competition.
+
+That is why it is too simple to describe the policy as either:
+
+> purely national security,
+
+or:
+
+> purely economic containment.
+
+It is both strategic and economic.
+
+# Can Export Controls Work and Backfire at the Same Time?
+
+This is where the story becomes especially interesting.
+
+Export controls can slow technological progress.
+
+If a firm cannot buy the best equipment, it may take longer to produce an advanced chip.
+
+If a country cannot buy the latest GPUs, it may have less compute available for frontier AI.
+
+So restrictions can work.
+
+But they also change incentives.
+
+Before restrictions, a Chinese company might ask:
+
+> Why build an impossibly complicated lithography system if I can buy one from Europe?
+
+After restrictions, the calculation changes.
+
+The unavailable technology becomes far more valuable to reproduce domestically.
+
+So:
+
+$$
+\text{restriction}
+\rightarrow
+\text{scarcity}
+\rightarrow
+\text{higher return to substitution}
+\rightarrow
+\text{greater domestic R\&D effort}.
+$$
+
+This does not mean China will automatically succeed.
+
+Some technologies may take many years to reproduce.
+
+Some may never be reproduced at the same level.
+
+But the incentive changes dramatically.
+
+This is a familiar lesson from economics.
+
+When relative prices change, behavior changes.
+
+Sanctions and export controls change relative prices too.
+
+# Tactical Success, Strategic Failure?
+
+This suggests a useful distinction.
+
+A policy can be tactically successful but strategically ambiguous.
+
+Suppose export controls delay China's access to frontier technology by five years.
+
+That is a real achievement.
+
+But suppose they also cause China to spend enormous resources building a domestic alternative that eventually removes Western leverage completely.
+
+Then the long-run result may look different.
+
+The policy question becomes:
+
+> **Does slowing China today outweigh the possibility of accelerating Chinese self-reliance tomorrow?**
+
+There is no easy answer.
+
+But that is the correct question.
+
+Recent analysis increasingly recognizes this tension: restrictions can constrain access while simultaneously accelerating localization and substitution.
+
+# China Does Not Need to Win Everywhere
+
+There is another subtle point.
+
+China does not necessarily need to reproduce every part of the global semiconductor ecosystem at the technological frontier.
+
+It may only need to remove the most damaging chokepoints.
+
+Suppose Chinese firms remain two generations behind at the absolute frontier but become capable of producing large quantities of sufficiently advanced chips for domestic industry, AI, and military applications.
+
+From China's strategic perspective, that could still be a major success.
+
+So technological competition is not simply:
+
+$$
+\text{China catches TSMC}
+\quad \text{or} \quad
+\text{China fails}.
+$$
+
+There are many intermediate outcomes.
+
+And those intermediate outcomes matter.
+
+# DeepSeek and the Economics of Scarcity
+
+The rise of Chinese AI models adds another dimension.
+
+If computing power is scarce, firms have stronger incentives to use it efficiently.
+
+That does not mean hardware no longer matters.
+
+Frontier AI still requires enormous computational resources.
+
+But constraints can change the direction of innovation.
+
+A firm swimming in GPUs may optimize differently from a firm that has to ration them.
+
+Again:
+
+$$
+\text{scarcity}
+\rightarrow
+\text{optimization pressure}.
+$$
+
+This is not unique to AI.
+
+Economic history is full of technologies shaped by constraints.
+
+Expensive labor encourages automation.
+
+Expensive energy encourages efficiency.
+
+Trade restrictions encourage substitution.
+
+The chip war therefore affects not only *how much* technology develops.
+
+It may affect *which direction* innovation takes.
+
+# Moore's Law Is Becoming a System Problem
+
+There is also a technological reason why this geopolitical struggle is becoming more complicated.
+
+For decades, semiconductor progress was closely associated with shrinking transistors.
+
+Smaller transistors generally meant more computing power per unit of area and often better energy efficiency.
+
+But continued shrinkage is becoming increasingly difficult and expensive.
+
+That does not mean semiconductor progress stops.
+
+It means innovation shifts.
+
+Performance increasingly comes from:
+
+- chip architecture;
+- specialized accelerators;
+- advanced packaging;
+- chiplets;
+- high-bandwidth memory;
+- faster interconnects;
+- system-level design.
+
+This matters because the frontier is no longer located inside one piece of silicon alone.
+
+The package itself is becoming part of the computer.
+
+That makes advanced packaging an increasingly strategic capability.
+
+TSMC's advantage therefore extends beyond simply printing smaller transistors.
+
+The ecosystem continues evolving.
+
+# Why Advanced Packaging Matters
+
+Imagine several specialized chips working together inside one package.
+
+One performs AI calculations.
+
+Another handles memory.
+
+Another handles communications.
+
+Rather than forcing every function onto one enormous monolithic chip, engineers can combine smaller specialized components.
+
+This is one reason **chiplets** and advanced packaging are becoming so important.
+
+The economic implication is significant.
+
+As transistor scaling becomes harder, value may shift toward the ability to integrate many components extremely efficiently.
+
+So the next semiconductor competition may not be won simply by whoever can create the smallest transistor.
+
+It may depend increasingly on whoever can best combine:
+
+$$
+\text{compute}
++
+\text{memory}
++
+\text{packaging}
++
+\text{interconnect}.
+$$
+
+Again, the knowledge network matters more than any single machine.
+
+# The Strange Economics of Resilience
+
+Now consider what happens if every major economy decides that semiconductor self-sufficiency is necessary.
+
+The United States subsidizes fabs.
+
+China subsidizes fabs.
+
+Japan subsidizes fabs.
+
+Europe subsidizes fabs.
+
+South Korea supports its national champions.
+
+Each country has a rational reason.
+
+Nobody wants to be dependent on a geopolitical rival.
+
+But collectively, the outcome could involve:
+
+- duplicated capacity;
+- higher costs;
+- inefficient location;
+- subsidy competition;
+- overinvestment in some segments.
+
+This resembles a strategic game.
+
+Each country may prefer a world in which everybody relies on efficient global specialization.
+
+But once one country worries that another may weaponize dependence, everyone has an incentive to build domestic capacity.
+
+The equilibrium may therefore be less efficient than the starting point.
+
+Yet no individual government wants to be the only one remaining dependent.
+
+That is close to a geopolitical prisoner's dilemma.
+
+# The More Successful Diversification Becomes, the Stranger Taiwan's Position Gets
+
+Now return to Taiwan.
+
+Suppose American diversification succeeds.
+
+More advanced chips are produced in Arizona.
+
+Suppose Japan expands manufacturing.
+
+Suppose Europe gains capacity.
+
+Suppose China builds more of its own tools.
+
+The global economy becomes less vulnerable to a disruption in Taiwan.
+
+That sounds good.
+
+But from Taiwan's strategic perspective, there is a complication.
+
+The economic cost of conflict involving Taiwan would also become smaller.
+
+This produces an uncomfortable possibility:
+
+$$
+\text{greater global resilience}
+\rightarrow
+\text{lower dependence on Taiwan}
+\rightarrow
+\text{weaker silicon shield}.
+$$
+
+The very policies designed to make the world safer from a Taiwan semiconductor disruption may make Taiwan less economically indispensable.
+
+That does not mean conflict becomes likely.
+
+Military deterrence involves far more than chips.
+
+Political alliances, geography, military capabilities, nuclear deterrence, and domestic politics all matter.
+
+But the semiconductor component of Taiwan's deterrence may weaken as diversification succeeds.
+
+That is the silicon shield paradox in its strongest form.
+
+# Is Taiwan's Clock Really Running Out?
+
+Probably not in the simple sense.
+
+Reproducing TSMC's capabilities will take a long time.
+
+American fabs operated by TSMC are still TSMC.
+
+They depend heavily on Taiwanese organizational knowledge.
+
+China remains constrained in important parts of the advanced semiconductor supply chain.
+
+ASML remains extraordinarily difficult to replicate.
+
+Leading-edge manufacturing continues to demand massive capital and cumulative experience.
+
+Taiwan's semiconductor ecosystem therefore cannot simply be moved with a few subsidy checks.
+
+But direction matters.
+
+The United States wants less concentration.
+
+China wants technological autonomy.
+
+Other countries want resilience.
+
+Over time, that will almost certainly reduce Taiwan's share of some parts of advanced manufacturing.
+
+The question is not whether Taiwan suddenly becomes irrelevant.
+
+It is how Taiwan continues moving ahead while others try to catch up.
+
+# Taiwan's Best Defense May Be Continued Innovation
+
+This suggests another way to think about the silicon shield.
+
+Perhaps Taiwan's security does not depend on keeping the same factories forever.
+
+Perhaps it depends on staying technologically ahead.
+
+If some current production moves abroad but Taiwan remains the center of:
+
+- process innovation;
+- advanced packaging;
+- semiconductor engineering;
+- supplier coordination;
+- next-generation manufacturing;
+
+then the island can remain indispensable even as geographic diversification increases.
+
+In that sense, the shield is dynamic.
+
+It must continuously be rebuilt.
+
+That is very different from possessing an oil field.
+
+An oil reserve remains underground until extracted.
+
+Knowledge depreciates if innovation stops.
+
+Taiwan's strategic position therefore depends on continued learning.
+
+# The Real Resource Is Knowledge
+
+This brings us back to the beginning.
+
+Taiwan is not strategically important because of something buried beneath its soil.
+
+Silicon itself is abundant.
+
+The scarcity is not silicon.
+
+The scarcity is the ability to transform silicon into billions of functioning transistors at microscopic scale, at high yield, repeatedly, reliably, and profitably.
+
+That capability consists of:
+
+- human capital;
+- organizational routines;
+- supplier relationships;
+- research;
+- tacit knowledge;
+- trust;
+- accumulated experience.
+
+So the true production function looks less like:
+
+$$
+Q
+=
+f(K,L,\text{silicon})
+$$
+
+and more like:
+
+$$
+Q
+=
+f(K,L,H,T,O,N),
+$$
+
+where:
+
+- $K$ is physical capital;
+- $L$ is labor;
+- $H$ is human capital;
+- $T$ is technological knowledge;
+- $O$ is organizational capability;
+- $N$ is the supplier and institutional network.
+
+The last four terms may be harder to reproduce than the factory itself.
+
+# A Development Lesson Hidden Inside the Chip War
+
+This is why Taiwan's semiconductor story is not only about geopolitics.
+
+It is also a remarkable development story.
+
+Many countries possess natural resources.
+
+Far fewer create a technological ecosystem that the rest of the world cannot easily reproduce.
+
+Taiwan demonstrates that national strategic importance can be manufactured.
+
+Not through military conquest.
+
+Not through natural-resource luck.
+
+But through decades of:
+
+- education;
+- institution-building;
+- public research;
+- industrial policy;
+- entrepreneurship;
+- international integration;
+- cumulative learning.
+
+Taiwan turned knowledge into comparative advantage.
+
+Then comparative advantage became strategic dependence.
+
+And strategic dependence became geopolitical power.
+
+The sequence is extraordinary:
+
+$$
+\text{knowledge}
+\rightarrow
+\text{capability}
+\rightarrow
+\text{comparative advantage}
+\rightarrow
+\text{global dependence}
+\rightarrow
+\text{strategic power}.
+$$
+
+# The Irony of the Chip War
+
+There is one final irony.
+
+The United States wants to reduce dependence on Taiwan.
+
+China wants to reduce dependence on the United States, the Netherlands, Japan, and Taiwan.
+
+Europe wants greater technological sovereignty.
+
+Japan wants semiconductor revival.
+
+Everyone wants fewer chokepoints.
+
+But the semiconductor industry became so productive precisely because countries specialized.
+
+The Americans specialized in design and software.
+
+The Dutch specialized in lithography.
+
+Taiwan specialized in foundry manufacturing.
+
+South Korea specialized strongly in memory.
+
+Japan specialized in materials and equipment.
+
+Globalization allowed each part of the system to become extraordinarily good at one thing.
+
+Now geopolitics is asking the system to become less specialized.
+
+That will almost certainly cost more.
+
+But perhaps efficiency was never the only thing that mattered.
+
+The world is rediscovering something economists sometimes forget when markets are functioning smoothly:
+
+> **dependence is cheap until dependence becomes a vulnerability.**
+
+# The Most Important Factory in the World
+
+So is TSMC the most important factory in the world?
+
+Not quite.
+
+TSMC is not one factory.
+
+It is not even one company in isolation.
+
+It is the center of an ecosystem built across countries and decades.
+
+And that may be the deepest lesson.
+
+Modern technological power does not reside in a single machine.
+
+It resides in networks of knowledge.
+
+The United States cannot simply buy its way out of dependence overnight.
+
+China cannot simply reverse-engineer decades of tacit knowledge instantly.
+
+Europe cannot turn ASML into a complete semiconductor industry by itself.
+
+And Taiwan cannot assume that today's technological dominance will automatically protect it forever.
+
+Everyone is trying to change the system.
+
+But everyone is also dependent on it.
+
+That is why the semiconductor conflict is so consequential.
+
+It is not really a war over sand.
+
+It is not even primarily a war over factories.
+
+It is a contest over accumulated capability.
+
+And Taiwan's extraordinary achievement is that an island with almost none of the natural resources traditionally associated with geopolitical power managed to create one of the most valuable resources of all:
+
+**knowledge that the rest of the world cannot easily replace.**
