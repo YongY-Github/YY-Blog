@@ -32,6 +32,10 @@ TSMC manufactures the overwhelming majority of the world's most advanced logic c
 
 But many of those designs become physical objects only because TSMC knows how to manufacture them at enormous scale and extraordinary precision.
 
+The numbers are extraordinary. In 2025, TSMC generated **US$122.4 billion in revenue** and **US$55.2 billion in net income**. It manufactured **12,682 different products** using **305 process technologies** for **534 customers**. Technologies at 7 nanometers and below accounted for **74 percent of wafer revenue**. ([TSMC, 2025 Annual Report](https://investor.tsmc.com/static/annualReports/2025/english/index.html))
+
+AI has already reshaped the company's business mix. In 2025, high-performance computing accounted for **58 percent of TSMC's revenue**, compared with **29 percent from smartphones**. Customers headquartered in North America accounted for **75 percent** of total net revenue. ([TSMC, 4Q25 Management Report](https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2026-01/00fe50f72b38d74e6b9b066398f020f337cd4e9d/4Q25%20Management%20Report.pdf))
+
 That has created one of the strangest forms of economic power in modern history.
 
 Taiwan's strategic resource is not a raw material.
@@ -39,6 +43,8 @@ Taiwan's strategic resource is not a raw material.
 It is accumulated knowledge.
 
 And that may be much harder to reproduce.
+
+The scale of the industry helps explain why this matters. Global semiconductor sales reached **$791.7 billion in 2025**, up **25.6 percent** from the year before, and the Semiconductor Industry Association projected that worldwide sales could approach **$1 trillion in 2026**. That is no longer a specialized corner of manufacturing. It is one of the foundations of the modern economy. ([Semiconductor Industry Association, 2026](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/))
 
 # What Exactly Is a Chip?
 
@@ -153,6 +159,10 @@ The EUV lithography machines used at the technological frontier are made by one 
 **ASML**, in the Netherlands.
 
 These machines are among the most complicated pieces of equipment ever manufactured.
+
+And they are genuinely scarce. In 2025, ASML sold only **48 EUV lithography systems** worldwide. The company generated **€32.7 billion in sales** and spent **€4.7 billion on research and development** that year. ([ASML, 2025 Annual Report](https://www.asml.com/investors/annual-report/2025))
+
+That comparison is revealing: a nearly $800 billion global semiconductor market rests partly on a class of frontier machine produced in quantities measured in the dozens per year.
 
 They create EUV light by firing lasers at microscopic droplets of molten tin.
 
@@ -316,9 +326,9 @@ But Taiwan's semiconductor industry did not emerge from one entrepreneur working
 
 It was part of a long industrial-development strategy.
 
-Taiwan created the Industrial Technology Research Institute, or ITRI, in the 1970s.
+Taiwan created the Industrial Technology Research Institute, or ITRI, in **1973**.
 
-It acquired semiconductor technology from RCA.
+The semiconductor effort became much more concrete soon afterward. In **1976**, ITRI signed a technology-transfer and licensing agreement with RCA in the United States. A first group of **19 Taiwanese specialists** was sent to learn chip design, manufacturing processes, testing, and equipment. Taiwan's first IC demonstration factory was completed in **1977**. According to ITRI's own historical account, after six months it achieved a **70 percent yield**, compared with about **50 percent** at the RCA plant from which the technology had been transferred. ([ITRI, "The Birth of Taiwan's Semiconductor Industry"](https://50th.itri.org.tw/en/history/semiconductors/1/))
 
 It trained engineers.
 
@@ -374,11 +384,13 @@ No.
 
 One reason is **yield**.
 
-Imagine that a wafer contains 100 potential chips.
+For a simple illustration, imagine that a wafer contains 100 potential chips.
 
 Factory A produces 95 working chips.
 
 Factory B produces 55.
+
+Those figures are hypothetical, but the economic mechanism is real.
 
 Technically, both factories may be capable of producing the same chip design.
 
@@ -578,7 +590,13 @@ That is one of the most interesting paradoxes in the entire chip war.
 
 The United States has responded with major semiconductor subsidies.
 
-TSMC has announced plans for very large investments in Arizona, including advanced fabrication, packaging, and research capacity.
+The 2022 CHIPS for America program committed roughly **$50 billion** to semiconductor manufacturing and research, including incentives aimed at restoring domestic leading-edge production. ([U.S. Department of Commerce, 2022](https://www.commerce.gov/news/press-releases/2022/09/biden-administration-releases-implementation-strategy-50-billion-chips))
+
+TSMC's planned U.S. investment has since expanded to **$165 billion**. The plan includes **six advanced wafer fabs**, **two advanced-packaging facilities**, and a major R&D center in Arizona. TSMC's first Arizona fab entered high-volume production in late 2024. ([TSMC, 2025](https://prpoc.cld.tsmc.com/english/news/3210))
+
+That number deserves emphasis.
+
+> The United States is not spending millions to recreate Taiwanese semiconductor capability. TSMC alone plans to invest **$165 billion** in the American effort—and the factories are still being built and operated by TSMC.
 
 Producing chips in the United States may be more expensive than producing the same chips in Taiwan.
 
@@ -672,6 +690,23 @@ This means geopolitical power does not come only from owning factories.
 
 It comes from controlling bottlenecks.
 
+A simplified map of the main chokepoints looks like this:
+
+| Chokepoint | Main location / firms | Why it matters |
+|---|---|---|
+| Leading-edge foundry manufacturing | Taiwan / TSMC | Converts frontier chip designs into physical products at scale |
+| EUV lithography | Netherlands / ASML | Essential for efficient leading-edge patterning |
+| Advanced chip design | United States / Nvidia, AMD, Apple, Qualcomm | Creates many of the frontier logic architectures |
+| EDA design software | United States | Provides the tools required to design complex chips |
+| Advanced memory | South Korea and United States | High-bandwidth memory is increasingly critical for AI systems |
+| Materials and manufacturing equipment | Japan, U.S., Europe | Supplies specialized inputs that fabs cannot easily substitute |
+
+The point is not that any one country "owns" the semiconductor industry.
+
+The point is almost the opposite.
+
+**No one does.**
+
 A country may influence the entire supply chain if it controls one input that is extremely difficult to replace.
 
 That is why export controls have become so powerful.
@@ -684,9 +719,9 @@ This gives Washington considerable leverage over what can be sold and to whom.
 
 # The US-China Technology Conflict
 
-Beginning in 2022, the United States imposed increasingly extensive controls on advanced computing chips and semiconductor manufacturing technologies destined for China.
+Beginning on **October 7, 2022**, the United States imposed a major new set of controls on advanced computing chips, supercomputer-related items, and semiconductor manufacturing equipment destined for China. The Commerce Department tightened and revised those controls again in 2023 and subsequent years. ([U.S. Bureau of Industry and Security, 2022](https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples))
 
-The precise rules have changed repeatedly since then, and by 2026 some advanced-chip exports are again being considered under case-by-case licensing rather than through a simple blanket ban.
+The precise rules have changed repeatedly since then. That detail matters: the "chip war" is not one permanent prohibition but an evolving system of thresholds, licensing requirements, equipment controls, entity restrictions, and allied coordination.
 
 But the broader strategic direction is clear.
 
@@ -1071,6 +1106,30 @@ Knowledge depreciates if innovation stops.
 
 Taiwan's strategic position therefore depends on continued learning.
 
+# A Short Timeline of How We Got Here
+
+The semiconductor conflict can feel like a sudden consequence of AI, but the underlying system took decades to build.
+
+| Year | Event |
+|---|---|
+| **1973** | Taiwan establishes ITRI |
+| **1976** | ITRI signs its semiconductor technology-transfer agreement with RCA |
+| **1977** | Taiwan completes its first IC demonstration factory |
+| **1987** | TSMC is founded around the pure-play foundry model |
+| **2022** | The U.S. launches the CHIPS for America program and major advanced-chip export controls on China |
+| **2024** | TSMC's first Arizona fab enters high-volume production |
+| **2025** | Global semiconductor sales reach $791.7 billion; TSMC revenue reaches $122.4 billion |
+| **2025** | TSMC raises planned U.S. investment to $165 billion |
+| **2026** | The industry approaches the prospect of $1 trillion in annual global sales |
+
+The striking feature of that timeline is the difference in speed.
+
+Governments can change export rules in months.
+
+Factories take years.
+
+Industrial ecosystems take decades.
+
 # The Real Resource Is Knowledge
 
 This brings us back to the beginning.
@@ -1245,3 +1304,17 @@ It is a contest over accumulated capability.
 And Taiwan's extraordinary achievement is that an island with almost none of the natural resources traditionally associated with geopolitical power managed to create one of the most valuable resources of all:
 
 **knowledge that the rest of the world cannot easily replace.**
+
+# References and Further Reading
+
+The following are the main sources used for the quantitative and historical claims in this article:
+
+- **Semiconductor Industry Association (2026).** ["Global Annual Semiconductor Sales Increase 25.6% to $791.7 Billion in 2025."](https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/)
+- **TSMC (2025).** [2025 Annual Report.](https://investor.tsmc.com/static/annualReports/2025/english/index.html)
+- **TSMC (2026).** [4Q25 Management Report.](https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2026-01/00fe50f72b38d74e6b9b066398f020f337cd4e9d/4Q25%20Management%20Report.pdf)
+- **TSMC (2025).** ["TSMC Intends to Expand Its Investment in the United States to US$165 Billion to Power the Future of AI."](https://prpoc.cld.tsmc.com/english/news/3210)
+- **ASML (2025).** [2025 Annual Report.](https://www.asml.com/investors/annual-report/2025)
+- **Industrial Technology Research Institute (ITRI).** ["Adopting Technical Knowledge from RCA to Develop Taiwan's IC Capabilities."](https://50th.itri.org.tw/en/history/semiconductors/1/)
+- **U.S. Department of Commerce (2022).** ["Implementation Strategy for $50 Billion CHIPS for America Program."](https://www.commerce.gov/news/press-releases/2022/09/biden-administration-releases-implementation-strategy-50-billion-chips)
+- **U.S. Bureau of Industry and Security (2022).** ["Commerce Implements New Export Controls on Advanced Computing and Semiconductor Manufacturing Items to the People's Republic of China."](https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples)
+

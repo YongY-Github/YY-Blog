@@ -94,5 +94,8 @@
   },
   "posts/TSMC/index.qmd": {
     "index.html": "3c4c32b2"
+  },
+  "posts/haze/index.qmd": {
+    "index.html": "bfd56d18"
   }
 }

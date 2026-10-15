@@ -1,0 +1,1131 @@
+---
+title: "Why the Haze Comes Back Every Year"
+subtitle: "Peat, Palm Oil, Externalities, and Southeast Asia’s Recurring Smoke Crisis"
+author: "-YY-"
+date: "2026-10-15"
+categories: [Southeast Asia, Indonesia, Malaysia, Singapore, environment, political economy]
+# bibliography: references.bib
+# nocite: '@*'
+---
+
+Every dry season, the haze comes back.
+
+Pekanbaru.
+
+Palangka Raya.
+
+Jambi.
+
+Kuala Lumpur.
+
+Kuching.
+
+Singapore.
+
+Sometimes even southern Thailand.
+
+Different cities. Different countries. Different air-quality indices.
+
+The same smoke.
+
+For people living in Southeast Asia, haze has become almost seasonal.
+
+The southwest monsoon arrives.
+
+Rainfall weakens.
+
+Satellite images begin showing clusters of fire in Sumatra and Kalimantan.
+
+The sky turns grey.
+
+Schools cancel outdoor activities.
+
+Air purifiers disappear from shops.
+
+And sooner or later somebody asks the obvious question:
+
+> **Why does this keep happening?**
+
+The usual answer is simple:
+
+> Farmers are burning land.
+
+That is not entirely wrong.
+
+But it misses the deeper mechanism.
+
+The haze is not fundamentally a story about careless people lighting fires.
+
+It is a story about **peat**, **drainage**, **land values**, **cheap clearing**, **weak enforcement**, and a global commodity system that rewards keeping land dry enough to grow profitable crops.
+
+And once peat is drained, the entire fire problem changes.
+
+The truth behind the truth is that Southeast Asia's haze is not really a fire problem.
+
+It is a **water problem**.
+
+# Start with the Smoke
+
+The satellite view is striking.
+
+In severe haze years, fires cluster heavily in two regions:
+
+- Sumatra;
+- Kalimantan, the Indonesian part of Borneo.
+
+The wind then decides who breathes the smoke.
+
+During the southwest monsoon, roughly from June through September, prevailing winds can carry smoke from Sumatra across the Strait of Malacca toward Peninsular Malaysia and Singapore.
+
+Smoke from Kalimantan affects Borneo itself, including parts of Malaysia and Brunei.
+
+NASA's satellite instruments documented this vividly during the 2015 haze crisis. Fires in Sumatra and Kalimantan produced enormous smoke plumes, while the strong 2015 El Niño made conditions much drier than usual. NASA described the 2015 fire season as the most severe observed by its Earth-observing satellites. ([NASA, 2016](https://science.nasa.gov/blogs/earth-matters/2016/08/05/just-how-bad-was-the-2015-fire-season-in-indonesia/))
+
+The monsoon transports the smoke.
+
+But it does not create it.
+
+For that we have to look underground.
+
+# Peat: A Forest That Became Soil
+
+Much of coastal Sumatra and Kalimantan is covered by tropical peatland.
+
+Peat forms when vegetation falls into waterlogged environments and does not completely decompose.
+
+Leaves.
+
+Roots.
+
+Branches.
+
+Trees.
+
+Layer upon layer accumulates over thousands of years.
+
+The result is soil composed largely of partially decayed organic matter.
+
+In Indonesia, some peat deposits are several metres deep, and exceptionally deep peat exceeds seven metres in parts of Sumatra and Kalimantan. One modern mapping study estimated that Indonesia alone contains about **13.4 million hectares of peatland**. ([Anda et al., 2021](https://www.sciencedirect.com/science/article/pii/S0016706121003153))
+
+That matters because peat is essentially stored carbon.
+
+When peat remains wet, it is remarkably resistant to fire.
+
+The water table acts as protection.
+
+But agricultural development changes the hydrology.
+
+To grow oil palm or acacia efficiently, producers typically dig canals.
+
+The canals lower the water table.
+
+The land dries.
+
+And the peat changes from:
+
+$$
+\text{waterlogged carbon store}
+$$
+
+into:
+
+$$
+\text{deep layer of combustible fuel}.
+$$
+
+That is the central transformation.
+
+# Wet Peat Does Not Burn
+
+Normally, a swamp should be difficult to burn.
+
+Drain it, and everything changes.
+
+Dry peat can smoulder beneath the surface.
+
+Unlike an ordinary forest fire, a peat fire does not necessarily produce a dramatic wall of flame.
+
+It can move slowly underground.
+
+Firefighters may extinguish what they see on the surface only to discover that the fire continues beneath their feet.
+
+NASA notes that Indonesian peat fires can smoulder for weeks or months and often continue until heavy monsoon rain finally saturates the ground again. ([NASA Earth Observatory, 2015](https://science.nasa.gov/earth/earth-observatory/smoke-blankets-indonesia-86681/))
+
+And peat smoke is especially dirty.
+
+Recent NASA reporting notes that peat fires can produce substantially more fine particulate matter and other pollutants than ordinary tropical forest fires. ([NASA, 2026](https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/))
+
+This is why the haze can become so severe.
+
+The system is not simply:
+
+$$
+\text{fire}
+\rightarrow
+\text{smoke}.
+$$
+
+It is:
+
+$$
+\text{drainage}
+\rightarrow
+\text{dry peat}
+\rightarrow
+\text{persistent underground fire}
+\rightarrow
+\text{regional haze}.
+$$
+
+# A Small Area Can Produce a Disproportionate Fire Problem
+
+The transcript that prompted this article makes a striking comparison.
+
+Across Sumatra, Borneo, and the Malay Peninsula in 2015, peat accounted for roughly **12 percent of land area**, but around **53 percent of satellite-detected fires**.
+
+Other analyses show the same broad pattern.
+
+A World Bank assessment noted that peatlands represented only around **10 percent of Indonesia's land area**, yet around **half of the fires between June and October 2015 occurred on peatlands**. ([World Bank](https://documents1.worldbank.org/curated/en/269011501162340031/pdf/SG-PRW-PID-CP-P162965-07-27-2017-1501162333548.pdf))
+
+This is the first reason peat matters so much.
+
+The second is emissions.
+
+Peat contains centuries or millennia of accumulated carbon.
+
+Burn a tree and you release the carbon in the tree.
+
+Burn peat and you can release carbon accumulated far beneath it as well.
+
+That is why a relatively modest physical area can generate an enormous pollution and climate impact.
+
+# Then El Niño Arrives
+
+The fires do not have the same severity every year.
+
+Climate variability matters.
+
+The two famous haze disasters of **1997** and **2015** occurred during strong El Niño episodes.
+
+El Niño tends to reduce rainfall across parts of Indonesia.
+
+The dry season becomes longer.
+
+The water table falls.
+
+Previously drained peat dries deeper.
+
+Once fires begin, they become much harder to control.
+
+NASA concluded that the 2015 El Niño drought was a major reason fires spread into drained and degraded peatlands and persisted underground. ([NASA, 2016](https://www.nasa.gov/centers-and-facilities/goddard/severe-2015-indonesian-fire-season-linked-to-el-ni%C3%B1o-drought/))
+
+This creates a dangerous interaction:
+
+$$
+\text{human drainage}
++
+\text{climate-driven drought}
+=
+\text{extreme fire risk}.
+$$
+
+El Niño does not cause the underlying land-use problem.
+
+But it exposes it.
+
+A wet year can hide a badly managed peatland.
+
+A dry year reveals it.
+
+# So Why Drain the Peat?
+
+This is where the economic story begins.
+
+The main commercial crops associated with drained peatland are **oil palm** and **acacia**, the latter widely used in pulp and paper production.
+
+Oil palm is extremely productive.
+
+Indonesia is the world's largest producer.
+
+Malaysia is the second largest.
+
+Together, the two countries dominate global palm-oil supply.
+
+Palm oil appears in cooking oil, processed food, soap, cosmetics, detergents, and many industrial products.
+
+Acacia feeds pulp and paper mills.
+
+The incentives for land conversion are therefore powerful.
+
+And drained peat has another advantage from the perspective of land users:
+
+it becomes easier to clear.
+
+# Fire Is Cheap
+
+Why use fire?
+
+Because fire is extraordinarily cheap.
+
+One estimate cited by CIFOR during the 2015 crisis put clearing costs at around **US$7 per hectare using fire**, compared with roughly **US$150 by mechanical means**.
+
+Different studies produce different numbers, but the qualitative result is remarkably consistent:
+
+$$
+C_{\text{fire}}
+<
+C_{\text{mechanical clearing}}.
+$$
+
+And that gap matters.
+
+One hectare is 10,000 square metres.
+
+So a person controlling land may save substantial money by burning.
+
+But that creates one of the clearest examples of an externality in applied economics.
+
+The person who lights the fire captures much of the private benefit.
+
+Other people absorb much of the social cost.
+
+Formally:
+
+$$
+\text{Private Cost of Fire}
+<
+\text{Social Cost of Fire}.
+$$
+
+The gap between the two is the problem.
+
+# The Land Becomes More Valuable After It Burns
+
+Fire also interacts with land markets.
+
+Research in Riau cited in the source material found land values rising as land moved through different stages of conversion.
+
+Burned land could sell for more than uncleared land.
+
+Land planted with oil palm could be worth much more again.
+
+So the incentive is not simply to save clearing costs.
+
+Fire can help transform land into a more valuable economic asset.
+
+A simplified sequence looks like:
+
+$$
+\text{forest / degraded land}
+\rightarrow
+\text{burned land}
+\rightarrow
+\text{cleared land}
+\rightarrow
+\text{plantation}
+\rightarrow
+\text{higher land value}.
+$$
+
+Once those gains exist, telling everyone simply to "stop burning" misses the economic structure underneath the problem.
+
+Someone benefits from conversion.
+
+Someone else bears the smoke.
+
+# So Who Actually Lights the Fires?
+
+This is where simple narratives become dangerous.
+
+It is tempting to blame one group.
+
+Large plantation companies.
+
+Small farmers.
+
+Local communities.
+
+Foreign corporations.
+
+Corrupt officials.
+
+The evidence is more complicated.
+
+Different studies have found fires occurring:
+
+- inside industrial concessions;
+- outside concessions;
+- on community land;
+- on degraded land awaiting development;
+- in oil-palm areas;
+- in pulpwood landscapes.
+
+In Central Kalimantan, some research has found many fires beginning outside formal oil-palm concessions.
+
+In other cases, substantial burned areas were located inside concessions.
+
+And land ownership itself can be contested.
+
+So the correct answer to:
+
+> Who burns Southeast Asia?
+
+is not one company, one farmer, or one country.
+
+The better answer is:
+
+> **a system of incentives that makes fire cheap and prevention expensive.**
+
+That system includes:
+
+- land scarcity;
+- plantation profitability;
+- insecure property rights;
+- local land speculation;
+- cheap burning;
+- weak or uneven enforcement;
+- global demand for palm oil and paper.
+
+The haze has many participants because the supply chain has many participants.
+
+# The Palm Oil in the Bathroom
+
+This is where the story becomes uncomfortable for consumers.
+
+Palm oil does not remain in Indonesia.
+
+It enters a global commodity chain.
+
+It is refined.
+
+Processed.
+
+Exported.
+
+Traded.
+
+Turned into cooking oil, instant noodles, biscuits, soaps, cosmetics, detergents, and other products.
+
+Acacia becomes pulp and paper.
+
+The smoke may begin in Sumatra or Kalimantan.
+
+But the economic demand extends far beyond Indonesia.
+
+So the system looks something like:
+
+$$
+\text{global demand}
+\rightarrow
+\text{land value}
+\rightarrow
+\text{drainage}
+\rightarrow
+\text{cheap clearing incentive}
+\rightarrow
+\text{fire risk}.
+$$
+
+That does not mean buying shampoo causes a peat fire.
+
+It does mean the final consumer is part of a supply chain whose upstream incentives matter.
+
+# The People Closest to the Fires Pay First
+
+When people in Singapore or Kuala Lumpur discuss "Indonesian haze," it is easy to forget something important.
+
+**Indonesians breathe it first.**
+
+And often far more severely.
+
+During the 2015 crisis, pollution measurements in parts of Sumatra and Kalimantan reached extraordinary levels.
+
+The World Bank reported more than **500,000 cases of acute respiratory infection** associated with the 2015 fires and haze, alongside significant health costs and lost working time. ([World Bank, 2015](https://documents1.worldbank.org/curated/en/352041467995622739/pdf/105664-WP-PUBLIC-ADD-SERIES-IEQ-DEC-2015-ENG.pdf))
+
+Schools were closed across affected provinces.
+
+The transcript reports that more than **4.5 million Indonesian students** were affected by school closures during the crisis.
+
+Those numbers matter because haze is not only an environmental inconvenience.
+
+It is a human-capital shock.
+
+When children miss school, households lose work, hospitals become crowded, and outdoor labor becomes dangerous, the economic costs compound.
+
+# The Smoke Crosses Borders
+
+Then the smoke moves.
+
+During the 2015 crisis, Malaysia closed thousands of schools.
+
+Singapore closed all primary and secondary schools on **25 September 2015** because of haze—the first such nationwide school closure.
+
+Southern Thailand was affected as well.
+
+The haze therefore creates a classic transboundary externality.
+
+The benefits of land clearing may be concentrated locally.
+
+The costs spread across national borders.
+
+That makes governance especially difficult.
+
+Indonesia may regulate the land.
+
+But Singaporean children may breathe the smoke.
+
+Malaysian businesses may lose activity.
+
+Thai residents may experience elevated particulate exposure.
+
+The atmosphere ignores sovereignty.
+
+# How Many People Died in 2015?
+
+This question is much harder than it first appears.
+
+The Indonesian government's immediate death count during the fires was small.
+
+But air pollution rarely kills in a way that appears neatly on a death certificate as:
+
+> "haze."
+
+Fine-particle pollution raises the probability of:
+
+- heart attack;
+- stroke;
+- respiratory failure;
+- pulmonary disease;
+- complications among vulnerable people.
+
+Those deaths may occur weeks or months later.
+
+Researchers therefore use epidemiological models to estimate **excess mortality**.
+
+One widely cited study by Koplitz and coauthors estimated approximately **100,300 premature deaths** across Indonesia, Malaysia, and Singapore from the 2015 haze episode. ([Koplitz et al., 2016](https://projects.iq.harvard.edu/files/acmg/files/koplitz_fires_2016.pdf))
+
+Other studies have produced much lower estimates.
+
+That disagreement is important.
+
+It reflects different assumptions about:
+
+- pollution exposure;
+- dose-response relationships;
+- baseline mortality;
+- which particles are included;
+- how long health effects persist.
+
+So I would not present 100,300 as "the number of people the haze killed."
+
+I would present it as what it is:
+
+> **one influential modeled estimate of excess mortality.**
+
+The uncertainty does not imply that the health damage is imaginary.
+
+It means the precise magnitude is difficult to identify.
+
+# The Long Shadow on Children
+
+The most disturbing health effects may occur long after the smoke disappears.
+
+Research following earlier Indonesian haze episodes found effects on infant mortality and children's later physical development.
+
+The World Bank cited earlier work estimating **15,600 fewer surviving children** following severe Indonesian fire-related air pollution in the late 1990s. ([World Bank, 2015](https://documents1.worldbank.org/curated/en/352041467995622739/pdf/105664-WP-PUBLIC-ADD-SERIES-IEQ-DEC-2015-ENG.pdf))
+
+This changes how we should think about the cost.
+
+The haze is not merely:
+
+$$
+\text{bad air today}.
+$$
+
+It may also mean:
+
+$$
+\text{lower health capital tomorrow}.
+$$
+
+That makes haze a development issue, not simply an environmental one.
+
+# The 2015 Economic Bill: $16.1 Billion
+
+The World Bank estimated that the 2015 fires and haze cost Indonesia approximately **US$16.1 billion**.
+
+That was about **1.9 percent of Indonesian GDP** at the time. ([World Bank](https://documents1.worldbank.org/curated/en/269011501162340031/pdf/SG-PRW-PID-CP-P162965-07-27-2017-1501162333548.pdf))
+
+The loss came through multiple channels:
+
+- agriculture;
+- forestry;
+- transportation;
+- trade;
+- tourism;
+- manufacturing;
+- health;
+- environmental damage.
+
+The World Bank estimated transport losses at roughly **IDR 5.1 trillion**, trade-service losses at **IDR 18.3 trillion**, and tourism losses at around **IDR 5.5 trillion**. ([World Bank, 2015](https://documents1.worldbank.org/curated/en/352041467995622739/pdf/105664-WP-PUBLIC-ADD-SERIES-IEQ-DEC-2015-ENG.pdf))
+
+The $16.1 billion estimate was more than twice the World Bank's estimate of the reconstruction cost following the 2004 Aceh tsunami.
+
+That comparison is sobering.
+
+One disaster arrived without warning from beneath the ocean.
+
+The other resulted substantially from a recurring land-management system.
+
+# And Then There Is the Carbon
+
+The 2015 fires burned approximately **2.6 million hectares**.
+
+Peat fires release enormous amounts of stored carbon.
+
+For periods during the 2015 crisis, estimated daily carbon emissions from Indonesian fires exceeded the daily fossil-fuel emissions of the entire European Union.
+
+This is why peatland management matters globally.
+
+A drained peat swamp creates two climate problems.
+
+Even before it burns, peat oxidizes and releases carbon dioxide.
+
+If it later catches fire, emissions accelerate dramatically.
+
+So:
+
+$$
+\text{drainage}
+\rightarrow
+\text{continuous CO}_2
+$$
+
+and then potentially:
+
+$$
+\text{fire}
+\rightarrow
+\text{massive additional emissions}.
+$$
+
+The fire crisis is therefore simultaneously:
+
+- a local land-use problem;
+- a regional air-pollution problem;
+- a global climate problem.
+
+# ASEAN Promised "Never Again"
+
+The regional response has a long history.
+
+After the catastrophic 1997–98 haze, ASEAN countries negotiated the **ASEAN Agreement on Transboundary Haze Pollution**.
+
+It was signed in Kuala Lumpur on **10 June 2002** and entered into force in **November 2003**. ([ASEAN Haze Portal](https://hazeportal.asean.org/action/asean-agreement-on-transboundary-haze-pollution/))
+
+Indonesia was the last ASEAN member to ratify it.
+
+Its parliament approved ratification in **2014**, more than a decade after the agreement was signed. ([ASEAN, 2015](https://environment.asean.org/public/news/detail/indonesia-deposits-instrument-of-ratification-of-the-asean-agreement-on-transboundary-haze-pollution))
+
+The agreement was historically important.
+
+ASEAN describes it as the world's first regional agreement binding a group of neighboring states to address transboundary haze from land and forest fires.
+
+But the haze did not disappear.
+
+Why?
+
+Because international agreements can improve cooperation.
+
+They cannot by themselves change the economics of individual plots of land.
+
+# The Enforcement Problem
+
+Indonesia has also pursued companies through its courts.
+
+According to the source material, between 2013 and 2023 the government filed civil cases against **22 companies** over fires.
+
+Fourteen were found liable.
+
+Yet collection and ecological restoration lagged far behind the judgments.
+
+This illustrates an important distinction:
+
+$$
+\text{law on paper}
+\neq
+\text{credible enforcement}.
+$$
+
+A fine changes incentives only when firms expect to pay it.
+
+A restoration order changes behavior only when restoration actually occurs.
+
+Otherwise, illegal fire can remain privately profitable even when it is formally prohibited.
+
+# Singapore Tried Extraterritorial Law
+
+Singapore adopted another approach.
+
+Its **Transboundary Haze Pollution Act** was passed in 2014.
+
+The law was designed to allow action against entities outside Singapore if they caused or contributed to haze pollution affecting Singapore.
+
+This was an unusual attempt to make a cross-border externality legally actionable.
+
+The political logic is understandable.
+
+If the pollution crosses the border, why should legal responsibility stop at the border?
+
+But extraterritorial enforcement is difficult.
+
+Evidence must connect particular fires to particular companies and then connect those emissions to pollution experienced in Singapore.
+
+Corporate structures may span several jurisdictions.
+
+Land ownership may be contested.
+
+Access to evidence depends on cooperation from foreign authorities.
+
+The law therefore symbolizes both the ambition and the difficulty of regulating haze across borders.
+
+# Why Haze Is a Perfect Externality Problem
+
+For economists, haze is almost a textbook example.
+
+Suppose clearing one hectare with fire saves a landholder money.
+
+Let:
+
+$$
+B_i
+$$
+
+be the private benefit to the burner.
+
+But the smoke imposes costs on:
+
+- nearby households;
+- schools;
+- hospitals;
+- workers;
+- airlines;
+- tourism firms;
+- neighboring countries;
+- future generations through carbon emissions.
+
+Call those external costs:
+
+$$
+E.
+$$
+
+The burner chooses fire if:
+
+$$
+B_i > C_i.
+$$
+
+Society would prefer fire only if:
+
+$$
+B_i > C_i + E.
+$$
+
+When $E$ is large but the burner does not pay it, too much burning occurs.
+
+That is the economic core.
+
+The problem is not that people fail to understand that smoke is bad.
+
+The problem is that the person making the decision does not bear the full cost.
+
+# Why Punishment Alone Is Not Enough
+
+This also explains why enforcement by itself has limits.
+
+Suppose authorities increase fines.
+
+That may discourage some intentional burning.
+
+But a drained peat landscape remains highly flammable.
+
+A cigarette.
+
+A cooking fire.
+
+A spark.
+
+A neighboring agricultural burn.
+
+Any ignition source can become catastrophic if the peat is sufficiently dry.
+
+So even perfect policing of deliberate burning does not fully solve the ecological problem.
+
+The landscape itself has been transformed into fuel.
+
+That leads us to the most important lesson.
+
+# What Actually Worked
+
+Indonesia created a peat-restoration program after the 2015 disaster.
+
+The basic approach was remarkably unglamorous.
+
+Block canals.
+
+Raise water tables.
+
+Revegetate degraded peat.
+
+Support local fire-prevention teams.
+
+Encourage livelihoods that do not require deep drainage.
+
+The source material reports that roughly **1.6 million hectares** had been restored by 2024.
+
+Studies of restoration efforts have found lower fire incidence in rewetted areas, although effectiveness varies with maintenance, hydrology, weather, and local implementation.
+
+That is exactly what we would expect.
+
+If the causal chain is:
+
+$$
+\text{drainage}
+\rightarrow
+\text{dry peat}
+\rightarrow
+\text{fire},
+$$
+
+then prevention has to work backward:
+
+$$
+\text{rewetting}
+\rightarrow
+\text{wet peat}
+\rightarrow
+\text{lower fire probability}.
+$$
+
+The most effective fire-fighting technology may therefore be water already in the ground.
+
+# The Haze Is a Water Problem
+
+This is the part of the story I find most revealing.
+
+After years of satellites, treaties, court cases, fire brigades, emergency declarations, masks, school closures, and diplomatic arguments, the core physical mechanism is almost embarrassingly simple.
+
+**Wet peat does not burn easily.**
+
+So the durable solution is not primarily to become better at extinguishing peat fires.
+
+It is to stop creating landscapes in which peat can burn.
+
+Block drainage canals.
+
+Raise water tables.
+
+Restore vegetation.
+
+Develop crops that tolerate wet peat.
+
+Maintain restoration infrastructure.
+
+Monitor water levels before the dry season.
+
+The real policy target should be:
+
+$$
+\Pr(\text{fire} \mid \text{wet peat})
+\ll
+\Pr(\text{fire} \mid \text{drained peat}).
+$$
+
+Fire suppression treats the event.
+
+Rewetting changes the probability of the event.
+
+# Paludiculture: Farming Without Draining
+
+This raises a difficult development question.
+
+If people depend economically on peatlands, telling them simply to abandon the land is unrealistic.
+
+An alternative is **paludiculture**:
+
+> productive land use compatible with wet peat.
+
+Potential crops include species such as sago and other plants adapted to waterlogged conditions.
+
+The economics matter.
+
+If wet-land livelihoods generate much less income than drained oil palm, restoration will constantly face pressure.
+
+So the long-run solution requires:
+
+$$
+\text{peat protection}
++
+\text{credible livelihood alternative}.
+$$
+
+Environmental policy fails when it ignores income.
+
+That is as true in Kalimantan as anywhere else.
+
+# Certification Helps, But It Cannot Carry the Entire Burden
+
+Consumers often encounter one proposed solution:
+
+**certified sustainable palm oil.**
+
+Certification schemes such as the Roundtable on Sustainable Palm Oil can improve traceability and create incentives for producers to meet environmental standards.
+
+But certification is not magic.
+
+Some research has found improvements in deforestation outcomes without equally strong reductions in peat fires.
+
+That should not surprise us.
+
+A certification label operates through supply-chain incentives.
+
+The physical fire risk operates through hydrology.
+
+Both matter.
+
+Neither substitutes completely for the other.
+
+# Why the Problem Keeps Returning
+
+We can now answer the original question.
+
+The haze comes back because several mechanisms reinforce one another:
+
+$$
+\text{profitable land use}
+\rightarrow
+\text{peat drainage}
+\rightarrow
+\text{dry fuel}
+$$
+
+combined with:
+
+$$
+\text{cheap fire}
++
+\text{imperfect enforcement}
+$$
+
+and periodically amplified by:
+
+$$
+\text{El Niño / drought}.
+$$
+
+The result is transported by the monsoon:
+
+$$
+\text{Sumatra and Kalimantan fires}
+\rightarrow
+\text{regional smoke}
+\rightarrow
+\text{Indonesia, Malaysia, Singapore, Brunei, Thailand}.
+$$
+
+Nothing about this is mysterious.
+
+What makes it difficult is that each component belongs to a different policy domain.
+
+Agriculture.
+
+Land tenure.
+
+Forestry.
+
+Commodity markets.
+
+Law enforcement.
+
+Hydrology.
+
+Public health.
+
+Climate policy.
+
+International diplomacy.
+
+The haze is therefore not one problem.
+
+It is a system.
+
+# Who Benefits and Who Pays?
+
+That is perhaps the most useful way to summarize the political economy.
+
+Some actors benefit from cheaper land clearing.
+
+Some gain from plantation development.
+
+Consumers benefit from inexpensive palm oil and paper products.
+
+Governments receive export revenue and economic activity.
+
+But the costs are dispersed.
+
+Indonesian families breathe polluted air.
+
+Children miss school.
+
+Workers lose wages.
+
+Hospitals absorb patients.
+
+Malaysian and Singaporean businesses face disruption.
+
+Airlines cancel or delay flights.
+
+Wildlife loses habitat.
+
+The atmosphere absorbs carbon.
+
+Future generations inherit part of the climate cost.
+
+So:
+
+$$
+\text{benefits}
+=
+\text{concentrated}
+$$
+
+while:
+
+$$
+\text{costs}
+=
+\text{dispersed}.
+$$
+
+And that is exactly the political structure in which harmful systems can persist.
+
+# What Would a Durable Solution Look Like?
+
+A durable policy would need several layers.
+
+First, maintain high water tables on peatlands.
+
+Second, repair and maintain canal blocks rather than treating restoration as a one-time construction project.
+
+Third, strengthen fire monitoring during drought years.
+
+Fourth, enforce liability credibly against concession holders and intentional burners.
+
+Fifth, improve land-tenure clarity so responsibility is easier to identify.
+
+Sixth, create viable wet-peat livelihoods.
+
+Seventh, make supply chains more transparent so buyers know where commodities originate.
+
+And finally, coordinate regionally.
+
+Singapore cannot rewet Kalimantan.
+
+Malaysia cannot prosecute every fire in Sumatra.
+
+Indonesia cannot control where the smoke travels.
+
+The externality is regional.
+
+The solution must therefore be partly regional too.
+
+# The Haze Calendar
+
+The tragedy is that Southeast Asia now treats haze almost like weather.
+
+People know what to do.
+
+Check the PSI in Singapore.
+
+The API in Malaysia.
+
+The ISPU in Indonesia.
+
+Close the windows.
+
+Reduce outdoor exercise.
+
+Run an air purifier.
+
+Keep children's inhalers nearby.
+
+Wait for the rain.
+
+Those are sensible responses.
+
+But they are adaptations to failure.
+
+A region should not have to organize family life around an avoidable pollution season.
+
+The rain eventually comes.
+
+The wind changes.
+
+The sky becomes blue again.
+
+And that creates another political problem.
+
+The haze disappears from view.
+
+Attention moves elsewhere.
+
+Until the next dry year.
+
+# The Truth Behind the Truth
+
+The obvious story is:
+
+> People burn forests and create haze.
+
+The more complete story is:
+
+> Profitable land is created by draining peat; drained peat becomes combustible; fire is cheap; the social costs fall largely on others; drought amplifies the risk; and the monsoon distributes the consequences across national borders.
+
+That is why blaming one farmer or one corporation never quite solves the puzzle.
+
+The haze is produced by a system.
+
+And systems persist when the incentives that created them remain intact.
+
+The good news is that the underlying physical mechanism is well understood.
+
+We know what makes peat dangerous.
+
+We also know what makes it safer.
+
+Water.
+
+The real question is whether Southeast Asia can make keeping peat wet economically and politically more attractive than draining it.
+
+Because if the water stays up, the fire risk falls.
+
+And perhaps one day the haze really can come off the calendar.
+
+# References and Further Reading
+
+The following sources informed the factual and quantitative claims in this article:
+
+- **ASEAN.** [ASEAN Agreement on Transboundary Haze Pollution.](https://hazeportal.asean.org/action/asean-agreement-on-transboundary-haze-pollution/)
+- **ASEAN Environment Knowledge Hub (2015).** [Indonesia Deposits Instrument of Ratification of the ASEAN Agreement on Transboundary Haze Pollution.](https://environment.asean.org/public/news/detail/indonesia-deposits-instrument-of-ratification-of-the-asean-agreement-on-transboundary-haze-pollution)
+- **Anda, M. et al. (2021).** “Revisiting Tropical Peatlands in Indonesia: Semi-Detailed Mapping, Extent and Depth Distribution Assessment.” *Geoderma*.
+- **Jayachandran, S. (2009).** “Air Quality and Early-Life Mortality: Evidence from Indonesia's Wildfires.” *Journal of Human Resources*.
+- **Koplitz, S. N. et al. (2016).** “Public Health Impacts of the Severe Haze in Equatorial Asia in September–October 2015.” *Environmental Research Letters*.
+- **NASA Earth Observatory (2015).** [Smoke Blankets Indonesia.](https://science.nasa.gov/earth/earth-observatory/smoke-blankets-indonesia-86681/)
+- **NASA (2016).** [Severe 2015 Indonesian Fire Season Linked to El Niño Drought.](https://www.nasa.gov/centers-and-facilities/goddard/severe-2015-indonesian-fire-season-linked-to-el-ni%C3%B1o-drought/)
+- **NASA Earth Matters (2016).** [Just How Bad Was the 2015 Fire Season in Indonesia?](https://science.nasa.gov/blogs/earth-matters/2016/08/05/just-how-bad-was-the-2015-fire-season-in-indonesia/)
+- **NASA (2026).** [Peatland Fires Darken Skies in Indonesia.](https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/)
+- **Page, S. E. et al. (2002).** “The Amount of Carbon Released from Peat and Forest Fires in Indonesia during 1997.” *Nature*.
+- **Page, S. E., Rieley, J. O. & Banks, C. J. (2011).** “Global and Regional Importance of the Tropical Peatland Carbon Pool.” *Global Change Biology*.
+- **World Bank (2015).** [Indonesia Economic Quarterly: Reforming amid Uncertainty.](https://documents1.worldbank.org/curated/en/352041467995622739/pdf/105664-WP-PUBLIC-ADD-SERIES-IEQ-DEC-2015-ENG.pdf)
+- **World Bank (2016).** [The Cost of Fire: An Economic Analysis of Indonesia's 2015 Fire Crisis.](https://documents1.worldbank.org/curated/en/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf)
