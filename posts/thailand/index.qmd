@@ -8,115 +8,35 @@ categories: [Thailand, Southeast Asia, tourism, economic development, structural
 # nocite: '@*'
 ---
 
-Thailand is one of the great tourism success stories of the modern era.
+Thailand is one of the great tourism success stories of the modern era. In 1960, when the newly established Tourist Organisation of Thailand began promoting the country more systematically, Thailand received only **81,340 foreign visitors**. By 2019, on the eve of the pandemic, arrivals had reached almost **40 million**. After the extraordinary collapse in international travel during COVID-19, tourism recovered to more than **35 million international visitors in 2024**, generating more than **1.8 trillion baht** in tourism revenue. ([Tourism Authority of Thailand, 2019](https://www.tatnews.org/2019/12/tat-deputy-governor-speech-at-pata-destination-marketing-forum-2019/); [Tourism Authority of Thailand, 2024](https://www.tatnews.org/2024/12/thailand-welcomes-over-35-million-visitors-in-2024-a-milestone-paving-the-way-for-2025/))
 
-In 1960, the country received only around 80,000 foreign visitors.
+That transformation did not happen by accident. Thailand spent decades building a tourism ecosystem out of geography, infrastructure, culture, hospitality, international connectivity, private entrepreneurship, and an unusual ability to turn disruption into opportunity. Cold War geopolitics helped create airports and service infrastructure. The Vietnam War expanded hotels, entertainment districts, and international familiarity. The 1997 Asian Financial Crisis made the country cheaper in foreign-currency terms just as the government launched one of Asia's most successful destination brands. Thai food, massage, silk, beaches, healthcare, nightlife, and hospitality gradually became forms of soft power long before governments began routinely using that term.
 
-By 2024, more than 35 million international tourists were arriving each year.
+For a long time, this model worked exceptionally well.
 
-Bangkok became one of the world’s most visited cities. Thailand became synonymous with beaches, food, hospitality, nightlife, wellness, culture, and value for money.
-
-This did not happen by accident.
-
-Thailand built a tourism machine over decades.
-
-It turned Cold War geopolitics into infrastructure.
-
-It turned military spending into civilian tourism.
-
-It turned the Asian Financial Crisis into a global marketing opportunity.
-
-It turned food, silk, beaches, massage, entertainment, and hospitality into forms of soft power.
-
-And for a long time, the strategy worked extraordinarily well.
-
-But that success raises a more difficult question.
+But its very success raises a harder question:
 
 > **What if Thailand became so good at tourism that tourism helped conceal how slowly the rest of the economy was changing?**
 
-Thailand did not collapse.
+Thailand did not collapse. It plateaued. The central problem is not crisis but **structural drift**: an economy with formidable inherited strengths, but weaker productivity growth, slower upgrading, demographic pressure, high household debt, uneven competition, and persistent difficulty converting foreign investment into enough domestic technological capability.
 
-It plateaued.
+Tourism did not cause these problems. But it may have made them easier to overlook.
 
-The problem is not crisis.
+# A Tourism Industry Built, Not Discovered
 
-It is drift.
+Thailand's rise is sometimes explained as if tourism were simply the natural result of beaches, temples, tropical weather, inexpensive food, and famous hospitality. Those advantages obviously matter, but they do not explain how visitor numbers rose from about **81,000 in 1960 to more than 1 million by 1973**, and eventually to almost 40 million before the pandemic. ([Tourism Authority of Thailand, 2019](https://www.tatnews.org/2019/12/tat-deputy-governor-speech-at-pata-destination-marketing-forum-2019/))
 
-And tourism may be one reason that drift was difficult to see.
+Institutions matter. Infrastructure matters. Marketing matters. History matters.
 
-# The Accidental Empire That Wasn’t Entirely Accidental
+Thailand formally established the Tourist Organisation of Thailand in 1959, with its office opening in March 1960. The agency was later upgraded into today's Tourism Authority of Thailand in 1979. ([Tourism Authority of Thailand](https://corp.tourismthailand.org/en/about-tat/history))
 
-Thailand’s rise as a tourism power is sometimes presented as the natural result of good weather, beautiful beaches, temples, inexpensive food, and famous hospitality.
+The timing was consequential. The Vietnam War was intensifying, and Thailand was becoming deeply integrated into the American military presence in mainland Southeast Asia. American troops were stationed in the country, while many more passed through on rest and recreation leave. Bangkok and Pattaya were relatively close to the war zone, inexpensive by American standards, and already developing the hotels, restaurants, nightlife, transport, and service industries needed to accommodate international visitors.
 
-Those advantages certainly matter.
+The economic consequences outlasted the war itself. Airports and roads were improved. Hotels expanded. Commercial and entertainment districts grew around military and transport nodes. Air bases and logistics infrastructure created for strategic reasons later supported civilian travel. When the conflict ended, the military demand disappeared, but much of the physical and commercial infrastructure remained.
 
-But geography alone does not explain how a country moves from tens of thousands of visitors to tens of millions.
+Thailand had converted a temporary geopolitical shock into a permanent economic asset.
 
-Institutions matter.
-
-Infrastructure matters.
-
-Marketing matters.
-
-And history matters.
-
-One of the key turning points came in the late 1950s.
-
-Field Marshal Sarit Thanarat, Thailand’s military ruler, returned from medical treatment in the United States impressed by the way tourism could be used as part of a broader development strategy.
-
-In 1960, Thailand established the Tourism Organization of Thailand, the institutional predecessor of today’s Tourism Authority of Thailand.
-
-The timing could hardly have been more consequential.
-
-The Vietnam War was intensifying.
-
-And Thailand was about to become deeply integrated into the American military presence in Southeast Asia.
-
-# War Builds a Tourism Infrastructure
-
-Between the early 1960s and mid-1970s, large numbers of American troops were stationed in Thailand.
-
-Even more passed through the country on Rest and Recuperation leave.
-
-Bangkok was close to Vietnam.
-
-It was relatively inexpensive.
-
-It had hotels, food, nightlife, entertainment, and an increasingly sophisticated service economy.
-
-The economic effect was substantial.
-
-Hotels expanded.
-
-Airports developed.
-
-Roads improved.
-
-Commercial districts emerged around military activity.
-
-Entertainment areas grew.
-
-Air bases and other military infrastructure became part of a network that later supported civilian travel.
-
-This is where Thailand demonstrated a pattern that would recur repeatedly:
-
-> **temporary shocks became permanent economic assets.**
-
-The war ended.
-
-The soldiers left.
-
-But the airports, hotels, restaurants, entertainment districts, service networks, and international familiarity remained.
-
-Military tourism became civilian tourism.
-
-Infrastructure built for one purpose was repurposed for another.
-
-The result was path dependence.
-
-Once Thailand had the hotels, transport links, travel agencies, restaurants, nightlife, and international reputation, each new visitor made the tourism ecosystem more valuable.
-
-The country had developed something close to a tourism cluster:
+That produced a self-reinforcing tourism cluster:
 
 $$
 \text{visitors}
@@ -130,89 +50,35 @@ $$
 \text{more visitors}.
 $$
 
-Success reinforced itself.
+Once hotels, restaurants, transport providers, travel agencies, hospitals, entertainment venues, and international air connections were in place, every additional visitor increased the value of the wider ecosystem.
 
 # From Cheap Destination to Global Brand
 
 The next major turning point came from another crisis.
 
-In 1997, Thailand became the starting point of the Asian Financial Crisis.
+Thailand was at the center of the 1997 Asian Financial Crisis. The baht depreciated sharply, financial institutions came under severe stress, investment collapsed, and the economy contracted. Yet the weaker currency also made Thailand dramatically cheaper for foreign visitors.
 
-The baht collapsed.
+The government's response included the **Amazing Thailand** campaign, launched during the crisis era and developed into one of Asia's most enduring tourism brands. Thailand was no longer marketed merely as an inexpensive tropical destination. The product was broadened to include food, culture, shopping, health and wellness, history, nature, adventure, arts, and crafts.
 
-Banks and businesses came under severe pressure.
+The cheap baht helped, but the more durable achievement was branding.
 
-Investment fell.
+Thailand learned how to sell not only a destination, but a recognizable identity.
 
-The economy contracted sharply.
+By 2019, the country expected **39.8 million foreign visitors** and around **US$66 billion in tourism receipts**. ([Tourism Authority of Thailand, 2019](https://www.tatnews.org/2019/12/tat-deputy-governor-speech-at-pata-destination-marketing-forum-2019/))
 
-But the currency depreciation also made Thailand extraordinarily inexpensive for foreign visitors.
+That was an astonishing transformation from the 81,340 visitors recorded when the national tourism agency began operating in 1960.
 
-The government responded with one of its most successful tourism campaigns:
+# Soft Power Before the Phrase Became Fashionable
 
-**Amazing Thailand.**
+Tourism also benefited from cultural exports.
 
-Initially conceived as part of the response to the crisis, the campaign became far more than a short-term promotion.
+The story of Jim Thompson and Thai silk is an early example. After the Second World War, Thompson helped connect traditional Thai silk production with international luxury markets. Thai silk became globally recognizable, while his Bangkok house became a tourist attraction in its own right.
 
-Thailand was no longer marketed simply as a cheap tropical destination.
+The product sold the country, and the country sold the product.
 
-The brand expanded.
+The same feedback loop later appeared in food, massage, wellness, fashion, film, music, and design. Thai cuisine is now globally familiar. Thai massage is internationally recognized. Thailand's private hospitals attract international patients. Contemporary culture increasingly travels across borders through entertainment and digital media.
 
-Food.
-
-Culture.
-
-Shopping.
-
-Health and wellness.
-
-History.
-
-Nature.
-
-Adventure.
-
-Arts and crafts.
-
-The message was that Thailand could offer many different experiences to many different kinds of visitors.
-
-The cheap baht helped.
-
-But the deeper achievement was branding.
-
-Thailand learned how to sell not just a destination, but an identity.
-
-# Soft Power Before We Called It Soft Power
-
-Thailand’s tourism strategy also benefited from cultural exports.
-
-One of the most famous examples is Jim Thompson.
-
-After the Second World War, the American businessman became fascinated by Thai silk.
-
-Rather than treating traditional silk weaving as a disappearing craft, Thompson helped connect it to global luxury markets.
-
-Thai silk became internationally recognizable.
-
-His own house in Bangkok became a tourist attraction.
-
-The product sold the country.
-
-The country sold the product.
-
-This relationship between tourism and cultural exports has only become more important over time.
-
-Thai food is now global.
-
-Thai massage is internationally recognized.
-
-Thai films, music, fashion, and design increasingly travel abroad.
-
-The government now explicitly talks about **soft power** as national economic strategy.
-
-But in many ways Thailand had been practicing it for decades before the phrase became fashionable.
-
-The underlying mechanism is simple:
+The mechanism is powerful:
 
 $$
 \text{cultural visibility}
@@ -224,169 +90,76 @@ $$
 \text{greater cultural visibility}.
 $$
 
-Again, the system reinforces itself.
+In that sense, Thailand was practicing soft power long before the phrase became a formal economic-development strategy.
 
-# The Layered Tourism Economy
+# Tourism Became Much Larger Than "Tourism"
 
-Once a tourism economy becomes sufficiently large, however, it stops being a neatly bounded industry.
+Once tourism reaches sufficient scale, it stops being a neatly bounded industry.
 
-Tourism merges into real estate.
+It merges into real estate, retail, healthcare, transport, restaurants, entertainment, education, migration, retirement, long-stay residence, construction, digital work, and informal services. International visitors are only one part of the system. Retirees purchase housing and healthcare. Digital workers spend income earned abroad. Foreign patients use private hospitals. Tourism supports domestic travel, food supply chains, construction, nightlife, personal services, and countless small businesses.
 
-Entertainment.
+This means the economic footprint of tourism is larger than the line labelled "tourism receipts."
 
-Retail.
+It also means the boundary between the formal and informal economy becomes blurred.
 
-Healthcare.
+That matters particularly in Thailand because tourism has historically been linked to sectors whose employment is often insecure, lightly regulated, or difficult to measure. Entertainment and sex work are the most obvious examples, but the broader point includes street vending, informal transport, small family businesses, domestic migration, and seasonal service employment.
 
-Hospitality.
+A very large tourism sector can therefore generate enormous income while leaving many workers with limited social protection.
 
-Migration.
+# The Uncomfortable Part of the Tourism Miracle
 
-Informal work.
+Any serious account of Thailand's tourism history must acknowledge the entertainment and sex industries without reducing the entire country to them.
 
-Property investment.
+Their historical connection to the Vietnam War is difficult to ignore. But the economic system became much larger than foreign demand alone. Urban service industries drew workers from poorer rural regions, particularly the Northeast, into Bangkok, Pattaya, Phuket, and other tourist centers. Part of the income earned in those cities then flowed back to provincial households through remittances.
 
-Digital nomadism.
+For some families, those transfers helped finance education, healthcare, housing, farm investment, or everyday consumption.
 
-Retirement.
+This creates an uncomfortable political economy. An activity can be legally restricted, socially stigmatized, and poorly measured while still supporting substantial numbers of households.
 
-Education.
+The pandemic made that dependence unusually visible.
 
-Cross-border capital flows.
+When international tourism disappeared, the shock did not stop at airports and hotels. It moved through restaurants, taxis, entertainment workers, small businesses, informal workers, and eventually into rural communities that depended on remittances.
 
-Some of these activities sit squarely inside the formal economy.
+Tourism had become part of Thailand's internal income-transfer system.
 
-Others sit in legal or regulatory gray zones.
+# COVID Exposed the Weakness Behind the Scale
 
-That does not mean the gray economy is the essence of Thai tourism.
+The pandemic made Thailand's dependence on tourism impossible to ignore.
 
-It does mean that a tourism ecosystem this large generates secondary markets that official visitor receipts cannot fully capture.
+International travel collapsed. Hotels emptied. Restaurants closed. Entertainment districts went quiet, and small businesses lost customers almost overnight. Thailand's GDP contracted by around **6.1 percent in 2020**, one of the sharpest contractions in East Asia outside economies even more dependent on international travel. ([World Bank Data](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=TH))
 
-Foreign buyers participate in property markets.
+But the aggregate GDP figure tells only part of the story.
 
-Long-stay residents spend income earned abroad.
+The deeper problem was the vulnerability of tourism-related employment. Many workers lacked stable contracts, unemployment insurance, or comprehensive social protection. Migrant workers and small proprietors were especially exposed. Informal employment meant that some people fell through the cracks of formal relief mechanisms.
 
-Retirees purchase services.
+The pandemic therefore revealed an important structural distinction:
 
-International patients use Thai hospitals.
+> **Tourism can generate enormous employment without necessarily generating high-productivity or highly secure employment.**
 
-Tourism supports bars, restaurants, transport, domestic travel, construction, and personal services.
+A sector may be large, earn foreign exchange, and support millions of livelihoods while still contributing relatively little to the productivity upgrading required for long-run high-income growth.
 
-The formal and informal economies overlap.
-
-And that makes the sector economically much larger than the simple line called “tourism receipts.”
-
-# The Uncomfortable Side of the Success
-
-Thailand’s tourism model also developed alongside large informal entertainment economies.
-
-Any serious discussion of Thailand’s tourism history has to acknowledge this without reducing the country to it.
-
-The entertainment and sex industries became intertwined with tourism in parts of Bangkok, Pattaya, Phuket, and other destinations.
-
-The historical connection to the Vietnam War is difficult to ignore.
-
-But the economic story is broader than foreign visitors.
-
-The industry became part of a domestic migration system linking poorer rural regions—especially the Northeast—to higher-paying urban service work.
-
-Income earned in Bangkok, Pattaya, and tourist centers flowed back to provincial households through remittances.
-
-For some families, these transfers paid for education, healthcare, housing, agricultural investment, and consumption.
-
-That creates an uncomfortable political economy.
-
-An activity may be legally restricted, socially stigmatized, and incompletely measured while still supporting substantial numbers of households.
-
-The COVID-19 pandemic exposed this dependence dramatically.
-
-When international tourism disappeared, the shock did not stop at hotels and airports.
-
-It traveled through informal workers and then back into rural communities that depended on urban remittances.
-
-The tourism economy was not merely serving tourists.
-
-It had become part of Thailand’s internal income-transfer system.
-
-# COVID Revealed the Vulnerability
-
-The pandemic made Thailand’s dependence on tourism impossible to ignore.
-
-International travel collapsed.
-
-Hotels emptied.
-
-Restaurants closed.
-
-Entertainment districts went quiet.
-
-Millions of workers were affected.
-
-Thailand’s GDP contracted sharply in 2020.
-
-But perhaps more revealing than the aggregate contraction was *who* bore the shock.
-
-A large share of tourism-related employment was informal.
-
-Workers without stable contracts, unemployment insurance, or comprehensive social protection were especially exposed.
-
-Migrant workers were vulnerable.
-
-Small businesses struggled.
-
-Informal workers often fell through the cracks of formal relief mechanisms.
-
-In other words, the pandemic revealed a structural feature of the Thai model:
-
-> **tourism generated enormous employment, but much of that employment was economically insecure.**
-
-That matters for how we interpret the sector’s success.
-
-A sector can be large without producing high productivity.
-
-It can employ millions without generating strong wage growth.
-
-It can bring in foreign exchange without necessarily transforming the wider economy.
-
-That distinction becomes crucial when we look at Thailand after the pandemic.
+That distinction becomes crucial when we look at the rest of the Thai economy.
 
 # The Tourism Machine Still Works
 
-Thailand remains one of the world’s most attractive destinations.
+Thailand remains one of the world's premier destinations. In 2024, international arrivals exceeded **35 million** and generated more than **1.8 trillion baht** in revenue. ([Tourism Authority of Thailand, 2024](https://www.tatnews.org/2024/12/thailand-welcomes-over-35-million-visitors-in-2024-a-milestone-paving-the-way-for-2025/))
 
 That should not be understated.
 
-Visitors still come for reasons that are difficult for competitors to reproduce quickly:
+Thailand's tourism comparative advantages remain formidable:
 
-- outstanding food;
-- strong hospitality;
-- good infrastructure;
-- beaches and natural attractions;
-- culture and heritage;
+- globally recognized food and hospitality;
+- strong air connectivity;
+- beaches, nature, culture, and heritage;
+- extensive hotel and service infrastructure;
 - world-class private healthcare;
 - nightlife and entertainment;
-- relative safety;
-- international connectivity;
-- an enormous existing tourism ecosystem.
+- a large and experienced tourism workforce;
+- international familiarity with the Thai brand.
 
-This is real comparative advantage.
+The strategy is also evolving. Rather than pursuing visitor numbers alone, policy increasingly emphasizes higher-spending travelers, medical tourism, retirees, business visitors, digital nomads, long-stay residents, entrepreneurs, and investors.
 
-Thailand also continues trying to reinvent the model.
-
-The country wants more:
-
-- business travelers;
-- high-income visitors;
-- retirees;
-- digital nomads;
-- entrepreneurs;
-- medical tourists;
-- long-stay residents;
-- investors.
-
-Visa programs increasingly reflect that objective.
-
-The strategy is changing from:
+The logic is shifting from:
 
 $$
 \text{more visitors}
@@ -404,107 +177,49 @@ $$
 
 That makes sense.
 
-But it does not solve the larger economic problem.
+But even a more sophisticated tourism strategy cannot solve Thailand's broader structural problem.
 
-# The Problem Is That the Rest of Asia Moved Too
+# Tourism Has Not Fully Returned to the Old Model
 
-Thailand’s tourism success once made it stand out dramatically from its neighbors.
+The recovery itself also reveals that the pre-pandemic tourism machine cannot simply be assumed to return unchanged.
 
-That advantage has narrowed.
+Thailand welcomed around **39.8 million international visitors in 2019**. The 2024 total exceeded 35 million, still below that pre-pandemic peak. The World Bank's February 2026 outlook expected tourism to return to pre-pandemic arrival levels only by **late 2027**, reflecting a slower recovery in some source markets and a changing regional travel environment. ([World Bank, 2026](https://www.worldbank.org/en/country/thailand/publication/thailand-economic-monitor-february-2026-advanced-green-manufacturing-for-growth))
 
-Vietnam has improved its tourism infrastructure.
+That matters because the rest of Asia has changed.
 
-Malaysia remains highly accessible.
+Vietnam has upgraded tourism infrastructure and air connectivity. Malaysia remains highly accessible. Indonesia offers enormous geographic and cultural diversity. Regional airlines and digital booking have reduced the friction of traveling to destinations that once felt less accessible.
 
-Indonesia offers enormous geographic and cultural diversity.
+Thailand still has a very strong tourism brand, but the competitive environment is no longer the one it dominated so easily in the 1990s and 2000s.
 
-Regional airlines have expanded.
+And tourism competition is only one part of the story.
 
-Digital booking has made previously less accessible destinations easier to reach.
+The regional manufacturing landscape has changed even more dramatically.
 
-Tourists now have more substitutes.
+# Thailand Did Not Collapse. It Plateaued.
 
-Thailand remains attractive, but it competes in a very different regional market from the one it dominated in the 1990s and 2000s.
+Calling Thailand an economic failure would be absurd.
 
-And the issue is not only tourism.
+The country has a deep manufacturing base, good infrastructure, strong international connectivity, globally competitive firms, extensive tourism capability, and one of Southeast Asia's most established industrial ecosystems.
 
-The entire Southeast Asian economic landscape has become more competitive.
+The problem is more subtle.
 
-Vietnam has become a major manufacturing destination.
+Thailand's growth model lost momentum.
 
-Indonesia has attracted large-scale industrial investment around commodities and electric-vehicle supply chains.
+The World Bank now describes the country as facing a **structural slowdown** characterized by stagnant productivity, a shrinking working-age population, high market concentration, subdued private investment, and gaps in social protection. ([World Bank, 2026](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099556109182630774))
 
-Malaysia continues to move into higher-value manufacturing and services.
-
-Singapore remains far ahead in productivity, finance, technology, and human capital.
-
-Thailand is still moving.
-
-But others are moving faster.
-
-That is where the idea of **structural drift** becomes useful.
-
-# Thailand Didn’t Collapse. It Plateaued.
-
-Thailand is not an economic failure.
-
-That would be an absurd description.
-
-It has a substantial manufacturing base.
-
-It is deeply integrated into regional and global trade.
-
-It has strong infrastructure.
-
-It has world-class tourism.
-
-It has globally competitive firms.
-
-Its geography is excellent.
-
-Its brand is powerful.
-
-Its industrial history is much deeper than that of many emerging economies.
-
-The problem is not collapse.
-
-It is the shift:
+The shift is best described as:
 
 > **from expansion to inertia, from momentum to maintenance.**
 
-For much of the late twentieth century, Thailand was converging rapidly toward richer economies.
+For much of the late twentieth century, Thailand converged rapidly toward richer economies. Workers moved from agriculture into factories and services. Foreign investment expanded manufacturing. Exports rose. Cities grew. Living standards improved.
 
-Industrialization transformed the country.
+The economy continues functioning today, but the transformation is slower.
 
-Foreign investment created manufacturing clusters.
-
-Workers moved from agriculture into factories and services.
-
-Exports expanded.
-
-Living standards rose.
-
-But over time the model became less dynamic.
-
-Growth slowed.
-
-Productivity gains weakened.
-
-Reform became more difficult.
-
-Political instability repeatedly interrupted policy continuity.
-
-The economy kept functioning.
-
-But transformation slowed.
-
-Thailand did not fall off a cliff.
-
-It plateaued.
+That is structural drift.
 
 # A Two-Engine Economy
 
-For years, Thailand relied heavily on two powerful engines:
+For decades, Thailand relied heavily on two powerful engines:
 
 $$
 \text{manufacturing}
@@ -512,52 +227,59 @@ $$
 \text{tourism}.
 $$
 
-Both were exceptionally successful.
+Both remain important.
 
-Manufacturing made Thailand an important production base for automobiles, electronics, appliances, petrochemicals, and other industrial goods.
+Manufacturing still accounts for roughly **25 percent of GDP** and **16 percent of employment**, supporting about **6.2 million jobs**. ([World Bank, 2026](https://www.worldbank.org/en/news/press-release/2026/02/11/thailand-s-next-phase-of-growth-depends-on-industries-of-the-future))
 
-Tourism generated foreign exchange, employment, investment, and global visibility.
+Tourism remains one of the country's largest sources of foreign exchange and service-sector employment.
 
-The problem is that both engines now face structural pressure.
+The issue is that both engines now face structural pressure.
 
-Tourism faces stronger regional competition, higher costs, changing visitor preferences, and dependence on external demand.
+Tourism faces stronger competition, changing source markets, and continued sensitivity to global shocks.
 
-Manufacturing faces technological change, shifting supply chains, Chinese competition, the electric-vehicle transition, automation, and the movement of some investment toward newer regional production centers.
+Manufacturing faces technological change, automation, Chinese competition, shifting supply chains, the electric-vehicle transition, and the need to move from assembly into higher-value engineering and innovation.
 
 Thailand still has the engines.
 
-The issue is whether they are powerful enough to pull the economy through the next stage of development.
+The question is whether they can pull the economy through the next stage of development.
+
+# The Productivity Numbers Are More Concerning Than the GDP Numbers
+
+This is where the structural problem becomes measurable.
+
+According to the World Bank's 2026 Thailand Economic Monitor, manufacturing labor-productivity growth averaged about **6.9 percent per year during 2003–18**. During **2019–23**, it averaged **-0.2 percent**. ([World Bank, 2026](https://thedocs.worldbank.org/en/doc/40eb61d4d082b72e5b4f30d0d93be242-0070012026/original/Presentation-TEM-Part2-February2026.pdf))
+
+That is a dramatic shift.
+
+It means the concern is not merely that Thailand's headline GDP growth rate has slowed. The more fundamental problem is that the industrial engine itself has become less effective at generating productivity gains.
+
+At the same time, Thailand remains extremely open to foreign capital. The World Bank estimates inward FDI stock at roughly **57 percent of GDP in 2021–23**, higher than several major ASEAN peers. ([World Bank, 2026](https://thedocs.worldbank.org/en/doc/40eb61d4d082b72e5b4f30d0d93be242-0070012026/original/Presentation-TEM-Part2-February2026.pdf))
+
+That combination is revealing:
+
+$$
+\text{high FDI exposure}
++
+\text{weak productivity growth}
+$$
+
+suggests that attracting investment is no longer enough.
+
+The harder challenge is converting foreign investment into domestic knowledge, supplier capability, engineering, innovation, and higher wages.
 
 # Manufacturing Without Enough Upgrading
 
-Thailand’s manufacturing success was built partly on integration into multinational production networks.
+Thailand's industrial success was built partly on deep integration into multinational production networks.
 
-That was a strength.
+That was a major strength.
 
 It also created a vulnerability.
 
-A country can assemble sophisticated products without controlling the highest-value parts of the value chain.
+A country can assemble sophisticated products without controlling the highest-value parts of the value chain. Those higher-value activities include design, research and development, advanced engineering, software, intellectual property, branding, finance, and specialized business services.
 
-Those higher-value activities include:
+Thailand is no longer a very low-cost production location, but it has not fully become a high-productivity innovation economy either.
 
-- design;
-- research and development;
-- advanced engineering;
-- intellectual property;
-- software;
-- branding;
-- finance;
-- specialized services.
-
-If production becomes more automated or moves elsewhere, economies dependent on assembly can face pressure.
-
-This is the familiar middle-income challenge.
-
-Thailand is no longer a very low-cost production location.
-
-But it has not fully become a high-productivity innovation economy either.
-
-It sits between:
+It therefore sits between:
 
 $$
 \text{lower-cost competitors}
@@ -569,181 +291,125 @@ $$
 \text{higher-tech leaders}.
 $$
 
-That is an uncomfortable place to remain.
+That is the classic middle-income squeeze.
 
 # The Automobile Question
 
-Thailand’s automobile industry captures the problem particularly well.
+Thailand's automobile industry captures the problem particularly well.
 
-For decades, Thailand became known as the “Detroit of Asia.”
+For decades, the country was known as the "Detroit of Asia." Japanese automakers built major production networks, suppliers clustered around them, and the sector became one of Thailand's industrial strengths.
 
-Global automakers built extensive production networks.
+But the global automobile industry is changing rapidly.
 
-Suppliers clustered around them.
+Electric vehicles require different components, different supplier capabilities, and new forms of software and battery expertise. Chinese manufacturers have become increasingly important.
 
-Workers acquired skills.
+Thailand has responded aggressively. By May 2026, the Board of Investment reported **198 approved EV-related projects worth more than 137 billion baht**, spanning vehicle production, batteries, key components, charging systems, and battery swapping. EV manufacturers receiving promotion were employing more than **16,000 Thai workers**. ([Thailand Board of Investment, 2026](https://www.boi.go.th/index.php?language=th&page=press_releases_detail&topic_id=138994))
 
-Infrastructure developed around the industry.
+This is encouraging.
 
-But the global automobile industry is changing.
-
-Electric vehicles require different supply chains.
-
-Chinese manufacturers have become increasingly important.
-
-Some components central to internal-combustion vehicles become less important in EVs.
-
-Thailand can benefit from this transition if new EV investment builds domestic technological capability.
-
-But it can also lose value if the country simply swaps one assembly model for another.
-
-The key question is not:
+But the development question is not simply:
 
 > How many EV factories come to Thailand?
 
 It is:
 
-> **How much knowledge, engineering capacity, domestic supplier development, and productivity growth remains in Thailand?**
+> **How much engineering capability, domestic supplier development, technology transfer, and productivity growth remain in Thailand?**
 
-Again, investment quantity is not the same as development quality.
+If Thailand simply replaces Japanese combustion-engine assembly with Chinese EV assembly, the industrial structure may change less than the technology suggests.
 
-# Political Discontinuity
+Investment quantity is not the same as development quality.
 
-Thailand’s economic slowdown also cannot be separated from politics.
+# Political Discontinuity Matters More for Reform Than for Daily Production
 
-Since the mid-2000s, political conflict has repeatedly disrupted the policy environment.
+Thailand's slowdown cannot be separated completely from politics.
 
-Governments changed.
+Since the mid-2000s, the country has experienced repeated political conflict, changes of government, military coups, constitutional revisions, and policy resets.
 
-Coups occurred.
+It would be too simplistic to argue that each political crisis immediately reduced GDP. Economies have momentum. Factories continue producing. Hotels remain open. Export contracts continue.
 
-Constitutions changed.
-
-Large infrastructure and reform plans were delayed, revised, or replaced.
-
-This does not mean every period of political instability immediately reduced GDP.
-
-Economies have momentum.
-
-Factories continue producing.
-
-Tourists continue arriving.
-
-Companies continue operating.
-
-But structural reform is different.
+The larger cost appears in long-horizon reform.
 
 Education reform requires continuity.
-
-Infrastructure planning requires continuity.
 
 Industrial upgrading requires continuity.
 
 Competition policy requires continuity.
 
-Long-term innovation policy requires continuity.
+Infrastructure planning requires continuity.
 
-Political systems that repeatedly reset themselves may still manage the present reasonably well while struggling to construct the future.
+Innovation policy requires continuity.
+
+A political system can manage today's economy reasonably well while finding it much harder to build tomorrow's.
 
 That is another form of drift.
 
-# An Economy Dominated by Large Players
+# Large Firms, Small Firms, and the Dynamism Problem
 
-Thailand also has a highly concentrated corporate structure.
+Thailand's business structure also helps explain the slowdown.
 
-Large conglomerates dominate important parts of retail, telecommunications, agribusiness, energy, finance, and consumer markets.
+The World Bank's 2024 diagnostic argues that dominance by a relatively small number of large firms and state-owned enterprises constrains competition and efficient resource allocation. Earlier firm-level work found that a few conglomerate groups accounted for nearly **50 percent of corporate profits** and around **85 percent of private-sector revenue**. ([World Bank, 2024](https://www.worldbank.org/en/country/thailand/publication/thailand-scd2024); [World Bank](https://documents1.worldbank.org/curated/en/099122003162330565/pdf/P180261038f7a00610a89101ddeec1bf2b9.pdf))
 
-Large firms can be highly efficient.
+Large companies are not inherently a problem. They can invest at scale, build infrastructure, compete internationally, and generate productivity.
 
-They can invest at scale.
+The problem is what happens when scale becomes entrenched market power.
 
-They can compete internationally.
+New firms matter because they experiment, challenge incumbents, introduce technologies, and shift labor and capital toward more productive activities.
 
-The problem arises when concentration weakens competition.
+Thailand has no shortage of small firms. SMEs account for around **99.5 percent of firms**, **69.5 percent of employment**, but only **35.3 percent of GDP**. ([World Bank, 2025](https://www.worldbank.org/en/country/thailand/publication/thailand-economic-monitor-february-2025-unleashing-growth-innovation-smes-and-startups))
 
-New firms matter because they bring experimentation.
+That productivity gap is itself a development problem.
 
-They challenge existing business models.
+The challenge is not to create more small firms.
 
-They create new technologies.
+Thailand already has them.
 
-They reallocate workers and capital toward higher-productivity activities.
+It is to create more firms that can scale, innovate, enter global value chains, and eventually become large because they are productive rather than protected.
 
-If entry is difficult and incumbents are protected by scale, regulation, political connections, or market power, an economy can become less dynamic.
+# Household Debt Is a Brake on the Domestic Economy
 
-The question is therefore not whether Thailand has successful large companies.
+Thailand's high household debt creates another structural constraint.
 
-It clearly does.
+At the height of the pandemic, household debt exceeded 94 percent of GDP. It has since declined, but remained around **86.8 percent of GDP in the third quarter of 2025**, still high by international standards. ([Bank of Thailand, 2026](https://www.bot.or.th/content/dam/bot/documents/en/news-and-media/news/2026/news-20260217.pdf))
 
-The question is whether the environment produces enough **new** successful companies.
+That matters because debt changes household behavior.
 
-# Household Debt and Weak Domestic Demand
+A heavily indebted household spends more income servicing past consumption and has less flexibility to respond to shocks. Young households may delay housing or vehicle purchases. Income gains are more likely to go toward repayment rather than new spending.
 
-Thailand’s high household debt adds another constraint.
+Thailand therefore cannot rely indefinitely on tourism and exports while domestic purchasing power remains constrained.
 
-For many years, household borrowing helped sustain consumption.
+A more durable growth model requires productivity growth to translate into rising household incomes.
 
-But debt eventually changes behavior.
+# Regional Inequality Is an Economic Issue, Not Only a Social One
 
-A heavily indebted household is less able to spend.
+Thailand's spatial imbalance is equally important.
 
-Interest payments absorb income.
+Bangkok and the surrounding industrial region dominate high-value economic activity. The Northeast and parts of the North remain much poorer.
 
-Economic shocks become more dangerous.
+Migration and tourism partly bridge this divide through remittances, but remittances are not the same as regional transformation.
 
-Young households delay major purchases.
+If productive jobs are concentrated in Bangkok, the Eastern Seaboard, or major tourist centers, workers may have to leave home to access opportunity. That can reduce poverty while leaving the underlying spatial imbalance intact.
 
-Small income gains go toward debt repayment rather than new consumption.
+The World Bank's 2026 growth strategy therefore places unusual emphasis on strengthening **secondary cities as engines of growth**, rather than assuming Bangkok can continue carrying an outsized share of the economy. ([World Bank, 2026](https://www.worldbank.org/en/news/press-release/2026/09/03/world-bank-group-report-identifies-new-engines-for-thailand-s-next-phase-of-growth))
 
-This creates a demand problem.
+This is where the tourism story connects directly with structural development.
 
-Thailand cannot rely indefinitely on foreign visitors and exports if domestic purchasing power remains weak.
+Thailand has become extraordinarily successful at bringing foreign purchasing power into Bangkok, Phuket, Pattaya, Chiang Mai, and other destinations.
 
-A stronger development model ultimately requires rising productivity to translate into rising household income.
+The harder task is creating high-productivity opportunity across the country.
 
-Without that, growth becomes dependent on outside demand.
+# The Demographic Clock Is Now Ticking Very Loudly
 
-# Inequality Is Not Just a Social Issue
+Thailand's demographic transition makes drift increasingly expensive.
 
-Regional inequality is also central to the story.
+In 2025, more than **20 percent of the population was already aged 60 or above**, while annual births had fallen below **500,000** and the total fertility rate was around **1.0 child per woman**. ([UNFPA Thailand, 2026](https://thailand.unfpa.org/en/UNFPA-Thailand-Policy-Brief-English))
 
-Bangkok and surrounding industrial areas dominate economic activity.
-
-The Northeast and parts of the North remain much poorer.
-
-This has been true for decades.
-
-Tourism and migration partly bridge the gap through remittances.
-
-But remittances do not substitute for regional development.
-
-If workers must leave home because productive jobs do not exist locally, migration may reduce poverty without solving the structural imbalance that produced the migration.
-
-This is where the tourism story connects directly to the broader economy.
-
-Thailand became extraordinarily successful at bringing foreign purchasing power into Bangkok, Phuket, Pattaya, Chiang Mai, and other destinations.
-
-But the more difficult task is creating high-productivity economic activity across the country.
-
-That remains unfinished.
-
-# The Demographic Clock
-
-Thailand now faces another challenge that makes drift increasingly costly.
-
-The country is aging rapidly.
-
-Birth rates are low.
-
-The working-age population is beginning to shrink.
-
-This changes the economics of development.
+This is no longer a distant problem.
 
 When the labor force is young and expanding, growth can come partly from adding workers.
 
-When the labor force shrinks, growth increasingly depends on making each worker more productive.
+When the working-age population shrinks, growth increasingly depends on making each worker more productive.
 
-That means:
+The arithmetic becomes roughly:
 
 $$
 \text{future growth}
@@ -752,58 +418,40 @@ $$
 +
 \text{human-capital improvement}
 +
-\text{better technology}
+\text{technology adoption}
 +
 \text{better institutions}.
 $$
 
 Tourism cannot solve this.
 
-Neither can simply attracting more factories that depend primarily on relatively inexpensive labor.
+Neither can an industrial strategy based primarily on inexpensive labor.
 
 An aging economy has to move upward in productivity.
 
-There is less time for gradual adjustment.
+And Thailand has less time for gradual adjustment than it once did.
 
 # Was Tourism Too Successful?
 
-This brings us to the question that interests me most.
+This brings us back to the question that interests me most.
 
-Did Thailand’s tourism success somehow contribute to structural drift?
+Did tourism somehow contribute to structural drift?
 
-I would be careful here.
+I would be careful.
 
-Tourism did not *cause* Thailand’s productivity slowdown.
+Tourism did not cause Thailand's productivity slowdown. It did not cause demographic aging, household debt, political instability, or weak innovation. It did not prevent industrial upgrading.
 
-It did not cause political instability.
+But successful sectors change incentives.
 
-It did not cause demographic aging.
+When millions of tourists continue arriving, hotels remain full, foreign exchange continues flowing, property markets remain active, and Thailand remains globally visible, the economy can look more dynamic than its productivity statistics suggest.
 
-It did not prevent industrial upgrading.
+Tourism may therefore have acted partly as a **mask**.
 
-But successful sectors can alter incentives.
-
-When millions of visitors continue arriving, foreign exchange continues flowing, hotels continue being built, and global attention remains strong, an economy can look more dynamic than it really is.
-
-Tourism may therefore have functioned partly as a **mask**.
-
-It softened the symptoms.
-
-It created jobs.
-
-It supported consumption.
-
-It generated tax revenue.
-
-It sustained property markets.
-
-It brought foreign money into regions that otherwise had limited opportunities.
+It softened the symptoms of structural weakness by generating employment, consumption, investment, tax revenue, and foreign exchange. It moved income into regions that otherwise offered fewer opportunities. It supported millions of livelihoods.
 
 All of that is valuable.
 
-But it may also have reduced the urgency of confronting harder structural problems.
-
-The distinction is important:
+But:
 
 $$
 \text{tourism success}
@@ -811,113 +459,79 @@ $$
 \text{structural transformation}.
 $$
 
-A country can be extraordinarily successful at attracting visitors while still struggling to raise economy-wide productivity.
+A country can be extraordinarily successful at attracting foreign demand while still struggling to raise economy-wide productivity.
 
 # The Tourist Sees a Different Thailand
 
-This may also explain why Thailand’s economic slowdown can be difficult for outsiders to perceive.
+This may explain why Thailand's economic slowdown can be difficult for outsiders to perceive.
 
-A visitor sees:
+A visitor sees modern airports, crowded restaurants, luxury malls, busy hotels, excellent private hospitals, efficient services, vibrant nightlife, and world-class hospitality.
 
-- modern airports;
-- full restaurants;
-- luxury malls;
-- busy hotels;
-- excellent hospitals;
-- vibrant nightlife;
-- sophisticated services;
-- crowded beaches;
-- world-class hospitality.
+That is prosperity.
 
-That looks like prosperity.
+But it is not the entire economy.
 
-And it is prosperity.
+The indebted household sees another Thailand.
 
-But it is only one part of the economy.
-
-The factory worker facing automation sees another Thailand.
-
-The indebted household sees another.
+The worker facing automation sees another.
 
 The farmer in the Northeast sees another.
 
-The young graduate unable to find a high-quality job sees another.
+The young graduate struggling to find a high-productivity job sees another.
 
-The small business competing against large conglomerates sees another.
+The small firm competing with entrenched conglomerates sees another.
 
-The aging worker with limited retirement savings sees another.
+The older worker approaching retirement with limited savings sees another.
 
 Multiple economic realities can coexist.
 
-Tourism displays the most globally visible one.
+Tourism displays the most internationally visible one.
 
-# Reinventing Tourism Is Not Enough
+# Reinventing Tourism Is Sensible—but Not Sufficient
 
-Thailand’s current response is partly to reinvent tourism again.
+Thailand's current response is partly to reinvent tourism yet again.
 
-Higher-value visitors.
+Higher-value travelers.
 
 Medical tourism.
 
 Digital nomads.
 
-Business travelers.
+Long-stay visas.
 
 Creative industries.
 
-Long-stay visas.
+Food, film, music, fashion, wellness, and other forms of soft power.
 
-Food, fashion, film, music, and other forms of soft power.
+These are sensible strategies. Thailand should exploit sectors in which it has genuine comparative advantage.
 
-These are sensible strategies.
+But there is a danger in believing that more sophisticated tourism can substitute for broader reform.
 
-Thailand should exploit sectors in which it has genuine comparative advantage.
+Attracting wealthier foreigners can increase spending without necessarily raising Thai productivity.
 
-But there is a danger in believing that a more sophisticated tourism strategy can substitute for broader structural reform.
-
-Attracting wealthier foreigners can increase spending without raising Thai productivity very much.
-
-Luxury property can expand while housing affordability worsens for locals.
+Luxury property can expand while housing affordability worsens for residents.
 
 High-end services can thrive while mass wages stagnate.
 
-A digital-nomad economy can look modern without creating large numbers of high-productivity jobs for Thai workers.
+A digital-nomad economy can appear modern without generating enough high-productivity jobs for Thai workers.
 
-A country cannot become high-income simply by becoming increasingly skillful at serving higher-income foreigners.
+A country cannot become high income simply by becoming increasingly skillful at serving higher-income foreigners.
 
-The deeper transformation must occur inside the domestic economy.
+The deeper transformation has to occur inside the domestic economy.
 
 # From Tourism Powerhouse to High-Productivity Economy
 
-Thailand’s challenge is therefore not to abandon tourism.
+Thailand's challenge is not to abandon tourism.
 
 That would make no sense.
 
-Tourism is one of the country’s great economic assets.
+Tourism is one of the country's greatest assets.
 
-The challenge is to use the breathing space created by tourism to build the next model.
+The challenge is to use the breathing space and income created by tourism to build the next model.
 
-That means productivity.
+That means better education and skills, stronger competition, faster technology adoption, deeper domestic supplier capabilities, more innovation, better infrastructure, stronger secondary cities, and institutions capable of sustaining policy across political cycles.
 
-Education.
-
-Skills.
-
-Innovation.
-
-Competition.
-
-Infrastructure.
-
-Technology adoption.
-
-Regional development.
-
-A stronger social safety net.
-
-And institutions capable of sustaining policy across political cycles.
-
-In other words, the objective should be:
+The desired loop is:
 
 $$
 \text{tourism income}
@@ -934,38 +548,38 @@ The danger is a weaker loop:
 $$
 \text{tourism income}
 \rightarrow
-\text{property and services}
+\text{property and low-productivity services}
 \rightarrow
-\text{more tourism dependence}.
+\text{greater dependence on tourism}.
 $$
 
-Both can produce growth.
+Both can generate GDP.
 
 Only one clearly moves the economy toward a higher-productivity future.
 
-# From Momentum to Drift
+# Thailand Still Has Enormous Advantages
 
-Thailand still has enormous strengths.
+None of this is an argument for pessimism.
 
-Its geographic position is excellent.
+Thailand retains deep strengths:
 
-Its infrastructure is comparatively strong.
+- a strategic location at the center of mainland Southeast Asia;
+- strong logistics and industrial infrastructure;
+- an experienced manufacturing workforce;
+- a globally recognized tourism brand;
+- extensive supplier networks;
+- competitive private healthcare;
+- strong food and cultural exports;
+- substantial accumulated FDI;
+- an emerging EV and green-manufacturing ecosystem.
 
-Its manufacturing base is deep.
+The World Bank argues that **green manufacturing already accounts for close to 10 percent of Thai exports**, while new investment is flowing into EVs, batteries, electronics, solar equipment, and digital infrastructure. ([World Bank, 2026](https://www.worldbank.org/en/country/thailand/publication/thailand-economic-monitor-february-2026-advanced-green-manufacturing-for-growth))
 
-Its tourism brand is extraordinary.
+So Thailand has not run out of opportunities.
 
-Its food and culture have global reach.
+The risk is that advantages built in earlier decades become substitutes for creating new ones.
 
-Its private healthcare sector is internationally competitive.
-
-It remains integrated into regional supply chains.
-
-The country has not run out of advantages.
-
-The danger is simply that advantages inherited from earlier decades become substitutes for creating new ones.
-
-That is structural drift.
+That is the essence of structural drift.
 
 Not collapse.
 
@@ -973,44 +587,25 @@ Not catastrophe.
 
 Not even obvious decline.
 
-Just a gradual movement:
+Rather, a slow transition from an economy that repeatedly transformed itself into one that increasingly manages inherited strengths.
 
-> from expansion to inertia,  
-> from momentum to maintenance.
-
-That type of slowdown is harder to recognize than a crisis because daily life continues.
-
-The airports remain busy.
-
-The malls remain open.
-
-The factories still produce.
-
-The beaches remain crowded.
-
-GDP still grows.
-
-But other countries gradually close the gap.
-
-Then some begin moving ahead.
-
-In economics, standing still is one of the fastest ways to fall behind.
-
-# The Crossroads
+# The Next Reinvention
 
 Thailand has reinvented itself before.
 
-The Vietnam War created infrastructure that Thailand converted into tourism.
+Cold War infrastructure was converted into civilian tourism.
 
-The 1997 crisis produced a weaker currency that Thailand turned into a global marketing opportunity.
+The 1997 crisis helped produce a global tourism brand.
 
-Thai food, wellness, hospitality, and culture became forms of soft power before governments routinely used the term.
+Automobile FDI created one of Asia's major production clusters.
 
-The country has repeatedly shown an ability to take disruption and create economic opportunity from it.
+Thai food, hospitality, wellness, and culture became forms of soft power.
+
+The country has repeatedly shown an ability to take disruption and create opportunity.
 
 That history is encouraging.
 
-But the next reinvention may have to be different.
+But the next reinvention will have to be different.
 
 The central question is no longer simply:
 
@@ -1024,16 +619,28 @@ The harder question is:
 
 That is where the next stage of development will be decided.
 
-Thailand’s tourism miracle deserves to be celebrated.
+Thailand's tourism miracle deserves to be celebrated. It was built through strategy, infrastructure, entrepreneurship, cultural strength, institutional adaptation, and an unusual ability to turn crises into opportunity.
 
-It was not accidental.
-
-It was built through strategy, adaptation, infrastructure, entrepreneurship, and an unusual capacity to turn crises into opportunities.
-
-But the success of one model can eventually become a reason not to change it.
+But successful models can eventually become reasons not to change.
 
 And perhaps that is the real danger.
 
-Thailand’s problem is not that tourism failed.
+Thailand's problem is not that tourism failed.
 
 It may be that tourism succeeded so well that it made the deeper structural drift beneath it easier to ignore.
+
+# References and Further Reading
+
+The following sources informed the quantitative and factual claims in this article:
+
+- **Bank of Thailand (2026).** [Banking Sector Quarterly Brief in the Fourth Quarter of 2025 and 2025.](https://www.bot.or.th/content/dam/bot/documents/en/news-and-media/news/2026/news-20260217.pdf)
+- **Thailand Board of Investment (2026).** [EV investment approvals and Thailand's EV ecosystem.](https://www.boi.go.th/index.php?language=th&page=press_releases_detail&topic_id=138994)
+- **Tourism Authority of Thailand.** [TAT History.](https://corp.tourismthailand.org/en/about-tat/history)
+- **Tourism Authority of Thailand (2019).** [The Journey of Amazing Thailand and 2019 Tourism Performance.](https://www.tatnews.org/2019/12/tat-deputy-governor-speech-at-pata-destination-marketing-forum-2019/)
+- **Tourism Authority of Thailand (2024).** [Thailand Welcomes Over 35 Million Visitors in 2024.](https://www.tatnews.org/2024/12/thailand-welcomes-over-35-million-visitors-in-2024-a-milestone-paving-the-way-for-2025/)
+- **UNFPA Thailand (2026).** [Policy Brief and Recommendations for Sustainable Population and Development in Thailand.](https://thailand.unfpa.org/en/UNFPA-Thailand-Policy-Brief-English)
+- **World Bank (2024).** [Thailand Systematic Country Diagnostic Update: Shifting Gears—Toward Sustainable Growth and Inclusive Prosperity.](https://www.worldbank.org/en/country/thailand/publication/thailand-scd2024)
+- **World Bank (2025).** [Thailand Economic Monitor: Unleashing Growth—Innovation, SMEs and Startups.](https://www.worldbank.org/en/country/thailand/publication/thailand-economic-monitor-february-2025-unleashing-growth-innovation-smes-and-startups)
+- **World Bank (2026).** [Thailand Economic Monitor: Advanced Green Manufacturing for Growth.](https://www.worldbank.org/en/country/thailand/publication/thailand-economic-monitor-february-2026-advanced-green-manufacturing-for-growth)
+- **World Bank (2026).** [Thailand's Next Phase of Growth Depends on Industries of the Future.](https://www.worldbank.org/en/news/press-release/2026/02/11/thailand-s-next-phase-of-growth-depends-on-industries-of-the-future)
+- **World Bank (2026).** [World Bank Group Report Identifies New Engines for Thailand's Next Phase of Growth.](https://www.worldbank.org/en/news/press-release/2026/09/03/world-bank-group-report-identifies-new-engines-for-thailand-s-next-phase-of-growth)

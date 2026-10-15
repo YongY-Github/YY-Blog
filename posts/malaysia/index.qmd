@@ -12,17 +12,21 @@ Malaysia is in an unusual position.
 
 On paper, the country is doing many things right.
 
-Growth remains respectable.
+Growth remains respectable—and recently, better than respectable. Malaysia's economy grew **5.2 percent in 2025**, and growth strengthened to **6.0 percent year-on-year in the second quarter of 2026**, according to Bank Negara Malaysia. ([World Bank, 2026](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099051226192580550); [Bank Negara Malaysia, 2026](https://www.bnm.gov.my/-/gdp2q26pr))
 
 Its infrastructure is better than that of many countries at a similar income level.
-
-The ringgit has strengthened.
 
 The electronics industry remains globally important.
 
 Malaysia is deeply integrated into international trade and sits along one of the world's most important shipping routes.
 
 And by conventional measures, the country is now very close to high-income status.
+
+The World Bank's current high-income threshold is **US$14,375 in GNI per capita**. Malaysia's 2025 Atlas-method GNI per capita was **US$12,380**. ([World Bank Country Classification, FY2027](https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups); [World Bank Data](https://data.worldbank.org/indicator/NY.GNP.PCAP.CD?locations=MY))
+
+So the statistical finish line is visible.
+
+But the deeper transformation is less clear.
 
 Yet there is still a sense that Malaysia has not quite completed the transformation that once seemed inevitable.
 
@@ -135,7 +139,7 @@ Today, the country remains especially strong in assembly, testing, and packaging
 
 That is not a trivial achievement.
 
-Malaysia handles a significant share of the world's semiconductor back-end activity.
+Malaysia accounts for roughly **7 percent of global semiconductor trade** and around **13 percent of global semiconductor assembly, testing, and packaging**. MIDA also notes that six of the world's twelve largest semiconductor companies operate in Malaysia. In 2023 alone, Malaysia's electrical and electronics sector attracted **RM85.4 billion** in approved manufacturing investment. ([MIDA, 2024](https://www.mida.gov.my/media-release/semicon-southeast-asia-2024-to-drive-investment-opportunities-for-malaysia/))
 
 The difficulty is what comes next.
 
@@ -252,6 +256,14 @@ $$
 $$
 
 That requires upgrading.
+
+The World Bank's 2026 Malaysia Economic Monitor frames the problem in very similar terms: Malaysia is **not scaling enough high-productivity firms and high-wage jobs**. In manufacturing, the most productive "frontier" firms accounted for about **36 percent of employment in 2010**, but only around **33 percent by 2023**. ([World Bank, 2026](https://documents1.worldbank.org/curated/en/099051226192580550/pdf/P512647-e2a972de-71e8-4f26-98c0-eb11db9d07c6.pdf))
+
+That is a subtle but important sign.
+
+Malaysia has not stopped producing sophisticated goods.
+
+The problem is that the most productive parts of the economy are not expanding fast enough to pull the rest of the labor market upward.
 
 # Why Didn't Malaysia Move Up Faster?
 
@@ -381,6 +393,8 @@ That is institutional lock-in.
 
 Malaysia also faces a persistent problem with skilled emigration.
 
+The precise current number is difficult to measure. But the scale is not trivial: the World Bank estimated Malaysia's overseas-born diaspora at about **1 million people as far back as 2010**, while explicitly warning that data limitations make exact measurement difficult. ([World Bank, 2011](https://blogs.worldbank.org/en/eastasiapacific/whither-malaysia-s-brain-drain))
+
 Many educated Malaysians work abroad.
 
 Singapore is the obvious destination because it is nearby, culturally familiar, English-speaking, and offers much higher salaries in many professional occupations.
@@ -448,6 +462,8 @@ Workers from Indonesia, Bangladesh, Nepal, and other countries have played major
 - construction;
 - services.
 
+The World Bank has estimated that foreign workers make up roughly **15 percent of Malaysia's labor force**, concentrated disproportionately in lower-skilled occupations. It also notes that **65.8 percent of migrant workers** had only primary education or less in 2022. ([World Bank, 2020](https://www.worldbank.org/en/country/malaysia/publication/who-is-keeping-score-estimating-the-number-of-foreign-workers-in-malaysia); [World Bank, 2024](https://thedocs.worldbank.org/en/doc/510e3aa1a60be7a64304d87e29397dfd-0070062024/original/3-Malaysia-Innovation-In-Managing-Migration-From-the-Firm-s-Perspectives.pdf))
+
 For firms, this often makes economic sense.
 
 Why spend heavily on automation if labor remains relatively cheap?
@@ -456,7 +472,7 @@ Why redesign production if workers can be added instead?
 
 Why raise wages significantly if migrant labor remains available?
 
-This can slow capital deepening.
+This *may* slow capital deepening, although the World Bank is careful to note that the automation effect has not yet been causally established for Malaysia itself. ([World Bank, Migration, Automation, and the Malaysian Labor Market](https://www.worldbank.org/en/country/malaysia/publication/migration-automation-and-the-malaysian-labor-market))
 
 The mechanism is simple:
 
@@ -673,6 +689,8 @@ Malaysia already possesses:
 
 That is a strong starting point.
 
+Malaysia is now trying to turn that existing advantage into a higher-value semiconductor strategy. The government has backed its National Semiconductor Strategy with an initial **RM25 billion** in public support, explicitly targeting deeper capabilities rather than simply more assembly. ([MIDA, 2024](https://www.mida.gov.my/mida-news/time-for-malaysia-to-keep-its-edge-in-global-chips/))
+
 The question is whether Malaysia can use its existing back-end strength to move further into:
 
 - design;
@@ -738,6 +756,8 @@ This creates a slightly ironic possibility.
 
 Malaysia may soon cross into high-income status.
 
+The numerical gap is not huge: 2025 GNI per capita was **US$12,380**, compared with the current high-income threshold of **US$14,375**.
+
 When that happens, headlines will celebrate.
 
 And they should.
@@ -769,7 +789,7 @@ There is another reason to be cautious about national averages.
 
 Malaysia is geographically uneven.
 
-Kuala Lumpur and some richer states have income levels that look very different from poorer regions.
+The World Bank's 2026 subnational work makes the point starkly: only **5 of Malaysia's 16 states and federal territories** currently meet the World Bank's high-income threshold. Average incomes in Kuala Lumpur exceed those of Portugal, while Kelantan's are roughly comparable to Sri Lanka's and almost **eight times lower** than Kuala Lumpur's. In Kelantan and Terengganu, more than **4 in 10 workers** are employed below their skill level. ([World Bank, 2026](https://www.worldbank.org/en/news/feature/2026/07/03/5-myths-about-malaysia-s-subnational-development))
 
 So a national high-income classification does not mean every part of Malaysia suddenly experiences high-income living standards.
 
@@ -998,3 +1018,19 @@ But perhaps the finish line was never really the World Bank threshold.
 Malaysia's challenge may no longer be crossing the high-income line.
 
 It is building the kind of economy that makes crossing that line meaningful.
+
+# References and Further Reading
+
+The following sources informed the quantitative and factual claims in this article:
+
+- **Bank Negara Malaysia (2026).** [Economic and Financial Developments in Malaysia in the Second Quarter of 2026.](https://www.bnm.gov.my/-/gdp2q26pr)
+- **Malaysia Investment Development Authority (MIDA) (2024).** [SEMICON Southeast Asia 2024 to Drive Investment Opportunities for Malaysia.](https://www.mida.gov.my/media-release/semicon-southeast-asia-2024-to-drive-investment-opportunities-for-malaysia/)
+- **Malaysia Investment Development Authority (MIDA) (2024).** [Time for Malaysia to Keep Its Edge in Global Chips.](https://www.mida.gov.my/mida-news/time-for-malaysia-to-keep-its-edge-in-global-chips/)
+- **World Bank (2011).** [Whither Malaysia's Brain Drain?](https://blogs.worldbank.org/en/eastasiapacific/whither-malaysia-s-brain-drain)
+- **World Bank (2020).** [Who Is Keeping Score? Estimating the Number of Foreign Workers in Malaysia.](https://www.worldbank.org/en/country/malaysia/publication/who-is-keeping-score-estimating-the-number-of-foreign-workers-in-malaysia)
+- **World Bank (2024).** [Innovation in Managing Migration: The Firm's Perspective.](https://thedocs.worldbank.org/en/doc/510e3aa1a60be7a64304d87e29397dfd-0070062024/original/3-Malaysia-Innovation-In-Managing-Migration-From-the-Firm-s-Perspectives.pdf)
+- **World Bank (2026).** [Malaysia Economic Monitor: Raising the Ceiling, Raising the Floor — The Jobs Agenda as a Productivity Agenda.](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099051226192580550)
+- **World Bank (2026).** [5 Myths about Malaysia's Subnational Development.](https://www.worldbank.org/en/news/feature/2026/07/03/5-myths-about-malaysia-s-subnational-development)
+- **World Bank Data (2026).** [GNI per capita, Atlas method — Malaysia.](https://data.worldbank.org/indicator/NY.GNP.PCAP.CD?locations=MY)
+- **World Bank (FY2027).** [Country and Lending Groups.](https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups)
+
